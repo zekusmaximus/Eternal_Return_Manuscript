@@ -147,6 +147,37 @@ If you're explaining philosophy, you're failing to dramatize it.
 
 ---
 
+## Canonical Tracking Policy
+
+**CRITICAL**: `drafts/manifest.json` is the ONLY canonical source of truth for:
+- Scene status (not_started, draft, voice_pass, etc.)
+- Actual word counts
+- Voice check state
+- Philosophy check state
+- Rhyming moments
+
+**Secondary sources** (non-canonical):
+- `progress.md` — dashboard/summary only; may drift
+- Scene file YAML frontmatter — NOT authoritative for tracking
+
+When in doubt, trust the manifest.
+
+---
+
+## Path and Naming Conventions
+
+**Manifest path base**: All `file` paths in `drafts/manifest.json` are relative to the `drafts/` directory.
+
+Example: `"file": "movement-one/archaeologist/scenes/scene-01.md"` resolves to:
+`/home/user/Eternal_Return_Manuscript/drafts/movement-one/archaeologist/scenes/scene-01.md`
+
+**Thread and folder naming**:
+- Thread IDs in manifest: `snake_case` (e.g., `last_human`)
+- Folder names on disk: may be `kebab-case` (e.g., `last-human`)
+- The manifest `file` field is the source of truth for on-disk paths
+
+---
+
 ## Quick Checklist Before Finalizing Any Draft
 
 - [ ] Voice is distinct and thread-identifiable
