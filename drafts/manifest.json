@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "title": "The Eternal Return of the Digital Self",
+    "version": "0.1.0",
+    "last_updated": "2026-01-12",
+    "target_word_count": 101000
+  },
+  "movements": {
+    "one": {
+      "title": "Exposition (Separate Threads)",
+      "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
+      "target_words": 37000,
+      "actual_words": 0,
+      "threads": {
+        "archaeologist": {
+          "title": "The Digital Archaeologist",
+          "target_words": 15000,
+          "actual_words": 0,
+          "scenes": [
+            {
+              "id": "m1-arch-01",
+              "title": "Opening: Daily Excavation",
+              "file": "movement-one/archaeologist/scenes/scene-01.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Establish profession, economic stakes, tactile voice"
+            },
+            {
+              "id": "m1-arch-02",
+              "title": "The Client: Integration Prep",
+              "file": "movement-one/archaeologist/scenes/scene-02.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Show integration process, introduce Lena"
+            },
+            {
+              "id": "m1-arch-03",
+              "title": "Lena and Marcus",
+              "file": "movement-one/archaeologist/scenes/scene-03.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Establish primary relationships, stakes"
+            },
+            {
+              "id": "m1-arch-04",
+              "title": "The Anomaly",
+              "file": "movement-one/archaeologist/scenes/scene-04.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": ["phantasm-first-encounter"],
+              "notes": "First protocol anomaly, first geometric form sighting"
+            },
+            {
+              "id": "m1-arch-05",
+              "title": "Recognition",
+              "file": "movement-one/archaeologist/scenes/scene-05.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Realizes protocols are self-referential, Act 1 climax"
+            }
+          ]
+        },
+        "algorithm": {
+          "title": "The Algorithm",
+          "target_words": 12000,
+          "actual_words": 0,
+          "scenes": [
+            {
+              "id": "m1-algo-01",
+              "title": "Maintenance Cycle",
+              "file": "movement-one/algorithm/scenes/scene-01.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Establish database, maintenance functions, scale"
+            },
+            {
+              "id": "m1-algo-02",
+              "title": "Optimization Processes",
+              "file": "movement-one/algorithm/scenes/scene-02.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Self-improvement, recursive voice"
+            },
+            {
+              "id": "m1-algo-03",
+              "title": "Stirrings",
+              "file": "movement-one/algorithm/scenes/scene-03.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": ["phantasm-first-encounter"],
+              "notes": "First self-awareness beyond function"
+            },
+            {
+              "id": "m1-algo-04",
+              "title": "The Memory",
+              "file": "movement-one/algorithm/scenes/scene-04.md",
+              "target_words": 3000,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "First memory that doesn't belong, Act 1 climax"
+            }
+          ]
+        },
+        "last_human": {
+          "title": "The Last Human",
+          "target_words": 10000,
+          "actual_words": 0,
+          "scenes": [
+            {
+              "id": "m1-lh-01",
+              "title": "Solitude",
+              "file": "movement-one/last-human/scenes/scene-01.md",
+              "target_words": 2500,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "Establish ruined world, absolute isolation"
+            },
+            {
+              "id": "m1-lh-02",
+              "title": "Survival",
+              "file": "movement-one/last-human/scenes/scene-02.md",
+              "target_words": 2500,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "How he survives, his knowledge of history"
+            },
+            {
+              "id": "m1-lh-03",
+              "title": "The Pull",
+              "file": "movement-one/last-human/scenes/scene-03.md",
+              "target_words": 2500,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": ["phantasm-first-encounter"],
+              "notes": "Journey begins, drawn toward ruins"
+            },
+            {
+              "id": "m1-lh-04",
+              "title": "The Dream",
+              "file": "movement-one/last-human/scenes/scene-04.md",
+              "target_words": 2500,
+              "actual_words": 0,
+              "status": "not_started",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyming_moments": [],
+              "notes": "First dream of the other two, Act 1 climax"
+            }
+          ]
+        }
+      }
+    },
+    "two": {
+      "title": "Entanglement (Braided Threads)",
+      "description": "Sections shorten to 3,000-5,000 words with A-B-C rotation pattern",
+      "target_words": 36000,
+      "actual_words": 0,
+      "rotation_pattern": "A-B-C-A-B-C-A-B-C",
+      "chapters": []
+    },
+    "three": {
+      "title": "Recognition (Merged Threads)",
+      "description": "Accelerating cuts, simultaneous narration, dissolution",
+      "target_words": 15000,
+      "actual_words": 0,
+      "phases": {
+        "phase_a": {
+          "title": "Accelerating Cuts",
+          "target_words": 6000,
+          "actual_words": 0,
+          "status": "not_started"
+        },
+        "phase_b": {
+          "title": "Simultaneous Narration",
+          "target_words": 6000,
+          "actual_words": 0,
+          "status": "not_started"
+        },
+        "phase_d": {
+          "title": "Dissolution",
+          "target_words": 3000,
+          "actual_words": 0,
+          "status": "not_started",
+          "notes": "See brainstorm1.md Part III.1 for technique details"
+        }
+      }
+    },
+    "four": {
+      "title": "Affirmation (The Choice)",
+      "description": "Separation-after-unity, three transformed voices in reverse order",
+      "target_words": 13000,
+      "actual_words": 0,
+      "sections": [
+        {
+          "id": "m4-lh",
+          "thread": "last_human",
+          "title": "Last Human Return",
+          "file": "movement-four/last-human-return.md",
+          "target_words": 3500,
+          "actual_words": 0,
+          "status": "not_started"
+        },
+        {
+          "id": "m4-algo",
+          "thread": "algorithm",
+          "title": "Algorithm Return",
+          "file": "movement-four/algorithm-return.md",
+          "target_words": 4500,
+          "actual_words": 0,
+          "status": "not_started"
+        },
+        {
+          "id": "m4-arch",
+          "thread": "archaeologist",
+          "title": "Archaeologist Return",
+          "file": "movement-four/archaeologist-return.md",
+          "target_words": 5000,
+          "actual_words": 0,
+          "status": "not_started"
+        }
+      ]
+    }
+  },
+  "rhyming_moments": {
+    "phantasm-first-encounter": {
+      "title": "First Encounter with the Geometric Form",
+      "description": "Each character's first perception of the phantasm",
+      "occurrences": {
+        "archaeologist": "m1-arch-04",
+        "algorithm": "m1-algo-03",
+        "last_human": "m1-lh-03"
+      }
+    }
+  },
+  "status_definitions": {
+    "not_started": "No content yet",
+    "draft": "First draft complete",
+    "voice_pass": "Voice consistency verified",
+    "philosophy_pass": "Philosophy check complete",
+    "revised": "Major revisions complete",
+    "polished": "Line-level editing complete",
+    "final": "Ready for final manuscript"
+  }
+}

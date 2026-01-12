@@ -34,14 +34,21 @@ The novel draws heavily from:
 /
 ├── README.md                 # Project overview
 ├── Notes.md                  # Development notes and conceptual framework
-├── brainstorm1.md            # Detailed answers to open questions
+├── Brainstorm1.md            # Detailed answers to open questions
+├── progress.md               # Word count and session tracking
 ├── .claude/                  # Claude Code configuration
 │   ├── CLAUDE.md             # This file
-│   └── settings.json         # Project settings
-├── /research                 
-│   ├── research.md           # Philosophical framework reference
-│   └── philosophy-research-prompt.md  # Deep research prompt used
+│   ├── settings.json         # Project settings
+│   ├── commands.md           # Custom commands and workflows
+│   ├── project-rules.md      # Critical constraints quick reference
+│   ├── revision-workflow.md  # Multi-pass revision system
+│   └── /templates            # File templates
+│       ├── scene-template.md
+│       ├── voice-exercise.md
+│       ├── character-template.md
+│       └── worldbuilding-template.md
 ├── /drafts                   # Working drafts organized by movement
+│   ├── manifest.json         # Scene tracking and status
 │   ├── /movement-one         # Extended introductions (separate threads)
 │   ├── /movement-two         # Braided threads (accelerating rotation)
 │   ├── /movement-three       # Recognition (merged threads)
@@ -51,8 +58,12 @@ The novel draws heavily from:
 │   ├── algorithm.md
 │   └── last-human.md
 ├── /worldbuilding            # Setting details for each temporal period
+│   ├── Phantasm.md           # Geometric form development
+│   └── [era].md              # Near/mid/deep future settings
 ├── /protocols                # Development of the future-origin protocols
-└── /characters               # Character development documents
+├── /characters               # Character development documents
+└── /research                 # Philosophical framework reference
+    └── Framework             # Deleuze/Klossowski/Heidegger/Stiegler
 ```
 
 ## Key Documents
@@ -62,9 +73,12 @@ When working on this project, consult these documents in order of relevance:
 | Document | Purpose | When to Reference |
 |----------|---------|-------------------|
 | `Notes.md` | Master development document | Always—contains structure, voice guidelines, thematic arguments |
-| `research/research.md` | Philosophical framework | When drafting needs to align with Deleuze/Klossowski/Heidegger/Stiegler concepts |
-| `brainstorm1.md` | Detailed answers to mechanism and narrative questions | When working on protocols, temporal mechanics, character relationships, obstacles |
+| `research/Framework` | Philosophical framework | When drafting needs to align with Deleuze/Klossowski/Heidegger/Stiegler concepts |
+| `Brainstorm1.md` | Detailed answers to mechanism and narrative questions | When working on protocols, temporal mechanics, character relationships, obstacles |
 | `voices/*.md` | Voice samples for each consciousness | When drafting any thread—verify voice consistency |
+| `worldbuilding/Phantasm.md` | Geometric form specification | When describing the phantasm in any thread |
+| `drafts/manifest.json` | Scene tracking and status | When planning sessions, updating progress |
+| `.claude/revision-workflow.md` | Revision process | During editing passes |
 
 ## Voice Guidelines
 

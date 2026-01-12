@@ -36,9 +36,14 @@ The reading experience itself performs eternal return: the reader returns to eac
 
 ## Current Status
 
-**Phase**: Early development / Conceptual foundation
+**Phase**: Early development / Pre-drafting infrastructure complete
 
-See [Notes.md](Notes.md) for detailed development notes, philosophical framework, and structural planning.
+- Conceptual framework fully developed
+- Manuscript scaffolding and tracking in place
+- Revision workflow established
+- Ready for voice sample development and drafting
+
+See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.md) for drafting status, and [drafts/manifest.json](drafts/manifest.json) for scene tracking.
 
 ## Repository Structure
 
@@ -46,18 +51,26 @@ See [Notes.md](Notes.md) for detailed development notes, philosophical framework
 /
 ├── README.md                 # This file
 ├── Notes.md                  # Development notes and conceptual framework
+├── Brainstorm1.md            # Detailed mechanism and narrative answers
+├── progress.md               # Word count and session tracking
+├── .claude/                  # AI assistant configuration
+│   ├── CLAUDE.md             # Project instructions
+│   ├── commands.md           # Custom commands and workflows
+│   ├── project-rules.md      # Critical constraints
+│   ├── revision-workflow.md  # Multi-pass revision system
+│   ├── settings.json         # Project settings
+│   └── /templates            # Scene, character, worldbuilding templates
 ├── /drafts                   # Working drafts organized by movement
+│   ├── manifest.json         # Scene tracking and status
 │   ├── /movement-one
 │   ├── /movement-two
 │   ├── /movement-three
 │   └── /movement-four
-├── /voices                   # Voice development exercises for each consciousness
-│   ├── archaeologist.md
-│   ├── algorithm.md
-│   └── last-human.md
-├── /worldbuilding            # Setting details for each temporal period
-├── /protocols                # Development of the future-origin protocols
-└── /research                 # Philosophical sources, technical research
+├── /voices                   # Voice development for each consciousness
+├── /worldbuilding            # Setting details and phantasm specification
+├── /protocols                # Future-origin protocols development
+├── /characters               # Character profiles
+└── /research                 # Philosophical framework reference
 ```
 
 ## Key Influences

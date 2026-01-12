@@ -11,6 +11,21 @@
     "avoid_placeholders": true,
     "voice_priority": "high"
   },
+  "progress_tracking": {
+    "last_updated": "2026-01-12",
+    "current_focus": "Repository infrastructure setup",
+    "total_words_drafted": 0,
+    "scenes_completed": 0,
+    "scenes_total": 13,
+    "manifest_file": "drafts/manifest.json",
+    "progress_file": "progress.md"
+  },
+  "templates": {
+    "scene": ".claude/templates/scene-template.md",
+    "voice_exercise": ".claude/templates/voice-exercise.md",
+    "character": ".claude/templates/character-template.md",
+    "worldbuilding": ".claude/templates/worldbuilding-template.md"
+  },
   "structure": {
     "movements": 4,
     "threads": 3,
@@ -45,7 +60,7 @@
   "key_concepts": [
     "eternal_return",
     "differentiation",
-    "differenciation", 
+    "differenciation",
     "active_forces",
     "reactive_forces",
     "phantasm",
@@ -57,9 +72,21 @@
     "high_tonality"
   ],
   "reference_documents": {
-    "primary": ["Notes.md", "research/research.md", "brainstorm1.md"],
-    "voices": ["voices/archaeologist.md", "voices/algorithm.md", "voices/last-human.md"],
-    "worldbuilding": ["worldbuilding/near-future.md", "worldbuilding/mid-future.md", "worldbuilding/deep-future.md"]
+    "primary": [
+      "Notes.md",
+      "research/research.md",
+      "brainstorm1.md"
+    ],
+    "voices": [
+      "voices/archaeologist.md",
+      "voices/algorithm.md",
+      "voices/last-human.md"
+    ],
+    "worldbuilding": [
+      "worldbuilding/near-future.md",
+      "worldbuilding/mid-future.md",
+      "worldbuilding/deep-future.md"
+    ]
   },
   "writing_rules": {
     "avoid": [
