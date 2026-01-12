@@ -1,5 +1,7 @@
 # Progress Tracker
 
+> **NOTE**: This file is non-canonical and serves as a dashboard only. The authoritative source for scene status, word counts, and check states is `drafts/manifest.json`.
+
 ## Current Status
 
 | Metric | Value |

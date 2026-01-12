@@ -193,10 +193,11 @@
     },
     "two": {
       "title": "Entanglement (Braided Threads)",
-      "description": "Sections shorten to 3,000-5,000 words with A-B-C rotation pattern",
+      "description": "Sections of 3,000-5,000 words; rotation pattern TBD after Movement One drafts exist",
       "target_words": 36000,
       "actual_words": 0,
-      "rotation_pattern": "A-B-C-A-B-C-A-B-C",
+      "rotation_pattern": null,
+      "rotation_notes": "Will be finalized based on actual thread pacing and rhyming moment distribution after Movement One is complete",
       "chapters": []
     },
     "three": {
@@ -217,7 +218,7 @@
           "actual_words": 0,
           "status": "not_started"
         },
-        "phase_d": {
+        "phase_c": {
           "title": "Dissolution",
           "target_words": 3000,
           "actual_words": 0,
