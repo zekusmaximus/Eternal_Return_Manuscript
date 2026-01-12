@@ -1,0 +1,83 @@
+{
+  "project": {
+    "name": "The Eternal Return of the Digital Self",
+    "type": "novel",
+    "genre": "speculative fiction",
+    "status": "development"
+  },
+  "preferences": {
+    "feedback_style": "direct",
+    "completion_mode": "full",
+    "avoid_placeholders": true,
+    "voice_priority": "high"
+  },
+  "structure": {
+    "movements": 4,
+    "threads": 3,
+    "target_word_count": {
+      "movement_one": 37000,
+      "movement_two": 36000,
+      "movement_three": 15000,
+      "movement_four": 13000,
+      "total": 101000
+    }
+  },
+  "characters": {
+    "archaeologist": {
+      "era": "near_future",
+      "voice_file": "voices/archaeologist.md",
+      "tense": "present",
+      "mode": "tactile"
+    },
+    "algorithm": {
+      "era": "mid_future",
+      "voice_file": "voices/algorithm.md",
+      "tense": "shifting",
+      "mode": "recursive"
+    },
+    "last_human": {
+      "era": "deep_future",
+      "voice_file": "voices/last-human.md",
+      "tense": "past_inflected_present",
+      "mode": "elegiac"
+    }
+  },
+  "key_concepts": [
+    "eternal_return",
+    "differentiation",
+    "differenciation", 
+    "active_forces",
+    "reactive_forces",
+    "phantasm",
+    "simulacrum",
+    "augenblick",
+    "tertiary_retention",
+    "pharmakon",
+    "vicious_circle",
+    "high_tonality"
+  ],
+  "reference_documents": {
+    "primary": ["Notes.md", "research/research.md", "brainstorm1.md"],
+    "voices": ["voices/archaeologist.md", "voices/algorithm.md", "voices/last-human.md"],
+    "worldbuilding": ["worldbuilding/near-future.md", "worldbuilding/mid-future.md", "worldbuilding/deep-future.md"]
+  },
+  "writing_rules": {
+    "avoid": [
+      "identity language between the three characters",
+      "recognition through resemblance or memory",
+      "transmission metaphors for temporal mechanism",
+      "planning/foresight explanations for bootstrap paradox",
+      "unified I after dissolution",
+      "excessive formatting in prose",
+      "philosophical exposition replacing dramatization"
+    ],
+    "ensure": [
+      "voice consistency within threads",
+      "intensity/tonality for recognition",
+      "technical substrate as material condition",
+      "active willing for affirmation",
+      "pharmakon double nature",
+      "concrete sensory details"
+    ]
+  }
+}
