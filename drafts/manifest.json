@@ -1,9 +1,10 @@
 {
   "metadata": {
     "title": "The Eternal Return of the Digital Self",
-    "version": "0.1.0",
-    "last_updated": "2026-01-12",
-    "target_word_count": 101000
+    "version": "0.2.0",
+    "last_updated": "2026-01-20",
+    "target_word_count": 101000,
+    "workflow_version": "dual-mode-v1"
   },
   "movements": {
     "one": {
@@ -26,6 +27,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Establish profession, economic stakes, tactile voice"
             },
@@ -38,6 +41,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Show integration process, introduce Lena"
             },
@@ -50,6 +55,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Establish primary relationships, stakes"
             },
@@ -62,6 +69,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": ["phantasm-first-encounter"],
               "notes": "First protocol anomaly, first geometric form sighting"
             },
@@ -74,6 +83,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Realizes protocols are self-referential, Act 1 climax"
             }
@@ -93,6 +104,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Establish database, maintenance functions, scale"
             },
@@ -105,6 +118,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Self-improvement, recursive voice"
             },
@@ -117,6 +132,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": ["phantasm-first-encounter"],
               "notes": "First self-awareness beyond function"
             },
@@ -129,6 +146,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "First memory that doesn't belong, Act 1 climax"
             }
@@ -148,6 +167,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "Establish ruined world, absolute isolation"
             },
@@ -160,6 +181,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "How he survives, his knowledge of history"
             },
@@ -172,6 +195,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": ["phantasm-first-encounter"],
               "notes": "Journey begins, drawn toward ruins"
             },
@@ -184,6 +209,8 @@
               "status": "not_started",
               "voice_check": "pending",
               "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhyming_moments": [],
               "notes": "First dream of the other two, Act 1 climax"
             }
@@ -210,19 +237,31 @@
           "title": "Accelerating Cuts",
           "target_words": 6000,
           "actual_words": 0,
-          "status": "not_started"
+          "status": "not_started",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending"
         },
         "phase_b": {
           "title": "Simultaneous Narration",
           "target_words": 6000,
           "actual_words": 0,
-          "status": "not_started"
+          "status": "not_started",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending"
         },
         "phase_c": {
           "title": "Dissolution",
           "target_words": 3000,
           "actual_words": 0,
           "status": "not_started",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending",
           "notes": "See brainstorm1.md Part III.1 for technique details"
         }
       }
@@ -240,7 +279,11 @@
           "file": "movement-four/last-human-return.md",
           "target_words": 3500,
           "actual_words": 0,
-          "status": "not_started"
+          "status": "not_started",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending"
         },
         {
           "id": "m4-algo",
@@ -249,7 +292,11 @@
           "file": "movement-four/algorithm-return.md",
           "target_words": 4500,
           "actual_words": 0,
-          "status": "not_started"
+          "status": "not_started",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending"
         },
         {
           "id": "m4-arch",
@@ -258,7 +305,11 @@
           "file": "movement-four/archaeologist-return.md",
           "target_words": 5000,
           "actual_words": 0,
-          "status": "not_started"
+          "status": "not_started",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending"
         }
       ]
     }
@@ -277,10 +328,15 @@
   "status_definitions": {
     "not_started": "No content yet",
     "draft": "First draft complete",
-    "voice_pass": "Voice consistency verified",
-    "philosophy_pass": "Philosophy check complete",
-    "revised": "Major revisions complete",
+    "validated": "All automated checks pass (voice, philosophy, rhyme, genre)",
+    "revised": "User has reviewed and made content edits",
     "polished": "Line-level editing complete",
     "final": "Ready for final manuscript"
+  },
+  "check_definitions": {
+    "pending": "Not yet checked",
+    "passed": "Script or manual check passed",
+    "failed": "Check failed, needs revision",
+    "skipped": "Not applicable for this section"
   }
 }

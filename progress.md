@@ -6,11 +6,11 @@
 
 | Metric | Value |
 |--------|-------|
-| **Last Updated** | 2026-01-12 |
-| **Current Focus** | Pre-drafting infrastructure complete; ready for drafting |
+| **Last Updated** | 2026-01-20 |
+| **Current Focus** | Infrastructure complete; ready for first scene draft |
 | **Total Words Drafted** | 0 |
 | **Scenes Completed** | 0 / 13 (Movement One) |
-| **Overall Progress** | 0% (infrastructure: 90%) |
+| **Overall Progress** | 0% (infrastructure: 100%) |
 
 ---
 
@@ -79,6 +79,7 @@
 **Focus**: Voice samples and era worldbuilding
 
 **Completed**:
+
 - Created `voices/archaeologist.md` — sample passages, vocabulary, forbidden patterns, diagnostics
 - Created `voices/algorithm.md` — tense-shifting examples, self-referential syntax, topological vocabulary
 - Created `voices/last-human.md` — sparse/elegiac style, fragment usage, past-inflected present
@@ -87,6 +88,7 @@
 - Created `worldbuilding/deep-future.md` — post-catastrophe environment, ruins, the journey, the choice
 
 **Infrastructure Now Complete**:
+
 - [x] Manuscript manifest with scene structure
 - [x] Revision workflow (6-pass system)
 - [x] Templates (scene, character, voice-exercise, worldbuilding)
@@ -94,17 +96,45 @@
 - [x] Era worldbuilding (all 3 eras)
 
 **Remaining Infrastructure**:
+
 - [ ] Protocol concrete examples
 - [ ] Character profiles (Archaeologist, Algorithm, Last Human, Lena, Marcus)
-- [ ] Rhyming moments registry
+- [x] Rhyming moments registry (`scaffolding/rhymes/registry.md`, `movement-tracking.md`)
+- [x] Drafting workflow (`protocols/drafting-workflow.md`)
+- [x] Validation scripts (`scripts/`)
+- [x] Genre pressure framework (`scaffolding/genre-pressure.md`)
 
 ---
+
+### 2026-01-20 (Dual-Mode Drafting Workflow)
+
+**Focus**: Established revision/drafting workflow infrastructure
+
+**Completed**:
+
+- Discussed "Gnostic Tech-Noir" genre framework from `brainstorm2.md`
+- Designed dual-mode workflow (AI drafting + human review)
+- Created `protocols/drafting-workflow.md` — core workflow for both modes
+- Created `protocols/prompt-template.md` — context assembly template for AI drafting
+- Created `protocols/review-protocol.md` — structured feedback format for human-drafted sections
+- Created `protocols/philosophy-constraints.md` — Four Shackles, forbidden moves, dramatization guide
+- Created `scaffolding/genre-pressure.md` — genre framework as pressure building toward release
+- Created 4 validation scripts in `scripts/`:
+  - `voice_validator.py` — tense, syntax, texture, contamination checks
+  - `philosophy_checker.py` — Four Shackles, forbidden narrative moves
+  - `rhyme_tracker.py` — rhyme detection and intensity assessment
+  - `genre_checker.py` — genre markers and cross-thread bleed detection
+- Updated `drafts/manifest.json` with `rhyme_check` and `genre_check` fields (v0.2.0)
+- Archived `.claude/` directory to `.archive/claude-legacy/` (superseded by `protocols/`)
+
+**Infrastructure Status**: ✓ Complete (migrated to agent-agnostic design)
 
 ### 2026-01-12 (Session 1: Morning)
 
 **Focus**: Repository infrastructure setup
 
 **Completed**:
+
 - Created `drafts/manifest.json` with Movement One scene structure
 - Created `.claude/revision-workflow.md` (multi-pass revision system)
 - Created `progress.md` (this file)
@@ -120,11 +150,10 @@
 |-----------|-------------|--------|
 | Voice samples complete | 2026-01-12 | ✓ Complete |
 | Era worldbuilding complete | 2026-01-12 | ✓ Complete |
-| Infrastructure complete | TBD | In progress (90%) |
+| Infrastructure complete | 2026-01-20 | ✓ Complete |
 | Movement One draft complete | TBD | Not started |
 | Movement One revised | TBD | Not started |
 | Movement Two draft complete | TBD | Not started |
 | Full first draft | TBD | Not started |
 | Revision pass complete | TBD | Not started |
 | Final manuscript | TBD | Not started |
-
