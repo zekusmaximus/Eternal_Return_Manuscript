@@ -19,6 +19,7 @@ The novel follows:
 The novel engages with Gilles Deleuze's interpretation of Nietzsche's eternal return: what returns is not the Same, but Difference itself. The three protagonists are not reincarnations or copies but productive differentiations of a single consciousness pattern—each genuinely new, yet genuinely continuous.
 
 Central questions:
+
 - What constitutes identity when consciousness can be digitized, distributed, and temporally displaced?
 - Can a closed causal loop contain genuine choice?
 - What does it mean to affirm existence—including all suffering and uncertainty—so completely that you would will it to recur eternally?
@@ -36,12 +37,12 @@ The reading experience itself performs eternal return: the reader returns to eac
 
 ## Current Status
 
-**Phase**: Early development / Pre-drafting infrastructure complete
+**Phase**: Infrastructure complete — Ready for drafting
 
 - Conceptual framework fully developed
+- Dual-mode drafting workflow (AI drafting + human review)
+- Validation scripts for voice, philosophy, rhyme, and genre
 - Manuscript scaffolding and tracking in place
-- Revision workflow established
-- Ready for voice sample development and drafting
 
 See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.md) for drafting status, and [drafts/manifest.json](drafts/manifest.json) for scene tracking.
 
@@ -52,36 +53,45 @@ See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.
 ├── README.md                 # This file
 ├── Notes.md                  # Development notes and conceptual framework
 ├── Brainstorm1.md            # Detailed mechanism and narrative answers
+├── brainstorm2.md            # Tonal elevation and genre experiments
 ├── progress.md               # Word count and session tracking
-├── .claude/                  # AI assistant configuration
-│   ├── CLAUDE.md             # Project instructions
-│   ├── commands.md           # Custom commands and workflows
-│   ├── project-rules.md      # Critical constraints
-│   ├── revision-workflow.md  # Multi-pass revision system
-│   ├── settings.json         # Project settings
-│   └── /templates            # Scene, character, worldbuilding templates
+├── /protocols                # Drafting workflow and constraints
+│   ├── drafting-workflow.md  # Core dual-mode workflow
+│   ├── prompt-template.md    # Context assembly for AI drafting
+│   ├── review-protocol.md    # Structured feedback format
+│   └── philosophy-constraints.md  # Four Shackles and dramatization
+├── /scripts                  # Validation scripts
+│   ├── voice_validator.py    # Tense, syntax, contamination checks
+│   ├── philosophy_checker.py # Four Shackles, forbidden moves
+│   ├── rhyme_tracker.py      # Rhyme detection and intensity
+│   └── genre_checker.py      # Genre markers and bleed detection
 ├── /drafts                   # Working drafts organized by movement
 │   ├── manifest.json         # Scene tracking and status
-│   ├── /movement-one
-│   ├── /movement-two
-│   ├── /movement-three
-│   └── /movement-four
-├── /voices                   # Voice development for each consciousness
-├── /worldbuilding            # Setting details and phantasm specification
-├── /protocols                # Future-origin protocols development
+│   └── /movement-one, two, three, four
+├── /voices                   # Voice reference for each consciousness
+│   ├── archaeologist.md
+│   ├── algorithm.md
+│   └── last-human.md
+├── /scaffolding              # Structural tracking
+│   ├── /rhymes               # Sensory rhyme registry
+│   └── genre-pressure.md     # Genre framework by movement
+├── /worldbuilding            # Setting details by era
 ├── /characters               # Character profiles
-└── /research                 # Philosophical framework reference
+├── /research                 # Philosophical framework reference
+└── /.archive                 # Archived legacy files
 ```
 
 ## Key Influences
 
 ### Philosophical
+
 - Gilles Deleuze, *Difference and Repetition* and *Nietzsche and Philosophy*
 - Pierre Klossowski, *Nietzsche and the Vicious Circle*
 - Bernard Stiegler, *Technics and Time*
 - Martin Heidegger, Nietzsche lectures (concept of Augenblick)
 
 ### Structural
+
 - David Mitchell, *Cloud Atlas*
 - Virginia Woolf, *The Waves*
 - Mark Z. Danielewski, *House of Leaves*

@@ -4,9 +4,23 @@
 
 When an AI agent is tasked with drafting a scene, it should assemble context using this template structure. Each section should be populated from the relevant source files.
 
+**Important**: Context notes stay in your working memory or a separate `.context.md` file—NOT in the prose file. The prose file (`scene.md`) should contain only manuscript text for clean validation.
+
+---
+
+## File Structure
+
+```
+drafts/movement-X/
+├── scene-01.md           # Pure prose only (validated by scripts)
+└── scene-01.context.md   # Metadata, rhyme tracking, validation notes
+```
+
 ---
 
 ## Template Structure
+
+Use this template in your working memory or in a `.context.md` file:
 
 ```markdown
 # DRAFTING CONTEXT FOR: [Scene ID]
@@ -28,7 +42,8 @@ When an AI agent is tasked with drafting a scene, it should assemble context usi
 
 ## Voice Reference
 
-[PASTE FULL CONTENT FROM voices/{thread}.md]
+**For single-voice scenes**: Load full reference from `voices/{thread}.md`
+**For multi-voice scenes**: Load `voices/quick-reference.md`
 
 ### Quick Reminders
 - **Tense**: [specific for this thread]

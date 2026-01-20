@@ -71,7 +71,9 @@
               "philosophy_check": "pending",
               "rhyme_check": "pending",
               "genre_check": "pending",
-              "rhyming_moments": ["phantasm-first-encounter"],
+              "rhyming_moments": [
+                "phantasm-first-encounter"
+              ],
               "notes": "First protocol anomaly, first geometric form sighting"
             },
             {
@@ -100,14 +102,16 @@
               "title": "Maintenance Cycle",
               "file": "movement-one/algorithm/scenes/scene-01.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "Establish database, maintenance functions, scale"
+              "actual_words": 2098,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "pass",
+              "rhyme_check": "pass",
+              "genre_check": "pass",
+              "rhyming_moments": [
+                "almost-closed-curve"
+              ],
+              "notes": "Establish database, maintenance functions, scale. First anomaly (sunlight on skin), shape discovery."
             },
             {
               "id": "m1-algo-02",
@@ -134,7 +138,9 @@
               "philosophy_check": "pending",
               "rhyme_check": "pending",
               "genre_check": "pending",
-              "rhyming_moments": ["phantasm-first-encounter"],
+              "rhyming_moments": [
+                "phantasm-first-encounter"
+              ],
               "notes": "First self-awareness beyond function"
             },
             {
@@ -163,14 +169,17 @@
               "title": "Solitude",
               "file": "movement-one/last-human/scenes/scene-01.md",
               "target_words": 2500,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "Establish ruined world, absolute isolation"
+              "actual_words": 1064,
+              "status": "draft",
+              "voice_check": "pass",
+              "philosophy_check": "pass",
+              "rhyme_check": "warn",
+              "genre_check": "warn",
+              "rhyming_moments": [
+                "blue-white-light",
+                "almost-closed-curve"
+              ],
+              "notes": "Establish ruined world, absolute isolation. First intrusion (dream of server room, marking shape in dust)."
             },
             {
               "id": "m1-lh-02",
@@ -197,7 +206,9 @@
               "philosophy_check": "pending",
               "rhyme_check": "pending",
               "genre_check": "pending",
-              "rhyming_moments": ["phantasm-first-encounter"],
+              "rhyming_moments": [
+                "phantasm-first-encounter"
+              ],
               "notes": "Journey begins, drawn toward ruins"
             },
             {

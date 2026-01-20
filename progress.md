@@ -7,10 +7,10 @@
 | Metric | Value |
 |--------|-------|
 | **Last Updated** | 2026-01-20 |
-| **Current Focus** | Infrastructure complete; ready for first scene draft |
-| **Total Words Drafted** | 0 |
+| **Current Focus** | Movement One drafting begins |
+| **Total Words Drafted** | ~3,000 (stress tests) |
 | **Scenes Completed** | 0 / 13 (Movement One) |
-| **Overall Progress** | 0% (infrastructure: 100%) |
+| **Overall Progress** | 3% prose, 100% infrastructure |
 
 ---
 
