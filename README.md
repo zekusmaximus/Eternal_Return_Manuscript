@@ -55,7 +55,7 @@ See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.
 ├── Brainstorm1.md            # Detailed mechanism and narrative answers
 ├── brainstorm2.md            # Tonal elevation and genre experiments
 ├── progress.md               # Word count and session tracking
-├── /protocols                # Drafting workflow and constraints
+├── /protocols                # Agent workflow and drafting constraints
 │   ├── drafting-workflow.md  # Core dual-mode workflow
 │   ├── prompt-template.md    # Context assembly for AI drafting
 │   ├── review-protocol.md    # Structured feedback format
@@ -73,6 +73,7 @@ See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.
 │   ├── algorithm.md
 │   └── last-human.md
 ├── /scaffolding              # Structural tracking
+│   ├── /narrative_protocols  # In-universe protocol designs
 │   ├── /rhymes               # Sensory rhyme registry
 │   └── genre-pressure.md     # Genre framework by movement
 ├── /worldbuilding            # Setting details by era

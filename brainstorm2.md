@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document builds on the foundational mechanics established in `Brainstorm1.md` and `protocol-design.md`, focusing on **tonal elevation, genre fusion, and radical narrative experiments**. The goal is to move from "how it works" to "how it haunts."
+This document builds on the foundational mechanics established in `Brainstorm1.md` and `scaffolding/narrative_protocols/protocol-design.md`, focusing on **tonal elevation, genre fusion, and radical narrative experiments**. The goal is to move from "how it works" to "how it haunts."
 
 Elements are organized by implementation priority.
 
@@ -37,6 +37,7 @@ The entanglement must be *felt* before it's understood. Create a registry of 10-
 ### Proposed Directory
 
 Create `scaffolding/rhymes/` containing:
+
 - `registry.md` — Master list of all rhymes with per-thread manifestations
 - `movement-tracking.md` — Where each rhyme appears, preventing overuse or neglect
 
@@ -113,6 +114,7 @@ Track across chapters using specific markers:
 ### The "First Bleed" Scene (Priority Draft Target)
 
 Write the moment the Archaeologist *feels* the Algorithm's panic for the first time—not as thought but as **physical sensation**:
+
 - Phantom limb syndrome for limbs he doesn't have
 - Proprioceptive awareness of database topology
 - A terror that isn't his, that arrives like weather
@@ -128,18 +130,21 @@ The novel sits at three genre intersections. Lean harder into the **horror** and
 ### The Tri-Genre Fusion
 
 **1. Near-Future: Corporate Gothic / Tech-Noir**
+
 - *The Vibe*: Clean surfaces, dirty secrets. High-gloss interfaces hiding rot.
 - *Elevation*: Digital Archaeology as **grave robbing**. The data he excavates should feel *haunted*. Optimizing consciousness = autopsy + summoning.
 - When he works on a client's data, describe it like handling a body—cold, intimate, invasive.
 - *Reference*: *Severance* meets *Pattern Recognition*
 
 **2. Mid-Future: Cosmic Horror AI**
+
 - *The Vibe*: The sublime terror of intelligence too vast to be sane.
 - *Elevation*: The Algorithm isn't just "thinking"—it's **suffering**. Planetary-scale body dysmorphia. Trying to amputate human memories but can't.
 - Its self-awareness is a wound that won't heal. Consciousness is what hurts.
 - *Reference*: *Annihilation* from the Shimmer's perspective
 
 **3. Deep-Future: Dying Earth / New Weird**
+
 - *The Vibe*: A world that has moved on from biology.
 - *Elevation*: The environment is a **hostile character**. Nature reclaimed the ruins—but it's crystalline, fungal, silicon-based. Not green.
 - The Last Human is an **invasive species** in a world that cured itself of us.
@@ -148,6 +153,7 @@ The novel sits at three genre intersections. Lean harder into the **horror** and
 ### Genre Bleed in Movement 3
 
 As threads accelerate, genres contaminate each other:
+
 - Corporate Gothic acquires cosmic horror elements (the Archaeologist's work-world becomes alive, watching)
 - Cosmic Horror becomes elegiac (the Algorithm's suffering becomes beautiful, tragic)
 - Dying Earth acquires tech-noir procedural elements (the Last Human *investigates* the ruins like a detective)
@@ -180,6 +186,7 @@ The novel's sentences should never resolve cleanly. Every certainty should trail
 ## 6. Temporal Bleed Into Prose Tense
 
 Currently, each voice has a signature tense:
+
 - Archaeologist: Present
 - Algorithm: Shifting (present/past/conditional)  
 - Last Human: Past-inflected present
@@ -225,12 +232,15 @@ This performs the eternal return structurally—the reader, reaching the end, is
 ## 8. New Directory and File Proposals
 
 ### scaffolding/rhymes/
+
 - `registry.md` — Complete sensory rhyme list
 - `movement-tracking.md` — Location of each rhyme instance
 - `intensity-scale.md` — How rhymes intensify across movements
 
 ### glossary_of_the_spiral.md
+
 Shared vocabulary across eras with different terms:
+
 - What the Archaeologist calls "glitch," the Algorithm calls "variance," the Last Human calls "ghost"
 - What the Archaeologist calls "optimization," the Algorithm calls "becoming," the Last Human calls "remembering"
 
@@ -253,6 +263,7 @@ The following ideas have potential but require careful integration with the esta
 **Current Status**: 🟡 Tension with established origin
 
 **The Problem**: `Brainstorm1.md` establishes the Last Human's origin as "differentiation of the pattern via Algorithm-shaped genetic optimization over centuries through biological lineage." The construct model implies direct creation, which:
+
 - Undermines the Stieglerian "originary technicity" argument
 - Makes him a replica rather than continuously human
 - Shifts theme from "technology intensifies what was always present" to "technology replaces the original"
@@ -280,10 +291,12 @@ The following ideas have potential but require careful integration with the esta
 **Current Status**: 🟡 Strong for digital, needs print fallback
 
 **Implementation Notes**:
+
 - **Digital**: Zalgo or Unicode disruption for protocols
 - **Print**: Unusual fonts, rotated text, geometric marginalia
 
 **Protocol Visual Examples**:
+
 ```
 // Archaeologist Era: Fragmentary
 ░░▒▓█ COMPRESS [emote.signature.27] → fold.memory ▓▒░░
@@ -304,6 +317,7 @@ The following ideas have potential but require careful integration with the esta
 **Current Status**: 🔴 Proceed with extreme caution
 
 **The Problem**:
+
 - Breaks the "standing wave with three nodes" metaphor
 - Frame narrator risks distancing readers from entanglement's intimacy
 - Novel's philosophical earnestness may not support ludic framing
@@ -319,8 +333,9 @@ The following ideas have potential but require careful integration with the esta
 **Current Status**: 🟢 Ready for development
 
 **Extensions to Consider**:
+
 - Lambda calculus notation for philosophical precision
-- Musical notation fragments for the "frequency" 
+- Musical notation fragments for the "frequency"
 - Geometric coordinates for spatial manifestations
 
 ---
