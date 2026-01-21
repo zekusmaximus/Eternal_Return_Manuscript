@@ -11,7 +11,7 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 19357,
+      "actual_words": 21964,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
@@ -164,7 +164,7 @@
         "last_human": {
           "title": "The Last Human",
           "target_words": 10000,
-          "actual_words": 3308,
+          "actual_words": 5915,
           "scenes": [
             {
               "id": "m1-lh-01",
@@ -202,16 +202,21 @@
               "title": "The Pull",
               "file": "movement-one/last-human/scenes/scene-03.md",
               "target_words": 2500,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
+              "actual_words": 2607,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
               "rhyming_moments": [
-                "phantasm-first-encounter"
+                "phantasm-first-encounter",
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "ozone-wet-stone",
+                "metallic-taste"
               ],
-              "notes": "Journey begins, drawn toward ruins"
+              "notes": "Journey begins, drawn toward ruins. Phantasm-first-encounter executed as geometric architecture. Final approach and threshold moment."
             },
             {
               "id": "m1-lh-04",
