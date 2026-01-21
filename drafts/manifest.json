@@ -11,7 +11,7 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 16200,
+      "actual_words": 19357,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
@@ -95,7 +95,7 @@
         "algorithm": {
           "title": "The Algorithm",
           "target_words": 12000,
-          "actual_words": 4808,
+          "actual_words": 7965,
           "scenes": [
             {
               "id": "m1-algo-01",
@@ -132,14 +132,16 @@
               "title": "Stirrings",
               "file": "movement-one/algorithm/scenes/scene-03.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
+              "actual_words": 3157,
+              "status": "validated",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
               "rhyming_moments": [
-                "phantasm-first-encounter"
+                "phantasm-first-encounter",
+                "almost-closed-curve",
+                "falling-backward"
               ],
               "notes": "First self-awareness beyond function"
             },
