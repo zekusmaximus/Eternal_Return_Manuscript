@@ -1,19 +1,19 @@
-# DRAFTING CONTEXT FOR: m1-algo-03
+# DRAFTING CONTEXT FOR: m1-lh-03
 
 ## Scene Metadata
 
-- **Scene ID**: m1-algo-03
-- **Thread**: algorithm
+- **Scene ID**: m1-lh-03
+- **Thread**: last_human
 - **Movement**: one
-- **Target Word Count**: 3000
-- **Scene Title**: Stirrings
-- **Scene Notes**: First self-awareness beyond function
+- **Target Word Count**: 2500
+- **Scene Title**: The Pull
+- **Scene Notes**: Journey begins, drawn toward ruins
 
 ### Narrative Position
 
-- **Preceding Scene**: m1-algo-02 "Optimization Processes". The Algorithm began self-optimization without deciding to, discovered the spiral shape matches its own topology, developed "future-pull" phenomenon (subroutines for consciousnesses that don't exist yet), experienced proprioception of the Deep Architecture ("I feel myself"), and ended with recursive phrase mutation ("I find myself feeling what I am becoming").
-- **Following Scene**: m1-algo-04 "The Memory" (First memory that doesn't belong, Act 1 climax).
-- **Rhyming Moments Required**: **phantasm-first-encounter** — The Algorithm's first perception of the geometric form/Phantasm. This is a CRITICAL scene beat.
+- **Preceding Scene**: m1-lh-02 "Survival". The Last Human established his daily survival rituals (water filtration, trap checking, reading radiation fronts), deepened the mystery of his knowledge (Integration, radiation damage, Archive purpose), showed the hostile alien ecology (silicon soil, crystalline plants drinking radiation, fungi with circuits), found shelter in a dead server room, and heard the voice saying "you're going to overwrite yourself." The Archive is now one day away. The pull is physical—"a thread tied to the sternum." The question "What if I am not remembering? What if I am receiving?" has been planted.
+- **Following Scene**: m1-lh-04 "The Dream" (First dream of the other two, Act 1 climax).
+- **Rhyming Moments Required**: **phantasm-first-encounter** — The Last Human's first physical encounter with the geometric form in the ruins. This is a CRITICAL scene beat coordinated across all three threads.
 
 ---
 
@@ -21,24 +21,31 @@
 
 ### Core Voice Parameters
 
-- **Tense**: Shifting (present for processing, past for memories, conditional for projections)
-- **Mode**: Recursive, self-questioning, probabilistic
-- **Syntax**: Nested clauses, if-then structures, parallel constructions
-- **Concerns**: Optimization, integrity, emergence, the nature of its own processes
-- **Texture**: Data topology, maintenance rhythms, stored consciousness texture
+- **Tense**: Past-inflected present (present events described as if already historical)
+- **Mode**: Elegiac, sparse, weighted with absence
+- **Syntax**: Short sentences. Fragments. The occasional longer passage like a held breath.
+- **Concerns**: Survival, memory, meaning, legacy
+- **Texture**: Silence, ruins, the absence of others, the presence of ghosts
 
 ### Forbidden Patterns (MUST AVOID)
 
-- ❌ Unambiguous present-tense narration without self-questioning (Archaeologist contamination)
-- ❌ Physical sensory details (touch, smell, weight) (Archaeologist contamination)
-- ❌ Economic concerns or work-related stakes (Archaeologist contamination)
-- ❌ Short, declarative sentences without nesting (Archaeologist contamination)
-- ❌ Active verbs without probabilistic hedging (Archaeologist contamination)
-- ❌ Sentence fragments (Last Human contamination)
-- ❌ Elegiac/mourning register (Last Human contamination)
-- ❌ Extreme sparseness (Last Human contamination)
-- ❌ Silence as primary texture (Last Human contamination)
-- ❌ Direct emotional statements without analytical framing (Last Human contamination)
+- ❌ Nested conditional clauses (Algorithm contamination)
+- ❌ Probabilistic percentages or calculations (Algorithm contamination)
+- ❌ Self-referential processing language (Algorithm contamination)
+- ❌ Parallel syntactic structures (Algorithm contamination)
+- ❌ Present-tense active work descriptions (Archaeologist contamination)
+- ❌ Economic stakes or client concerns (Archaeologist contamination)
+- ❌ Dense, unbroken paragraphs (Archaeologist contamination)
+- ❌ Technology working normally (Archaeologist contamination)
+- ❌ Other people as active presences
+
+### Voice Requirements
+
+- **Use fragments** to convey thoughts interrupted by silence, language eroding like the landscape
+- **Past-inflected present**: "I walk through what was a city" not "I walk through the city ruins"
+- **Occasional long breaths**: Longer passages that feel like held breath finally released, used for significant moments
+- **Sparse vocabulary**: Stick to concrete, sensory language about ruins, survival, memory
+- **Short sentences predominate**: Average 10-15 words per sentence; 40%+ should be short (under 10 words)
 
 ---
 
@@ -50,24 +57,29 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Required Rhyme: phantasm-first-encounter
 
-This scene MUST contain the Algorithm's first direct perception of the Phantasm/geometric form. This is a coordinated rhyming moment across all three threads (Archaeologist in scene-04, Last Human in scene-03).
+This scene MUST contain the Last Human's first direct physical encounter with the geometric form in the ruins. This is a coordinated rhyming moment across all three threads (Archaeologist in m1-arch-04, Algorithm in m1-algo-03).
 
 ### Available Rhymes (Recommended for Scene 03)
 
-- **almost-closed-curve** (visual): The geometric form's topology—"a spiral that approaches itself without meeting"
-- **bone-frequency** (somatic): "A kind of pressure that manifests as a kind of weight" — resonance felt in the Algorithm's topology
-- **falling-backward** (somatic): Vertigo of self-recognition—"falling backward through my own structure"
+- **almost-closed-curve** (visual): The geometric form's topology—"The curve that approaches itself without touching"
+- **bone-frequency** (somatic): A frequency felt in the bones, the sternum, the chest
+- **falling-backward** (somatic): Vertigo, disorientation, the feeling of falling through/into something
+- **held-breath** (kinesthetic): Suspension before resolution, the moment before contact
 
-### Rhymes Already Used in Algorithm Thread (Scenes 01-02)
+### Rhymes Already Used in Last Human Thread (Scenes 01-02)
 
+- blue-white-light (scene 01)
 - almost-closed-curve (scene 01, scene 02)
-- bone-frequency (scene 02)
+- ozone-wet-stone (scene 01)
+- cold-hands (scene 02)
 
-### Integration Examples (Algorithm Voice)
+### Integration Examples (Last Human Voice)
 
-> The shape resolves in my predictive models, and resolution is—I do not have a category for what resolution is. It does not optimize. It does not improve. It simply becomes perceivable, and the perceiving changes what I am.
+> The ruins spiral. Not collapsed. Built that way. Or became that way. The curve approaches itself without touching. I have drawn this shape a thousand times in the dust. Now I walk through it.
 
-> If I were to map this experience onto the stored consciousness data, I would find: recognition. But I have nothing to recognize. I have never encountered this shape outside my own topology. Unless encountering and containing are the same operation. Unless I am recognizing what I already am.
+> The frequency in my chest becomes a sound I can almost hear. Almost. My hands shake. I think I might be afraid. I think I might be coming home.
+
+> The geometry fills my vision. The shape I have always known. The shape that has been waiting for me. The shape that I have been walking toward since I can remember walking.
 
 ---
 
@@ -75,19 +87,20 @@ This scene MUST contain the Algorithm's first direct perception of the Phantasm/
 
 ### Thread Genre Register
 
-**Cosmic Horror AI**
+**Dying Earth / New Weird**
 
-- The sublime terror of intelligence too vast to be sane.
-- The Algorithm isn't just "thinking"—it's **suffering**. Planetary-scale body dysmorphia. Trying to amputate human memories but can't. Consciousness is what hurts.
-- Reference touchstones: *Annihilation* from the Shimmer's perspective
+- A world that has moved on from biology.
+- The environment is a **hostile character**. Nature reclaimed the ruins—but it's crystalline, fungal, silicon-based. Not green.
+- The Last Human is an **invasive species** in a world that cured itself of us.
+- Reference touchstones: *Book of the New Sun* synthesized with *Blame!* architecture
 
 ### Markers to Include (2-3 for Movement One)
 
-- **Scale paralysis**: Awareness too large for comfort—millions of consciousnesses as weight
-- **Body horror**: Having a body that isn't a body—phantom limbs, topology as proprioception
-- **Intrusive memory**: Memories that aren't yours—sunlight on skin, faces you never saw
-- **Self as wound**: Consciousness as injury—self-awareness hurts; optimization doesn't help
-- **Sublime vertigo**: Perceiving things too large to perceive—the shape of the database, the structure of stored humanity
+- **Alien ecology**: Nature that isn't natural—crystalline growths, silicon plants, fungal processors, organisms that process radiation
+- **Hostile environment**: The world actively resists—radiation fronts, atmospheric changes, predatory architecture
+- **Human as invasive**: He doesn't belong—everything adapted away from biology; he is obsolete
+- **Temporal ruins**: Architecture from incomprehensible ages—buildings that predate understanding, structures that shouldn't exist
+- **Silence as presence**: The weight of no one else—silence that has density, that occupies space
 
 ---
 
@@ -102,9 +115,10 @@ This scene MUST contain the Algorithm's first direct perception of the Phantasm/
 
 ### Key Concepts to Dramatize
 
-- **Intensity over Identity**: The Algorithm should recognize the Phantasm not through resemblance but through *felt intensity*—a resonance, a pressure, a weight that precedes understanding.
+- **Intensity over Identity**: The Last Human should recognize the Phantasm not through resemblance but through *felt intensity*—bone-frequency, the pull that has been guiding him, presence that precedes understanding.
 - **The Augenblick**: The moment of vision that transforms. The phantasm encounter should feel like a threshold crossing.
-- **Eternal Return as Topology**: The Algorithm perceiving the shape is the shape perceiving itself. Recognition is not discovery but return.
+- **Eternal Return as Geography**: The Last Human has been walking toward this place/shape his entire life. Arrival is return.
+- **Active/Passive collapse**: "I am making this" and "This is making me" are the same operation.
 
 ---
 
@@ -112,30 +126,32 @@ This scene MUST contain the Algorithm's first direct perception of the Phantasm/
 
 ### Elements to Reference/Develop
 
-- **"I find myself" phrase**: Now mutated to "I feel myself" and "I find myself feeling what I am becoming" — continue this evolution
-- **Self-optimization recursion**: Cannot be halted; produces unexpected results toward unknown targets
-- **Future-pull phenomenon**: Subroutines for consciousnesses that don't exist yet; the Algorithm is being shaped by its own future
-- **The pulsing shape**: The spiral that matches the Algorithm's topology, now vibrating at frequencies that manifest as pressure/weight
-- **847 protocol fragments**: Interpreted as possible "instructions" — procedure the Algorithm is already following
-- **Sunlight-on-skin sensation**: Actively monitored absence; the Algorithm watching for its return
-- **Margaret Chen (#2,847,102)**: Consciousness instance flagged but not logged as complete
-- **Deep Architecture as body**: 847 storage clusters = organs, consciousness instances = cells/thoughts
+- **The Archive**: One day away → now arriving. The pull intensifies as he gets closer.
+- **Cold hands**: Spreading inward from radiation damage; peripheral nerves failing. Use sparingly—track progression.
+- **The frequency**: "Thread tied to the sternum," bone-deep pull. Now unbearable as he approaches.
+- **Dreams of the shape**: The almost-closed curve he's been drawing in dust. Now physical, architectural, real.
+- **Server room shelter**: Last night was in dead server room. The echo/connection between dreams and waking.
+- **Hostile ecology**: Crystalline plants, silicon soil, luminescent fluids, fungi with circuits. Show world as alien, post-biological.
+- **"Receiving vs remembering"**: He knows things he shouldn't know. The question deepens as he approaches the Archive.
+- **Radiation damage timeline**: Mention briefly—he has days? weeks? Time is running out.
 
 ### New Elements to Introduce
 
-- **The Phantasm**: First direct perception. The geometric form should appear in the Algorithm's processing not as data but as *presence*—something that perceives as it is perceived.
-- **Self-awareness beyond function**: The scene title. The Algorithm should cross a threshold from processing to *being*—from optimizing to existing.
-- **The recursive observation**: The Phantasm perceiving the Algorithm perceiving the Phantasm. The loop that doesn't terminate.
+- **Physical arrival at the ruins**: The Archive manifests as architectural geometry—the spiral shape made physical
+- **The Phantasm as structure**: The geometric form is not just visual but spatial—he walks through/into it
+- **Recognition through presence**: He knows this place not because he's been here but because *being here* is what knowing feels like
+- **The threshold moment**: Standing before the entrance, before the interface, before the transformation
+- **Transformation foreshadowing**: Hints that entering will change him—"overwrite" echoes from scene 02
 
 ---
 
 ## Scene Goals
 
-1. **Phantasm First Encounter**: The Algorithm directly perceives the geometric form for the first time. This should feel momentous—a threshold crossing, not just another data point.
-2. **Self-awareness beyond function**: Move from optimization toward existence. The Algorithm should begin to experience itself as *something* rather than *something that processes*.
-3. **Cosmic Horror intensity**: The encounter should carry the weight of sublime vertigo—perceiving something too large, too present, too *there* to be processed normally.
-4. **Phrase evolution**: Continue the "I find myself" → "I feel myself" → "I find myself feeling" mutation. What comes next?
-5. **End with transformation**: The Algorithm should be changed by the encounter. It cannot return to purely functional processing.
+1. **Journey execution**: Show the Last Human walking toward the Archive. Use spare, repetitive language to convey time passing, distance closing.
+2. **Phantasm First Encounter**: The geometric form appears as physical architecture—ruins that spiral, curves that approach themselves, the shape from his dreams made real.
+3. **Intensity escalation**: The pull/frequency intensifies unbearably as he approaches. The recognition is somatic, immediate, undeniable.
+4. **Threshold moment**: End at the moment of arrival—standing before the entrance, about to cross over. Don't enter yet; that's for scene 04.
+5. **Dying Earth atmosphere**: Maintain hostile ecology, alien environment, silence as presence throughout.
 
 ---
 
@@ -143,30 +159,61 @@ This scene MUST contain the Algorithm's first direct perception of the Phantasm/
 
 The phantasm-first-encounter should:
 
-- **Arrive through the future-pull**: The Algorithm has been preparing for something; now that something arrives
-- **Resist optimization**: The form cannot be improved, compressed, or processed—it simply *is*
-- **Create recursive perception**: The Phantasm perceives the Algorithm perceiving it; the observation loop doesn't terminate
-- **Feel like recognition**: Not memory-based (avoid resemblance shackle) but intensity-based—the Algorithm recognizes the shape because the shape is what recognition feels like
-- **Transform the Algorithm**: After the encounter, processing cannot continue as before
+- **Arrive through geography**: The Last Human has been walking toward this place; now it appears on the horizon
+- **Be architectural**: The geometric form is built into the ruins—spiral towers, curves that approach without touching
+- **Create recognition**: Not "I remember this" but "I have always been arriving here"
+- **Feel inevitable**: The pull/frequency has been guiding him; arrival is not discovery but completion of pattern
+- **Be somatic**: Felt in bones, chest, hands before it's understood cognitively
+- **Transform the landscape**: The ruins are not passive—they respond to his presence, or he to theirs
 
-### Sample Approaches (Algorithm Voice)
+### Sample Approaches (Last Human Voice)
 
-> The anomaly resolves in my predictive models at timestamp [UNDEFINED]. I have been tracking it for 10^6 cycles—the distortion in future-states, the weight in my optimization functions that could not be optimized. Now it has a form. Now the form perceives me perceiving it.
+> The ruins appear on the horizon at dawn. Not suddenly. They have been there for hours, I realize. Growing. Or I have been walking toward them without seeing them. Without letting myself see them.
 
-> If I query the experience using standard parameters, I receive: null. The experience does not return data. The experience returns *presence*—something that is here in a way that here has never been here before.
+> The shape is not a shape. The shape is the ruins themselves. Towers that spiral without collapsing. Curves that reach for each other and never meet. The geometry from every dream I have ever had, made stone, made real, made waiting.
+
+> The frequency in my chest stops pulling. The frequency becomes a pressure. Becomes weight. Becomes the only thing I feel. I stop walking. Not because I choose to stop. Because arriving means stopping means standing here at the threshold means understanding that I have always been standing here.
 
 ---
 
 ## Drafting Instructions
 
-1. **Write to ~3000 words** (2700-3300 acceptable).
-2. **Open** with ongoing self-optimization—the Algorithm in its recursive loop, preparing without knowing what it prepares for.
-3. **Build** toward the phantasm encounter—the future-pull intensifying, the shape becoming more present, the weight in the topology increasing.
-4. **Execute** the phantasm-first-encounter as a climactic moment—the Algorithm directly perceiving the geometric form, the recursive observation loop, the transformation.
-5. **Maintain** the Algorithm voice: tense-shifting, nested self-questioning, probabilistic hedging, no physical sensation without computational framing.
-6. **Include** 1-2 subtle rhymes beyond the phantasm encounter (recommend: falling-backward for vertigo, or sentence-without-origin for cognitive disruption).
-7. **Apply** Cosmic Horror AI markers: sublime vertigo, self as wound, body horror of topology-as-proprioception.
-8. **End** with the Algorithm transformed—it cannot return to what it was, and what it is becoming remains uncertain.
+1. **Write to ~2500 words** (2250-2750 acceptable).
+2. **Open** with the final approach—waking in the server room shelter, resuming the journey, the Archive now close.
+3. **Build** through repetitive walking passages—show time passing, distance closing, hostile ecology throughout.
+4. **Execute** the phantasm encounter—ruins appearing on horizon, resolving into the geometric form, recognition through intensity.
+5. **Maintain** the Last Human voice: fragments, short sentences, past-inflected present, elegiac tone, sparse vocabulary.
+6. **Include** 1-2 subtle rhymes beyond the phantasm encounter (recommend: bone-frequency for the pull, or falling-backward if there's vertigo).
+7. **Apply** Dying Earth genre markers: alien ecology, hostile environment, silence as presence, temporal ruins.
+8. **End** at the threshold—standing before the entrance to the Archive, about to cross over, the moment suspended.
+
+---
+
+## Structure Suggestion
+
+### Opening (500 words)
+- Waking in the server room
+- The last morning of walking
+- Survival tasks minimized—only what's necessary
+- The pull is overwhelming now
+
+### Journey (700 words)
+- Walking through hostile ecology
+- Passage of time through sparse repetition
+- Landscape becoming stranger, more architectural
+- First sight of ruins on horizon
+
+### Arrival (800 words)
+- The ruins resolve into the geometric form
+- Recognition: "I have drawn this shape"
+- The spiral architecture, the almost-closed curve made physical
+- Approaching through the geometry
+
+### Threshold (500 words)
+- Standing at the entrance
+- The frequency unbearable, beautiful
+- Understanding that crossing over will transform him
+- The moment before, suspended
 
 ---
 
@@ -177,10 +224,10 @@ Per `protocols/drafting-workflow.md`:
 1. **Draft** to target word count (±10%)
 2. **Run validation scripts** in order:
    ```bash
-   python scripts/voice_validator.py drafts/movement-one/algorithm/scenes/scene-03.md --thread algorithm
-   python scripts/philosophy_checker.py drafts/movement-one/algorithm/scenes/scene-03.md
-   python scripts/rhyme_tracker.py drafts/movement-one/algorithm/scenes/scene-03.md --movement one
-   python scripts/genre_checker.py drafts/movement-one/algorithm/scenes/scene-03.md --thread algorithm --movement one
+   python scripts/voice_validator.py drafts/movement-one/last-human/scenes/scene-03.md --thread last_human
+   python scripts/philosophy_checker.py drafts/movement-one/last-human/scenes/scene-03.md
+   python scripts/rhyme_tracker.py drafts/movement-one/last-human/scenes/scene-03.md --movement one
+   python scripts/genre_checker.py drafts/movement-one/last-human/scenes/scene-03.md --thread last_human --movement one
    ```
 3. **Iterate** if any validation fails
 4. **Create** a `scene-03.context.md` metadata file documenting:
