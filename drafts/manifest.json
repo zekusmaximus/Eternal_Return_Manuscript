@@ -11,12 +11,12 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 13364,
+      "actual_words": 16200,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
           "target_words": 15000,
-          "actual_words": 5248,
+          "actual_words": 8084,
           "scenes": [
             {
               "id": "m1-arch-01",
@@ -51,13 +51,13 @@
               "title": "Lena and Marcus",
               "file": "movement-one/archaeologist/scenes/scene-03.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
+              "actual_words": 2836,
+              "status": "validated",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": ["deja-vu-that-isnt"],
               "notes": "Establish primary relationships, stakes"
             },
             {
