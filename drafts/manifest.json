@@ -11,7 +11,7 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 11120,
+      "actual_words": 13364,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
@@ -162,7 +162,7 @@
         "last_human": {
           "title": "The Last Human",
           "target_words": 10000,
-          "actual_words": 1064,
+          "actual_words": 3308,
           "scenes": [
             {
               "id": "m1-lh-01",
@@ -186,14 +186,14 @@
               "title": "Survival",
               "file": "movement-one/last-human/scenes/scene-02.md",
               "target_words": 2500,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "How he survives, his knowledge of history"
+              "actual_words": 2244,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": ["cold-hands", "almost-closed-curve"],
+              "notes": "How he survives, his knowledge of history. Daily survival rituals, Integration backstory, hostile ecology, transformation foreshadowing."
             },
             {
               "id": "m1-lh-03",
