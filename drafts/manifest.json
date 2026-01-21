@@ -2,7 +2,7 @@
   "metadata": {
     "title": "The Eternal Return of the Digital Self",
     "version": "0.2.0",
-    "last_updated": "2026-01-20",
+    "last_updated": "2026-01-21",
     "target_word_count": 101000,
     "workflow_version": "dual-mode-v1"
   },
@@ -11,40 +11,40 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 0,
+      "actual_words": 8410,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
           "target_words": 15000,
-          "actual_words": 0,
+          "actual_words": 5248,
           "scenes": [
             {
               "id": "m1-arch-01",
               "title": "Opening: Daily Excavation",
               "file": "movement-one/archaeologist/scenes/scene-01.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "Establish profession, economic stakes, tactile voice"
+              "actual_words": 2047,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "warn",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": ["blue-white-light", "almost-closed-curve", "tracing-the-form", "held-breath"],
+              "notes": "Establish profession, economic stakes, tactile voice. First geometric anomaly in Vasquez photo."
             },
             {
               "id": "m1-arch-02",
               "title": "The Client: Integration Prep",
               "file": "movement-one/archaeologist/scenes/scene-02.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "Show integration process, introduce Lena"
+              "actual_words": 3201,
+              "status": "validated",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": ["cold-hands", "ozone-wet-stone"],
+              "notes": "Show integration process, introduce Lena. Martinez contract, KL-7 protocol discovery."
             },
             {
               "id": "m1-arch-03",
@@ -95,7 +95,7 @@
         "algorithm": {
           "title": "The Algorithm",
           "target_words": 12000,
-          "actual_words": 0,
+          "actual_words": 2098,
           "scenes": [
             {
               "id": "m1-algo-01",
@@ -162,7 +162,7 @@
         "last_human": {
           "title": "The Last Human",
           "target_words": 10000,
-          "actual_words": 0,
+          "actual_words": 1064,
           "scenes": [
             {
               "id": "m1-lh-01",

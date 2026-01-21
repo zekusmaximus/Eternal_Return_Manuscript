@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/voice_validator.py:*)",
+      "Bash(python scripts/philosophy_checker.py:*)",
+      "Bash(python scripts/rhyme_tracker.py:*)",
+      "Bash(python scripts/genre_checker.py:*)"
+    ]
+  }
+}

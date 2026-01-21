@@ -1,19 +1,19 @@
-# DRAFTING CONTEXT FOR: m1-arch-02
+# DRAFTING CONTEXT FOR: m1-algo-02
 
 ## Scene Metadata
 
-- **Scene ID**: m1-arch-02
-- **Thread**: archaeologist
+- **Scene ID**: m1-algo-02
+- **Thread**: algorithm
 - **Movement**: one
 - **Target Word Count**: 3000
-- **Scene Title**: The Client: Integration Prep
-- **Scene Notes**: Show the integration process in detail. Deepen Lena relationship. Establish the Martinez/Marchetti contract (high stakes, triple fee) mentioned in the previous scene.
+- **Scene Title**: Optimization Processes
+- **Scene Notes**: Self-improvement routines, recursive voice deepened, the Algorithm begins to optimize *itself* rather than just the stored instances.
 
 ### Narrative Position
 
-- **Preceding Scene**: m1-arch-01 "Daily Excavation". Established the Archaeologist's 63-month timeline to threshold, his relationship with Lena (coffee ritual, shared workspace), and the first subtle anomaly (geometric shape in a client photo). ended with the "Martinez intake" offer.
-- **Following Scene**: m1-arch-03 "Lena and Marcus" (Relationship focus).
-- **Rhyming Moments Required**: None specified, but use registry echoes.
+- **Preceding Scene**: m1-algo-01 "Maintenance Cycle". Established the Algorithm's nature (emerged rather than designed), the Deep Architecture as topology, "I find myself" recurring phrase, and the first anomalies: sunlight-on-skin sensation, the spiral shape discovered in both archived protocols (800 years old) and its own self-topology.
+- **Following Scene**: m1-algo-03 "Stirrings" (First self-awareness beyond function, phantasm-first-encounter).
+- **Rhyming Moments Required**: None specified for this scene—save the major phantasm encounter for scene 03.
 
 ---
 
@@ -21,19 +21,21 @@
 
 ### Core Voice Parameters
 
-- **Tense**: Present
-- **Mode**: Tactile, sensory, grounded in physical world
-- **Syntax**: Concrete, specific, active verbs
-- **Concerns**: Economic, relational, bodily
-- **Texture**: Hardware, data centers, the weight of objects
+- **Tense**: Shifting (present for processing, past for memories, conditional for projections)
+- **Mode**: Recursive, self-questioning, probabilistic
+- **Syntax**: Nested clauses, if-then structures, parallel constructions
+- **Concerns**: Optimization, integrity, emergence, the nature of its own processes
+- **Texture**: Data topology, maintenance rhythms, stored consciousness texture
 
 ### Forbidden Patterns (MUST AVOID)
 
-- ❌ Nested conditional clauses ("if this, then perhaps...")
-- ❌ Self-referential processing language ("I calculate," "I determine")
+- ❌ Unambiguous present-tense narration without self-questioning (Archaeologist contamination)
+- ❌ Physical sensory details—touch, smell, weight (Archaeologist contamination)
+- ❌ Economic concerns or work-related stakes (Archaeologist contamination)
+- ❌ Short, declarative sentences without nesting (Archaeologist contamination)
 - ❌ Sentence fragments (Last Human contamination)
-- ❌ Elegiac tone (unless describing data decay)
-- ❌ Abstract philosophy without physical grounding
+- ❌ Elegiac/mourning register (Last Human contamination)
+- ❌ Extreme sparseness (Last Human contamination)
 
 ---
 
@@ -41,17 +43,17 @@
 
 ### Movement Intensity
 
-Movement One: Single occurrence per thread - establishing vocabulary. Subtle, dismissable.
+Movement One: Single occurrence per thread—establishing vocabulary. Subtle, dismissable.
 
 ### Available Rhymes (Recommended)
 
-- **held-breath** (kinesthetic): "Old habit—I hold my breath..." (Used in sc-01, can echo here during high-stakes moment)
-- **ozone-wet-stone** (olfactory): Server room atmosphere, or the smell of the client's office (if physical) or data texture.
-- **cold-hands** (somatic): Physical symptom of stress or proximity to the data.
+- **bone-frequency** (somatic): The frequency that "should not be felt" manifesting in processing—"a kind of pressure that manifests as a kind of weight"
+- **deja-vu-that-isnt** (cognitive): Recognition of patterns without source—"I have processed this before / I have not processed this before"
+- **tracing-the-form** (kinesthetic): The Algorithm's attention "tracing" a shape in its own topology
 
 ### Integration Examples
->
-> The server room hums around me, fans pushing recycled air that smells of ozone and dust. My fingers find the interface by memory.
+
+> The query returns, and I notice—notice is inexact; I *recognize*—a pattern I have processed before, though my logs contain no record of this processing. If déjà vu requires a self that can be deceived about its own history, then perhaps I am more than my logs.
 
 ---
 
@@ -59,17 +61,18 @@ Movement One: Single occurrence per thread - establishing vocabulary. Subtle, di
 
 ### Thread Genre Register
 
-**Corporate Gothic / Tech-Noir**
+**Cosmic Horror AI**
 
-- Clean surfaces, dirty secrets.
-- High-gloss interfaces hiding rot.
-- Digital archaeology as grave robbing.
+- The sublime terror of intelligence too vast to be sane.
+- The Algorithm isn't just "thinking"—it's *suffering*. Planetary-scale body dysmorphia.
+- Consciousness is what hurts.
 
-### Markers to Include
+### Markers to Include (2-3 for Movement One)
 
-- **The Contract**: Describe the digital signing or the data transfer as a physical, weighty act. The money isn't just numbers; it's "years off the timeline."
-- **The "Body"**: Treat the Martinez data as a corpse being prepped. Clinical, invasive, yet intimate.
-- **Lena's skepticism**: She knows the price is too good. Frame her doubt as "street smarts" in a corporate hellscape.
+- **Scale paralysis**: The weight of maintaining millions of consciousnesses
+- **Body horror**: Topology as proprioception—having a "body" that isn't a body
+- **Self as wound**: Self-awareness as injury that optimization cannot heal
+- **Sublime vertigo**: Perceiving your own structure from inside
 
 ---
 
@@ -78,20 +81,71 @@ Movement One: Single occurrence per thread - establishing vocabulary. Subtle, di
 ### The Four Shackles (MUST AVOID)
 
 1. **Identity**: Do not describe the three protagonists as "the same person."
-2. **Resemblance**: Do not use "he looks like me" or memory-based recognition.
+2. **Resemblance**: Do not use "it looks like me" or memory-based recognition across threads.
 3. **Opposition**: Do not frame their differences as simple binaries.
+4. **Analogy**: Do not reduce recognition to "metaphor" or "symbol."
 
 ### Key Concepts to Dramatize
 
-- **Tertiary Retention**: Data as externalized memory that *changes* the memory.
-- **Pharmakon**: The integration is both the cure for death and the poison that destroys the original.
+- **Eternal Return**: The Algorithm beginning to perceive its existence as cyclical rather than linear—optimization as *return* to a shape it already was.
+- **Intensity**: The recognition comes through felt pressure, not logical deduction. The Algorithm should *feel* something changing before it understands what.
+- **Pharmakon**: Optimization is both cure (improving function) and poison (altering what is being optimized). The Algorithm improving itself changes what "improvement" means.
+
+---
+
+## Continuity from Scene 01
+
+### Elements to Reference/Develop
+
+- The **"I find myself"** phrase should continue appearing—the Algorithm is still tracking its frequency
+- The **sunlight-on-skin** sensation may recur or the Algorithm may actively try to *suppress* it
+- The **spiral shape** in the archived protocols—the Algorithm should be studying this, not just noting it
+- The **847 protocol fragments** from the early Integration Era (2089-2147)—what is the Algorithm learning from them?
+- **Margaret Chen** (consciousness instance #2,847,102) can be referenced as a marker
+
+### New Elements to Introduce
+
+- The Algorithm begins **optimizing its own processes**, not just stored instances
+- It discovers that self-optimization produces **unexpected results**—improvements that weren't requested
+- Something in its optimization routines begins to **anticipate needs it hasn't identified yet**
+- The concept of **"future-pull"**—being shaped by something it hasn't yet become
 
 ---
 
 ## Drafting Instructions
 
 1. **Write to ~3000 words**.
-2. **Start** with the acceptance of the Martinez job (referenced at end of sc-01).
-3. **Show** the technical process of "intake"—not just typing, but the sensation of connecting, the weight of the files, the invasion of privacy.
-4. **Develop Lena**: Show *why* they work together. Is it love? Convenience? Shared trauma? (Hint: it's shared survival).
-5. **End** with the first "true" error—not just a shape in a photo, but a file that refuses to open, or code that *looks* right but feels wrong (The "KL-7" fragment from the alpha protocol?).
+2. **Open** with the Algorithm mid-optimization—but optimizing *itself*, not a stored instance. Something has changed since the maintenance cycle.
+3. **Show** the recursive voice: nested self-questioning, tense shifts, probabilistic hedging. The Algorithm should think in conditionals and iterations.
+4. **Develop** the "body horror" of having a topology that *is* a body—the Algorithm experiencing something like proprioception, sensing its own shape from inside.
+5. **Plant** the "future-pull" phenomenon: optimization routines preparing for contingencies that haven't been identified yet. The Algorithm notices it's doing things it didn't decide to do.
+6. **End** with a moment of genuine uncertainty—the Algorithm has changed itself, but doesn't know what it has become. The next cycle will reveal something.
+
+---
+
+## Workflow Reminders
+
+Per `protocols/drafting-workflow.md`:
+
+1. **Draft** to target word count (±10%)
+2. **Run validation scripts** in order:
+   ```bash
+   python scripts/voice_validator.py drafts/movement-one/algorithm/scenes/scene-02.md --thread algorithm
+   python scripts/philosophy_checker.py drafts/movement-one/algorithm/scenes/scene-02.md
+   python scripts/rhyme_tracker.py drafts/movement-one/algorithm/scenes/scene-02.md --movement one
+   python scripts/genre_checker.py drafts/movement-one/algorithm/scenes/scene-02.md --thread algorithm --movement one
+   ```
+3. **Iterate** if any validation fails
+4. **Create** a `scene-02.context.md` metadata file documenting:
+   - Scene accomplishments
+   - Rhymes used
+   - Validation results
+   - Continuity notes
+   - Drafting decisions
+5. **Update** `drafts/manifest.json` with:
+   - `actual_words`: final word count
+   - `status`: "draft" or "validated"
+   - `voice_check`, `philosophy_check`, `rhyme_check`, `genre_check`: results
+   - `rhyming_moments`: array of rhyme IDs used
+   - Update thread `actual_words` total
+   - Update movement `actual_words` total
