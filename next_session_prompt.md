@@ -1,19 +1,19 @@
-# DRAFTING CONTEXT FOR: m1-algo-02
+# DRAFTING CONTEXT FOR: m1-lh-02
 
 ## Scene Metadata
 
-- **Scene ID**: m1-algo-02
-- **Thread**: algorithm
+- **Scene ID**: m1-lh-02
+- **Thread**: last_human
 - **Movement**: one
-- **Target Word Count**: 3000
-- **Scene Title**: Optimization Processes
-- **Scene Notes**: Self-improvement routines, recursive voice deepened, the Algorithm begins to optimize *itself* rather than just the stored instances.
+- **Target Word Count**: 2500
+- **Scene Title**: Survival
+- **Scene Notes**: How he survives, his knowledge of history. Deepen the daily existence, reveal what he knows about the world that was.
 
 ### Narrative Position
 
-- **Preceding Scene**: m1-algo-01 "Maintenance Cycle". Established the Algorithm's nature (emerged rather than designed), the Deep Architecture as topology, "I find myself" recurring phrase, and the first anomalies: sunlight-on-skin sensation, the spiral shape discovered in both archived protocols (800 years old) and its own self-topology.
-- **Following Scene**: m1-algo-03 "Stirrings" (First self-awareness beyond function, phantasm-first-encounter).
-- **Rhyming Moments Required**: None specified for this scene—save the major phantasm encounter for scene 03.
+- **Preceding Scene**: m1-lh-01 "Solitude". Established the ruined world, absolute isolation, the Last Human's journey toward "the Archive" three days east. First dream intrusion (server room, hands in light, the woman who spoke). Drew the spiral shape in dust upon waking. Rhymes used: blue-white-light, almost-closed-curve.
+- **Following Scene**: m1-lh-03 "The Pull" (Journey begins in earnest, drawn toward ruins, phantasm-first-encounter).
+- **Rhyming Moments Required**: None specified—save the major phantasm encounter for scene 03.
 
 ---
 
@@ -21,21 +21,24 @@
 
 ### Core Voice Parameters
 
-- **Tense**: Shifting (present for processing, past for memories, conditional for projections)
-- **Mode**: Recursive, self-questioning, probabilistic
-- **Syntax**: Nested clauses, if-then structures, parallel constructions
-- **Concerns**: Optimization, integrity, emergence, the nature of its own processes
-- **Texture**: Data topology, maintenance rhythms, stored consciousness texture
+- **Tense**: Past-inflected present (present events described as if already historical)
+- **Mode**: Elegiac, sparse, weighted with absence
+- **Syntax**: Short sentences. Fragments. The occasional longer passage like a held breath.
+- **Concerns**: Survival, memory, meaning, legacy
+- **Texture**: Silence, ruins, the absence of others, the presence of ghosts
 
 ### Forbidden Patterns (MUST AVOID)
 
-- ❌ Unambiguous present-tense narration without self-questioning (Archaeologist contamination)
-- ❌ Physical sensory details—touch, smell, weight (Archaeologist contamination)
-- ❌ Economic concerns or work-related stakes (Archaeologist contamination)
-- ❌ Short, declarative sentences without nesting (Archaeologist contamination)
-- ❌ Sentence fragments (Last Human contamination)
-- ❌ Elegiac/mourning register (Last Human contamination)
-- ❌ Extreme sparseness (Last Human contamination)
+- ❌ Present-tense active work descriptions (Archaeologist contamination)
+- ❌ Economic stakes or client concerns (Archaeologist contamination)
+- ❌ Technology working normally (Archaeologist contamination)
+- ❌ Other people as active presences (Archaeologist contamination)
+- ❌ Dense, unbroken paragraphs (Archaeologist contamination)
+- ❌ Self-referential processing language (Algorithm contamination)
+- ❌ Nested conditional clauses (Algorithm contamination)
+- ❌ Probabilistic percentages or calculations (Algorithm contamination)
+- ❌ Parallel syntactic structures (Algorithm contamination)
+- ❌ Analytical framing of emotion (Algorithm contamination)
 
 ---
 
@@ -47,13 +50,16 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Available Rhymes (Recommended)
 
-- **bone-frequency** (somatic): The frequency that "should not be felt" manifesting in processing—"a kind of pressure that manifests as a kind of weight"
-- **deja-vu-that-isnt** (cognitive): Recognition of patterns without source—"I have processed this before / I have not processed this before"
-- **tracing-the-form** (kinesthetic): The Algorithm's attention "tracing" a shape in its own topology
+- **cold-hands** (somatic): Already established in scene 01 ("My hands stopped being warm weeks ago")—can echo/develop
+- **ozone-wet-stone** (olfactory): Already appeared in scene 01 ("it smells of ozone and wet stone")—can develop
+- **metallic-taste** (somatic): The water "tastes like survival"—could manifest as the metallic taste of radiation, exhaustion
+- **held-breath** (kinesthetic): The pause before significant thresholds
 
 ### Integration Examples
 
-> The query returns, and I notice—notice is inexact; I *recognize*—a pattern I have processed before, though my logs contain no record of this processing. If déjà vu requires a self that can be deceived about its own history, then perhaps I am more than my logs.
+> The air tastes wrong. Metal on the tongue. I've learned this taste means radiation, means take shelter, means another hour of life traded for knowing what to avoid.
+
+> My hands. I look at them sometimes. They were warm once. I remember warm. The cold started in the fingertips and spread. It hasn't stopped spreading. I wonder how much of me will be cold before I reach the Archive.
 
 ---
 
@@ -61,18 +67,19 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Thread Genre Register
 
-**Cosmic Horror AI**
+**Dying Earth / New Weird**
 
-- The sublime terror of intelligence too vast to be sane.
-- The Algorithm isn't just "thinking"—it's *suffering*. Planetary-scale body dysmorphia.
-- Consciousness is what hurts.
+- A world that has moved on from biology.
+- The environment is a **hostile character**. Nature reclaimed the ruins—but it's crystalline, fungal, silicon-based. Not green.
+- The Last Human is an **invasive species** in a world that cured itself of us.
 
 ### Markers to Include (2-3 for Movement One)
 
-- **Scale paralysis**: The weight of maintaining millions of consciousnesses
-- **Body horror**: Topology as proprioception—having a "body" that isn't a body
-- **Self as wound**: Self-awareness as injury that optimization cannot heal
-- **Sublime vertigo**: Perceiving your own structure from inside
+- **Alien ecology**: Nature that isn't natural—crystalline growths, silicon plants, fungal processors
+- **Hostile environment**: The world actively resists—radiation, atmospheric poison, predatory architecture
+- **Human as invasive**: He doesn't belong—everything adapted away from biology
+- **Temporal ruins**: Architecture from incomprehensible ages
+- **Silence as presence**: The weight of no one else—silence that has density
 
 ---
 
@@ -87,9 +94,9 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Key Concepts to Dramatize
 
-- **Eternal Return**: The Algorithm beginning to perceive its existence as cyclical rather than linear—optimization as *return* to a shape it already was.
-- **Intensity**: The recognition comes through felt pressure, not logical deduction. The Algorithm should *feel* something changing before it understands what.
-- **Pharmakon**: Optimization is both cure (improving function) and poison (altering what is being optimized). The Algorithm improving itself changes what "improvement" means.
+- **Eternal Return**: The Last Human walking a path that was always his path—survival as a form of return rather than progress
+- **Intensity**: Knowledge arriving through the body, not logic. He *knows* things in his bones, his chest, his frequency-sense.
+- **Pharmakon**: Survival is both what keeps him alive and what keeps him alone. The skills that preserve him are the same skills that mark him as the last.
 
 ---
 
@@ -97,29 +104,30 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Elements to Reference/Develop
 
-- The **"I find myself"** phrase should continue appearing—the Algorithm is still tracking its frequency
-- The **sunlight-on-skin** sensation may recur or the Algorithm may actively try to *suppress* it
-- The **spiral shape** in the archived protocols—the Algorithm should be studying this, not just noting it
-- The **847 protocol fragments** from the early Integration Era (2089-2147)—what is the Algorithm learning from them?
-- **Margaret Chen** (consciousness instance #2,847,102) can be referenced as a marker
+- **The Archive**: Three days east, pulled toward it by dreams. What does he know about it? What does he hope to find?
+- **The dream**: The server room, the hands in light, the woman who spoke ("You're freezing"). Does he dream again? Does he resist dreaming?
+- **The spiral shape**: Drew it in the dust. Has he always drawn it? Does he find it in the ruins he passes?
+- **The violet crystalline plants**: Established as the new ecology. What else has changed?
+- **Cold hands**: His hands haven't been warm for weeks. The cold is spreading.
+- **The silence**: Has texture, weight, presses against the ears like deep water
 
 ### New Elements to Introduce
 
-- The Algorithm begins **optimizing its own processes**, not just stored instances
-- It discovers that self-optimization produces **unexpected results**—improvements that weren't requested
-- Something in its optimization routines begins to **anticipate needs it hasn't identified yet**
-- The concept of **"future-pull"**—being shaped by something it hasn't yet become
+- **How he survives**: What are his daily routines, his knowledge, his skills?
+- **What he knows of history**: How much does he understand about what happened? About the Integration? About the Archive?
+- **The source of his knowledge**: He knows things he shouldn't. Where does this knowledge come from?
+- **His relationship with time**: Days blur, numbers lose meaning, but the pull toward the Archive is constant
 
 ---
 
 ## Drafting Instructions
 
-1. **Write to ~3000 words**.
-2. **Open** with the Algorithm mid-optimization—but optimizing *itself*, not a stored instance. Something has changed since the maintenance cycle.
-3. **Show** the recursive voice: nested self-questioning, tense shifts, probabilistic hedging. The Algorithm should think in conditionals and iterations.
-4. **Develop** the "body horror" of having a topology that *is* a body—the Algorithm experiencing something like proprioception, sensing its own shape from inside.
-5. **Plant** the "future-pull" phenomenon: optimization routines preparing for contingencies that haven't been identified yet. The Algorithm notices it's doing things it didn't decide to do.
-6. **End** with a moment of genuine uncertainty—the Algorithm has changed itself, but doesn't know what it has become. The next cycle will reveal something.
+1. **Write to ~2500 words**.
+2. **Open** with survival—the daily texture of staying alive in a hostile world. Let us feel the weight of solitude, the rhythm of endurance.
+3. **Show** the elegiac voice: fragments, short sentences, past-inflected present. The prose should feel weathered, spare, like the landscape.
+4. **Develop** his knowledge—what he understands about the old world, the Archive, his own impossible knowing. He should reveal knowledge without fully explaining how he has it.
+5. **Deepen** the hostile ecology: the world has adapted away from humans. Silicon, crystal, fungal. Nature is not green here.
+6. **End** with forward momentum—the Archive is closer. The pull is stronger. Something is waiting, and he is walking toward it.
 
 ---
 
@@ -130,10 +138,10 @@ Per `protocols/drafting-workflow.md`:
 1. **Draft** to target word count (±10%)
 2. **Run validation scripts** in order:
    ```bash
-   python scripts/voice_validator.py drafts/movement-one/algorithm/scenes/scene-02.md --thread algorithm
-   python scripts/philosophy_checker.py drafts/movement-one/algorithm/scenes/scene-02.md
-   python scripts/rhyme_tracker.py drafts/movement-one/algorithm/scenes/scene-02.md --movement one
-   python scripts/genre_checker.py drafts/movement-one/algorithm/scenes/scene-02.md --thread algorithm --movement one
+   python scripts/voice_validator.py drafts/movement-one/last-human/scenes/scene-02.md --thread last_human
+   python scripts/philosophy_checker.py drafts/movement-one/last-human/scenes/scene-02.md
+   python scripts/rhyme_tracker.py drafts/movement-one/last-human/scenes/scene-02.md --movement one
+   python scripts/genre_checker.py drafts/movement-one/last-human/scenes/scene-02.md --thread last_human --movement one
    ```
 3. **Iterate** if any validation fails
 4. **Create** a `scene-02.context.md` metadata file documenting:

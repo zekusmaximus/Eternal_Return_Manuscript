@@ -11,7 +11,7 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 8410,
+      "actual_words": 11120,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
@@ -95,7 +95,7 @@
         "algorithm": {
           "title": "The Algorithm",
           "target_words": 12000,
-          "actual_words": 2098,
+          "actual_words": 4808,
           "scenes": [
             {
               "id": "m1-algo-01",
@@ -118,14 +118,14 @@
               "title": "Optimization Processes",
               "file": "movement-one/algorithm/scenes/scene-02.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "Self-improvement, recursive voice"
+              "actual_words": 2710,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": ["almost-closed-curve", "bone-frequency"],
+              "notes": "Self-improvement, recursive voice. Introduces future-pull, self-optimization recursion, topology-as-body."
             },
             {
               "id": "m1-algo-03",
