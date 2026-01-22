@@ -2,7 +2,7 @@
   "metadata": {
     "title": "The Eternal Return of the Digital Self",
     "version": "0.2.0",
-    "last_updated": "2026-01-21",
+    "last_updated": "2026-01-22",
     "target_word_count": 101000,
     "workflow_version": "dual-mode-v1"
   },
@@ -11,7 +11,7 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 27773,
+      "actual_words": 30142,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
@@ -169,7 +169,7 @@
         "last_human": {
           "title": "The Last Human",
           "target_words": 10000,
-          "actual_words": 5915,
+          "actual_words": 8284,
           "scenes": [
             {
               "id": "m1-lh-01",
@@ -228,14 +228,23 @@
               "title": "The Dream",
               "file": "movement-one/last-human/scenes/scene-04.md",
               "target_words": 2500,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "First dream of the other two, Act 1 climax"
+              "actual_words": 2369,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "warn",
+              "rhyming_moments": [
+                "sentence-without-origin",
+                "falling-backward",
+                "deja-vu-that-isnt",
+                "blue-white-light",
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "tracing-the-form"
+              ],
+              "notes": "First dream of the other two, Act 1 climax. Dream sequences contain intentional voice/genre contamination as LH experiences Archaeologist and Algorithm from inside. Philosophy check passed (recognition through intensity, not resemblance)."
             }
           ]
         }
