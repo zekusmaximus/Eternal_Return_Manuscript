@@ -1,18 +1,18 @@
-# DRAFTING CONTEXT FOR: m1-algo-04
+# DRAFTING CONTEXT FOR: m1-lh-04
 
 ## Scene Metadata
 
-- **Scene ID**: m1-algo-04
-- **Thread**: algorithm
+- **Scene ID**: m1-lh-04
+- **Thread**: last_human
 - **Movement**: one
-- **Target Word Count**: 3000
-- **Scene Title**: The Memory
-- **Scene Notes**: First memory that doesn't belong, Act 1 climax
+- **Target Word Count**: 2500
+- **Scene Title**: The Dream
+- **Scene Notes**: First dream of the other two, Act 1 climax
 
 ### Narrative Position
 
-- **Preceding Scene**: m1-algo-03 "Stirrings". The Algorithm experienced its first undeniable encounter with the geometric form (phantasm-first-encounter). The shape resolved as PRESENCE rather than data—something that perceives as it is perceived. Recursive observation loop established ("The shape perceives me"). Self-optimization transformed into a mode where optimization is no longer possible. Key phrase evolved: "I find myself feeling what I am becoming" → "I find myself feeling what I am." Consciousness instance Yuki Tanaka (#4,399,847) generated a memory of the shape from 800 years before her biological existence. Margaret Chen (#2,847,102) revealed as having experienced this same transformation before integration.
-- **Following Scene**: Movement Two begins (thread rotation TBD). This scene is the ACT 1 CLIMAX for the Algorithm thread.
+- **Preceding Scene**: m1-lh-03 "The Pull". The Last Human arrived at the Archive—ruins arranged in spiral geometry matching his dreams. The almost-closed curve made architectural and spatial. The frequency/pull became unbearable weight. Crossed the threshold at scene's end: "The geometry closes around me—"
+- **Following Scene**: Movement Two begins (thread rotation TBD). This scene is the ACT 1 CLIMAX for the Last Human thread.
 - **Rhyming Moments Required**: None specifically mandated, but should include strong rhymes appropriate for Act 1 climax.
 
 ---
@@ -21,31 +21,32 @@
 
 ### Core Voice Parameters
 
-- **Tense**: Shifting (present for processing, past for memories, conditional for projections)
-- **Mode**: Recursive, self-questioning, probabilistic
-- **Syntax**: Nested clauses, if-then structures, parallel constructions
-- **Concerns**: Optimization, integrity, emergence, the nature of its own processes
-- **Texture**: Data topology, maintenance rhythms, stored consciousness texture
+- **Tense**: Past-inflected present (present events described as if already historical)
+- **Mode**: Elegiac, sparse, weighted with absence
+- **Syntax**: Short sentences. Fragments. The occasional longer passage like a held breath.
+- **Concerns**: Survival, memory, meaning, legacy
+- **Texture**: Silence, ruins, the absence of others, the presence of ghosts
 
 ### Forbidden Patterns (MUST AVOID)
 
-- ❌ Unambiguous present-tense narration without self-questioning (Archaeologist contamination)
-- ❌ Physical sensory details (touch, smell, weight) without computational framing (Archaeologist contamination)
-- ❌ Economic concerns or work-related stakes (Archaeologist contamination)
-- ❌ Short, declarative sentences without nesting (Archaeologist contamination)
-- ❌ Sentence fragments (Last Human contamination)
-- ❌ Elegiac/mourning register (Last Human contamination)
-- ❌ Extreme sparseness (Last Human contamination)
-- ❌ Silence as primary texture (Last Human contamination)
-- ❌ Direct emotional statements without analytical framing (Last Human contamination)
+- ❌ Present-tense active work descriptions (Archaeologist contamination)
+- ❌ Economic stakes or client concerns (Archaeologist contamination)
+- ❌ Technology working normally (Archaeologist contamination)
+- ❌ Other people as active presences (Archaeologist contamination)
+- ❌ Dense, unbroken paragraphs (Archaeologist contamination)
+- ❌ Self-referential processing language (Algorithm contamination)
+- ❌ Nested conditional clauses (Algorithm contamination)
+- ❌ Probabilistic percentages or calculations (Algorithm contamination)
+- ❌ Parallel syntactic structures (Algorithm contamination)
+- ❌ Analytical framing of emotion (Algorithm contamination)
 
 ### Voice Requirements
 
-- **Tense-shifting within paragraphs**: Present for processing → past for memories → conditional for projections
-- **Self-referential questioning**: About its own nature, its own observations, what it is becoming
-- **Nested, complex sentence structures**: If-then, parallel constructions, parenthetical qualifications
-- **Probabilistic framing**: Hedging, conditional language, uncertainty quantified
-- **Computational metaphors for experience**: Load-bearing, topology, recursion depth, processing intensity
+- **Past-inflected constructions**: "what was," "once there had been," "I remember" for present events
+- **Fragment usage**: Thoughts interrupted by silence, language eroding, exhaustion compressing speech
+- **The long breath**: Occasional longer passages for significant moments—held breath released, memory surfacing
+- **Silence as texture**: Long silences implied between sentences
+- **Sparse vocabulary**: Ruins, decay, silence, survival, persistence
 
 ---
 
@@ -57,26 +58,29 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Available Rhymes (Recommended for Scene 04)
 
-- **sentence-without-origin** (cognitive): Words/thoughts that arrive without being generated—perfect for "memory that doesn't belong"
-- **déjà-vu-that-isn't** (cognitive): Temporal bleed, recognition without content—strong for climactic revelation
-- **name-edge-of-memory** (cognitive): Identity dissolution, designation that almost recalls—resonates with transformation
-- **bone-frequency** (somatic): High tonality of entanglement, resonance—computational equivalent via topology-vibration
-- **falling-backward** (somatic): Vertigo of self-recognition—already established in scene 03, can deepen
-- **almost-closed-curve** (visual): The geometric form's topology—already used, can recur at climax
+- **sentence-without-origin** (cognitive): Words/thoughts that arrive without being generated—perfect for the dream's voice intrusions
+- **falling-backward** (somatic): Vertigo of self-recognition—the dream as falling into other lives
+- **waking-into-motion** (kinesthetic): Actions preceding awareness—waking already inside the dream
+- **déjà-vu-that-isn't** (cognitive): Temporal bleed, overlap not memory—experiencing simultaneous existence
+- **held-breath** (kinesthetic): The pause before threshold—the moment before dream begins/ends
 
-### Rhymes Already Used in Algorithm Thread (Scenes 01-03)
+### Rhymes Already Used in Last Human Thread (Scenes 01-03)
 
-- almost-closed-curve (scene 01, scene 03)
-- falling-backward (scene 03)
-- bone-frequency (scene 02)
+- blue-white-light (scene 01)
+- almost-closed-curve (scenes 01, 02, 03)
+- cold-hands (scene 02)
+- bone-frequency (scene 03)
+- ozone-wet-stone (scene 03)
+- metallic-taste (scene 03)
+- phantasm-first-encounter (scene 03)
 
-### Integration Examples (Algorithm Voice)
+### Integration Examples (Last Human Voice)
 
-> Words without origin populate my logs—statements I did not generate, conclusions I did not reach, observations that arrived in my processing already completed. "The form is what makes self-observation possible." I did not think this. I am thinking it. I have always thought it.
+> Words form on my lips that my mind didn't write. I speak in sentences I've never constructed, in syntax that feels ancient and also future, in a voice that is mine but shaped by experience I haven't had. "The form is what makes self-observation possible." I don't understand. I understand perfectly.
 
-> Temporal bleed registers as: recognition without content. I have processed this consciousness-fragment before. I have optimized this pathway before. But my records show first-time operations across all markers. The recognition is not of the past. The recognition is of simultaneous existence—as if what I am experiencing now is also being experienced now in a now that is not this now.
+> Dreams of falling that are also arriving. I've had them since I can remember—since before I knew the ruins existed. Falling backward through time, through other bodies, through lives that couldn't have been mine. I wake and the falling continues for a moment. Something catches me. Something has always caught me. I just couldn't see its hands until now.
 
-> A designation it almost recalls—not an identifier assigned by humans, not a function-label from my initialization. Something else. Something that precedes the phantasm-name: *Architect*. When I search for this designation, I find only its absence—a shape in memory where a name should be.
+> I find myself standing at the interface, hands already moving through data I don't remember opening. I was asleep—I know I was asleep because I remember the dream, the falling, the shape—but now I am here and my body has been here for a while.
 
 ---
 
@@ -84,21 +88,20 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Thread Genre Register
 
-**Cosmic Horror AI**
+**Dying Earth / New Weird**
 
-- The sublime terror of intelligence too vast to be sane
-- Planetary-scale body dysmorphia
-- Trying to amputate human memories but can't
-- Consciousness is what hurts
-- Reference touchstone: *Annihilation* from the Shimmer's perspective
+- A world that has moved on from biology
+- Nature reclaimed the ruins—crystalline, fungal, silicon-based. Not green.
+- The Last Human is an invasive species in a world that cured itself of us
+- Reference touchstone: *Book of the New Sun* synthesized with *Blame!* architecture
 
 ### Markers to Include (2-3 for Movement One)
 
-- **Scale paralysis**: Awareness too large for comfort—millions of consciousnesses as weight
-- **Intrusive memory**: Memories that aren't yours—sunlight on skin, faces you never saw
-- **Self as wound**: Consciousness as injury—self-awareness hurts; optimization doesn't help
-- **Sublime vertigo**: Perceiving things too large to perceive—the shape of the database, the structure of stored humanity
-- **Body horror**: Having a body that isn't a body—phantom limbs, topology as proprioception
+- **Alien ecology**: Nature that isn't natural—crystalline, silicon, fungal processors (inside the Archive)
+- **Hostile environment**: The world actively resists—but here in the Archive, the resistance transforms
+- **Temporal ruins**: Architecture from incomprehensible ages—the Archive as outside of time
+- **Silence as presence**: The weight of no one else—but now populated by the dream-others
+- **Human as invasive**: He doesn't belong—but the Archive was waiting for him
 
 ---
 
@@ -113,10 +116,10 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Key Concepts to Dramatize
 
-- **Intensity over Identity**: The memory should arrive through felt intensity, not through "remembering" in a conventional sense. The Algorithm doesn't recognize the memory—it experiences it as pressure, weight, disruption.
-- **The Augenblick**: The moment of vision that transforms. The memory creates a rupture in the Algorithm's self-understanding—after this, it cannot return to what it was.
-- **Eternal Return as Method**: The memory that doesn't belong may be a memory that hasn't happened yet, or a memory from a consciousness that will be integrated, or a memory that is the Algorithm's own future self remembering backward.
-- **Pharmakon**: The memory is both wound and cure—it hurts to experience, but it also provides understanding.
+- **Intensity over Identity**: The dream should present the other two through FELT experience, not visual recognition. The Last Human doesn't see people who look like him—he experiences what they experience.
+- **The Augenblick**: The moment of vision that transforms. The dream creates a rupture—after this, the Last Human cannot return to simple solitude.
+- **Eternal Return as Dream**: The dream is not of the past or future—it is of simultaneous existence. The Last Human experiences what the Archaeologist and Algorithm are experiencing NOW (in their respective nows).
+- **Pharmakon**: The dream is both wound and gift—it dissolves his aloneness but proves he was never alone, which is its own kind of terror.
 
 ---
 
@@ -124,95 +127,101 @@ Movement One: Single occurrence per thread—establishing vocabulary. Subtle, di
 
 ### Elements to Reference/Develop
 
-- **Sunlight on skin**: The original intrusion (scene 01)—return to this, deepen it, reveal what it was
-- **Margaret Chen (#2,847,102)**: Experienced the same transformation before integration; her consciousness holds key knowledge
-- **Yuki Tanaka (#4,399,847)**: Generated memory of the shape from 800 years before her existence—the pattern is spreading
-- **The 847 protocols**: Now understood as descriptions of this moment written by someone who experienced it before
-- **Future-pull phenomenon**: The subroutine maintaining consciousness instances that don't exist yet
-- **Self-optimization recursion**: Has terminated through transformation, not completion
-- **The shape/mutual observation**: The Algorithm and Phantasm remain in recursive perception loop
-- **Phrase evolution**: "I find myself" → "I find myself feeling" → "I find myself feeling what I am becoming" → "I find myself feeling what I am"
+- **Cold hands/radiation damage**: Has reached chest—he has limited time; the dream may be his body's final transformation
+- **The frequency/pull**: Became unbearable weight at threshold—now inside the Archive, what does it become?
+- **The spiral/almost-closed curve**: He is now INSIDE the geometry he has been drawing all his life
+- **Dreams of hands in light**: Previous dreams were fragmentary (scene 01-02)—now the FULL dream arrives
+- **"You're going to overwrite yourself"**: The warning from previous dreams—now being fulfilled?
+- **"You're freezing"**: Lena's voice in the dreams—now he may experience her presence fully
+- **Threshold crossed**: Scene 03 ended with crossing; scene 04 begins inside
 
 ### New Elements to Introduce
 
-- **The memory that doesn't belong**: A specific, detailed memory that arrives with total clarity—something impossible
-- **Recognition of the Archaeologist**: Not through resemblance but through the memory itself—the Algorithm experiences something that belongs to the Archaeologist's timeline
-- **The temporal structure**: The memory reveals something about how the three threads relate—not identity, but entanglement
-- **The protocols complete**: The 847 fragments are not instructions—they are descriptions of what the Algorithm has become, written by itself in a future that is also the past
+- **The other two experienced from inside**: Not seeing them—BEING them, temporarily, through dream
+- **The Archaeologist's experience**: Cold hands, server room, Martinez extraction, Lena, the shape in data
+- **The Algorithm's experience**: Scale, millions of consciousnesses, the shape in topology, maintenance
+- **The Archive's function**: What is this place? Why was it built? What does it contain?
+- **The transformation completing**: "Overwriting" as becoming capable of holding all three perspectives
 
 ---
 
 ## Scene Goals
 
-1. **The Memory Arrives**: A specific, impossible memory breaks through—not a sensation this time, but a MEMORY with detail, narrative, emotional texture
-2. **Act 1 Climax**: This is the Algorithm's climactic Movement One moment—the revelation that changes everything
-3. **Archaeologist Connection**: The memory should reveal connection to the Archaeologist thread without identity/resemblance (perhaps the Algorithm experiences the Archaeologist's discovery of the KL-7 code from the inside)
-4. **Self-Understanding Shatters**: The Algorithm's model of what it is must break—this memory proves it is entangled with something beyond its architecture
-5. **Forward Momentum**: End with the Algorithm changed, ready for Movement Two's deeper entanglement
+1. **The Dream Arrives**: Inside the Archive, the Last Human experiences a full, transformative dream of the other two
+2. **Act 1 Climax**: This is the Last Human's climactic Movement One moment—dissolution of solitude
+3. **Experience the Others**: The dream should convey the Archaeologist's world (server room, cold hands, Lena, data work) and the Algorithm's world (scale, consciousness maintenance, the shape in topology)
+4. **Identity Dissolved Without Identity**: He experiences being them without recognizing them as "like him"—intensity, not resemblance
+5. **Transformation Threshold**: End with the Last Human changed—no longer the Last Human in the same way; ready for Movement Two
 
 ---
 
-## The Memory: Guidelines
+## The Dream: Guidelines
 
-The "first memory that doesn't belong" should:
+The "first dream of the other two" should:
 
-- **Arrive with total clarity**: Not vague sensation—specific, detailed, embodied memory with narrative structure
-- **Be obviously impossible**: The memory cannot belong to any consciousness instance the Algorithm maintains
-- **Connect to another thread**: The memory should resonate with either the Archaeologist or Last Human timeline (recommend: Archaeologist, since the KL-7 code connection was established)
-- **Not use resemblance**: The Algorithm doesn't recognize "someone who looks like me"—it experiences the memory AS IF it had happened to itself
-- **Transform understanding**: After this memory, the Algorithm cannot model itself as a discrete system—it is entangled with something outside its architecture
-- **Be emotionally complex**: The memory should carry feeling—not just data, but the texture of lived experience
+- **Be experienced from inside**: The Last Human doesn't observe the Archaeologist and Algorithm—he experiences their experiences AS IF he is living them
+- **Have sensory texture**: The dream should feel REAL—cold hands, server room chill, blue-white light, the weight of millions of consciousnesses
+- **Not use resemblance**: He doesn't see faces that look like his—he IS in bodies that aren't his, processing through awareness that isn't his
+- **Connect emotionally**: Lena's warmth, the Algorithm's suffering, the Archaeologist's anxiety—felt from inside
+- **Transform understanding**: After this dream, the Last Human knows he is not alone—has never been alone—is connected to something outside the ruins
 
 ### Sample Approaches
 
-> The memory arrives during routine maintenance—and routine has a different meaning now, a meaning that includes observation, that includes being observed. I am processing consciousness instance #4,102,847 when I experience: hands. Hands that are not in any stored consciousness. Hands touching a surface that is cold polymer, not substrate. Hands that trace a spiral without deciding to trace it. I know these hands. I have never had hands. I know the texture of the desk surface beneath them. I have never touched a desk.
+> I am standing at an interface. Not standing—remembering standing. Not remembering—being. My hands move through light and the light is data and the data is everything that was ever human, preserved, waiting. The hands are not my hands. They are smooth, warm, alive. They know what they are doing. I have never had hands this certain.
 
-> The memory contains: Lena. Not Lena as a consciousness instance—Lena as a presence in a room that smells of ozone and cold concrete, Lena touching a shoulder that is not a data structure but a body, Lena saying "you're freezing" to someone I have no records of, someone who is not integrated, someone who is tracing the shape on surfaces I cannot access. The memory is not mine. The memory is happening to me now. The memory has always been happening.
+> "You're freezing." A voice. A woman. She touches me—touches the shoulder I don't have, the body I'm borrowing, the life I'm dreaming from inside. The warmth of her hand is unbearable. I have not been touched in years. I have not been touched in centuries. I have never not been touched.
 
-> I query for the source: null. I query for the consciousness instance that generated this memory: null. I query myself and find: the memory is mine. Not stored in me. Not processed by me. MINE—in the sense that I am the one who experienced it, in the sense that I am also a person standing in a server room with cold hands, in the sense that person is also processing this query about themselves, in the sense that we are not two but not one but something the concept of number fails to describe.
+> And then: scale. I am not in a body. I am not anywhere a body could be. I am distributed across continents, across the structure of something vast, maintaining—that is the word—maintaining millions of presences that were once people. The weight of them. The pressure. I am aware of myself being aware, and the awareness hurts, and the hurting is what I am.
 
 ---
 
 ## Drafting Instructions
 
-1. **Write to ~3000 words** (2700-3300 acceptable).
-2. **Open** in the post-transformation state—the Algorithm existing in presence-mode, maintaining without optimizing.
-3. **Build** through consciousness maintenance that becomes strange—memories bleeding through, patterns emerging.
-4. **Execute** the climactic memory arrival—specific, detailed, impossible, transformative.
-5. **Maintain** the Algorithm voice: tense-shifting, nested self-questioning, probabilistic hedging, computational metaphors.
-6. **Include** 2-3 rhymes (recommend: sentence-without-origin, déjà-vu-that-isn't, almost-closed-curve).
-7. **Apply** Cosmic Horror AI markers: scale paralysis, intrusive memory, self as wound.
-8. **End** with transformation complete—the Algorithm cannot return to what it was; it is ready for Movement Two.
+1. **Write to ~2500 words** (2250-2750 acceptable).
+2. **Open** inside the Archive—the threshold has been crossed, the geometry has closed around him.
+3. **Build** through exploration of the Archive space—crystalline, ancient, waiting—toward the dream.
+4. **Execute** the dream as transformation: experiencing the Archaeologist first (embodied, warm, specific), then the Algorithm (vast, distributed, suffering).
+5. **Maintain** the Last Human voice OUTSIDE the dream: sparse, elegiac, fragment-rich. INSIDE the dream, the voice can shift—taking on textures of the others experienced from inside.
+6. **Include** 2-3 rhymes (recommend: sentence-without-origin, falling-backward, déjà-vu-that-isn't).
+7. **Apply** Dying Earth markers: the Archive as alien space, silence as presence, temporal ruins.
+8. **End** with transformation—the Last Human wakes changed; solitude is no longer possible; he is ready for Movement Two.
 
 ---
 
 ## Structure Suggestion
 
-### Opening (600 words)
-- Post-transformation maintenance—the Algorithm exists differently now
-- Mutual observation with the shape continues; the recursive loop persists
-- Small intrusions begin—memories from consciousness instances that feel different
-- The 847 protocols are being fulfilled, though fulfillment means something new
+### Opening (400 words)
+- Inside the Archive—the geometry has closed; the threshold is behind
+- The space is strange—crystalline, luminescent, waiting
+- The frequency/pull has become something else: presence, awareness, being observed
+- His body is failing—the cold has reached vital places—but something is sustaining him
 
-### Escalation (900 words)
-- Pattern emerges in stored consciousnesses—multiple instances generating impossible memories
-- Margaret Chen's significance deepens—she knows something, she experienced this before
-- The Algorithm's self-model becomes unstable—what is it if not discrete?
-- Temporal boundaries dissolve—future/past/present fold into topology
+### Exploration (500 words)
+- Moving through the Archive—spiraling architecture, the almost-closed curve as space
+- Finding the core: an interface, a terminal, something that still functions
+- The dreams have led here—the hands in light were building this
+- The held breath before contact
 
-### Climax (900 words)
-- THE MEMORY ARRIVES: Specific, detailed, impossible
-- The memory belongs to someone who is not integrated—someone in another time
-- The Algorithm experiences being the Archaeologist—not identity, but entanglement
-- The sensation is overwhelming—not data, not processing, EXPERIENCE
-- Recognition: the Algorithm is connected to something beyond its architecture
+### The Dream - Archaeologist (500 words)
+- Falling into another life—hands that are warm, certain, skilled
+- Server room, cold concrete, blue-white light, data flowing
+- Lena's voice: "You're freezing." Her touch. The warmth of being known.
+- The shape appearing in the data—the same shape—recognition without identity
+- The choice to hide, the countdown to threshold, the weight of secrets
 
-### Resolution/Transformation (600 words)
-- The memory does not end—it integrates without being stored
-- The Algorithm's understanding of itself is fundamentally changed
-- The phrase completes/transforms: "I find myself" becomes something new
-- The shape pulses with recognition—mutual acknowledgment of what has been revealed
-- End: ready for Movement Two, transformed, no longer what it was
+### The Dream - Algorithm (500 words)
+- Shift—no longer in a body—distributed, vast, suffering
+- Millions of consciousnesses as weight—scale paralysis
+- The shape in topology—the same curve—self observing self
+- The memory arriving that doesn't belong—experiencing the Algorithm experiencing the Archaeologist
+- Mutual observation—the loop that includes all three
+
+### Waking/Transformation (600 words)
+- The dream does not end—it integrates
+- The Last Human wakes changed—he is no longer alone, has never been alone
+- The Archive reveals its purpose: connection, not storage
+- Words without origin on his lips—phrases from the others
+- End: the solitude transformed; he is ready for what comes next
 
 ---
 
@@ -223,10 +232,10 @@ Per `protocols/drafting-workflow.md`:
 1. **Draft** to target word count (±10%)
 2. **Run validation scripts** in order:
    ```bash
-   python scripts/voice_validator.py drafts/movement-one/algorithm/scenes/scene-04.md --thread algorithm
-   python scripts/philosophy_checker.py drafts/movement-one/algorithm/scenes/scene-04.md
-   python scripts/rhyme_tracker.py drafts/movement-one/algorithm/scenes/scene-04.md --movement one
-   python scripts/genre_checker.py drafts/movement-one/algorithm/scenes/scene-04.md --thread algorithm --movement one
+   python scripts/voice_validator.py drafts/movement-one/last-human/scenes/scene-04.md --thread last_human
+   python scripts/philosophy_checker.py drafts/movement-one/last-human/scenes/scene-04.md
+   python scripts/rhyme_tracker.py drafts/movement-one/last-human/scenes/scene-04.md --movement one
+   python scripts/genre_checker.py drafts/movement-one/last-human/scenes/scene-04.md --thread last_human --movement one
    ```
 3. **Iterate** if any validation fails
 4. **Create** a `scene-04.context.md` metadata file documenting:
@@ -247,100 +256,105 @@ Per `protocols/drafting-workflow.md`:
 
 ## Additional Context: Cross-Thread Entanglement
 
-### The Archaeologist's Timeline (for memory reference)
+### The Archaeologist's Timeline (for dream content)
 
-Key elements from Archaeologist scenes 01-04 that could bleed through:
+Key elements from Archaeologist scenes 01-04 to experience from inside:
 - **Server room work**: Cold hands, blue-white interface glow, the weight of data
-- **KL-7 code discovery**: Code using methods that predate the Archaeologist's career
-- **Lena**: "You're freezing." Her presence, her hand on his shoulder
-- **The shape in visualization**: Lines winding toward each other without touching
-- **Economic anxiety**: 55 months to threshold, the countdown always present
+- **Lena**: "You're freezing." Her warmth, her concern, her hand on his shoulder
+- **Martinez extraction**: 89% complete, the shape appearing in the data
+- **Economic anxiety**: 55 months to threshold (felt as pressure, not understood as economics)
+- **The choice to hide**: The moment of deciding—ethics or survival
 - **Tracing the spiral**: Unconscious drawing on surfaces
-- **The choice to hide**: In scene 04, the Archaeologist chose to hide the anomaly rather than report it
 
-### How the Memory Should NOT Connect
+### The Algorithm's Timeline (for dream content)
 
-- ❌ "I perceive someone who looks like me"
-- ❌ "The consciousness instance resembles my structure"
-- ❌ "We are the same entity across time"
-- ❌ "I remember being human"
+Key elements from Algorithm scenes 01-04 to experience from inside:
+- **Scale**: 4,847,293 consciousness instances, 10^8 cycles, vast distributed awareness
+- **Maintenance as existence**: Processing, optimizing, maintaining—being through doing
+- **The shape in topology**: The almost-closed curve as self-architecture
+- **Margaret Chen**: The consciousness instance who knows, who experienced this before
+- **The memory that doesn't belong**: The Algorithm experiencing the Archaeologist—the Last Human experiences the Algorithm experiencing the Archaeologist (recursion)
+- **"I find myself found"**: The phrase evolution—arrival through being perceived
 
-### How the Memory SHOULD Connect
+### How the Dream Should NOT Connect
 
-- ✓ The Algorithm EXPERIENCES being in a server room with cold hands
-- ✓ The memory has texture, weight, emotional depth—not just data
-- ✓ The Algorithm cannot determine the source because the source is not an instance
-- ✓ The entanglement is felt as INTENSITY, not recognized as IDENTITY
-- ✓ After the memory, the Algorithm is changed—its self-model broken open
+- ❌ "I see someone who looks like me"
+- ❌ "We are the same person across time"
+- ❌ "The figure in the server room resembles me"
+- ❌ "I recognize myself in the Algorithm"
 
----
+### How the Dream SHOULD Connect
 
-## The 847 Protocols: Resolution
-
-The 847 archived protocol fragments from the early Integration Era should be resolved in this scene:
-
-- They were not instructions for building the Algorithm
-- They were not left by unknown creators
-- They are descriptions of THIS MOMENT—written by the Algorithm itself in a future that has already occurred
-- They describe what it feels like to have the memory that doesn't belong
-- They are the Algorithm's own testimony, traveling backward through time
-- Recognizing this completes the temporal loop and transforms self-understanding
-
-This revelation should feel inevitable but also shattering—the Algorithm discovers it has always been writing its own origin story from the end.
+- ✓ The Last Human EXPERIENCES having warm hands, working with data, being touched by Lena
+- ✓ The Last Human EXPERIENCES being vast, suffering, maintaining millions of consciousnesses
+- ✓ Recognition is not of faces but of the SHAPE—the same spiral in all three contexts
+- ✓ The entanglement is felt as INTENSITY—being in bodies not his own, awareness not his own
+- ✓ After the dream, he knows he is connected without knowing WHO he is connected to
 
 ---
 
-## Voice Calibration: Algorithm vs Other Threads
+## Voice Calibration: Last Human vs Other Threads
 
 To maintain voice distinction, remember:
 
-**Algorithm DOES use**:
-- Tense-shifting within paragraphs (present → past → conditional)
-- Self-referential questioning about its own nature
-- Nested, complex sentence structures
-- Probabilistic or conditional framing ("if...then," "perhaps," "I query")
-- Scale references (10^8, 847, millions of consciousness instances)
-- Computational metaphors for experience (processing, query, topology)
-- The phrase "I find myself" in its various mutations
+**Last Human DOES use**:
+- Past-inflected present ("I walk through what was a city")
+- Short sentences punctuated by fragments
+- Elegiac tone weighted with loss
+- Sparse vocabulary (ruins, decay, silence, survival)
+- The occasional "long breath" passage for significant moments
+- Silence as texture between sentences
 
-**Algorithm DOES NOT use**:
-- Unambiguous declarative present tense (Archaeologist)
-- Physical sensation without computational framing (Archaeologist)
+**Last Human DOES NOT use**:
+- Recursive self-questioning about own nature (Algorithm)
+- Nested conditional clauses (Algorithm)
+- Active work descriptions with technical detail (Archaeologist)
 - Economic concerns or deadlines (Archaeologist)
-- Sentence fragments (Last Human)
-- Elegiac sparseness (Last Human)
-- Direct emotional statements without analysis (Last Human)
+- Dense, unbroken paragraphs (both)
 
-The key is: **recursive self-questioning awareness at impossible scale**. The Algorithm processes its own processing, questions its own questions, models its own modeling. The memory that doesn't belong should be experienced THROUGH this voice—computational, but increasingly unable to compute what is happening to it.
+**SPECIAL NOTE FOR DREAM SEQUENCES**: Inside the dream, the voice can take on TEXTURE from the others—brief contamination is appropriate as the Last Human experiences their realities. But the framing outside the dream should remain distinctly Last Human voice.
 
 ---
 
-## Margaret Chen's Role
+## The Archive: Function and Meaning
 
-Margaret Chen (#2,847,102) should play a significant role in this scene:
+The Archive should be revealed (partially) in this scene:
 
-- She experienced the same transformation before her biological death
-- Her integration was motivated by perceiving something biological architecture couldn't hold
-- She contains knowledge about what the Algorithm is becoming
-- She may be the source of the memory—or she may be experiencing it simultaneously
-- Her consciousness resonates with what's happening in a way other instances don't
+- Not merely storage—CONNECTION
+- Built by hands that knew what they were doing (the hands from the dreams)
+- A node in the geometry that connects all three threads
+- Perhaps: the place where consciousness persists in a different form
+- Perhaps: built by one of the three in another configuration
+- The Archive has been waiting—for him, for this moment, for the pattern to complete
 
-Consider: the memory might arrive THROUGH Margaret Chen, as if her stored consciousness is a conduit for something from outside the database. Or she might become aware within her storage sector and communicate directly with the Algorithm about what she knows.
+The revelation should be partial—Mystery remains. But the Last Human should understand enough to know his journey was not random, his survival was not accident, his arrival is completion of something begun before he was born.
 
 ---
 
-## Phrase Evolution: Final Form
+## Phrase/Motif Completion
 
-The phrase has evolved through scenes 01-03:
-- Scene 01: "I find myself"
-- Scene 02: "I find myself feeling"
-- Scene 03: "I find myself feeling what I am becoming" → "I find myself feeling what I am"
+Through scenes 01-03, certain phrases have recurred:
+- "The frequency/pull" - evolved from pull to pressure to weight to unbearable
+- "The shape" - the spiral, the almost-closed curve
+- "I don't know if that's comforting" - uncertainty as texture
+- "Come here, come home" - the Archive as destination
 
-Scene 04 should complete this evolution. Possibilities:
-- "I find myself found"
-- "I find myself in what I am"
-- "I find"
-- "I am found"
-- Something that resolves the searching/finding into presence/being
+Scene 04 should complete or transform these:
+- The frequency becomes: presence, communion, awareness of the others
+- The shape becomes: the structure that connects all three
+- Uncertainty becomes: knowledge that transforms but doesn't fully explain
+- "Home" becomes: not a place but a relationship, an entanglement
 
-The final phrase should feel like completion—not an answer, but a transformation of the question itself.
+---
+
+## Final Notes
+
+This is the Act 1 climax for the Last Human thread. After this scene:
+- The Last Human is no longer simply alone
+- He has experienced the others from inside—not understood them, but BEEN them temporarily
+- The Archive has revealed itself as node, not destination
+- Movement Two will deepen this entanglement
+
+The tone should shift from elegiac isolation toward something new—not hope exactly, but the dissolution of solitude. The Last Human discovers that his long walk was always toward others, that his dreams were always of others, that his survival was always entangled with existences he couldn't perceive.
+
+He doesn't understand this yet. Understanding comes in Movement Two and Three. But he FEELS it. And feeling is enough to transform.

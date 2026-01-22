@@ -11,7 +11,7 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 24668,
+      "actual_words": 27773,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
@@ -100,7 +100,7 @@
         "algorithm": {
           "title": "The Algorithm",
           "target_words": 12000,
-          "actual_words": 7965,
+          "actual_words": 11070,
           "scenes": [
             {
               "id": "m1-algo-01",
@@ -155,14 +155,14 @@
               "title": "The Memory",
               "file": "movement-one/algorithm/scenes/scene-04.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "First memory that doesn't belong, Act 1 climax"
+              "actual_words": 3105,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": ["cold-hands", "almost-closed-curve", "blue-white-light"],
+              "notes": "First memory that doesn't belong, Act 1 climax. Cross-thread connection to Archaeologist scene 04. Protocol resolution completed. Phrase evolution: 'I find myself found'."
             }
           ]
         },
