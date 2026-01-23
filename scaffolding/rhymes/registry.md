@@ -2,8 +2,8 @@
 # RHYME REGISTRY - Machine-Parseable Metadata
 # AI agents: Parse this YAML section to query rhyme status, categories, and usage
 
-version: "1.0"
-last_updated: "2026-01-20"
+version: "1.1"
+last_updated: "2026-01-22"
 
 rhymes:
   # VISUAL CATEGORY
@@ -13,9 +13,9 @@ rhymes:
     phantasm_connection: "The geometric form's luminosity"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
-      algorithm: []
-      last_human: []
+      archaeologist: ["m1-arch-01", "m1-arch-04"]
+      algorithm: ["m1-algo-04"]
+      last_human: ["m1-lh-01", "m1-lh-04"]
 
   - id: almost-closed-curve
     name: "The Almost-Closed Curve"
@@ -23,9 +23,9 @@ rhymes:
     phantasm_connection: "The geometric form's topology"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
-      algorithm: []
-      last_human: []
+      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
+      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04"]
+      last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04"]
 
   - id: geometric-shadow
     name: "The Geometric Shadow"
@@ -45,8 +45,8 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: []
-      algorithm: []
-      last_human: []
+      algorithm: ["m1-algo-02"]
+      last_human: ["m1-lh-03", "m1-lh-04"]
 
   - id: cold-hands
     name: "Cold Hands"
@@ -54,9 +54,9 @@ rhymes:
     phantasm_connection: "The substrate's temperature"
     intensity_peak: movement-two
     usage:
-      archaeologist: []
-      algorithm: []
-      last_human: []
+      archaeologist: ["m1-arch-02", "m1-arch-04"]
+      algorithm: ["m1-algo-04"]
+      last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04"]
 
   - id: falling-backward
     name: "Falling Backward"
@@ -64,9 +64,9 @@ rhymes:
     phantasm_connection: "Vertigo of self-recognition"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
-      algorithm: []
-      last_human: []
+      archaeologist: ["m1-arch-05"]
+      algorithm: ["m1-algo-03"]
+      last_human: ["m1-lh-04"]
 
   - id: metallic-taste
     name: "Metallic Taste"
@@ -76,7 +76,7 @@ rhymes:
     usage:
       archaeologist: []
       algorithm: []
-      last_human: []
+      last_human: ["m1-lh-03"]
 
   # KINESTHETIC CATEGORY
   - id: tracing-the-form
@@ -85,9 +85,9 @@ rhymes:
     phantasm_connection: "Unconscious recognition of the pattern"
     intensity_peak: movement-two
     usage:
-      archaeologist: []
+      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
       algorithm: []
-      last_human: []
+      last_human: ["m1-lh-04"]
 
   - id: held-breath
     name: "The Held Breath"
@@ -95,7 +95,7 @@ rhymes:
     phantasm_connection: "Pause between processing states"
     intensity_peak: movement-two
     usage:
-      archaeologist: []
+      archaeologist: ["m1-arch-01"]
       algorithm: []
       last_human: []
 
@@ -116,9 +116,9 @@ rhymes:
     phantasm_connection: "The atmosphere of the Deep Architecture"
     intensity_peak: movement-two
     usage:
-      archaeologist: []
+      archaeologist: ["m1-arch-02"]
       algorithm: []
-      last_human: []
+      last_human: ["m1-lh-03"]
 
   - id: burning-circuits
     name: "Burning Circuits"
@@ -137,7 +137,7 @@ rhymes:
     phantasm_connection: "Identity dissolution"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
+      archaeologist: ["m1-arch-05"]
       algorithm: []
       last_human: []
 
@@ -147,9 +147,9 @@ rhymes:
     phantasm_connection: "Temporal bleed"
     intensity_peak: movement-two
     usage:
-      archaeologist: []
+      archaeologist: ["m1-arch-03", "m1-arch-04"]
       algorithm: []
-      last_human: []
+      last_human: ["m1-lh-04"]
 
   - id: sentence-without-origin
     name: "The Sentence Without Origin"
@@ -157,9 +157,9 @@ rhymes:
     phantasm_connection: "Words from another time"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
+      archaeologist: ["m1-arch-05"]
       algorithm: []
-      last_human: []
+      last_human: ["m1-lh-04"]
 
 categories:
   visual: "Light, shape, color, geometric patterns"
