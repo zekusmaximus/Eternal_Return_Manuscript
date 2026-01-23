@@ -11,12 +11,12 @@
       "title": "Exposition (Separate Threads)",
       "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
       "target_words": 37000,
-      "actual_words": 30142,
+      "actual_words": 33192,
       "threads": {
         "archaeologist": {
           "title": "The Digital Archaeologist",
           "target_words": 15000,
-          "actual_words": 10788,
+          "actual_words": 13838,
           "scenes": [
             {
               "id": "m1-arch-01",
@@ -86,14 +86,14 @@
               "title": "Recognition",
               "file": "movement-one/archaeologist/scenes/scene-05.md",
               "target_words": 3000,
-              "actual_words": 0,
-              "status": "not_started",
-              "voice_check": "pending",
-              "philosophy_check": "pending",
-              "rhyme_check": "pending",
-              "genre_check": "pending",
-              "rhyming_moments": [],
-              "notes": "Realizes protocols are self-referential, Act 1 climax"
+              "actual_words": 3036,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": ["name-edge-of-memory", "falling-backward", "sentence-without-origin", "almost-closed-curve", "tracing-the-form"],
+              "notes": "Realizes protocols are self-referential, Act 1 climax. Recognition through signature methods. Loop closes: reader is writer."
             }
           ]
         },
