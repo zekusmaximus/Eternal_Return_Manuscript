@@ -3,7 +3,7 @@
 # AI agents: Parse this YAML section to query rhyme status, categories, and usage
 
 version: "1.1"
-last_updated: "2026-01-22"
+last_updated: "2026-01-23"
 
 rhymes:
   # VISUAL CATEGORY
@@ -24,7 +24,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
-      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04"]
+      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01"]
       last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04"]
 
   - id: geometric-shadow
@@ -44,8 +44,8 @@ rhymes:
     phantasm_connection: "High tonality of entanglement"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
-      algorithm: ["m1-algo-02"]
+      archaeologist: ["m2-arch-01"]
+      algorithm: ["m1-algo-02", "m2-algo-01"]
       last_human: ["m1-lh-03", "m1-lh-04"]
 
   - id: cold-hands
@@ -54,8 +54,8 @@ rhymes:
     phantasm_connection: "The substrate's temperature"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-02", "m1-arch-04"]
-      algorithm: ["m1-algo-04"]
+      archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01"]
+      algorithm: ["m1-algo-04", "m2-algo-01"]
       last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04"]
 
   - id: falling-backward
@@ -64,7 +64,7 @@ rhymes:
     phantasm_connection: "Vertigo of self-recognition"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-05"]
+      archaeologist: ["m1-arch-05", "m2-arch-01"]
       algorithm: ["m1-algo-03"]
       last_human: ["m1-lh-04"]
 
@@ -86,7 +86,7 @@ rhymes:
     intensity_peak: movement-two
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
-      algorithm: []
+      algorithm: ["m2-algo-01"]
       last_human: ["m1-lh-04"]
 
   - id: held-breath
@@ -105,7 +105,7 @@ rhymes:
     phantasm_connection: "Actions preceding awareness"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
+      archaeologist: ["m2-arch-01"]
       algorithm: []
       last_human: []
 

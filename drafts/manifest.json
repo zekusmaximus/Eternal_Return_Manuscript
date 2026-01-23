@@ -254,7 +254,7 @@
       "title": "Entanglement (Braided Threads)",
       "description": "9 scenes in A-B-C rotation across 3 cycles; rhymes echo across threads; voice contamination escalates",
       "target_words": 36000,
-      "actual_words": 0,
+      "actual_words": 8154,
       "rotation_pattern": "A-B-C (Archaeologist → Algorithm → Last Human), 3 cycles",
       "braiding_document": "scaffolding/movement-two-braiding.md",
       "cycles": {
@@ -268,13 +268,17 @@
               "thread": "archaeologist",
               "file": "movement-two/archaeologist/scenes/scene-01.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 4026,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
               "rhymes_in": ["bone-frequency", "cold-hands", "falling-backward"],
-              "rhymes_out": ["bone-frequency"],
+              "rhymes_out": ["bone-frequency", "waking-into-motion"],
               "phrase_bleeding": "I find myself",
               "contamination_level": "bleed-only",
-              "notes": "First Bleed material integrated; Lena arc: concern/noticing phase; choice to continue"
+              "notes": "First Bleed material integrated; Lena arc: concern/noticing phase; choice to continue; Saturday Option A (aftermath shown)"
             },
             {
               "id": "m2-algo-01",
@@ -282,13 +286,17 @@
               "thread": "algorithm",
               "file": "movement-two/algorithm/scenes/scene-01.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
-              "rhymes_in": ["bone-frequency", "cold-hands", "almost-closed-curve"],
+              "actual_words": 4128,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhymes_in": ["bone-frequency"],
               "rhymes_out": ["cold-hands"],
               "phrase_bleeding": "I find myself found",
               "contamination_level": "memory-access",
-              "notes": "Catches Arch bleed from its side; Mildred Higgins arc: referenced/stable; future pull disrupts"
+              "notes": "Catches Arch bleed from its side; Mildred Higgins arc: referenced/stable at 99.9%; future-pull tremor introduced; pharmakon cost visible in efficiency degradation"
             },
             {
               "id": "m2-lh-01",

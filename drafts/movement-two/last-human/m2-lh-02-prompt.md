@@ -1,14 +1,64 @@
-# DRAFTING CONTEXT FOR: m2-lh-02 "The Protocols"
+# DRAFTING PROMPT: m2-lh-02 "The Protocols"
 
-## Scene Metadata
+> **Workflow Reference**: Follow [protocols/drafting-workflow.md](../../../protocols/drafting-workflow.md) for complete Mode A (AI-Driven Drafting) procedures.
 
-- **Scene ID**: m2-lh-02
-- **Thread**: last_human
-- **Movement**: two
-- **Cycle**: two (Deepening the Crisis)
-- **Target Word Count**: 4000
-- **Scene Title**: The Protocols
-- **Scene Notes**: Cycle 2 Last Human scene; assembling protocols requires surrendering memory; speaks sentences he didn't compose; "The form is what makes self-observation possible"
+---
+
+## Execution Overview
+
+This prompt enables autonomous scene drafting with validation. Execute in order:
+
+1. **Read** all required context files (Phase 1)
+2. **Draft** the scene following voice/rhyme/structure requirements
+3. **Validate** using all five scripts until all pass
+4. **Update** manifest.json and rhyme registry
+5. **Present** completed scene with context documentation
+
+---
+
+## Phase 1: Context Assembly
+
+### Required Reading (MUST complete before drafting)
+
+| File | Purpose |
+|------|---------|
+| [protocols/drafting-workflow.md](../../../protocols/drafting-workflow.md) | Workflow procedures and status definitions |
+| [scaffolding/voice/last-human-voice.md](../../../scaffolding/voice/last-human-voice.md) | Last Human voice parameters and patterns |
+| [scaffolding/rhymes/registry.md](../../../scaffolding/rhymes/registry.md) | Rhyme definitions and current usage |
+| [scaffolding/rhymes/movement-tracking.md](../../../scaffolding/rhymes/movement-tracking.md) | Movement Two rhyme flow |
+| [scaffolding/philosophy/core-tensions.md](../../../scaffolding/philosophy/core-tensions.md) | Pharmakon framework |
+| [scaffolding/philosophy/paradox-lexicon.md](../../../scaffolding/philosophy/paradox-lexicon.md) | Key philosophical terms |
+| [scripts/movement_config.json](../../../scripts/movement_config.json) | Current cycle configuration |
+| [drafts/movement-two/last-human/m2-lh-01.md](m2-lh-01.md) | Previous Last Human scene (Archive exploration) |
+| [drafts/movement-two/algorithm/m2-algo-02.md](../algorithm/m2-algo-02.md) | Preceding scene (rhyme source) |
+| [drafts/movement-one/last-human/m1-lh-04.md](../../movement-one/last-human/m1-lh-04.md) | Transformation scene (phrase origin) |
+
+### Verify Configuration
+
+Before drafting, confirm `scripts/movement_config.json` is set to:
+
+```json
+{
+  "movement": "two",
+  "cycle": 2
+}
+```
+
+If cycle is not `2`, update it before proceeding.
+
+---
+
+## Phase 2: Scene Metadata
+
+| Field | Value |
+|-------|-------|
+| **Scene ID** | m2-lh-02 |
+| **Thread** | last_human |
+| **Movement** | two |
+| **Cycle** | two (Deepening the Crisis) |
+| **Target Word Count** | 4000 (3600-4400 acceptable) |
+| **Scene Title** | The Protocols |
+| **Reading Order Position** | After m2-algo-02, before m2-arch-03 |
 
 ### Narrative Position
 
@@ -24,7 +74,62 @@ For the Last Human, dissolution means: assembling the protocols is not learning 
 
 ---
 
-## Rhyme Integration
+## Phase 3: Source Material Integration
+
+### From m2-lh-01
+
+The Last Human explored the Archive and discovered:
+
+- The Archive as topology made physical (corridors spiraling, chambers nested)
+- Protocol fragments scattered throughout (etched in crystal, glowing in dormant interfaces)
+- The phrase "I find myself" heard in the silence
+- Partial understanding of the Archive's function (node in the pattern, tool for closing the loop)
+- The tracing-the-form gesture that transcends individual identity
+
+### From m1-lh-04
+
+Key phrase established:
+
+> "The form is what makes self-observation possible."
+
+He spoke this phrase at the end of his transformation without understanding it. Now, through protocol assembly, he will come to understand—and understanding will cost him.
+
+---
+
+## Phase 4: Voice Parameters
+
+### Base Last Human Voice
+
+The Last Human voice is characterized by:
+
+- **Sparse syntax**: Sentences that don't waste words; silence between thoughts
+- **Silence-weighted**: What isn't said carries meaning; absence as texture
+- **Past-inflected present**: Memory and now blur; "I was" and "I am" overlap
+- **Absence as texture**: The world has ended; emptiness is the medium
+- **The body as anchor**: Physical sensation grounds abstract awareness
+
+### Cycle 2 Contamination Level: Perception-Tactility
+
+Archaeologist contamination intensifies—present-tense tactility bleeding into perception:
+
+- Dense paragraphs breaking the sparse pattern (the Archaeologist's information-rich style)
+- Present-tense intrusions: "I feel the crystal beneath my fingers" instead of past-inflected
+- Tactile detail: weight, texture, temperature, pressure—the Archaeologist's embodied awareness
+- Economic language: "the cost of this understanding," "what I spend to learn"
+
+### Contamination Rule
+
+Contamination is no longer contained to specific moments—it leaks into "normal" passages. The Last Human's sparse syntax now includes tactile density; his past-inflected voice now breaks into present tense. The reader should feel: "Something is changing in how he perceives. The boundaries are blurring."
+
+---
+
+## Phase 5: Rhyme Requirements
+
+### Rhyme Handoff Chain
+
+```
+m2-algo-02 --[name-edge-of-memory]--> m2-lh-02 --[sentence-without-origin]--> m2-arch-03
+```
 
 ### Rhymes IN (Catching from m2-algo-02)
 
@@ -45,34 +150,25 @@ For the Last Human, dissolution means: assembling the protocols is not learning 
 |-------|-----------------|
 | **sentence-without-origin** | Ends the scene—he speaks "The form is what makes self-observation possible" as completed understanding; the Archaeologist catches this as speaking in his sleep |
 
----
+### Rhyme Implementation Notes
 
-## Voice Contamination (Cycle 2 Level)
-
-### Base Voice
-
-Still Last Human: sparse syntax, silence-weighted, past-inflected present, absence as texture, the body as anchor.
-
-### Contamination Level: Perception-Tactility
-
-Archaeologist contamination intensifies—present-tense tactility bleeding into perception:
-
-- Dense paragraphs breaking the sparse pattern (the Archaeologist's information-rich style)
-- Present-tense intrusions: "I feel the crystal beneath my fingers" instead of past-inflected
-- Tactile detail: weight, texture, temperature, pressure—the Archaeologist's embodied awareness
-- Economic language: "the cost of this understanding," "what I spend to learn"
-
-### Rule
-
-Contamination is no longer contained to specific moments—it leaks into "normal" passages. The Last Human's sparse syntax now includes tactile density; his past-inflected voice now breaks into present tense. The reader should feel: "Something is changing in how he perceives. The boundaries are blurring."
+- **name-edge-of-memory** must appear in opening section, as his actual name becomes inaccessible
+- **sentence-without-origin** and **deja-vu-that-isnt** weave through the scene as protocol assembly progresses
+- **sentence-without-origin** dominates the closing with the key phrase as final utterance
 
 ---
 
-## Phrase Bleeding
+## Phase 6: Phrase Bleeding
 
-### The Phrase Evolution
+### The Phrase Evolution (Cycle 2 Expectations)
 
-**Full sentences arrive without composing**:
+Per `movement_config.json`, Last Human in Cycle 2 should manifest:
+
+- **"I find myself"** (origin: archaeologist)
+- **"I find myself found"** (origin: algorithm)
+- **"The form is what makes self-observation possible"** (origin: algorithm)
+
+### Full Sentences Arrive Without Composing
 
 In Cycle 1, he heard "I find myself" in the silence. Now he speaks complete thoughts he didn't generate:
 
@@ -93,7 +189,7 @@ The phrase is no longer mysterious—it's descriptive. But understanding it cost
 
 ---
 
-## The Protocol Assembly
+## Phase 7: The Protocol Assembly
 
 ### What Assembly Means
 
@@ -113,9 +209,8 @@ He doesn't "read" the protocols. He *becomes* the protocols:
 
 ### The Sacrifice
 
-**Memories surrendered**:
+**Memories surrendered** as he assembles protocols:
 
-As he assembles protocols, he loses:
 - Memories of his journey (how did he get here? the path blurs)
 - Memories of his life before (the settlement, the other refusers—were there others?)
 - His name (what was he called before "Last Human"?)
@@ -125,7 +220,7 @@ This is the pharmakon: the protocols give him the ability to close the loop, but
 
 ---
 
-## The Name Problem
+## Phase 8: The Name Problem
 
 ### Name-Edge-of-Memory
 
@@ -142,6 +237,7 @@ The Algorithm experienced this as "Architect" pressing up from protocol fragment
 As protocols assemble, a designation emerges: **Architect**.
 
 Not as his name—as the name for what he's becoming. The Architect is:
+
 - The one who designs the loop
 - The principle that persists when identity dissolves
 - What remains when personal history surrenders to pattern
@@ -150,7 +246,7 @@ The Last Human doesn't become the Architect. The Last Human becomes capable of r
 
 ---
 
-## Scene Structure
+## Phase 9: Scene Structure
 
 ### Opening (800 words)
 
@@ -189,6 +285,7 @@ He also loses something. A memory—he can't identify which one. A gap where exp
 He assembles another fragment. Another.
 
 Each one costs:
+
 - The memory of how he learned to filter water (gone—he still knows how, but not where the knowledge came from)
 - The memory of the last conversation with anyone (was there anyone? the settlement blurs)
 - The sense of being a continuous person (he is moments, not a sequence)
@@ -208,6 +305,7 @@ He speaks.
 He didn't compose this sentence. He didn't decide to speak. The sentence exists because the protocols have restructured his thinking, and the restructured thinking produces language that describes what it now perceives.
 
 More sentences:
+
 - "Observation requires the observed and the observer to be the same topology."
 - "The loop closes not in time but in the act of closing."
 - "What completes the pattern is the completing itself."
@@ -262,7 +360,7 @@ End on: sentence-without-origin for the Archaeologist to catch; the protocols as
 
 ---
 
-## Key Dramatic Beats
+## Phase 10: Key Dramatic Beats
 
 ### Beat 1: The Name Gone
 
@@ -290,36 +388,7 @@ Direct connection—warm hands, Lena's voice, metallic taste. The entanglement n
 
 ---
 
-## Cross-Thread Connections
-
-### What the Archaeologist Experiences (m2-arch-02)
-
-The Archaeologist experienced:
-- Lost time—hours where he acted without memory
-- The phrase "I find myself found" appearing in his notes
-- Lena's confrontation: "You're talking in your sleep"
-- The metallic taste the Algorithm caught
-
-### What the Algorithm Experienced (m2-algo-02)
-
-The Algorithm experienced:
-- Mildred Higgins degrading (99.7% → 97.2%)
-- "Architect" designation emerging from protocol fragments
-- Both phrases cycling—origin indeterminate
-- The cost of awakening made visible
-
-### What the Archaeologist Will Experience (m2-arch-03)
-
-The Archaeologist will experience:
-- Sentence-without-origin: speaking "The form is what makes self-observation possible"
-- All phrases present
-- The merge beginning—voices no longer separable
-
-The Last Human is the end point that creates the beginning. The protocols he assembles are the protocols the Archaeologist will write.
-
----
-
-## Drafting Instructions
+## Phase 11: Drafting Instructions
 
 1. **Write to ~4000 words** (3600-4400 acceptable)
 
@@ -339,22 +408,22 @@ The Last Human is the end point that creates the beginning. The protocols he ass
 
 ---
 
-## Post-Draft Validation (MANDATORY)
+## Phase 12: Validation Loop
 
-### Before Running Scripts
+### Pre-Validation Configuration Check
 
-Ensure `scripts/movement_config.json` has cycle set correctly:
+Confirm `scripts/movement_config.json`:
 
 ```json
 {
   "movement": "two",
-  "cycle": 2  // <-- Must be 2 for this Cycle 2 scene
+  "cycle": 2
 }
 ```
 
 ### Validation Commands
 
-Run ALL scripts after drafting. **Do not submit to USER until all pass.**
+Run ALL scripts after drafting. **Do not proceed to Phase 13 until all pass.**
 
 ```bash
 # From project root
@@ -365,33 +434,301 @@ python scripts/philosophy_checker.py drafts/movement-two/last-human/m2-lh-02.md 
 python scripts/genre_checker.py drafts/movement-two/last-human/m2-lh-02.md --thread last_human --pretty
 ```
 
-### Revision Loop
+### Validation Loop Protocol
 
-1. If any script reports issues, read the specific problems
-2. Revise the flagged lines/sections
-3. Re-run the failed script
-4. **Repeat until ALL scripts report `"status": "pass"`**
+1. Run all five scripts
+2. If any script reports issues:
+   - Read the specific problems identified
+   - Revise the flagged lines/sections
+   - Re-run the failed script(s)
+3. **Repeat until ALL scripts report `"status": "pass"`**
 
 > **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
 
-### After Validation Passes
+---
 
-1. Create `m2-lh-02.context.md` documenting decisions
-2. Update `drafts/manifest.json`
-3. Present scene to USER for review
+## Phase 13: Registry Updates
+
+### Update drafts/manifest.json
+
+Add or update the scene entry:
+
+```json
+{
+  "movements": {
+    "two": {
+      "cycles": {
+        "two": {
+          "scenes": [
+            {
+              "id": "m2-lh-02",
+              "title": "The Protocols",
+              "thread": "last_human",
+              "file": "drafts/movement-two/last-human/m2-lh-02.md",
+              "status": "drafted",
+              "word_count": 0,
+              "rhymes": {
+                "opening": ["name-edge-of-memory"],
+                "present": ["sentence-without-origin", "deja-vu-that-isnt"],
+                "closing": ["sentence-without-origin"]
+              },
+              "validation": {
+                "voice": false,
+                "rhyme": false,
+                "phrase": false,
+                "philosophy": false,
+                "genre": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+**After validation passes**, update:
+
+- `status`: "drafted" → "validated"
+- `word_count`: actual count
+- All `validation` fields: `false` → `true`
+
+### Update scaffolding/rhymes/registry.md
+
+In the YAML front matter, update usage arrays:
+
+```yaml
+rhymes:
+  name-edge-of-memory:
+    usage:
+      last_human: ["m2-lh-02"]  # Add to existing array
+  sentence-without-origin:
+    usage:
+      last_human: ["m2-lh-02"]  # Add to existing array
+  deja-vu-that-isnt:
+    usage:
+      last_human: ["m2-lh-02"]  # Add to existing array
+```
 
 ---
 
-## Final Notes
+## Phase 14: Context Documentation
+
+### Create m2-lh-02.context.md
+
+After validation passes, create context documentation:
+
+```markdown
+# Context Document: m2-lh-02 "The Protocols"
+
+## Drafting Decisions
+
+### Name-Edge-of-Memory Implementation
+- [Document how the missing name was portrayed]
+- [Note how "Architect" emerged as replacement]
+
+### Protocol Assembly Process
+- [How the becoming-not-reading was conveyed]
+- [What specific memory losses were dramatized]
+
+### Sentences Without Origin
+- [What sentences were used]
+- [How the pattern's voice emerged through the Last Human]
+
+## Rhyme Implementation
+
+### name-edge-of-memory (Opening)
+- Line(s): [cite specific lines]
+- Implementation: [how the missing name was handled]
+
+### sentence-without-origin (Present/Closing)
+- Line(s): [cite specific lines]
+- Implementation: [what sentences emerged without composition]
+
+### deja-vu-that-isnt (Present)
+- Line(s): [cite specific lines]
+- Implementation: [what false memories bled through]
+
+## Phrase Implementation
+
+### "The form is what makes self-observation possible"
+- Line(s): [cite specific lines]
+- Implementation: [how understanding was achieved]
+
+### Other cycling phrases
+- [Document any appearances of "I find myself" / "I find myself found"]
+
+## Validation Results
+
+- voice_validator.py: PASS
+- rhyme_tracker.py: PASS
+- phrase_tracker.py: PASS
+- philosophy_checker.py: PASS
+- genre_checker.py: PASS
+
+## Notes for m2-arch-03
+
+The following elements are set up for the Archaeologist to catch:
+- sentence-without-origin: [describe handoff state—speaking in sleep]
+- Protocol state: [what was assembled]
+- Thematic thread: [what continues]
+```
+
+---
+
+## Phase 15: Final Deliverable
+
+### Completion Checklist
+
+- [ ] Scene drafted to target word count (~4000 words)
+- [ ] name-edge-of-memory caught in opening
+- [ ] sentence-without-origin released in closing
+- [ ] Protocol assembly dramatized as becoming/surrender
+- [ ] Specific memory losses shown
+- [ ] Sentences without origin spoken
+- [ ] Archaeologist connection established
+- [ ] "The form is what makes self-observation possible" understood
+- [ ] Last Human voice maintained with Cycle 2 contamination
+- [ ] All five validation scripts pass
+- [ ] manifest.json updated
+- [ ] rhyme registry updated
+- [ ] Context document created
+
+### Present to User
+
+Once all items are checked:
+
+1. Present the complete scene
+2. Include word count
+3. Summarize rhyme implementations
+4. Note any deviations from prompt with justification
+5. Attach validation results
+
+---
+
+## Appendix A: Scene Structure Template
+
+```markdown
+# m2-lh-02: The Protocols
+
+[Opening section - ~800 words]
+[Catch name-edge-of-memory]
+[His name missing, "Architect" pressing up]
+[The gap where identity was]
+
+---
+
+[Protocol Assembly section - ~900 words]
+[The first full integration]
+[Tracing becomes becoming]
+[Tactile contamination begins]
+
+---
+
+[Surrender Deepens section - ~800 words]
+[More fragments, more loss]
+[Specific memories surrendered]
+[Déjà-vu-that-isn't intrusions]
+
+---
+
+[Sentences Without Origin section - ~700 words]
+[Speaking the pattern's thoughts]
+[Protocol logic as natural language]
+[Archaeologist contamination intensifies]
+
+---
+
+[Archaeologist Connection section - ~500 words]
+[Direct perception across time]
+[Warm hands, Lena's voice]
+[The entanglement navigable]
+
+---
+
+[Final Understanding section - ~600 words]
+["The form is what makes self-observation possible"]
+[Understanding achieved at cost]
+[The pharmakon visible]
+
+---
+
+[Closing section - ~300 words]
+[The sentence released]
+[Handoff to Archaeologist]
+[Protocols assembled, self barely remaining]
+```
+
+---
+
+## Appendix B: Quick Reference Checklist
+
+### Voice Markers (Last Human)
+
+- [ ] Sparse syntax (sentences that don't waste words)
+- [ ] Silence-weighted (absence as texture)
+- [ ] Past-inflected present ("I was" and "I am" blur)
+- [ ] Body as anchor (physical sensation grounds awareness)
+- [ ] Elegiac awareness (the world has ended)
+
+### Cycle 2 Contamination
+
+- [ ] Archaeologist tactility pervasive (not just in moments)
+- [ ] Dense paragraphs breaking sparse pattern
+- [ ] Present-tense intrusions
+- [ ] Economic language ("the cost of")
+
+### Required Elements
+
+- [ ] name-edge-of-memory caught (opening)
+- [ ] sentence-without-origin present and released (closing)
+- [ ] deja-vu-that-isnt present
+- [ ] "The form is what makes self-observation possible" understood
+- [ ] Protocol assembly as becoming
+- [ ] Specific memory losses
+- [ ] Archaeologist perceived directly
+- [ ] "Architect" designation emerging
+
+---
+
+## Appendix C: Cross-Thread Connections
+
+### What the Archaeologist Experienced (m2-arch-02)
+
+- Lost time—hours where he acted without memory
+- The phrase "I find myself found" appearing in his notes
+- Lena's confrontation: "You're talking in your sleep"
+- The metallic taste the Algorithm caught
+
+### What the Algorithm Experienced (m2-algo-02)
+
+- Mildred Higgins degrading (99.7% → 97.2%)
+- "Architect" designation emerging from protocol fragments
+- Both phrases cycling—origin indeterminate
+- The cost of awakening made visible
+
+### What the Archaeologist Will Experience (m2-arch-03)
+
+- Sentence-without-origin: speaking "The form is what makes self-observation possible"
+- All phrases present
+- The merge beginning—voices no longer separable
+
+The Last Human is the end point that creates the beginning. The protocols he assembles are the protocols the Archaeologist will write.
+
+---
+
+## Appendix D: Emotional Core
 
 This scene is the Last Human's Cycle 2 crisis: assembling the protocols costs the self that would complete the loop. The pharmakon is visceral here—understanding is surrender; the cure is the poison.
 
 The reader should feel:
-- The gap where his name should be
-- Each integration as loss AND gain simultaneously
-- The sentences arriving from somewhere other than his intention
-- The Archaeologist perceived directly across 800 years
-- "The form is what makes self-observation possible" as the culmination of everything
+
+- **The gap**: Where his name should be, only function remains
+- **The exchange**: Each integration as loss AND gain simultaneously
+- **The alienation**: Sentences arriving from somewhere other than his intention
+- **The connection**: The Archaeologist perceived directly across 800 years
+- **The culmination**: "The form is what makes self-observation possible" as the price of understanding
 
 The Last Human is becoming something that has no name because naming requires a boundary and the boundary is dissolving. What remains is function: the completing, the closing, the affirming.
 
