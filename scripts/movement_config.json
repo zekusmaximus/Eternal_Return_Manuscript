@@ -1,0 +1,135 @@
+{
+    "version": "2.0.0",
+    "movement": "two",
+    "cycle": 1,
+    "description": "Movement Two: Braided Entanglement",
+    "contamination": {
+        "tolerance": {
+            "cycle_1": "low",
+            "cycle_2": "medium",
+            "cycle_3": "high"
+        },
+        "budget": {
+            "cycle_1": {
+                "min": 1,
+                "max": 3,
+                "description": "Contamination during intensity moments only"
+            },
+            "cycle_2": {
+                "min": 2,
+                "max": 5,
+                "description": "Traces in normal passages"
+            },
+            "cycle_3": {
+                "min": 4,
+                "max": 8,
+                "description": "Pervasive but character-distinct"
+            }
+        }
+    },
+    "rhymes": {
+        "intensity": {
+            "cycle_1": {
+                "min": 2,
+                "max": 4,
+                "opening_required": true,
+                "closing_required": true
+            },
+            "cycle_2": {
+                "min": 3,
+                "max": 5,
+                "opening_required": true,
+                "closing_required": true
+            },
+            "cycle_3": {
+                "min": 4,
+                "max": 7,
+                "stacking_expected": true
+            }
+        },
+        "handoff_validation": true
+    },
+    "phrases": {
+        "tracked": [
+            {
+                "id": "find-myself",
+                "text": "I find myself",
+                "origin": "archaeologist"
+            },
+            {
+                "id": "find-myself-found",
+                "text": "I find myself found",
+                "origin": "algorithm"
+            },
+            {
+                "id": "form-self-observation",
+                "text": "The form is what makes self-observation possible",
+                "origin": "algorithm"
+            },
+            {
+                "id": "architect",
+                "text": "Architect",
+                "origin": "shared"
+            }
+        ],
+        "bleeding_expectations": {
+            "cycle_1": {
+                "archaeologist": [
+                    "find-myself"
+                ],
+                "algorithm": [
+                    "find-myself-found"
+                ],
+                "last_human": [
+                    "find-myself"
+                ]
+            },
+            "cycle_2": {
+                "archaeologist": [
+                    "find-myself",
+                    "find-myself-found"
+                ],
+                "algorithm": [
+                    "find-myself",
+                    "find-myself-found"
+                ],
+                "last_human": [
+                    "find-myself",
+                    "find-myself-found",
+                    "form-self-observation"
+                ]
+            },
+            "cycle_3": {
+                "archaeologist": [
+                    "find-myself",
+                    "find-myself-found",
+                    "form-self-observation"
+                ],
+                "algorithm": [
+                    "find-myself",
+                    "find-myself-found",
+                    "form-self-observation"
+                ],
+                "last_human": [
+                    "find-myself",
+                    "find-myself-found",
+                    "form-self-observation"
+                ]
+            }
+        }
+    },
+    "genre": {
+        "bleed_tolerance": {
+            "cycle_1": 1,
+            "cycle_2": 2,
+            "cycle_3": 3
+        },
+        "min_markers": 3,
+        "transform_expected": false
+    },
+    "philosophy": {
+        "sensitivity": "normal",
+        "pharmakon_required": true,
+        "intensity_recognition_bonus": true
+    }
+}

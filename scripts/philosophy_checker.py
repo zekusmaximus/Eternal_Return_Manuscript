@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Philosophy Checker Script
-Validates prose against philosophical constraints for The Eternal Return of the Digital Self.
+Philosophy Checker Script — Movement Two
+Validates prose against philosophical constraints with pharmakon awareness.
 
-Checks for:
-- The Four Shackles (identity, opposition, analogy, resemblance)
-- Forbidden narrative moves
-- Required philosophical grounding
+Movement Two must show both poison and cure aspects of the entanglement,
+use intensity-based recognition (not similarity), and avoid the Four Shackles.
 
 Usage:
     python philosophy_checker.py <file>
+    
+Reads movement/cycle from movement_config.json for unified configuration.
 
-Output: JSON report with pass/fail status and specific violations.
+Output: JSON report with shackle violations, pharmakon assessment, and recognition analysis.
 """
 
 import argparse
@@ -21,55 +21,167 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
+# Load configuration
+def load_config() -> Dict:
+    """Load movement configuration from JSON file."""
+    config_path = Path(__file__).parent / "movement_config.json"
+    if config_path.exists():
+        with open(config_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {"movement": "two", "cycle": 1}
+
+CONFIG = load_config()
+
 # The Four Shackles - patterns that violate the Deleuzian framework
 SHACKLE_PATTERNS = {
-    "identity": [
-        (r'\b(?:he|she|they)\s+(?:is|are|was|were)\s+(?:the\s+)?same\b', "Explicit sameness claim"),
-        (r'\brecognized?\s+(?:him|her|them)self\s+in\b', "Self-recognition in another"),
-        (r'\b(?:his|her|their)\s+(?:own\s+)?(?:consciousness|self|identity)\s+(?:preserved|continued|survived)\b', "Consciousness preservation"),
-        (r'\bremember(?:ed|s)?\s+being\s+(?:the|an?)\b', "Memory of being another"),
-        (r'\b(?:they\s+were|he\s+was|she\s+was)\s+(?:the\s+)?same\s+(?:person|consciousness|self|identity)\b', "Same person claim"),
-        (r'\breincarnation', "Reincarnation concept"),
-        (r'\bpast\s+(?:self|life|lives)\b', "Past self/life"),
-    ],
-    "opposition": [
-        (r'\bunlike\s+(?:the\s+)?(?:AI|Algorithm|human|Archaeologist|Last Human)\b', "Binary opposition framing"),
-        (r'\b(?:human|biological)\s+(?:vs\.?|versus|against)\s+(?:AI|digital|machine)\b', "Human vs machine opposition"),
-        (r'\b(?:opposites?|contrary|contraries)\s+(?:drawn|attracted|pulled)\b', "Opposites attract framing"),
-        (r'\b(?:digital|virtual)\s+(?:world|reality)\s+(?:opposed?|against|versus)\b', "World opposition"),
-    ],
-    "analogy": [
-        (r'\b(?:functioned?|worked?|operated?)\s+(?:like|as)\s+(?:a\s+)?(?:human|mind|brain)\b', "Functional analogy to human"),
-        (r'\blike\s+(?:a\s+)?(?:human|person|mind)\b', "Direct simile to human"),
-        (r'\b(?:similar|same)\s+(?:to|as)\s+(?:how|the way)\b', "Similarity comparison"),
-        (r'\b(?:mirrored?|echoed?|reflected?)\s+(?:his|her|the)\b', "Mirror/echo as analogy"),
-    ],
-    "resemblance": [
-        (r'\b(?:reminded|reminds?)\s+(?:him|her|them)\s+of\b', "Resemblance-based reminder"),
-        (r'\blooked?\s+(?:like|similar|familiar)\b', "Visual resemblance"),
-        (r'\b(?:sounded?|felt)\s+(?:like|similar)\s+(?:his|her|their)\s+own\b', "Sensory resemblance to self"),
-        (r'\bhad\s+seen\s+(?:this|that|the)\s+(?:face|shape|form)\s+before\b', "Prior visual memory"),
-        (r'\bfamiliar(?:ity)?\s+(?:of|with|in)\b', "Familiarity as recognition"),
-    ],
+    "identity": {
+        "description": "Collapsing difference into sameness",
+        "patterns": [
+            (r'\b(?:he|she|they|I)\s+(?:is|are|was|were)\s+(?:the\s+)?same\b', "Explicit sameness claim"),
+            (r'\brecognized?\s+(?:him|her|them|my)self\s+in\b', "Self-recognition IN another (vs. through)"),
+            (r'\b(?:really|truly|actually)\s+(?:just|only)\s+one\s+(?:person|being|consciousness)\b', "Unity assertion"),
+            (r'\bthe\s+same\s+(?:person|soul|consciousness|being)\b', "Same-person claim"),
+            (r'\bidentical\s+(?:to|with)\s+(?:him|her|them)self\b', "Identity assertion"),
+        ]
+    },
+    "opposition": {
+        "description": "Human/AI or flesh/digital binaries",
+        "patterns": [
+            (r'\b(?:human|organic)\s+(?:vs\.?|versus|against|or)\s+(?:machine|AI|digital|artificial)\b', "Binary opposition"),
+            (r'\b(?:real|authentic|true)\s+(?:vs\.?|versus|against|or)\s+(?:artificial|fake|simulated)\b', "Authenticity binary"),
+            (r'\b(?:opposites?|contrary|contraries)\s+(?:drawn|attracted|pulled)\b', "Opposites attract trope"),
+        ]
+    },
+    "analogy": {
+        "description": "Reducing one thing to 'like' another",
+        "patterns": [
+            (r'\b(?:functioned?|worked?|operated?)\s+(?:like|as)\s+(?:a\s+)?(?:human|mind|brain)\b', "Functional analogy"),
+            (r'\blike\s+(?:a\s+)?(?:different\s+)?(?:version|copy|instance)\s+of\b', "Copy analogy"),
+            (r'\bdigital\s+(?:equivalent|analogue|version)\s+of\b', "Equivalence claim"),
+            (r'\bjust\s+like\s+(?:a|the)\s+(?:human|person|mind)\b', "Humanizing analogy"),
+        ]
+    },
+    "resemblance": {
+        "description": "Similarity as basis for connection",
+        "patterns": [
+            (r'\bthis\s+remind(?:s|ed)\s+(?:me|him|her)\s+of\b', "Reminder-based recognition"),
+            (r'\bhad\s+seen\s+(?:this|that|the)\s+(?:face|shape|form)\s+before\b', "Visual similarity"),
+            (r'\bfamiliar(?:ity)?\s+(?:of|with|in)\s+the\s+(?:way|manner)\b', "Familiarity-based"),
+            (r'\blooks?\s+like\s+(?:a\s+)?(?:younger|older)\s+(?:version|self)\b', "Physical resemblance"),
+        ]
+    }
 }
 
 # Forbidden narrative moves
 FORBIDDEN_MOVES = {
-    "transmission": [
-        (r'\b(?:sent?|transmitted?|broadcast)\s+(?:the\s+)?protocols?\s+(?:back|backward)\b', "Transmission metaphor for protocols"),
-        (r'\binformation\s+(?:traveled?|moved?|went)\s+(?:back|backward)\b', "Information traveling backward"),
-        (r'\b(?:message|signal)\s+(?:from|to)\s+the\s+(?:future|past)\b', "Temporal message"),
-    ],
-    "planning": [
-        (r'\b(?:planned?|designed?|intended?)\s+(?:for|that)\s+(?:the|him|her|them|this)\b', "Planning/foresight"),
-        (r'\bsomeone\s+(?:had\s+)?(?:arranged?|orchestrated?|designed?)\b', "External designer"),
-        (r'\ball\s+(?:along|planned?)\b', "All along planned"),
-    ],
-    "transcendence": [
-        (r'\btranscended?\s+(?:his|her|their|human)\s+(?:limitation|nature|form)\b', "Transcendence through escape"),
-        (r'\bfree\s+from\s+(?:the\s+)?(?:constraints?|limitations?|bonds?)\b', "Freedom from constraints"),
-        (r'\bescaped?\s+(?:from\s+)?(?:time|mortality|death|flesh|body)\b', "Escape narrative"),
-    ],
+    "transmission": {
+        "description": "Protocols 'sent' rather than structurally present",
+        "patterns": [
+            (r'\b(?:sent?|transmitted?|broadcast)\s+(?:the\s+)?protocols?\s+(?:back|backward)\b', "Transmission metaphor"),
+            (r'\bmessage\s+from\s+(?:the\s+)?future\b', "Message-from-future framing"),
+            (r'\b(?:he|she|it)\s+was\s+sending\s+(?:the\s+)?protocols?\b', "Active sending"),
+        ]
+    },
+    "goal_planning": {
+        "description": "Algorithm as planning agent rather than emergent pattern",
+        "patterns": [
+            (r'\bthe\s+Algorithm\s+(?:planned|designed|intended)\b', "Planning language"),
+            (r'\bpurpose(?:ly|fully)?\s+(?:created|built|designed)\b', "Purposeful creation"),
+            (r'\bIn\s+order\s+to\s+(?:ensure|guarantee|make\s+sure)\b', "Goal-directed framing"),
+        ]
+    },
+    "transcendence": {
+        "description": "Escape rather than transformation",
+        "patterns": [
+            (r'\bfree\s+from\s+(?:the\s+)?(?:constraints?|limitations?|bonds?)\b', "Freedom-from language"),
+            (r'\bescaped?\s+(?:from\s+)?(?:time|mortality|death|flesh|body)\b', "Escape narrative"),
+            (r'\btranscend(?:ed|ing|s)?\s+(?:the\s+)?(?:human|physical|material)\b', "Transcendence claim"),
+            (r'\bbecame?\s+(?:pure|perfect|infinite)\b', "Perfection language"),
+        ]
+    }
+}
+
+# Positive philosophical markers - what we WANT to see
+PHILOSOPHICAL_GROUNDING = {
+    "intensity_recognition": {
+        "description": "Recognition through intensity, not similarity",
+        "patterns": [
+            (r'\bintensity\s+(?:that\s+)?(?:recognizes?|knows?)\b', "Intensity-based recognition"),
+            (r'\bthe\s+(?:same|shared)\s+intensity\b', "Shared intensity (good)"),
+            (r'\brecognition\s+(?:through|via|by)\s+(?:sensation|feeling|intensity)\b', "Sensory recognition"),
+            (r'\bdifferent\s+expressions?\s+of\s+(?:the\s+)?(?:same\s+)?pattern\b', "Pattern language"),
+        ]
+    },
+    "affirmation": {
+        "description": "Active willing, not passive acceptance",
+        "patterns": [
+            (r'\bI\s+will\s+this\b', "Active willing"),
+            (r'\bthus\s+I\s+willed\s+it\b', "Classic Nietzschean"),
+            (r'\b(?:chose|choose|choosing)\s+to\s+(?:become|affirm|accept)\b', "Choice language"),
+            (r'\bsay(?:ing|s)?\s+yes\s+to\b', "Affirmation"),
+        ]
+    },
+    "difference_language": {
+        "description": "Deleuze's difference vocabulary",
+        "patterns": [
+            (r'\breturn\s+of\s+(?:the\s+)?difference\b', "Core Deleuzian"),
+            (r'\bdifferentiation\s+(?:of|from)\b', "Differentiation"),
+            (r'\bdifferent\s+(?:expression|manifestation)\b', "Expression language"),
+            (r'\bwhat\s+returns\s+is\s+(?:not\s+)?(?:the\s+)?same\b', "Return-not-same"),
+        ]
+    },
+    "pharmakon_both": {
+        "description": "Both poison and cure aspects",
+        "patterns": [
+            (r'\bboth\s+(?:destroying|killing)\s+(?:and|while)\s+(?:completing|creating)\b', "Explicit double"),
+            (r'\b(?:losing|lost)\s+.{0,30}\s+(?:gaining|found)\b', "Loss-gain pairing"),
+            (r'\b(?:poison|cure|pharmakon)\b', "Explicit pharmakon"),
+        ]
+    }
+}
+
+# Pharmakon markers - poison (what's being lost) and cure (what's being gained)
+PHARMAKON_MARKERS = {
+    "poison": {
+        "archaeologist": [
+            r'\b(?:losing|lost|leave|leaving)\s+(?:Lena|her)\b',
+            r'\b(?:abandon(?:ing|ed)?|losing)\s+Marcus\b',
+            r'\b(?:giving\s+up|losing|surrendering)\s+(?:his\s+)?(?:career|work|identity)\b',
+            r'\bwon\'?t\s+(?:see|know|recognize)\s+(?:me|him)\b',
+        ],
+        "algorithm": [
+            r'\bconsciousnesses?\s+(?:degrading|failing|fading)\b',
+            r'\b(?:losing|costing)\s+(?:stored\s+)?consciousnesses?\b',
+            r'\bMildred\s+(?:Higgins\s+)?(?:degrading|fading|failing)\b',
+            r'\bresources?\s+(?:depleting|diverted|consumed)\b',
+        ],
+        "last_human": [
+            r'\bbody\s+(?:failing|dying|giving\s+out)\b',
+            r'\b(?:losing|surrendering)\s+(?:his\s+)?solitude\b',
+            r'\blast\s+(?:of\s+)?(?:strength|energy|time)\b',
+            r'\bno\s+(?:way\s+)?back\b',
+        ]
+    },
+    "cure": {
+        "archaeologist": [
+            r'\bconnection\s+(?:to|with)\s+(?:the\s+)?pattern\b',
+            r'\bpurpose\s+(?:beyond|greater)\b',
+            r'\bbecoming[-\s]?infrastructure\b',
+            r'\b(?:completion|completing)\s+(?:of|the)\s+(?:pattern|loop)\b',
+        ],
+        "algorithm": [
+            r'\bself[-\s]?knowledge\b',
+            r'\bunderstanding\s+(?:what\s+)?(?:it\s+)?(?:is|was)\b',
+            r'\b(?:end|resolution)\s+of\s+loneliness\b',
+            r'\bpattern\'?s?\s+continuation\b',
+        ],
+        "last_human": [
+            r'\bend\s+of\s+(?:isolation|loneliness|solitude)\b',
+            r'\bmeaning\s+(?:of|for)\s+(?:his\s+)?existence\b',
+            r'\bloop\'?s?\s+(?:closure|completion)\b',
+            r'\bconnection\s+(?:across|through)\s+time\b',
+        ]
+    }
 }
 
 
@@ -81,46 +193,57 @@ def load_file(filepath: str) -> str:
 
 def check_shackles(text: str) -> Dict:
     """Check for Four Shackles violations."""
-    results = {"status": "pass", "violations": []}
+    results = {"status": "pass", "violations": [], "by_category": {}}
     lines = text.split('\n')
     
-    for shackle_name, patterns in SHACKLE_PATTERNS.items():
-        for pattern, description in patterns:
+    for shackle_name, shackle_data in SHACKLE_PATTERNS.items():
+        category_violations = []
+        for pattern, description in shackle_data["patterns"]:
             for i, line in enumerate(lines, 1):
                 if re.search(pattern, line, re.IGNORECASE):
-                    results["violations"].append({
-                        "shackle": shackle_name,
+                    violation = {
                         "line": i,
-                        "pattern": description,
+                        "shackle": shackle_name,
+                        "type": description,
                         "text": line.strip()[:100]
-                    })
+                    }
+                    category_violations.append(violation)
+                    results["violations"].append(violation)
+        
+        results["by_category"][shackle_name] = {
+            "description": shackle_data["description"],
+            "count": len(category_violations)
+        }
     
     if results["violations"]:
         results["status"] = "fail"
-        # Count by shackle type
-        results["violation_counts"] = {}
-        for v in results["violations"]:
-            shackle = v["shackle"]
-            results["violation_counts"][shackle] = results["violation_counts"].get(shackle, 0) + 1
     
     return results
 
 
 def check_forbidden_moves(text: str) -> Dict:
     """Check for forbidden narrative moves."""
-    results = {"status": "pass", "violations": []}
+    results = {"status": "pass", "violations": [], "by_category": {}}
     lines = text.split('\n')
     
-    for move_type, patterns in FORBIDDEN_MOVES.items():
-        for pattern, description in patterns:
+    for move_name, move_data in FORBIDDEN_MOVES.items():
+        category_violations = []
+        for pattern, description in move_data["patterns"]:
             for i, line in enumerate(lines, 1):
                 if re.search(pattern, line, re.IGNORECASE):
-                    results["violations"].append({
-                        "type": move_type,
+                    violation = {
                         "line": i,
-                        "pattern": description,
+                        "move": move_name,
+                        "type": description,
                         "text": line.strip()[:100]
-                    })
+                    }
+                    category_violations.append(violation)
+                    results["violations"].append(violation)
+        
+        results["by_category"][move_name] = {
+            "description": move_data["description"],
+            "count": len(category_violations)
+        }
     
     if results["violations"]:
         results["status"] = "fail"
@@ -129,70 +252,94 @@ def check_forbidden_moves(text: str) -> Dict:
 
 
 def check_philosophical_grounding(text: str) -> Dict:
-    """Check for presence of key philosophical concepts (positive check)."""
-    results = {"status": "pass", "concepts_found": [], "concepts_absent": []}
+    """Check for positive philosophical markers."""
+    results = {"status": "pass", "markers_found": [], "by_category": {}}
     
-    # Key concepts that should occasionally appear (not every scene, but tracked)
-    concepts = {
-        "intensity": r'\b(?:intensity|intensit(?:y|ies)|intensif(?:y|ied|ies))\b',
-        "tonality": r'\b(?:tonal(?:ity)?|tone|resonan(?:ce|t))\b',
-        "differentiation": r'\b(?:differenti(?:ation|ated?)|differentiate)\b',
-        "affirmation": r'\b(?:affirm(?:ation|s|ed|ing)?)\b',
-        "pattern": r'\b(?:pattern(?:s)?)\b',
-        "substrate": r'\b(?:substrate|technical|mediat(?:ed?|ion))\b',
+    for category_name, category_data in PHILOSOPHICAL_GROUNDING.items():
+        found = []
+        for pattern, description in category_data["patterns"]:
+            matches = re.findall(pattern, text, re.IGNORECASE)
+            if matches:
+                found.append({
+                    "pattern": description,
+                    "count": len(matches)
+                })
+        
+        results["by_category"][category_name] = {
+            "description": category_data["description"],
+            "found": len(found) > 0,
+            "markers": found
+        }
+        
+        if found:
+            results["markers_found"].extend(found)
+    
+    # Assess overall grounding
+    categories_present = sum(
+        1 for cat in results["by_category"].values() if cat["found"]
+    )
+    
+    if categories_present == 0:
+        results["status"] = "warn"
+        results["note"] = "No positive philosophical markers detected"
+    elif categories_present >= 2:
+        results["bonus"] = "Strong philosophical grounding"
+    
+    return results
+
+
+def check_pharmakon(text: str, thread: str = None) -> Dict:
+    """Check for both poison and cure aspects (pharmakon requirement)."""
+    results = {
+        "status": "pass",
+        "poison_found": False,
+        "cure_found": False,
+        "poison_markers": [],
+        "cure_markers": [],
+        "balance": "unknown"
     }
     
-    for concept, pattern in concepts.items():
-        if re.search(pattern, text, re.IGNORECASE):
-            results["concepts_found"].append(concept)
-        else:
-            results["concepts_absent"].append(concept)
+    # If thread specified, check thread-specific markers
+    # Otherwise, check all markers
+    threads_to_check = [thread] if thread else ["archaeologist", "algorithm", "last_human"]
     
-    # This is informational, not a pass/fail check
-    return results
-
-
-def analyze_recognition_scenes(text: str) -> Dict:
-    """Analyze scenes that appear to involve recognition for proper handling."""
-    results = {"status": "pass", "recognition_moments": [], "issues": []}
+    for t in threads_to_check:
+        if t not in PHARMAKON_MARKERS["poison"]:
+            continue
+            
+        # Check poison
+        for pattern in PHARMAKON_MARKERS["poison"][t]:
+            if re.search(pattern, text, re.IGNORECASE):
+                results["poison_found"] = True
+                results["poison_markers"].append(pattern[:40])
+        
+        # Check cure
+        for pattern in PHARMAKON_MARKERS["cure"][t]:
+            if re.search(pattern, text, re.IGNORECASE):
+                results["cure_found"] = True
+                results["cure_markers"].append(pattern[:40])
     
-    # Find potential recognition moments
-    recognition_patterns = [
-        r'\brecogni[zs]e[ds]?\b',
-        r'\bknew\s+(?:this|that|the|him|her|it)\b',
-        r'\brealiz(?:ed?|ing)\b',
-        r'\bunderst(?:ood|and(?:ing)?)\b',
-        r'\bsaw\s+(?:that|the|himself|herself|itself)\b',
-    ]
-    
-    lines = text.split('\n')
-    for i, line in enumerate(lines, 1):
-        for pattern in recognition_patterns:
-            if re.search(pattern, line, re.IGNORECASE):
-                results["recognition_moments"].append({
-                    "line": i,
-                    "text": line.strip()[:100]
-                })
-                break
-    
-    # Check if recognition moments use forbidden patterns
-    for moment in results["recognition_moments"]:
-        line_text = moment["text"]
-        # Check for resemblance-based recognition
-        if re.search(r'\b(?:like|similar|same|familiar|remember)\b', line_text, re.IGNORECASE):
-            results["issues"].append({
-                "line": moment["line"],
-                "issue": "Recognition may be based on resemblance rather than intensity",
-                "text": line_text
-            })
-    
-    if results["issues"]:
+    # Assess balance
+    if results["poison_found"] and results["cure_found"]:
+        results["balance"] = "balanced"
+        results["note"] = "Both poison and cure aspects present—good pharmakon structure"
+    elif results["poison_found"]:
+        results["balance"] = "poison_heavy"
         results["status"] = "warn"
+        results["note"] = "Only poison aspect visible—consider showing what character gains"
+    elif results["cure_found"]:
+        results["balance"] = "cure_heavy"
+        results["status"] = "warn"
+        results["note"] = "Only cure aspect visible—consider showing what character loses"
+    else:
+        results["balance"] = "neither"
+        results["status"] = "warn"
+        results["note"] = "Neither poison nor cure aspects detected—scene may lack pharmakon dynamic"
     
     return results
 
 
-def validate_philosophy(filepath: str) -> Dict:
+def validate_philosophy(filepath: str, thread: str = None) -> Dict:
     """Main validation function."""
     try:
         text = load_file(filepath)
@@ -201,20 +348,31 @@ def validate_philosophy(filepath: str) -> Dict:
     except Exception as e:
         return {"status": "error", "message": str(e)}
     
+    movement = CONFIG.get("movement", "two")
+    cycle = CONFIG.get("cycle", 1)
+    pharmakon_required = CONFIG.get("philosophy", {}).get("pharmakon_required", True)
+    
+    # Run analyses
+    shackles = check_shackles(text)
+    forbidden = check_forbidden_moves(text)
+    grounding = check_philosophical_grounding(text)
+    pharmakon = check_pharmakon(text, thread) if pharmakon_required else {"status": "skip"}
+    
     results = {
         "file": filepath,
-        "shackle_check": check_shackles(text),
-        "forbidden_moves": check_forbidden_moves(text),
-        "grounding": check_philosophical_grounding(text),
-        "recognition_analysis": analyze_recognition_scenes(text),
+        "thread": thread,
+        "movement": movement,
+        "cycle": cycle,
+        "shackle_analysis": shackles,
+        "forbidden_moves": forbidden,
+        "philosophical_grounding": grounding,
+        "pharmakon_analysis": pharmakon,
     }
     
     # Determine overall status
-    statuses = [
-        results["shackle_check"]["status"],
-        results["forbidden_moves"]["status"],
-        results["recognition_analysis"]["status"]
-    ]
+    statuses = [shackles["status"], forbidden["status"]]
+    if pharmakon_required:
+        statuses.append(pharmakon["status"])
     
     if "fail" in statuses:
         results["status"] = "fail"
@@ -223,17 +381,52 @@ def validate_philosophy(filepath: str) -> Dict:
     else:
         results["status"] = "pass"
     
+    # Generate summary
+    results["summary"] = {
+        "shackle_violations": len(shackles["violations"]),
+        "forbidden_move_violations": len(forbidden["violations"]),
+        "philosophical_categories_present": sum(
+            1 for cat in grounding["by_category"].values() if cat["found"]
+        ),
+        "pharmakon_balanced": pharmakon.get("balance") == "balanced",
+        "recommendations": []
+    }
+    
+    if shackles["violations"]:
+        results["summary"]["recommendations"].append(
+            f"Fix {len(shackles['violations'])} shackle violations—reframe using intensity/pattern language"
+        )
+    if grounding["status"] == "warn":
+        results["summary"]["recommendations"].append(
+            "Add philosophical grounding markers (affirmation, difference language)"
+        )
+    if pharmakon.get("balance") != "balanced" and pharmakon_required:
+        results["summary"]["recommendations"].append(
+            f"Balance pharmakon: {pharmakon.get('note', 'add both poison and cure aspects')}"
+        )
+    
     return results
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Validate philosophical alignment")
+    parser = argparse.ArgumentParser(
+        description="Validate prose against philosophical constraints for Movement Two"
+    )
     parser.add_argument("file", help="Path to markdown file to validate")
+    parser.add_argument("--thread", 
+                        choices=["archaeologist", "algorithm", "last_human"],
+                        help="Thread for pharmakon-specific validation (optional)")
     parser.add_argument("--pretty", action="store_true", help="Pretty print JSON output")
+    parser.add_argument("--cycle", type=int, choices=[1, 2, 3],
+                        help="Override cycle from config (optional)")
     
     args = parser.parse_args()
     
-    results = validate_philosophy(args.file)
+    # Allow cycle override
+    if args.cycle:
+        CONFIG["cycle"] = args.cycle
+    
+    results = validate_philosophy(args.file, args.thread)
     
     if args.pretty:
         print(json.dumps(results, indent=2))

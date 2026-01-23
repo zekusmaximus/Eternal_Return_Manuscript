@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 """
-Genre Checker Script — Movement Two
-Validates genre pressure markers with cycle-aware bleed tolerance.
+Genre Checker Script
+Validates genre pressure markers for The Eternal Return of the Digital Self.
 
-Movement Two allows progressive genre bleed:
-- Cycle 1-2: Genre distinct, subtle echoes allowed
-- Cycle 3: Genre contamination begins (corprate gothic acquires cosmic horror, etc.)
+Scans scene files for genre-appropriate vocabulary and markers,
+assessing intensity against movement requirements.
 
 Usage:
-    python genre_checker.py <file> --thread <archaeologist|algorithm|last_human>
-    
-Reads movement/cycle from movement_config.json for unified configuration.
+    python genre_checker.py <file> --thread <archaeologist|algorithm|last_human> --movement <one|two|three|four>
 
-Output: JSON report with genre markers found and bleed assessment.
+Output: JSON report with genre markers found and intensity assessment.
 """
 
 import argparse
@@ -22,22 +19,10 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
-# Load configuration
-def load_config() -> Dict:
-    """Load movement configuration from JSON file."""
-    config_path = Path(__file__).parent / "movement_config.json"
-    if config_path.exists():
-        with open(config_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {"movement": "two", "cycle": 1}
-
-CONFIG = load_config()
-
 # Genre markers by thread
 GENRE_MARKERS = {
     "archaeologist": {
         "genre": "Corporate Gothic / Tech-Noir",
-        "description": "Clean surfaces hiding rot, technology as grave-tending, economic predation",
         "categories": {
             "morgue_atmosphere": {
                 "description": "Server rooms as spaces of the dead",
@@ -46,11 +31,10 @@ GENRE_MARKERS = {
                     r'\b(?:recycled|filtered|artificial)\s+air\b',
                     r'\bfluorescent\b',
                     r'\b(?:humming|buzzing)\s+(?:servers?|fans?|equipment)\b',
-                    r'\bserver\s+room\b',
                 ]
             },
             "intimate_invasion": {
-                "description": "Data work as going through belongings of the dead",
+                "description": "Data work as going through belongings",
                 "markers": [
                     r'\b(?:excavat\w+|extract\w+|recover\w+)\s+(?:data|files?|memories?)\b',
                     r'\b(?:private|intimate|personal)\s+(?:data|files?|memories?)\b',
@@ -59,7 +43,7 @@ GENRE_MARKERS = {
                 ]
             },
             "economic_predation": {
-                "description": "Immortality commodified, death as transaction",
+                "description": "Immortality commodified",
                 "markers": [
                     r'\b(?:afford|cost|fee|price|pay(?:ment)?|earn)\b',
                     r'\b(?:client|contract|commission)\b',
@@ -68,7 +52,7 @@ GENRE_MARKERS = {
                 ]
             },
             "decay_beneath_polish": {
-                "description": "Technology failing, infrastructure straining",
+                "description": "Technology failing",
                 "markers": [
                     r'\b(?:clicking|grinding|failing|degrading)\s+(?:drives?|servers?|systems?)\b',
                     r'\b(?:error|warning|failure)\s+(?:logs?|messages?|alerts?)\b',
@@ -89,7 +73,6 @@ GENRE_MARKERS = {
     },
     "algorithm": {
         "genre": "Cosmic Horror AI",
-        "description": "The sublime terror of intelligence too vast, consciousness as suffering",
         "categories": {
             "scale_paralysis": {
                 "description": "Awareness too large for comfort",
@@ -140,7 +123,6 @@ GENRE_MARKERS = {
     },
     "last_human": {
         "genre": "Dying Earth / New Weird",
-        "description": "World moved on from biology, alien ecology, temporal ruins",
         "categories": {
             "alien_ecology": {
                 "description": "Nature that isn't natural",
@@ -152,7 +134,7 @@ GENRE_MARKERS = {
                 ]
             },
             "hostile_environment": {
-                "description": "The world actively resists human presence",
+                "description": "The world actively resists",
                 "markers": [
                     r'\bradiation\s+(?:exposure|levels?|burns?)\b',
                     r'\b(?:toxic|poisonous|caustic)\s+(?:air|atmosphere|environment)\b',
@@ -161,7 +143,7 @@ GENRE_MARKERS = {
                 ]
             },
             "human_as_invasive": {
-                "description": "He doesn't belong here anymore",
+                "description": "He doesn't belong",
                 "markers": [
                     r'\b(?:invasive|alien|foreign)\s+species\b',
                     r'\b(?:don\'?t|doesn\'?t)\s+belong\b',
@@ -188,6 +170,38 @@ GENRE_MARKERS = {
                 ]
             }
         }
+    }
+}
+
+# Movement intensity expectations
+INTENSITY_CONFIG = {
+    "one": {
+        "min_markers": 2,
+        "max_markers_per_category": 3,
+        "bleed_expected": False,
+        "transform_expected": False,
+        "description": "Full genre presence, distinct, no bleed"
+    },
+    "two": {
+        "min_markers": 3,
+        "max_markers_per_category": 4,
+        "bleed_expected": False,  # Subtle echoes, not explicit bleed
+        "transform_expected": False,
+        "description": "Genre echoes begin, intensifying"
+    },
+    "three": {
+        "min_markers": 4,
+        "max_markers_per_category": 6,
+        "bleed_expected": True,
+        "transform_expected": False,
+        "description": "Genre contamination, explicit bleed"
+    },
+    "four": {
+        "min_markers": 2,
+        "max_markers_per_category": 4,
+        "bleed_expected": True,
+        "transform_expected": True,
+        "description": "Genre transcendence, resolution"
     }
 }
 
@@ -221,7 +235,7 @@ def find_genre_markers(text: str, thread: str) -> Dict:
             found[category_id] = {
                 "description": category_data["description"],
                 "count": len(matches),
-                "occurrences": matches[:5]  # Limit to first 5 matches
+                "occurrences": matches[:3]  # Limit to first 3 matches
             }
     
     return found
@@ -238,71 +252,60 @@ def check_genre_bleed(text: str, thread: str) -> Dict:
             bleed_found[other_thread] = {
                 "genre": GENRE_MARKERS[other_thread]["genre"],
                 "categories": list(markers_found.keys()),
-                "marker_count": sum(m["count"] for m in markers_found.values()),
-                "details": markers_found
+                "marker_count": sum(m["count"] for m in markers_found.values())
             }
     
     return bleed_found
 
 
-def assess_intensity(markers_found: Dict, bleed_found: Dict, cycle: int) -> Dict:
-    """Assess if genre pressure is appropriate for the cycle."""
-    genre_config = CONFIG.get("genre", {})
-    bleed_tolerance = genre_config.get("bleed_tolerance", {}).get(f"cycle_{cycle}", 2)
-    min_markers = genre_config.get("min_markers", 3)
+def assess_intensity(markers_found: Dict, movement: str, bleed_found: Dict) -> Dict:
+    """Assess if genre pressure is appropriate for the movement."""
+    config = INTENSITY_CONFIG.get(movement, INTENSITY_CONFIG["one"])
     
     total_markers = sum(m["count"] for m in markers_found.values())
-    total_bleed = sum(b["marker_count"] for b in bleed_found.values())
     categories_hit = len(markers_found)
     
     result = {
         "status": "pass",
-        "cycle": cycle,
-        "primary_genre_strength": total_markers,
-        "bleed_amount": total_bleed,
-        "bleed_tolerance": bleed_tolerance,
-        "issues": [],
-        "notes": []
+        "movement": movement,
+        "expected": config,
+        "found": {
+            "total_markers": total_markers,
+            "categories_hit": categories_hit,
+            "has_bleed": len(bleed_found) > 0
+        },
+        "issues": []
     }
     
-    # Check minimum markers for primary genre
-    if total_markers < min_markers:
+    # Check minimum markers
+    if total_markers < config["min_markers"]:
         result["status"] = "warn"
-        result["issues"].append(
-            f"Insufficient primary genre markers: found {total_markers}, expected ≥{min_markers}. "
-            f"Add more {list(GENRE_MARKERS.keys())[0] if markers_found else 'genre'}-specific vocabulary."
-        )
+        result["issues"].append(f"Insufficient genre markers: found {total_markers}, expected at least {config['min_markers']}")
     
-    # Check bleed against tolerance
-    if total_bleed > bleed_tolerance:
-        if cycle < 3:
-            result["status"] = "warn"
-            result["issues"].append(
-                f"Premature genre bleed for Cycle {cycle}: found {total_bleed} markers from other genres, "
-                f"tolerance is {bleed_tolerance}. Save genre contamination for Cycle 3+."
-            )
-        else:
-            result["notes"].append(
-                f"Genre bleed detected ({total_bleed} markers)—appropriate for Cycle {cycle}."
-            )
-    elif total_bleed > 0 and cycle >= 3:
-        result["notes"].append(
-            f"Good: genre bleed present in Cycle {cycle} as expected."
-        )
+    # Check bleed expectations
+    if config["bleed_expected"] and not bleed_found:
+        result["issues"].append(f"Movement {movement} expects genre bleed but none detected")
+    
+    if not config["bleed_expected"] and bleed_found:
+        if any(b["marker_count"] > 2 for b in bleed_found.values()):
+            result["issues"].append(f"Movement {movement} has premature genre bleed")
     
     # Check category coverage
     if categories_hit < 2:
-        result["issues"].append(
-            "Low category diversity—consider using markers from different aspects of the genre."
-        )
+        result["issues"].append("Low category diversity - consider using markers from different aspects")
+    
+    if result["issues"] and result["status"] == "pass":
+        result["status"] = "warn"
     
     return result
 
 
-def validate_genre(filepath: str, thread: str) -> Dict:
+def validate_genre(filepath: str, thread: str, movement: str) -> Dict:
     """Main validation function."""
     if thread not in GENRE_MARKERS:
         return {"status": "error", "message": f"Unknown thread: {thread}"}
+    if movement not in INTENSITY_CONFIG:
+        return {"status": "error", "message": f"Unknown movement: {movement}"}
     
     try:
         text = load_file(filepath)
@@ -311,28 +314,22 @@ def validate_genre(filepath: str, thread: str) -> Dict:
     except Exception as e:
         return {"status": "error", "message": str(e)}
     
-    movement = CONFIG.get("movement", "two")
-    cycle = CONFIG.get("cycle", 1)
-    
-    # Run analyses
     markers_found = find_genre_markers(text, thread)
     bleed_found = check_genre_bleed(text, thread)
-    intensity = assess_intensity(markers_found, bleed_found, cycle)
+    intensity = assess_intensity(markers_found, movement, bleed_found)
     
     results = {
         "file": filepath,
         "thread": thread,
         "movement": movement,
-        "cycle": cycle,
-        "primary_genre": GENRE_MARKERS[thread]["genre"],
+        "genre": GENRE_MARKERS[thread]["genre"],
         "markers_found": markers_found,
         "genre_bleed": bleed_found,
         "intensity_assessment": intensity,
         "summary": {
-            "primary_marker_count": sum(m["count"] for m in markers_found.values()),
+            "total_markers": sum(m["count"] for m in markers_found.values()),
             "categories_hit": list(markers_found.keys()),
-            "bleed_from": list(bleed_found.keys()) if bleed_found else [],
-            "bleed_marker_count": sum(b["marker_count"] for b in bleed_found.values())
+            "bleed_from": list(bleed_found.keys()) if bleed_found else []
         }
     }
     
@@ -342,24 +339,19 @@ def validate_genre(filepath: str, thread: str) -> Dict:
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Check genre pressure markers with cycle-aware bleed tolerance"
-    )
+    parser = argparse.ArgumentParser(description="Check genre pressure markers")
     parser.add_argument("file", help="Path to markdown file to analyze")
     parser.add_argument("--thread", required=True,
                         choices=["archaeologist", "algorithm", "last_human"],
                         help="Thread to validate against")
+    parser.add_argument("--movement", required=True,
+                        choices=["one", "two", "three", "four"],
+                        help="Movement number for intensity assessment")
     parser.add_argument("--pretty", action="store_true", help="Pretty print JSON output")
-    parser.add_argument("--cycle", type=int, choices=[1, 2, 3],
-                        help="Override cycle from config (optional)")
     
     args = parser.parse_args()
     
-    # Allow cycle override
-    if args.cycle:
-        CONFIG["cycle"] = args.cycle
-    
-    results = validate_genre(args.file, args.thread)
+    results = validate_genre(args.file, args.thread, args.movement)
     
     if args.pretty:
         print(json.dumps(results, indent=2))

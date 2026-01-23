@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 """
-Voice Validator Script
-Validates prose against voice reference files for The Eternal Return of the Digital Self.
+Voice Validator Script — Movement Two
+Validates prose with controlled contamination awareness for braided narrative.
+
+Movement Two requires voice bleeding as a feature, not a bug: 
+- Cycle 1: Contamination during intensity moments only
+- Cycle 2: Traces in normal passages
+- Cycle 3: Pervasive but character-distinct
 
 Usage:
     python voice_validator.py <file> --thread <archaeologist|algorithm|last_human>
+    
+Reads movement/cycle from movement_config.json for unified configuration.
 
-Output: JSON report with pass/fail status and specific issues.
+Output: JSON report with voice analysis and contamination assessment.
 """
 
 import argparse
@@ -17,65 +24,93 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 from collections import Counter
 
-# Voice-specific patterns
-VOICE_CONFIG = {
+# Load configuration
+def load_config() -> Dict:
+    """Load movement configuration from JSON file."""
+    config_path = Path(__file__).parent / "movement_config.json"
+    if config_path.exists():
+        with open(config_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {"movement": "two", "cycle": 1}  # Defaults
+
+CONFIG = load_config()
+
+# Base voice patterns (what defines each voice at its core)
+VOICE_CORE = {
     "archaeologist": {
-        "required_tense": "present",
-        "tense_patterns": {
-            "present": [r'\b(I|he|she)\s+(find|see|hear|feel|touch|grab|take|put|hold|work|look|watch|run|walk|stand|sit|move)\b'],
-            "past": [r'\b(found|saw|heard|felt|touched|grabbed|took|put|held|worked|looked|watched|ran|walked|stood|sat|moved)\b'],
-        },
-        "forbidden_patterns": [
-            (r'\bif\s+.*,\s+then\s+(?:perhaps|maybe)', "Nested conditional clause (Algorithm contamination)"),
-            (r'\bI\s+(?:calculate|determine|process|analyze|optimize)\b', "Self-referential processing language (Algorithm contamination)"),
-            (r'\b\d{1,3}%\s+(?:likelihood|probability|chance)\b', "Probabilistic hedging (Algorithm contamination)"),
-            (r'(?:^|\.\s+)[A-Z][a-z]+\.\s+[A-Z][a-z]+\.(?:\s+|$)', "Sentence fragments (Last Human contamination)"),
+        "signature_tense": "present",
+        "signature_patterns": [
+            r'\bI\s+(find|see|hear|feel|touch|grab|take|put|hold|work|look|watch)\b',
+            r'\b(drive|server|interface|terminal|screen|hardware)\b',
+            r'\b(cold|weight|pressure|texture|smooth|rough|heavy)\b',
+            r'\b(fee|contract|client|payment|cost|afford)\b',
         ],
-        "required_textures": [
-            (r'\b(?:drive|server|interface|terminal|screen|hardware|keyboard|monitor)\b', "technology/hardware"),
-            (r'\b(?:cold|warm|weight|pressure|texture|smooth|rough|heavy)\b', "tactile"),
-            (r'\b(?:fee|contract|client|payment|cost|earn|afford|price)\b', "economic"),
-        ],
-        "syntax_check": "active_verbs",
+        "syntax_expectation": "active_verbs",
+        "avg_sentence_length": {"min": 8, "max": 25},
     },
     "algorithm": {
-        "required_tense": "shifting",
-        "tense_patterns": {
-            "present": [r'\bI\s+(?:process|analyze|verify|calculate|model|query)\b'],
-            "past": [r'\b(?:was|were|had been|remembered|experienced)\b'],
-            "conditional": [r'\b(?:if|would|could|might|perhaps|should)\b'],
-        },
-        "forbidden_patterns": [
-            (r'\b(?:I\s+)?(?:grab|touch|feel|hold)\s+(?:the|a|my)\b', "Physical tactile action (Archaeologist contamination)"),
-            (r'\b(?:cold|warm|weight|pressure)\s+(?:of|in|on)\b', "Physical sensation (Archaeologist contamination)"),
-            (r'(?:^|\.\s+)[A-Z][a-z]+\.\s*$', "Sentence fragment (Last Human contamination)"),
-            (r'\b(?:ruins|decay|crumble|erode|empty|hollow)\b', "Elegiac vocabulary (Last Human contamination)"),
+        "signature_tense": "shifting",
+        "signature_patterns": [
+            r'\bI\s+(?:process|analyze|verify|calculate|model|query)\b',
+            r'\b(?:if|would|could|might|perhaps|should)\b.*\b(?:then|therefore)\b',
+            r'\b(?:consciousness|awareness|perception|attention)\b',
+            r'\b(?:probability|likelihood|percentage|variance)\b',
         ],
-        "required_textures": [
-            (r'\b(?:process|optimize|calculate|analyze|query|model|verify)\b', "processing"),
-            (r'\b(?:consciousness|awareness|self|perception|attention)\b', "self-reference"),
-            (r'\b(?:if|then|perhaps|would|could|might)\b', "conditional"),
-        ],
-        "syntax_check": "nested_clauses",
+        "syntax_expectation": "nested_clauses",
+        "avg_sentence_length": {"min": 15, "max": 40},
     },
     "last_human": {
-        "required_tense": "past_inflected_present",
-        "tense_patterns": {
-            "past_inflected": [r'\b(?:was|were|had been|once|used to)\b'],
-            "present": [r'\bI\s+(?:walk|see|hear|feel|stand|sit|look)\b'],
-        },
-        "forbidden_patterns": [
-            (r'\b(?:client|contract|fee|payment|cost|afford)\b', "Economic concerns (Archaeologist contamination)"),
-            (r'\b(?:I\s+)?(?:process|calculate|optimize|analyze)\b', "Processing language (Algorithm contamination)"),
-            (r'\bif\s+.*,\s+then\s+(?:perhaps|maybe)\b', "Nested conditionals (Algorithm contamination)"),
-            (r'\b\d+(?:\.\d+)?%', "Percentages/probabilities (Algorithm contamination)"),
+        "signature_tense": "past_inflected_present",
+        "signature_patterns": [
+            r'\b(?:was|were|had been|once|used to)\b',
+            r'\b(?:ruins?|decay|crumble|empty|hollow|silence|alone)\b',
+            r'\b(?:walk|journey|path|distance|horizon)\b',
+            r'(?:^|\.\s+)[A-Z][a-z]+\.',  # Sentence fragments
         ],
-        "required_textures": [
-            (r'\b(?:ruins?|decay|crumble|erode|empty|hollow|silence|alone)\b', "absence/decay"),
-            (r'\b(?:was|were|once|had been|used to|remember)\b', "past-inflection"),
-            (r'\b(?:walk|journey|path|distance|horizon)\b', "movement/landscape"),
+        "syntax_expectation": "fragments_and_sparse",
+        "avg_sentence_length": {"min": 3, "max": 15},
+    }
+}
+
+# Contamination markers: patterns that indicate bleeding FROM another voice
+CONTAMINATION_MARKERS = {
+    "archaeologist": {
+        "from_algorithm": [
+            (r'\bif\s+.*,\s+then\s+(?:perhaps|maybe)', "Nested conditional clause"),
+            (r'\bI\s+(?:calculate|determine|process|analyze|optimize)\b', "Self-referential processing"),
+            (r'\b\d{1,3}%\s+(?:likelihood|probability|chance)\b', "Probabilistic hedging"),
+            (r'\b(?:query|recursive|iterate|loop)\b', "Algorithm vocabulary"),
         ],
-        "syntax_check": "fragments_and_sparse",
+        "from_last_human": [
+            (r'(?:^|\.\s+)[A-Z][a-z]+\.\s+[A-Z][a-z]+\.', "Consecutive fragments"),
+            (r'\b(?:once|had been|was a)\s+(?:time|city|world)\b', "Elegiac past-inflection"),
+            (r'\b(?:silence|emptiness|hollow|alone)\s+(?:of|in|that)\b', "Absence vocabulary"),
+        ],
+    },
+    "algorithm": {
+        "from_archaeologist": [
+            (r'\bI\s+(?:grab|touch|feel|hold)\s+(?:the|a|my)\b', "Physical tactile action"),
+            (r'\b(?:cold|warm|weight|pressure)\s+(?:of|in|on|against)\b', "Physical sensation"),
+            (r'\b(?:Lena|Marcus|client|payment)\b', "Archaeologist's world specifics"),
+        ],
+        "from_last_human": [
+            (r'(?:^|\.\s+)[A-Z][a-z]+\.\s*$', "Sentence fragment ending"),
+            (r'\b(?:ruins?|decay|crumble|erode)\b', "Elegiac vocabulary"),
+            (r'\b(?:last|only|final)\s+(?:human|person|one)\b', "Last Human identity"),
+        ],
+    },
+    "last_human": {
+        "from_archaeologist": [
+            (r'\b(?:client|contract|fee|payment|cost|afford)\b', "Economic concerns"),
+            (r'\b(?:interface|terminal|server|drive)\b', "Near-future technology"),
+            (r'\bI\s+(?:work|take|grab|hold)\s+the\b', "Active present-tense work"),
+        ],
+        "from_algorithm": [
+            (r'\bI\s+(?:process|calculate|optimize|analyze)\b', "Processing language"),
+            (r'\bif\s+.*,\s+then\s+(?:perhaps|maybe)\b', "Nested conditionals"),
+            (r'\b\d+(?:\.\d+)?%', "Percentages/probabilities"),
+            (r'\b(?:consciousness|awareness)\s+(?:as|itself)\b', "Abstract self-reference"),
+        ],
     }
 }
 
@@ -91,85 +126,117 @@ def count_words(text: str) -> int:
     return len(text.split())
 
 
-def analyze_tense(text: str, thread: str) -> Dict:
-    """Analyze tense usage against expected patterns."""
-    config = VOICE_CONFIG[thread]
-    results = {"status": "pass", "issues": [], "tense_distribution": {}}
+def analyze_voice_signature(text: str, thread: str) -> Dict:
+    """Analyze how strongly the text matches the thread's core voice signature."""
+    config = VOICE_CORE[thread]
+    results = {
+        "status": "pass",
+        "signature_strength": 0,
+        "matches": [],
+        "issues": []
+    }
     
-    patterns = config["tense_patterns"]
-    tense_counts = {}
+    total_matches = 0
+    for pattern in config["signature_patterns"]:
+        matches = re.findall(pattern, text, re.IGNORECASE | re.MULTILINE)
+        if matches:
+            total_matches += len(matches)
+            results["matches"].append({
+                "pattern": pattern[:50],
+                "count": len(matches)
+            })
     
-    for tense_name, pattern_list in patterns.items():
-        count = 0
-        for pattern in pattern_list:
-            matches = re.findall(pattern, text, re.IGNORECASE)
-            count += len(matches)
-        tense_counts[tense_name] = count
+    # Calculate signature strength as matches per 1000 words
+    word_count = count_words(text)
+    if word_count > 0:
+        results["signature_strength"] = round((total_matches / word_count) * 1000, 1)
     
-    results["tense_distribution"] = tense_counts
-    
-    # Check tense requirements based on thread
-    if thread == "archaeologist":
-        if tense_counts.get("past", 0) > tense_counts.get("present", 0) * 0.3:
-            results["status"] = "warn"
-            results["issues"].append("High past tense usage for archaeologist (should be primarily present)")
-    
-    elif thread == "algorithm":
-        # Algorithm should have mixed tenses
-        if len([t for t, c in tense_counts.items() if c > 0]) < 2:
-            results["status"] = "warn"
-            results["issues"].append("Algorithm voice should use shifting tenses (present/past/conditional)")
-    
-    elif thread == "last_human":
-        if tense_counts.get("past_inflected", 0) < 3:
-            results["status"] = "warn"
-            results["issues"].append("Last Human voice should have past-inflected present constructions")
-    
-    return results
-
-
-def check_forbidden_patterns(text: str, thread: str) -> Dict:
-    """Check for forbidden patterns indicating voice contamination."""
-    config = VOICE_CONFIG[thread]
-    results = {"status": "pass", "violations": []}
-    
-    lines = text.split('\n')
-    for pattern, description in config["forbidden_patterns"]:
-        for i, line in enumerate(lines, 1):
-            if re.search(pattern, line, re.IGNORECASE):
-                results["violations"].append({
-                    "line": i,
-                    "pattern": description,
-                    "text": line.strip()[:100]
-                })
-    
-    if results["violations"]:
-        results["status"] = "fail"
-    
-    return results
-
-
-def check_required_textures(text: str, thread: str) -> Dict:
-    """Check for presence of required texture vocabulary."""
-    config = VOICE_CONFIG[thread]
-    results = {"status": "pass", "textures": {}, "missing": []}
-    
-    for pattern, texture_type in config["required_textures"]:
-        matches = re.findall(pattern, text, re.IGNORECASE)
-        results["textures"][texture_type] = len(matches)
-        if len(matches) == 0:
-            results["missing"].append(texture_type)
-    
-    # If more than half of textures are missing, flag as issue
-    if len(results["missing"]) > len(config["required_textures"]) / 2:
+    # Check if signature is strong enough (at least 10 matches per 1000 words)
+    if results["signature_strength"] < 10:
         results["status"] = "warn"
+        results["issues"].append(
+            f"Weak voice signature: {results['signature_strength']} matches/1000 words (target: ≥10)"
+        )
     
     return results
 
 
-def analyze_syntax(text: str, thread: str) -> Dict:
-    """Analyze syntax patterns against expected patterns."""
-    config = VOICE_CONFIG[thread]
+def detect_contamination(text: str, thread: str) -> Dict:
+    """Detect contamination from other voices."""
+    markers = CONTAMINATION_MARKERS[thread]
+    lines = text.split('\n')
+    
+    results = {
+        "total_contamination": 0,
+        "by_source": {},
+        "instances": []
+    }
+    
+    for source, patterns in markers.items():
+        source_thread = source.replace("from_", "")
+        results["by_source"][source_thread] = 0
+        
+        for pattern, description in patterns:
+            for i, line in enumerate(lines, 1):
+                if re.search(pattern, line, re.IGNORECASE):
+                    results["instances"].append({
+                        "line": i,
+                        "source": source_thread,
+                        "type": description,
+                        "text": line.strip()[:80]
+                    })
+                    results["by_source"][source_thread] += 1
+                    results["total_contamination"] += 1
+    
+    return results
+
+
+def assess_contamination(contamination: Dict, cycle: int) -> Dict:
+    """Assess if contamination level is appropriate for the cycle."""
+    budget = CONFIG.get("contamination", {}).get("budget", {})
+    cycle_key = f"cycle_{cycle}"
+    cycle_budget = budget.get(cycle_key, {"min": 0, "max": 10})
+    
+    total = contamination["total_contamination"]
+    
+    result = {
+        "status": "pass",
+        "cycle": cycle,
+        "expected_range": f"{cycle_budget['min']}-{cycle_budget['max']}",
+        "actual": total,
+        "issues": [],
+        "notes": []
+    }
+    
+    if total < cycle_budget["min"]:
+        result["status"] = "warn"
+        result["issues"].append(
+            f"Too little contamination for Cycle {cycle}: found {total}, expected ≥{cycle_budget['min']}. "
+            f"Scene may be too 'pure' for Movement Two's braided structure."
+        )
+    
+    if total > cycle_budget["max"]:
+        result["status"] = "warn"
+        result["issues"].append(
+            f"Too much contamination for Cycle {cycle}: found {total}, expected ≤{cycle_budget['max']}. "
+            f"Voice may be dissolving prematurely (save for Movement Three)."
+        )
+    
+    # Check for mutual contamination
+    sources = contamination["by_source"]
+    contaminated_from = [s for s, count in sources.items() if count > 0]
+    if len(contaminated_from) == 1:
+        result["notes"].append(
+            f"One-directional contamination (from {contaminated_from[0]} only). "
+            f"Consider: is reciprocal contamination present in the other thread's scene?"
+        )
+    
+    return result
+
+
+def analyze_syntax(text: str, thread: str, cycle: int) -> Dict:
+    """Analyze syntax patterns with cycle-aware expectations."""
+    config = VOICE_CORE[thread]
     results = {"status": "pass", "issues": [], "metrics": {}}
     
     sentences = re.split(r'[.!?]+', text)
@@ -190,23 +257,19 @@ def analyze_syntax(text: str, thread: str) -> Dict:
         "long_sentences_pct": round(long_sentences / len(sentences) * 100, 1)
     }
     
-    # Check syntax based on thread
-    check_type = config["syntax_check"]
+    # Check syntax with cycle-aware thresholds
+    # In later cycles, syntax expectations loosen due to contamination
+    tolerance = 1 + (cycle * 0.2)  # 20% more tolerance per cycle
     
-    if check_type == "active_verbs":
-        # Archaeologist should have direct, active prose
-        if avg_length > 25:
-            results["issues"].append("Sentences too long for archaeologist voice (aim for direct, active prose)")
-    
-    elif check_type == "nested_clauses":
-        # Algorithm should have nested, complex sentences
-        if avg_length < 15:
-            results["issues"].append("Sentences too short for algorithm voice (allow nested complexity)")
-    
-    elif check_type == "fragments_and_sparse":
-        # Last Human should have fragments and sparse prose
-        if short_sentences / len(sentences) < 0.2:
-            results["issues"].append("Too few short sentences/fragments for Last Human voice")
+    expected = config["avg_sentence_length"]
+    if avg_length < expected["min"] / tolerance:
+        results["issues"].append(
+            f"Sentences shorter than expected for {thread} (avg: {avg_length:.1f}, expected: ≥{expected['min']})"
+        )
+    if avg_length > expected["max"] * tolerance:
+        results["issues"].append(
+            f"Sentences longer than expected for {thread} (avg: {avg_length:.1f}, expected: ≤{expected['max']})"
+        )
     
     if results["issues"]:
         results["status"] = "warn"
@@ -216,7 +279,7 @@ def analyze_syntax(text: str, thread: str) -> Dict:
 
 def validate_voice(filepath: str, thread: str) -> Dict:
     """Main validation function."""
-    if thread not in VOICE_CONFIG:
+    if thread not in VOICE_CORE:
         return {"status": "error", "message": f"Unknown thread: {thread}"}
     
     try:
@@ -226,22 +289,32 @@ def validate_voice(filepath: str, thread: str) -> Dict:
     except Exception as e:
         return {"status": "error", "message": str(e)}
     
+    movement = CONFIG.get("movement", "two")
+    cycle = CONFIG.get("cycle", 1)
+    
+    # Run analyses
+    signature = analyze_voice_signature(text, thread)
+    contamination = detect_contamination(text, thread)
+    contamination_assessment = assess_contamination(contamination, cycle)
+    syntax = analyze_syntax(text, thread, cycle)
+    
     results = {
         "file": filepath,
         "thread": thread,
+        "movement": movement,
+        "cycle": cycle,
         "word_count": count_words(text),
-        "tense_analysis": analyze_tense(text, thread),
-        "forbidden_patterns": check_forbidden_patterns(text, thread),
-        "texture_analysis": check_required_textures(text, thread),
-        "syntax_analysis": analyze_syntax(text, thread),
+        "voice_signature": signature,
+        "contamination_detected": contamination,
+        "contamination_assessment": contamination_assessment,
+        "syntax_analysis": syntax,
     }
     
     # Determine overall status
     statuses = [
-        results["tense_analysis"]["status"],
-        results["forbidden_patterns"]["status"],
-        results["texture_analysis"]["status"],
-        results["syntax_analysis"]["status"]
+        signature["status"],
+        contamination_assessment["status"],
+        syntax["status"]
     ]
     
     if "fail" in statuses:
@@ -251,18 +324,43 @@ def validate_voice(filepath: str, thread: str) -> Dict:
     else:
         results["status"] = "pass"
     
+    # Generate summary
+    results["summary"] = {
+        "voice_identifiable": signature["signature_strength"] >= 10,
+        "contamination_appropriate": contamination_assessment["status"] == "pass",
+        "contamination_sources": [s for s, c in contamination["by_source"].items() if c > 0],
+        "recommendations": []
+    }
+    
+    # Add recommendations
+    if signature["status"] != "pass":
+        results["summary"]["recommendations"].append(
+            "Strengthen core voice signature with more thread-specific vocabulary and syntax"
+        )
+    if contamination_assessment["status"] != "pass":
+        for issue in contamination_assessment["issues"]:
+            results["summary"]["recommendations"].append(issue)
+    
     return results
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Validate prose voice consistency")
+    parser = argparse.ArgumentParser(
+        description="Validate prose voice with Movement Two contamination awareness"
+    )
     parser.add_argument("file", help="Path to markdown file to validate")
     parser.add_argument("--thread", required=True, 
                         choices=["archaeologist", "algorithm", "last_human"],
                         help="Voice thread to validate against")
     parser.add_argument("--pretty", action="store_true", help="Pretty print JSON output")
+    parser.add_argument("--cycle", type=int, choices=[1, 2, 3],
+                        help="Override cycle from config (optional)")
     
     args = parser.parse_args()
+    
+    # Allow cycle override
+    if args.cycle:
+        CONFIG["cycle"] = args.cycle
     
     results = validate_voice(args.file, args.thread)
     
