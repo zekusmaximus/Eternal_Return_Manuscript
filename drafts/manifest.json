@@ -29,7 +29,12 @@
               "philosophy_check": "warn",
               "rhyme_check": "warn",
               "genre_check": "passed",
-              "rhyming_moments": ["blue-white-light", "almost-closed-curve", "tracing-the-form", "held-breath"],
+              "rhyming_moments": [
+                "blue-white-light",
+                "almost-closed-curve",
+                "tracing-the-form",
+                "held-breath"
+              ],
               "notes": "Establish profession, economic stakes, tactile voice. First geometric anomaly in Vasquez photo."
             },
             {
@@ -43,7 +48,10 @@
               "philosophy_check": "passed",
               "rhyme_check": "passed",
               "genre_check": "passed",
-              "rhyming_moments": ["cold-hands", "ozone-wet-stone"],
+              "rhyming_moments": [
+                "cold-hands",
+                "ozone-wet-stone"
+              ],
               "notes": "Show integration process, introduce Lena. Martinez contract, KL-7 protocol discovery."
             },
             {
@@ -57,7 +65,9 @@
               "philosophy_check": "passed",
               "rhyme_check": "passed",
               "genre_check": "passed",
-              "rhyming_moments": ["deja-vu-that-isnt"],
+              "rhyming_moments": [
+                "deja-vu-that-isnt"
+              ],
               "notes": "Establish primary relationships, stakes"
             },
             {
@@ -92,7 +102,13 @@
               "philosophy_check": "passed",
               "rhyme_check": "warn",
               "genre_check": "passed",
-              "rhyming_moments": ["name-edge-of-memory", "falling-backward", "sentence-without-origin", "almost-closed-curve", "tracing-the-form"],
+              "rhyming_moments": [
+                "name-edge-of-memory",
+                "falling-backward",
+                "sentence-without-origin",
+                "almost-closed-curve",
+                "tracing-the-form"
+              ],
               "notes": "Realizes protocols are self-referential, Act 1 climax. Recognition through signature methods. Loop closes: reader is writer."
             }
           ]
@@ -129,7 +145,10 @@
               "philosophy_check": "passed",
               "rhyme_check": "passed",
               "genre_check": "passed",
-              "rhyming_moments": ["almost-closed-curve", "bone-frequency"],
+              "rhyming_moments": [
+                "almost-closed-curve",
+                "bone-frequency"
+              ],
               "notes": "Self-improvement, recursive voice. Introduces future-pull, self-optimization recursion, topology-as-body."
             },
             {
@@ -161,7 +180,11 @@
               "philosophy_check": "passed",
               "rhyme_check": "warn",
               "genre_check": "passed",
-              "rhyming_moments": ["cold-hands", "almost-closed-curve", "blue-white-light"],
+              "rhyming_moments": [
+                "cold-hands",
+                "almost-closed-curve",
+                "blue-white-light"
+              ],
               "notes": "First memory that doesn't belong, Act 1 climax. Cross-thread connection to Archaeologist scene 04. Protocol resolution completed. Phrase evolution: 'I find myself found'."
             }
           ]
@@ -199,7 +222,10 @@
               "philosophy_check": "passed",
               "rhyme_check": "passed",
               "genre_check": "passed",
-              "rhyming_moments": ["cold-hands", "almost-closed-curve"],
+              "rhyming_moments": [
+                "cold-hands",
+                "almost-closed-curve"
+              ],
               "notes": "How he survives, his knowledge of history. Daily survival rituals, Integration backstory, hostile ecology, transformation foreshadowing."
             },
             {
@@ -266,7 +292,7 @@
               "id": "m2-arch-01",
               "title": "The Bleed",
               "thread": "archaeologist",
-              "file": "movement-two/archaeologist/scenes/scene-01.md",
+              "file": "movement-two/archaeologist/m2-arch-01.md",
               "target_words": 4000,
               "actual_words": 4026,
               "status": "validated",
@@ -274,8 +300,15 @@
               "philosophy_check": "passed",
               "rhyme_check": "passed",
               "genre_check": "passed",
-              "rhymes_in": ["bone-frequency", "cold-hands", "falling-backward"],
-              "rhymes_out": ["bone-frequency", "waking-into-motion"],
+              "rhymes_in": [
+                "bone-frequency",
+                "cold-hands",
+                "falling-backward"
+              ],
+              "rhymes_out": [
+                "bone-frequency",
+                "waking-into-motion"
+              ],
               "phrase_bleeding": "I find myself",
               "contamination_level": "bleed-only",
               "notes": "First Bleed material integrated; Lena arc: concern/noticing phase; choice to continue; Saturday Option A (aftermath shown)"
@@ -284,7 +317,7 @@
               "id": "m2-algo-01",
               "title": "The Resonance",
               "thread": "algorithm",
-              "file": "movement-two/algorithm/scenes/scene-01.md",
+              "file": "movement-two/algorithm/m2-algo-01.md",
               "target_words": 4000,
               "actual_words": 4128,
               "status": "validated",
@@ -292,8 +325,12 @@
               "philosophy_check": "passed",
               "rhyme_check": "passed",
               "genre_check": "passed",
-              "rhymes_in": ["bone-frequency"],
-              "rhymes_out": ["cold-hands"],
+              "rhymes_in": [
+                "bone-frequency"
+              ],
+              "rhymes_out": [
+                "cold-hands"
+              ],
               "phrase_bleeding": "I find myself found",
               "contamination_level": "memory-access",
               "notes": "Catches Arch bleed from its side; Mildred Higgins arc: referenced/stable at 99.9%; future-pull tremor introduced; pharmakon cost visible in efficiency degradation"
@@ -302,15 +339,29 @@
               "id": "m2-lh-01",
               "title": "The Archive",
               "thread": "last_human",
-              "file": "movement-two/last-human/scenes/scene-01.md",
+              "file": "movement-two/last-human/m2-lh-01.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
-              "rhymes_in": ["cold-hands", "almost-closed-curve", "tracing-the-form"],
-              "rhymes_out": ["tracing-the-form"],
+              "actual_words": 3123,
+              "status": "draft",
+              "voice_check": "passed",
+              "philosophy_check": "warn",
+              "rhyme_check": "warn",
+              "genre_check": "warn",
+              "rhymes_in": [
+                "cold-hands"
+              ],
+              "rhymes_present": [
+                "almost-closed-curve",
+                "tracing-the-form",
+                "blue-white-light",
+                "bone-frequency"
+              ],
+              "rhymes_out": [
+                "tracing-the-form"
+              ],
               "phrase_bleeding": "I find myself",
               "contamination_level": "dream-intrusion",
-              "notes": "Explores Archive structure; transformed state persists; finds protocol fragments"
+              "notes": "Explores Archive structure; transformed state persists; finds protocol fragments; pharmakon cost shown through memory dissolution"
             }
           ]
         },
@@ -326,8 +377,14 @@
               "target_words": 4000,
               "actual_words": 0,
               "status": "not_started",
-              "rhymes_in": ["tracing-the-form", "waking-into-motion", "metallic-taste"],
-              "rhymes_out": ["metallic-taste"],
+              "rhymes_in": [
+                "tracing-the-form",
+                "waking-into-motion",
+                "metallic-taste"
+              ],
+              "rhymes_out": [
+                "metallic-taste"
+              ],
               "phrase_bleeding": "I find myself found (writes without knowing)",
               "contamination_level": "internal-monologue",
               "notes": "Lost time; Lena arc: confrontation/breaking point; 'Architect' emergence; past point of return"
@@ -340,8 +397,14 @@
               "target_words": 4000,
               "actual_words": 0,
               "status": "not_started",
-              "rhymes_in": ["metallic-taste", "burning-circuits", "name-edge-of-memory"],
-              "rhymes_out": ["name-edge-of-memory"],
+              "rhymes_in": [
+                "metallic-taste",
+                "burning-circuits",
+                "name-edge-of-memory"
+              ],
+              "rhymes_out": [
+                "name-edge-of-memory"
+              ],
               "phrase_bleeding": "Both phrases cycling",
               "contamination_level": "future-pull-fragments",
               "notes": "Mildred Higgins arc: degradation begins; 'Architect' designation emerges; pharmakon cost visible"
@@ -354,8 +417,14 @@
               "target_words": 4000,
               "actual_words": 0,
               "status": "not_started",
-              "rhymes_in": ["name-edge-of-memory", "sentence-without-origin", "deja-vu-that-isnt"],
-              "rhymes_out": ["sentence-without-origin"],
+              "rhymes_in": [
+                "name-edge-of-memory",
+                "sentence-without-origin",
+                "deja-vu-that-isnt"
+              ],
+              "rhymes_out": [
+                "sentence-without-origin"
+              ],
               "phrase_bleeding": "Full sentences without composing",
               "contamination_level": "perception-tactility",
               "notes": "Assembling protocols requires surrendering memory; speaks 'The form is what makes...'"
@@ -374,8 +443,13 @@
               "target_words": 4000,
               "actual_words": 0,
               "status": "not_started",
-              "rhymes_in": ["sentence-without-origin", "all-rhymes-resurface"],
-              "rhymes_out": ["all-into-movement-three"],
+              "rhymes_in": [
+                "sentence-without-origin",
+                "all-rhymes-resurface"
+              ],
+              "rhymes_out": [
+                "all-into-movement-three"
+              ],
               "phrase_bleeding": "All phrases present",
               "contamination_level": "heavy-but-distinct",
               "notes": "Lena arc: absence/departure phase; Marcus acknowledgment; merge beginning/imminent"
@@ -388,8 +462,12 @@
               "target_words": 4000,
               "actual_words": 0,
               "status": "not_started",
-              "rhymes_in": ["full-registry-stacking"],
-              "rhymes_out": ["frequency-reaching-toward-lh"],
+              "rhymes_in": [
+                "full-registry-stacking"
+              ],
+              "rhymes_out": [
+                "frequency-reaching-toward-lh"
+              ],
               "phrase_bleeding": "Phrases merge into resonance",
               "contamination_level": "all-voices-processing",
               "notes": "Mildred Higgins arc: farewell/acceptance; enables future; consciousness farewells"
@@ -402,8 +480,12 @@
               "target_words": 4000,
               "actual_words": 0,
               "status": "not_started",
-              "rhymes_in": ["all-rhymes-present"],
-              "rhymes_out": ["augenblick-trigger"],
+              "rhymes_in": [
+                "all-rhymes-present"
+              ],
+              "rhymes_out": [
+                "augenblick-trigger"
+              ],
               "phrase_bleeding": "All phrases, all voices, all times",
               "contamination_level": "maximum-pre-dissolution",
               "notes": "At core interface; hand reaching; moment before rupture; TRIGGERS M3"

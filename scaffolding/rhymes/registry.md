@@ -15,7 +15,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04"]
       algorithm: ["m1-algo-04"]
-      last_human: ["m1-lh-01", "m1-lh-04"]
+      last_human: ["m1-lh-01", "m1-lh-04", "m2-lh-01"]
 
   - id: almost-closed-curve
     name: "The Almost-Closed Curve"
@@ -25,7 +25,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
       algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01"]
-      last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04"]
+      last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
   - id: geometric-shadow
     name: "The Geometric Shadow"
@@ -46,7 +46,7 @@ rhymes:
     usage:
       archaeologist: ["m2-arch-01"]
       algorithm: ["m1-algo-02", "m2-algo-01"]
-      last_human: ["m1-lh-03", "m1-lh-04"]
+      last_human: ["m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
   - id: cold-hands
     name: "Cold Hands"
@@ -56,7 +56,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01"]
       algorithm: ["m1-algo-04", "m2-algo-01"]
-      last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04"]
+      last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
   - id: falling-backward
     name: "Falling Backward"
@@ -87,7 +87,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
       algorithm: ["m2-algo-01"]
-      last_human: ["m1-lh-04"]
+      last_human: ["m1-lh-04", "m2-lh-01"]
 
   - id: held-breath
     name: "The Held Breath"
