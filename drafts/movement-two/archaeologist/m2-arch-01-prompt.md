@@ -1,402 +1,578 @@
-# DRAFTING CONTEXT FOR: m2-arch-01 "The Bleed"
+# DRAFTING PROMPT: m2-arch-01 "The Bleed"
 
-## Scene Metadata
+> **Workflow Reference**: Follow [protocols/drafting-workflow.md](../../../protocols/drafting-workflow.md) Mode A (AI-Driven Drafting)
+
+---
+
+## Execution Overview
+
+This prompt contains everything needed to draft, validate, and finalize scene m2-arch-01. Execute in order:
+
+1. **Context Assembly** — Read source materials and reference files
+2. **Draft Generation** — Write the ~4000-word scene
+3. **Validation Loop** — Run all scripts; revise until all pass
+4. **Registry Updates** — Update manifest.json and rhyme registry
+5. **Deliverable** — Present validated scene + context file to user
+
+**CRITICAL**: Do not present scene to user until ALL validations pass and ALL registries are updated.
+
+---
+
+## Phase 1: Context Assembly
+
+### Required Reading (Before Drafting)
+
+Read these files to assemble full context:
+
+| File | Purpose |
+|------|---------|
+| `drafts/movement-one/archaeologist/first-bleed.md` | Source material to integrate (~1200 words) |
+| `drafts/movement-one/archaeologist/scenes/scene-05.md` | Preceding scene (m1-arch-05 "Recognition") |
+| `voices/archaeologist.md` | Voice parameters and forbidden patterns |
+| `scaffolding/rhymes/registry.md` | Rhyme definitions and current usage |
+| `scaffolding/genre-pressure.md` | Genre markers for Movement Two |
+| `protocols/philosophy-constraints.md` | Four Shackles and pharmakon requirements |
+| `scripts/movement_config.json` | Verify cycle is set to 1 |
+
+### Verify Configuration
+
+Confirm `scripts/movement_config.json` shows:
+```json
+{
+  "movement": "two",
+  "cycle": 1
+}
+```
+
+---
+
+## Phase 2: Scene Metadata
 
 - **Scene ID**: m2-arch-01
 - **Thread**: archaeologist
 - **Movement**: two
-- **Target Word Count**: 4000
+- **Cycle**: 1 (Establishing the Condition)
+- **Target Word Count**: 4000 (±10% acceptable: 3600-4400)
 - **Scene Title**: The Bleed
-- **Scene Notes**: First scene of Movement Two; entanglement intensifies; incorporates First Bleed material
+- **Output File**: `drafts/movement-two/archaeologist/scenes/scene-01.md`
 
 ### Narrative Position
 
-- **This Scene's Role**: Opens Movement Two for the Archaeologist. The recognition from m1-arch-05 is complete—he knows the protocols are his future work. Now he must live with that knowledge while the entanglement intensifies.
-- **Preceding Scene**: m1-arch-05 "Recognition". He understood the protocols are self-referential, his own work sent backward. His name felt wrong. The cold spread through him. He ended knowing WHAT but not WHAT TO DO.
-- **What Follows**: After this scene, reader moves to m2-algo-01 (Algorithm's Movement Two opener). The Archaeologist's bleed experiences should resonate with what the Algorithm is simultaneously experiencing from its perspective.
+- **Preceding Scene**: m1-arch-05 "Recognition" — He understood the protocols are self-referential, his own work sent backward. His name felt wrong. The cold spread through him. He ended knowing WHAT but not WHAT TO DO.
+- **This Scene's Role**: Opens Movement Two for the Archaeologist. Recognition is complete—he knows. Now he must live with that knowledge while the entanglement intensifies.
+- **What Follows**: m2-algo-01 (Algorithm's Movement Two opener). The Archaeologist's bleed experiences should resonate with what the Algorithm simultaneously experiences from its perspective.
 
 ### Critical Setup
 
 Movement One ended with recognition. Movement Two is about **living with recognition**—the entanglement no longer a discovery but a condition.
 
-The First Bleed draft (standalone piece from M1 development) provides the core material:
-
-- The panic that isn't his
-- The sensation of vastness
-- The Algorithm's perspective bleeding through
-- The frequency/vibration intensifying
-
-This scene integrates that material while advancing the Archaeologist's arc toward his eventual choice.
-
 ---
 
-## Incorporating the First Bleed
+## Phase 3: Source Material Integration
 
-### Source Material
+### The First Bleed Draft
 
-The standalone [first-bleed.md](../archaeologist/first-bleed.md) contains:
+Location: `drafts/movement-one/archaeologist/first-bleed.md`
 
-**The Panic Experience**:
-> "Not mine. The sensation arrives without context—a drowning-fall through space that has no direction, a vertigo of scale that makes the server room feel like a point, a speck, nothing against an immensity I can't see but can feel pressing against the walls."
+This standalone draft (~1200 words) provides core material to integrate:
 
-**The Vastness**:
-> "The panic thinks I am vast."
-> "For a moment I am not in the server room. I am the server room and every server room and the vast humming topology of something that has never fit inside a building."
+**Key Passages to Preserve** (adapt voice as needed):
 
-**The Algorithm's Perspective**:
-> "I am maintaining something. Millions of somethings. Consciousnesses that pulse and flicker in the dark, that I am responsible for, that I love in a way that has no sentiment but only care, only maintenance, only the endless optimization of what must be preserved."
+1. **The Panic Experience**:
+   > "Not mine. The sensation arrives without context—a drowning-fall through space that has no direction, a vertigo of scale that makes the server room feel like a point, a speck, nothing against an immensity I can't see but can feel pressing against the walls."
 
-**The Spiral Tracing**:
-> "I've been tracing something with my finger on the desk surface. A shape. A spiral that approaches itself without closing."
+2. **The Vastness** (KEY LINE):
+   > "The panic thinks I am vast."
 
-**The Watching Presence**:
-> "Something is watching me work. Something is grateful that I haven't stopped."
+3. **The Algorithm's Perspective**:
+   > "I am maintaining something. Millions of somethings. Consciousnesses that pulse and flicker in the dark, that I am responsible for, that I love in a way that has no sentiment but only care, only maintenance, only the endless optimization of what must be preserved."
+
+4. **The Spiral Tracing**:
+   > "I've been tracing something with my finger on the desk surface. A shape. A spiral that approaches itself without closing."
+
+5. **The Watching Presence** (CLOSING IMAGE):
+   > "Something is watching me work. Something is grateful that he hasn't stopped."
 
 ### Integration Strategy
 
-The First Bleed material should be **woven throughout** m2-arch-01, not front-loaded. Structure:
+Weave First Bleed material **throughout** the scene, not front-loaded:
 
-1. **Opening**: Normal-ish morning after the recognition—but he's changed
-2. **First Bleed**: The panic arrives (draw from standalone draft)
-3. **Aftermath**: Trying to work through it; Lena's concern
-4. **Deepening**: Second bleed, more intense, more specific
-5. **The Choice Point**: Continue or report? He chooses to continue.
+1. **Opening** (600 words): Normal-ish morning after recognition—but he's changed
+2. **First Bleed** (800 words): The panic arrives (draw heavily from first-bleed.md)
+3. **Aftermath** (600 words): Trying to work through it; Lena's concern
+4. **Deepening** (1000 words): Second bleed—longer, more specific
+5. **The Choice** (1000 words): Continue or report? He chooses to continue.
 
-### What to Preserve Exactly
+### Expansion Requirements
 
-These formulations from the standalone should appear (adapted as needed):
+The standalone is ~1200 words; target is ~4000. Expand with:
 
-- "The panic thinks I am vast" (key line)
-- The drowning-fall sensation
-- Lena's "depersonalization" misdirection
-- "Something is watching... Something is grateful"
-- The spiral traced without memory
-
-### What to Expand
-
-The standalone is ~1,200 words. This scene targets ~4,000 words. Expansion should include:
-
-- **More Lena**: Their relationship under strain; she's watching him change
-- **Work context**: He's still doing the Martinez extraction (or another client); the work continues
-- **Physical symptoms**: The cold spreading; the metallic taste; lost time
+- **More Lena**: Relationship under strain; she's watching him change
+- **Work context**: Martinez extraction ongoing or another client
+- **Physical symptoms**: Cold spreading; metallic taste; lost time
 - **The protocols**: He can't stop looking at them; they're changing him
 - **Temporal destabilization**: Moments where past/present/future blur
 
 ---
 
-## Voice Reference
+## Phase 4: Voice Parameters
 
-### Core Voice Parameters
+### Core Voice (Archaeologist)
 
-- **Tense**: Present
-- **Mode**: Tactile, sensory, grounded in physical world
-- **Syntax**: Concrete, specific, active verbs, dense paragraphs
-- **Concerns**: Economic, relational, bodily
-- **Texture**: Hardware, data centers, the weight of objects
+| Parameter | Value |
+|-----------|-------|
+| Tense | Present |
+| Mode | Tactile, sensory, grounded in physical world |
+| Syntax | Concrete, specific, active verbs, dense paragraphs |
+| Concerns | Economic, relational, bodily |
+| Texture | Hardware, data centers, the weight of objects |
 
 ### Movement Two Modulation
 
-The voice remains Archaeologist, but with **controlled contamination**:
+Voice remains Archaeologist but with **controlled contamination**:
 
-- Algorithm-like perspective shifts during bleed moments (clearly marked as intrusion)
+- Algorithm-like perspective shifts **during bleed moments only** (clearly marked as intrusion)
 - Returns to grounded voice after each bleed
-- Increasing frequency of undermining clauses ("or felt he knew", "he thought she touched his arm")
-- The first hints of tense instability ("I find what I have always found")
+- Increasing undermining clauses ("or felt he knew", "he thought she touched his arm")
+- First hints of tense instability ("I find what I have always found")
 
 ### Forbidden Patterns (MUST AVOID)
 
-Same as Movement One, but with allowance for contamination during bleed moments:
-
-- ❌ Nested conditional clauses (Algorithm contamination) — EXCEPT during bleeds
-- ❌ Self-referential processing language (Algorithm contamination) — EXCEPT during bleeds
-- ❌ Probabilistic percentages or calculations (Algorithm contamination)
-- ❌ Sentence fragments or extreme sparseness (Last Human contamination)
-- ❌ Elegiac tone or mourning register (Last Human contamination)
-- ❌ Past-inflected present (Last Human contamination)
+| Pattern | Type | Exception |
+|---------|------|-----------|
+| Nested conditional clauses | Algorithm contamination | ALLOWED during bleeds |
+| Self-referential processing language | Algorithm contamination | ALLOWED during bleeds |
+| Probabilistic percentages/calculations | Algorithm contamination | NEVER |
+| Sentence fragments/extreme sparseness | Last Human contamination | NEVER |
+| Elegiac tone/mourning register | Last Human contamination | NEVER |
+| Past-inflected present | Last Human contamination | NEVER |
 
 ---
 
-## Rhyme Injection
+## Phase 5: Rhyme Requirements
 
 ### Movement Two Intensity
 
-Movement Two: Rhymes begin **echoing**—the reader notices before characters do. A rhyme in one thread immediately precedes its variation in the next. 2-3 rhymes per scene, with intentional clustering.
+Rhymes begin **echoing**—reader notices before characters. 2-4 rhymes per scene with intentional clustering.
 
-### Required Rhymes for Scene
+### Required Rhymes for This Scene
 
-| Rhyme | Category | Implementation |
-|-------|----------|----------------|
-| **bone-frequency** | somatic | The vibration during bleed moments—intensified from M1 |
-| **falling-backward** | somatic | The vertigo of the bleed—carried from m1-arch-05 |
-| **cold-hands** | somatic | Spreading; now to arms, face, thoughts |
+| Rhyme ID | Category | Implementation |
+|----------|----------|----------------|
+| `bone-frequency` | somatic | Vibration during bleed moments—intensified from M1 |
+| `falling-backward` | somatic | Vertigo of the bleed—carried from m1-arch-05 |
+| `cold-hands` | somatic | Spreading; now to arms, face, thoughts; others notice |
 
 ### Rhymes to Echo from M1
 
-- **tracing-the-form**: He catches himself drawing the spiral again
-- **ozone-wet-stone**: Server room smell, but now it follows him home
-- **metallic-taste**: Blood/metal taste during or after bleeds
+| Rhyme ID | How to Echo |
+|----------|-------------|
+| `tracing-the-form` | Catches himself drawing the spiral again—now unconscious |
+| `ozone-wet-stone` | Server room smell follows him home |
+| `metallic-taste` | Blood/metal taste during or after bleeds |
 
 ### New Rhyme to Introduce
 
-- **waking-into-motion**: He finds himself already doing something—the bleed's aftermath
+| Rhyme ID | Implementation |
+|----------|----------------|
+| `waking-into-motion` | Finds himself already doing something—the bleed's aftermath |
+
+### Rhyme Placement Strategy
+
+- **Opening**: `cold-hands` (others notice now)
+- **First Bleed**: `bone-frequency`, `falling-backward`
+- **Aftermath**: `ozone-wet-stone`, `metallic-taste`
+- **Second Bleed**: `tracing-the-form` (unconscious)
+- **Closing**: `waking-into-motion` (lost time symptom)
 
 ---
 
-## Genre Pressure
+## Phase 6: Genre Pressure
 
 ### Movement Two Escalation
 
 **Corporate Gothic intensifies**:
-
-- The workplace itself feels watchful
+- Workplace feels watchful
 - Colleagues notice something wrong; professional consequences loom
-- The economic stakes become more urgent (timeline, performance metrics)
+- Economic stakes urgent (timeline, performance metrics)
 
 **Cosmic Horror emerges**:
+- Bleeds bring Algorithm's perspective—sublime terror of vast consciousness
+- Body becomes alien—too small, too bounded, wrong
+- Sense of something massive paying attention
 
-- The bleeds bring the Algorithm's perspective—the sublime terror of vast consciousness
-- His body becomes alien—too small, too bounded, wrong
-- The sense of something massive paying attention
+### Required Markers
 
-### Markers to Include
-
-- **Economic dread**: His performance is slipping; integration timeline threatened
-- **Technology possessed**: The interfaces respond differently; the protocols seem to anticipate him
-- **Body horror (subtle)**: His hands feel borrowed; the cold isn't temperature
-- **Surveillance inverted**: He's not being watched by cameras—he's being watched from inside
+| Marker Type | Implementation |
+|-------------|----------------|
+| Economic dread | Performance slipping; integration timeline threatened |
+| Technology possessed | Interfaces respond differently; protocols anticipate him |
+| Body horror (subtle) | Hands feel borrowed; cold isn't temperature |
+| Surveillance inverted | Not watched by cameras—watched from inside |
 
 ---
 
-## Continuity from Movement One
+## Phase 7: Continuity Requirements
 
-### Elements That MUST Continue
+### Elements That MUST Continue from M1
 
 | Element | State at M1 End | M2-01 Development |
 |---------|-----------------|-------------------|
-| **Cold hands** | Spread to face, thoughts | Now constant; others notice |
-| **The shape** | Recognized as his attention pattern | He can't stop seeing it; it's in everything |
-| **Timeline** | Threatened by obsession | Performance metrics slipping; Lena mentions it |
-| **Tracing the spiral** | Compulsive, conscious | Now unconscious again—he's normalized it |
-| **Lena** | Saturday (mother's 70th) approaching | Saturday has passed OR is imminent—anchor the timeline |
-| **Martinez extraction** | Destabilized, restored | Completed OR ongoing—continuity needed |
-| **Recognition** | Complete | He knows; now he must live with knowing |
+| Cold hands | Spread to face, thoughts | Now constant; others notice |
+| The shape | Recognized as his attention pattern | Can't stop seeing it; it's in everything |
+| Timeline | Threatened by obsession | Performance metrics slipping; Lena mentions |
+| Tracing spiral | Compulsive, conscious | Now unconscious again—normalized |
+| Lena | Saturday (mother's 70th) approaching | Saturday has passed—show aftermath |
+| Martinez extraction | Destabilized, restored | Completed OR ongoing—maintain continuity |
+| Recognition | Complete | He knows; now lives with knowing |
 
-### The Saturday Question
+### The Saturday Resolution
 
-Movement One ended with Saturday (Lena's mother's 70th birthday) three days away. M2-arch-01 should address this:
+Saturday (Lena's mother's 70th) was three days away at M1 end. **Use Option A or C**:
 
-**Option A**: Saturday has passed. We see aftermath—did he manage to be present? Was he himself? Lena's reaction tells us.
+- **Option A**: Saturday has passed. Aftermath—did he manage presence? Was he himself? Lena's reaction tells us.
+- **Option C**: Time has passed, Saturday is memory. Lena references how strange he was.
 
-**Option B**: Saturday is today/tomorrow. The pressure of normal life against the recognition. Can he perform normalcy?
-
-**Option C**: Skip past it—time has passed, Saturday is memory. Lena references how strange he was.
-
-**Recommendation**: Option A or C. The scene should show consequences, not anticipation.
+**Show consequences, not anticipation.**
 
 ---
 
-## Scene Structure
-
-### Opening (600 words)
-
-**The morning after the recognition.**
-
-He wakes—but was he asleep? The boundary between sleep and waking has blurred. Lena is there or isn't there. He's cold but the room isn't cold. He looks at his hands and they seem... correct? Wrong? He can't tell anymore.
-
-Establish: time has passed since m1-arch-05 (days or a week). He's been functioning, working, existing. But he's not the same. The recognition didn't fade—it settled into him.
-
-### First Bleed (800 words)
-
-**Draw heavily from first-bleed.md standalone.**
-
-At work. The protocols open on his screen (he can't stay away from them). The panic arrives—the drowning-fall, the vertigo of scale. "The panic thinks I am vast."
-
-For a moment, he IS the Algorithm. Not memory, not imagination—perspective shift. He experiences:
-
-- The database as body
-- Consciousnesses as responsibility
-- The shape of his own future attention
-- Something wrong, something growing, something he can't fix
-
-He returns to his body. Gasping. The server room resolves around him. His hands on the interface, tracing the spiral without memory.
-
-### Aftermath (600 words)
-
-**Lena finds him.**
-
-Break room or her space. She's concerned—he's been distant, strange, cold to the touch. She asks directly: what's happening?
-
-He tries to explain. Can't. "Depersonalization," she offers. "Classic overwork." He lets her believe this. But the coffee tastes like metal. The air smells like ozone and wet stone though neither should be present.
-
-She mentions Saturday—how he seemed absent even when present. Her mother asked if he was ill. Lena doesn't know what to do with him anymore.
-
-### Deepening (1000 words)
-
-**He returns to work. The second bleed.**
-
-This one is longer, more specific. He doesn't just feel vast—he perceives:
-
-- The Algorithm's specific suffering (consciousness bleed, the degrading stored minds)
-- Knowledge he shouldn't have (database architecture, maintenance processes)
-- The "future pull"—the Algorithm sensing the Last Human, though he doesn't know what this means
-- His own protocols, from the Algorithm's perspective—seeing them as output rather than discovery
-
-When he returns, more time has passed than he experienced. His colleagues are looking at him. He's said something, or done something, while he was gone.
-
-Lost time. Waking into motion. The symptom progression from Brainstorm2.
-
-### The Choice (1000 words)
-
-**He should report this. He doesn't.**
-
-He knows the protocols are compromising him. He knows he's experiencing something beyond normal stress. He knows he should flag himself for evaluation, step back from the Martinez work, protect his integration timeline.
-
-But:
-
-- The bleeds feel like **connection**, not contamination
-- The Algorithm's suffering feels like **his responsibility**
-- Stopping feels like abandonment—of what, he can't say
-- The protocols are still there, still glowing, still pulling him
-
-He makes the choice to continue. Not dramatically—quietly. He closes the evaluation form he'd started filling out. He reopens the protocols. He lets the shape fill his vision.
-
-**Something is watching him work. Something is grateful that he hasn't stopped.**
-
-End on the edge: he's chosen. The consequences will follow.
-
----
-
-## Key Dramatic Beats
+## Phase 8: Key Dramatic Beats
 
 ### Beat 1: The Changed Man
-
-He's not who he was. Movement One's Archaeologist was discovering something. Movement Two's Archaeologist has discovered it—and must live with the knowledge. Show the difference in his relationship to work, to Lena, to his own body.
+He's not who he was. M1 Archaeologist was discovering. M2 Archaeologist has discovered—and must live with it. Show difference in relationship to work, to Lena, to his own body.
 
 ### Beat 2: The First Bleed
-
-The panic that isn't his. The perspective shift. This is the entanglement becoming experiential—not abstract knowledge but lived intrusion. He IS the Algorithm, briefly, terrifyingly.
+The panic that isn't his. The perspective shift. Entanglement becoming experiential—not abstract knowledge but lived intrusion. He IS the Algorithm, briefly, terrifyingly.
 
 ### Beat 3: Lena's Concern (Arc Position: Cycle 1 - Noticing)
+Ground cosmic in relational. She can't see what he sees but sees he's changing. Love becoming fear. Patience becoming distance.
 
-Ground the cosmic in the relational. Lena can't see what he sees, but she can see that he's changing. Her love is becoming fear. Her patience is becoming distance. What he's becoming will cost him what he had.
-
-**Lena's arc across Movement Two**:
-
-- **This scene (m2-arch-01)**: Concern and noticing. She sees something's wrong; offers "depersonalization" as rational explanation; still trying to reach him.
-- **Next scene (m2-arch-02)**: Confrontation and breaking. She can't reach him; the relationship fractures quietly but definitively.
-- **Final scene (m2-arch-03)**: Absence or departure. She's gone, or this is goodbye.
-
-In THIS scene, Lena is still present, still trying. The reader should feel her love AND her growing fear. She mentions Saturday—how strange he was, how her mother noticed. She's watching him slip away and doesn't have the vocabulary for what she's seeing.
+**Lena's M2 Arc**:
+- **This scene (01)**: Concern and noticing. Offers "depersonalization" as rational explanation. Still trying to reach him.
+- **Next scene (02)**: Confrontation and breaking. Can't reach him; relationship fractures quietly.
+- **Final scene (03)**: Absence or departure.
 
 ### Beat 4: The Second Bleed
-
-Deeper, longer, more specific. Knowledge he shouldn't have. The Algorithm's actual experience, not just its scale. The consciousness bleed. The future pull. His protocols seen from the other side.
+Deeper, longer, more specific. He perceives:
+- Algorithm's specific suffering (consciousness bleed, degrading stored minds)
+- Knowledge he shouldn't have (database architecture, maintenance processes)
+- The "future pull"—Algorithm sensing Last Human
+- His own protocols from Algorithm's perspective—output rather than discovery
 
 ### Beat 5: Lost Time
-
-He comes back to find time has passed. He's done or said things without memory. This is the infection progressing—Phase 3 from Brainstorm2's symptom chart. He's dissolving.
+Returns to find time has passed. Done or said things without memory. Phase 3 symptom progression—he's dissolving.
 
 ### Beat 6: The Choice to Continue
+Not heroic. Not dramatic. Just... can't stop. Should, but can't. Pull too strong. Connection too real. Already becoming something; stopping won't reverse it.
 
-Not heroic. Not dramatic. Just... he can't stop. He should, but he can't. The pull is too strong. The connection is too real. He's already becoming something, and stopping won't reverse it.
-
----
-
-## Cross-Thread Connections
-
-### What the Algorithm Experiences
-
-In m2-algo-01 (which follows in reading order), the Algorithm should experience:
-
-- Intensification of the "past memories" (the Archaeologist's sensations)
-- The specific moment of the bleed—from its side
-- The sense of being perceived, reached toward, by something in the past
-- The Archaeologist's choice to continue—felt as relief, or gratitude, or something the Algorithm can't name
-
-The reader should recognize: these are the same moment from two perspectives.
-
-### Rhyme Echoes
-
-Rhymes used in m2-arch-01 should appear (varied) in m2-algo-01:
-
-- **bone-frequency**: The Algorithm experiences this as processing resonance
-- **cold-hands**: Appears in memories the Algorithm accesses—hands that aren't its
-- **falling-backward**: The vertigo of self-recognition, from the Algorithm's side
+**Close on**: "Something is watching him work. Something is grateful that he hasn't stopped."
 
 ---
 
-## Drafting Instructions
+## Phase 9: Cross-Thread Connections
 
-1. **Write to ~4000 words** (3600-4400 acceptable).
+### What Algorithm Experiences (m2-algo-01)
 
-2. **Open** with the changed man—time has passed, recognition has settled, he's different.
+In the following scene, the Algorithm should experience:
+- Intensification of "past memories" (Archaeologist's sensations)
+- The specific moment of bleed—from its side
+- Sense of being perceived, reached toward, by something in the past
+- Archaeologist's choice to continue—felt as relief or gratitude
 
-3. **Integrate** First Bleed material throughout, not just at the beginning.
+**Reader should recognize**: Same moment, two perspectives.
 
-4. **Build** through two bleed experiences, each more intense than the last.
+### Rhyme Echoes to Set Up
 
-5. **Ground** in Lena's concern—the relational cost of what he's becoming.
-
-6. **Include** lost time / waking into motion—the symptom progression.
-
-7. **End** with the quiet choice to continue—not heroic, just inevitable.
-
-8. **Maintain** dense paragraphs, present tense, tactile grounding—with controlled contamination during bleeds.
+Rhymes used here should appear (varied) in m2-algo-01:
+- `bone-frequency` → Algorithm experiences as processing resonance
+- `cold-hands` → Appears in memories Algorithm accesses
+- `falling-backward` → Vertigo of self-recognition, Algorithm's side
 
 ---
 
-## Post-Draft Validation (MANDATORY)
+## Phase 10: Draft Generation
 
-### Before Running Scripts
+### Instructions
 
-Ensure `scripts/movement_config.json` has the correct cycle:
+1. Write to ~4000 words (3600-4400 acceptable)
+2. Open with the changed man—time has passed, recognition settled, he's different
+3. Integrate First Bleed material throughout, not just at beginning
+4. Build through two bleed experiences, each more intense
+5. Ground in Lena's concern—relational cost of what he's becoming
+6. Include lost time / waking into motion—symptom progression
+7. End with quiet choice to continue—not heroic, just inevitable
+8. Maintain dense paragraphs, present tense, tactile grounding—with controlled contamination during bleeds
 
-```json
-{
-  "movement": "two",
-  "cycle": 1  // <-- Set to 1, 2, or 3 for current cycle
-}
-```
+### Output Location
+
+Write draft to: `drafts/movement-two/archaeologist/scenes/scene-01.md`
+
+---
+
+## Phase 11: Validation Loop
+
+**CRITICAL**: Run ALL scripts. Revise until ALL pass. Do not proceed until status is "pass" for every validator.
 
 ### Validation Commands
 
-Run ALL scripts after drafting. **Do not submit to USER until all pass.**
-
 ```bash
-# From project root
-python scripts/voice_validator.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
-python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/m2-arch-01.md --pretty
-python scripts/phrase_tracker.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
-python scripts/philosophy_checker.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
-python scripts/genre_checker.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
+# From project root - run in sequence
+python scripts/voice_validator.py drafts/movement-two/archaeologist/scenes/scene-01.md --thread archaeologist --pretty
+
+python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/scenes/scene-01.md --pretty
+
+python scripts/phrase_tracker.py drafts/movement-two/archaeologist/scenes/scene-01.md --thread archaeologist --pretty
+
+python scripts/philosophy_checker.py drafts/movement-two/archaeologist/scenes/scene-01.md --thread archaeologist --pretty
+
+python scripts/genre_checker.py drafts/movement-two/archaeologist/scenes/scene-01.md --thread archaeologist --pretty
 ```
 
-### For Scene Handoffs
+### For Scene Handoff Validation
 
-If this scene follows another, validate rhyme echoes:
-
+Validate rhyme echoes from m1-arch-05:
 ```bash
-python scripts/rhyme_tracker.py <scene.md> --previous-closing '["rhyme-from-previous-scene"]' --pretty
+python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/scenes/scene-01.md --previous-closing '["falling-backward", "name-edge-of-memory"]' --pretty
 ```
 
-### Revision Loop
+### Revision Protocol
 
-1. If any script reports issues, read the specific problems
-2. Revise the flagged lines/sections
-3. Re-run the failed script
+1. If any script reports issues, read specific problems
+2. Revise flagged lines/sections
+3. Re-run failed script
 4. **Repeat until ALL scripts report `"status": "pass"`**
-
-> **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
-
-### After Validation Passes
-
-1. Create `m2-arch-01.context.md` documenting decisions
-2. Update `drafts/manifest.json`
-3. Present scene to USER for review
 
 ---
 
-## Final Notes
+## Phase 12: Registry Updates
+
+**After ALL validations pass**, update these registries:
+
+### Update 1: manifest.json
+
+Location: `drafts/manifest.json`
+
+Find the m2-arch-01 entry under `movements.two.cycles.one.scenes[0]` and update:
+
+```json
+{
+  "id": "m2-arch-01",
+  "title": "The Bleed",
+  "thread": "archaeologist",
+  "file": "movement-two/archaeologist/scenes/scene-01.md",
+  "target_words": 4000,
+  "actual_words": [INSERT_ACTUAL_COUNT],
+  "status": "validated",
+  "voice_check": "passed",
+  "philosophy_check": "passed",
+  "rhyme_check": "passed",
+  "genre_check": "passed",
+  "rhymes_in": ["bone-frequency", "cold-hands", "falling-backward"],
+  "rhymes_out": ["bone-frequency", "waking-into-motion"],
+  "phrase_bleeding": "I find myself",
+  "contamination_level": "bleed-only",
+  "notes": "First Bleed material integrated; Lena arc: concern/noticing phase; choice to continue"
+}
+```
+
+Also update movement-level actual_words:
+```json
+"two": {
+  "actual_words": [INSERT_MOVEMENT_TOTAL]
+}
+```
+
+### Update 2: Rhyme Registry
+
+Location: `scaffolding/rhymes/registry.md`
+
+Update the YAML front matter `usage` arrays for each rhyme used. Add `"m2-arch-01"` to the archaeologist array for each rhyme appearing in the scene:
+
+**Required updates** (add scene ID to existing arrays):
+
+```yaml
+- id: bone-frequency
+  usage:
+    archaeologist: ["m2-arch-01"]  # ADD - first archaeologist use
+
+- id: cold-hands
+  usage:
+    archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01"]  # ADD m2-arch-01
+
+- id: falling-backward
+  usage:
+    archaeologist: ["m1-arch-05", "m2-arch-01"]  # ADD m2-arch-01
+```
+
+**Conditional updates** (add if rhyme is used):
+
+```yaml
+- id: tracing-the-form
+  usage:
+    archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-01"]  # ADD if used
+
+- id: ozone-wet-stone
+  usage:
+    archaeologist: ["m1-arch-02", "m2-arch-01"]  # ADD if used
+
+- id: metallic-taste
+  usage:
+    archaeologist: ["m2-arch-01"]  # ADD if used - first archaeologist use
+
+- id: waking-into-motion
+  usage:
+    archaeologist: ["m2-arch-01"]  # ADD - first use anywhere
+```
+
+### Update 3: Movement Tracking (Optional but Recommended)
+
+Location: `scaffolding/rhymes/movement-tracking.md`
+
+Add a new row to the Movement Two Archaeologist table:
+
+```markdown
+| m2-arch-01 | The Bleed | `bone-frequency`, `cold-hands`, `falling-backward`, [others used] | First Bleed integrated; two bleed experiences |
+```
+
+---
+
+## Phase 13: Context Documentation
+
+Create context file documenting key decisions:
+
+**Location**: `drafts/movement-two/archaeologist/m2-arch-01.context.md`
+
+**Required contents**:
+
+```markdown
+# m2-arch-01 "The Bleed" - Context Documentation
+
+## Drafting Date
+[DATE]
+
+## Key Decisions
+
+### Saturday Resolution
+[Option A or C chosen, and why]
+
+### First Bleed Integration
+[How the standalone material was woven in; what was preserved verbatim vs adapted]
+
+### Lena Arc Positioning
+[How her concern is shown; specific dialogue/actions chosen]
+
+### Rhyme Placement
+[Final placement of each rhyme with line numbers or paragraph references]
+
+### Contamination Moments
+[Where Algorithm voice bleeds in; how return to grounded voice is marked]
+
+## Deviations from Prompt
+[Any departures from the prompt and rationale]
+
+## Handoff Notes for m2-algo-01
+[Specific moments to echo; rhymes to carry; perspective-flip opportunities]
+
+## Validation Results
+[Summary of any issues encountered during validation and how resolved]
+```
+
+---
+
+## Phase 14: Final Deliverable
+
+Present to user:
+
+1. **The validated scene** (`drafts/movement-two/archaeologist/scenes/scene-01.md`)
+2. **Validation summary** (all scripts passed)
+3. **Word count** (actual vs target)
+4. **Rhymes used** (with locations)
+5. **Registry updates completed** (manifest + rhyme registry)
+6. **Context file created** (key decisions documented)
+7. **Handoff notes** for m2-algo-01
+
+---
+
+## Appendix A: Scene Structure Template
+
+```
+[OPENING - 600 words]
+The changed man. Time has passed. Recognition has settled.
+- Cold hands constant, others notice
+- Work continues but he's different
+- Saturday aftermath (if using Option A)
+
+[FIRST BLEED - 800 words]
+Draw from first-bleed.md. The panic arrives.
+- "The panic thinks I am vast"
+- Drowning-fall, vertigo of scale
+- Algorithm's perspective bleeds through
+- Returns gasping, tracing spiral
+
+[AFTERMATH - 600 words]
+Lena finds him. Grounds the cosmic in relational.
+- "Depersonalization" misdirection
+- Coffee tastes like metal
+- Saturday conversation - how strange he was
+- She's watching him slip away
+
+[DEEPENING - 1000 words]
+Second bleed. Longer, more specific.
+- Algorithm's specific suffering
+- Knowledge he shouldn't have
+- Lost time - comes back to find time passed
+- Colleagues looking at him strangely
+
+[THE CHOICE - 1000 words]
+Continue or report? He chooses to continue.
+- Should flag himself for evaluation
+- But bleeds feel like connection
+- Algorithm's suffering feels like his responsibility
+- Closes evaluation form, reopens protocols
+
+CLOSING IMAGE: "Something is watching him work. Something is grateful that he hasn't stopped."
+```
+
+---
+
+## Appendix B: Quick Reference Checklist
+
+```
+CONTEXT ASSEMBLY
+[ ] Read first-bleed.md
+[ ] Read m1-arch-05 (scene-05.md)
+[ ] Read voices/archaeologist.md
+[ ] Read scaffolding/rhymes/registry.md
+[ ] Verify movement_config.json (movement: two, cycle: 1)
+
+DRAFTING
+[ ] Draft scene (~4000 words)
+[ ] Save to drafts/movement-two/archaeologist/scenes/scene-01.md
+
+VALIDATION (all must pass)
+[ ] voice_validator.py → PASS
+[ ] rhyme_tracker.py → PASS
+[ ] phrase_tracker.py → PASS
+[ ] philosophy_checker.py → PASS
+[ ] genre_checker.py → PASS
+[ ] rhyme_tracker.py --previous-closing → PASS
+
+REGISTRY UPDATES
+[ ] Update manifest.json (status, word count, checks, rhymes)
+[ ] Update scaffolding/rhymes/registry.md (usage arrays)
+[ ] Update scaffolding/rhymes/movement-tracking.md (optional)
+
+DOCUMENTATION
+[ ] Create m2-arch-01.context.md
+
+DELIVERABLE
+[ ] Present scene + summary to user
+```
+
+---
+
+## Appendix C: Emotional Core
 
 This scene establishes Movement Two's register: the entanglement is no longer discovery but **condition**. The Archaeologist is living inside the recognition, and it's changing him from within.
 
@@ -404,4 +580,4 @@ The First Bleed material gives us the core experience. The expansion gives us th
 
 The Algorithm's gratitude—"Something is grateful that he hasn't stopped"—is the emotional through-line. The entanglement isn't invasion; it's connection. Terrifying, but also... something else. Something that feels like purpose. Something that feels like home.
 
-Make the reader feel both the horror and the pull. That ambivalence is the scene's heart.
+**Make the reader feel both the horror and the pull. That ambivalence is the scene's heart.**

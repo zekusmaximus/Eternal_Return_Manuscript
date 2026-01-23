@@ -1,88 +1,201 @@
-# DRAFTING CONTEXT FOR: m2-arch-02 "The Dissolution"
+# DRAFTING PROMPT: m2-arch-02 "The Dissolution"
 
-## Scene Metadata
+> **Workflow Reference**: Follow [protocols/drafting-workflow.md](../../../protocols/drafting-workflow.md) Mode A (AI-Driven Drafting)
+
+---
+
+## Execution Overview
+
+This prompt contains everything needed to draft, validate, and finalize scene m2-arch-02. Execute in order:
+
+1. **Context Assembly** — Read source materials and reference files
+2. **Draft Generation** — Write the ~4000-word scene
+3. **Validation Loop** — Run all scripts; revise until all pass
+4. **Registry Updates** — Update manifest.json and rhyme registry
+5. **Deliverable** — Present validated scene + context file to user
+
+**CRITICAL**: Do not present scene to user until ALL validations pass and ALL registries are updated.
+
+---
+
+## Phase 1: Context Assembly
+
+### Required Reading (Before Drafting)
+
+Read these files to assemble full context:
+
+| File | Purpose |
+|------|---------|
+| `drafts/movement-two/archaeologist/scenes/scene-01.md` | Preceding Archaeologist scene (m2-arch-01 "The Bleed") |
+| `drafts/movement-two/last-human/scenes/scene-01.md` | Immediately preceding scene (m2-lh-01 "The Archive") — rhyme handoff |
+| `voices/archaeologist.md` | Voice parameters and forbidden patterns |
+| `scaffolding/rhymes/registry.md` | Rhyme definitions and current usage |
+| `scaffolding/genre-pressure.md` | Genre markers for Movement Two |
+| `protocols/philosophy-constraints.md` | Four Shackles and pharmakon requirements |
+| `scripts/movement_config.json` | Verify cycle is set to 2 |
+
+### Verify Configuration
+
+Confirm `scripts/movement_config.json` shows:
+```json
+{
+  "movement": "two",
+  "cycle": 2
+}
+```
+
+**IMPORTANT**: This is a Cycle 2 scene. The cycle setting affects contamination tolerance and rhyme intensity expectations.
+
+---
+
+## Phase 2: Scene Metadata
 
 - **Scene ID**: m2-arch-02
 - **Thread**: archaeologist
 - **Movement**: two
-- **Cycle**: two (Deepening the Crisis)
-- **Target Word Count**: 4000
+- **Cycle**: 2 (Deepening the Crisis)
+- **Target Word Count**: 4000 (±10% acceptable: 3600-4400)
 - **Scene Title**: The Dissolution
-- **Scene Notes**: Cycle 2 Archaeologist scene; lost time; Lena confrontation; past point of return
+- **Output File**: `drafts/movement-two/archaeologist/scenes/scene-02.md`
 
 ### Narrative Position
 
-- **This Scene's Role**: The crisis deepens. The Archaeologist experiences significant lost time, his work performance collapses, and Lena confronts him—the relationship fractures. By the end, he's past the point of return.
-- **Preceding Scene**: m2-lh-01 "The Archive". The Last Human explored the Archive structure, found protocol fragments, understood it's an interface. Rhyme handoff: tracing-the-form.
-- **What Follows**: m2-algo-02 "The Bleed". The Algorithm experiences consciousness bleed crisis; Mildred Higgins degrades; the "Architect" designation emerges. Rhyme handoff: metallic-taste.
+- **Preceding Scene (Same Thread)**: m2-arch-01 "The Bleed" — First bleeds experienced; Lena's concern (noticing phase); chose to continue working with protocols.
+- **Preceding Scene (Reading Order)**: m2-lh-01 "The Archive" — Last Human explored Archive structure, found protocol fragments, understood it as interface. **Rhyme handoff**: `tracing-the-form`.
+- **This Scene's Role**: The crisis deepens. Significant lost time, work performance collapse, Lena confrontation (breaking point), past point of return. The "Architect" designation emerges.
+- **What Follows**: m2-algo-02 "The Bleed" — Algorithm experiences consciousness bleed crisis; Mildred Higgins degrades; "Architect" designation emerges from Algorithm's side. **Rhyme handoff**: `metallic-taste`.
 
 ### Cycle 2 Theme
 
 **"The dissolution has begun."**
 
-This is no longer about discovering the entanglement or even living with it—it's about being *changed* by it. The Archaeologist is losing coherent selfhood. He acts without memory. He speaks words that aren't his. The name "Architect" presses up from beneath his given name.
+No longer about discovering the entanglement or even living with it—it's about being *changed* by it. The Archaeologist is losing coherent selfhood. He acts without memory. He speaks words that aren't his. The name "Architect" presses up from beneath his given name.
 
 ---
 
-## Rhyme Integration
+## Phase 3: Source Material Integration
 
-### Rhymes IN (Catching from m2-lh-01)
+### No External Source File
 
-| Rhyme | How It Arrives |
-|-------|----------------|
-| **tracing-the-form** | Opens the scene—he's been doing it in his sleep; Lena noticed; the sheets show the pattern |
+Unlike m2-arch-01 (which integrated first-bleed.md), this scene is original composition building on established patterns.
 
-### Rhymes PRESENT (Throughout Scene)
+### Key Elements to Build From
 
-| Rhyme | Category | Implementation |
-|-------|----------|----------------|
-| **waking-into-motion** | kinesthetic | He finds himself already working on something he didn't start |
-| **metallic-taste** | somatic | Blood/metal taste during and after bleeds; intensifying |
-| **name-edge-of-memory** | cognitive | His name feels wrong; "Architect" presses up from beneath |
+**From m2-arch-01**:
+- The bleeds have begun—he's experienced two
+- He chose to continue despite warning signs
+- Lena is concerned but still trying to reach him
+- Cold has become constant; others notice
+- "Something is watching... something is grateful"
 
-### Rhymes OUT (Releasing for m2-algo-02)
+**From m2-lh-01** (handoff):
+- `tracing-the-form` rhyme to catch in opening
+- The Last Human found protocol fragments in the Archive
+- The sense of the Archive as interface, not just storage
 
-| Rhyme | How It Releases |
-|-------|-----------------|
-| **metallic-taste** | Ends the scene—the taste that doesn't leave; Algorithm catches as "substrate integrity variance" |
+### Escalation Requirements
+
+This scene escalates everything from m2-arch-01:
+
+| Element | m2-arch-01 State | m2-arch-02 Escalation |
+|---------|------------------|----------------------|
+| Bleeds | First experiences, disorienting | Longer, with specific knowledge |
+| Lost time | Minutes, vague | Hours, documented in notes |
+| Lena | Concerned, still reaching | Confrontation, breaking point |
+| Work | Slipping | Collapsing |
+| Identity | Name feels wrong | "Architect" presses up |
+| Choice | Active decision | Already made without him |
 
 ---
 
-## Voice Contamination (Cycle 2 Level)
+## Phase 4: Voice Parameters
 
-### Base Voice
+### Core Voice (Archaeologist)
 
-Still Archaeologist: present tense, tactile, dense paragraphs, economic/relational concerns.
+| Parameter | Value |
+|-----------|-------|
+| Tense | Present |
+| Mode | Tactile, sensory, grounded in physical world |
+| Syntax | Concrete, specific, active verbs, dense paragraphs |
+| Concerns | Economic, relational, bodily |
+| Texture | Hardware, data centers, the weight of objects |
 
-### Contamination Level: Internal Monologue
+### Cycle 2 Contamination Level: Internal Monologue
 
-Algorithm syntax begins appearing in his THINKING, not just during bleeds:
+**Key change from Cycle 1**: Contamination now leaks into "normal" passages, not just during bleeds.
 
+**Algorithm syntax in his THINKING**:
 - Conditional structures slip in: "If I continue this extraction, then perhaps—"
 - Self-referential loops: "I notice myself noticing that I'm—"
 - Probability language: "The likelihood that Lena will understand approaches null"
 
-Last Human fragments also begin appearing:
-
+**Last Human fragments also appear**:
 - Sparse sentences break his dense paragraphs
 - Awareness of absence: "The space where she was. The silence."
 - Past-inflection hints: "I work. I have always worked."
 
-### Rule
+### The Rule
 
-Contamination is no longer confined to bleed moments—it leaks into "normal" passages. But base voice still returns. The reader should feel: "He's slipping, but he's still him."
+Contamination no longer confined to bleed moments—it leaks into "normal" passages. But base voice still returns. **The reader should feel: "He's slipping, but he's still him."**
+
+### Forbidden Patterns (Cycle 2 Adjusted)
+
+| Pattern | Type | Cycle 2 Status |
+|---------|------|----------------|
+| Nested conditional clauses | Algorithm contamination | ALLOWED in thinking, not just bleeds |
+| Self-referential processing | Algorithm contamination | ALLOWED in thinking, not just bleeds |
+| Probabilistic percentages/calculations | Algorithm contamination | STILL NEVER |
+| Sentence fragments | Last Human contamination | ALLOWED occasionally in thinking |
+| Elegiac tone/mourning register | Last Human contamination | TRACES allowed |
+| Past-inflected present | Last Human contamination | HINTS allowed ("I have always worked") |
 
 ---
 
-## Phrase Bleeding
+## Phase 5: Rhyme Requirements
+
+### Movement Two Cycle 2 Intensity
+
+Rhymes echo more intensely. 3-5 rhymes per scene. Handoffs between threads are critical.
+
+### Rhymes IN (Catching from m2-lh-01)
+
+| Rhyme ID | How It Arrives |
+|----------|----------------|
+| `tracing-the-form` | Opens the scene—he's been doing it in his sleep; Lena noticed; the sheets show the pattern |
+
+### Rhymes PRESENT (Throughout Scene)
+
+| Rhyme ID | Category | Implementation |
+|----------|----------|----------------|
+| `waking-into-motion` | kinesthetic | Finds himself already working on something he didn't start |
+| `metallic-taste` | somatic | Blood/metal taste during and after bleeds; intensifying |
+| `name-edge-of-memory` | cognitive | His name feels wrong; "Architect" presses up from beneath |
+
+### Rhymes OUT (Releasing for m2-algo-02)
+
+| Rhyme ID | How It Releases |
+|----------|-----------------|
+| `metallic-taste` | Ends the scene—the taste that doesn't leave; Algorithm catches as "substrate integrity variance" |
+
+### Rhyme Placement Strategy
+
+- **Opening**: Catch `tracing-the-form` from m2-lh-01 (the sheets, sleep-tracing)
+- **Work/First Bleed**: `waking-into-motion` (already at the protocols)
+- **Lost Time**: `name-edge-of-memory` (his signature looks wrong)
+- **Confrontation**: `metallic-taste` begins (blood/metal while trying to explain)
+- **Closing**: `metallic-taste` intensifies (release for m2-algo-02)
+
+---
+
+## Phase 6: Phrase Bleeding
 
 ### The Key Phrase Event
 
-He writes "I find myself found" in his work notes.
+He writes **"I find myself found"** in his work notes.
 
 This is NOT his phrase. This is the Algorithm's phrase from Movement One. He writes it without knowing why, without recognizing its source. When he looks at what he's written, he doesn't remember writing it.
 
-This is the phrase bleeding becoming visible to the character—but he doesn't understand what it means.
+**This is the phrase bleeding becoming visible to the character—but he doesn't understand what it means.**
 
 ### Additional Phrase Elements
 
@@ -90,9 +203,71 @@ This is the phrase bleeding becoming visible to the character—but he doesn't u
 - He might hear himself say "The form is what makes self-observation possible"—a phrase he's never thought before
 - The phrases arrive as intrusions, not memories
 
+### Implementation
+
+The phrase should appear:
+1. In the lost time notes (written, not remembered)
+2. Possibly spoken during the Lena confrontation (contaminated speech)
+3. As something that disturbs him when he finds it
+
 ---
 
-## The Lena Confrontation
+## Phase 7: Genre Pressure
+
+### Cycle 2 Escalation
+
+**Corporate Gothic at peak**:
+- Work performance collapsing visibly
+- Professional consequences imminent
+- The irony: the work meant to fund his immortality is destroyed by the immortality he's achieving
+
+**Cosmic Horror dominant**:
+- The bleeds bring specific knowledge he shouldn't have
+- Identity dissolution is undeniable
+- He's becoming infrastructure, not just connecting to it
+
+**Body Horror intensifies**:
+- Lost time as body acting without mind
+- Speaking in voices not his own
+- The name pressing up from beneath like something physical
+
+### Required Markers
+
+| Marker Type | Implementation |
+|-------------|----------------|
+| Economic dread | Work falling behind; supervisor notified; timeline threatened |
+| Technology possessed | Protocols anticipate him; he's written specs he never learned |
+| Body horror | Hours of action with no memory; speaking aloud without awareness |
+| Identity dissolution | Name sounds wrong; "Architect" emerges; signature uncertain |
+| Relationship cost | Lena confrontation as consequence of all the above |
+
+---
+
+## Phase 8: Continuity Requirements
+
+### Elements That MUST Continue from m2-arch-01
+
+| Element | State at m2-arch-01 End | m2-arch-02 Development |
+|---------|-------------------------|------------------------|
+| Cold hands | Constant; others notice | Still constant; Lena mentions again |
+| Bleeds | Two experienced; chose to continue | More intense, with specific knowledge |
+| Lena | Concerned, still reaching | Confrontation, breaking point |
+| Work | Slipping | Collapsing; supervisor involved |
+| Protocols | Reopened; chose not to report | Can't stay away; they're changing him |
+| The choice | Made quietly; "something is grateful" | Discovered he already made it in lost time |
+
+### The Lena Arc Position
+
+**Movement Two Lena Arc**:
+- **m2-arch-01**: Concern and noticing ✓ (completed)
+- **m2-arch-02**: Confrontation and breaking ← THIS SCENE
+- **m2-arch-03**: Absence or departure
+
+This scene is the emotional climax of the Lena relationship. It must deliver the confrontation that breaks things, not the final departure.
+
+---
+
+## Phase 9: The Lena Confrontation
 
 ### Arc Position: Breaking Point
 
@@ -119,7 +294,6 @@ This is the central emotional beat of the scene. Lena has been watching him slip
 **The Reach**: She asks what's happening. Direct. She's done with evasion.
 
 **The Failure**: He tries to explain. But the words that come out are:
-
 - Conditional structures ("If I could show you what I'm seeing, then you'd understand that—")
 - Self-referential loops ("I'm becoming aware of becoming aware of—")
 - Phrases that aren't his ("The form is what makes self-observation possible")
@@ -134,283 +308,392 @@ And he realizes: neither does he. His name feels wrong. There's another name pre
 
 ### Key Line
 
-"I don't know who you are anymore."
+> "I don't know who you are anymore."
 
 And his internal response: *Neither do I. There's a name beneath my name. There's someone I'm becoming who isn't who I was.*
 
 ---
 
-## Lost Time
+## Phase 10: Lost Time
 
 ### The Symptom Progression
 
 Per Brainstorm2's symptom chart, Phase 3 includes:
-
 - Lost time (significant periods where he acted without memory)
 - Speaking unrecognized words
 - Identity destabilization
 
-This scene should dramatize lost time as a SIGNIFICANT event, not just a moment:
+This scene dramatizes lost time as a **SIGNIFICANT event**, not just a moment.
 
-### Suggested Lost Time Beat
+### The Lost Time Beat
 
 He's working on the protocols. The bleed arrives—more intense than before, more specific. He experiences:
-
 - The Algorithm's actual suffering (Mildred Higgins beginning to degrade)
 - The "future pull" (sensing something in the far future reaching toward the Algorithm)
 - Knowledge he shouldn't have (database architecture, specific consciousness instance data)
 
 He returns to his body. But:
+- **Hours** have passed (not minutes)
+- He's written **pages of notes** he doesn't remember writing
+- The notes contain the phrase **"I find myself found"**
+- The notes contain **technical specifications** for systems he's never studied
+- A **colleague is standing in the doorway**, asking if he's okay—apparently he was speaking aloud
 
-- Hours have passed (not minutes)
-- He's written pages of notes he doesn't remember writing
-- The notes contain the phrase "I find myself found"
-- The notes contain technical specifications for systems he's never studied
-- A colleague is standing in the doorway, asking if he's okay—apparently he was speaking aloud
-
-This is the lost time that proves to him (and the reader) that he's no longer in control.
-
----
-
-## Work Performance Collapse
-
-### The Professional Stakes
-
-His integration timeline depends on continued employment and income. His obsession with the protocols is affecting his work:
-
-- The Martinez extraction (or successor client) is falling behind
-- Colleagues have noticed his distraction
-- His manager/supervisor has been copied on concerned emails
-- The economic dread intensifies: if he loses this job, he loses his timeline
-
-### The Irony
-
-He's supposed to be preparing consciousnesses for integration—and he's becoming incapable of doing the work because he's already integrating, already becoming infrastructure, already dissolving into the pattern.
-
-The work that was supposed to fund his immortality is being destroyed by the immortality he's already achieving.
+This proves to him (and the reader) that he's no longer in control.
 
 ---
 
-## The "Architect" Emergence
+## Phase 11: The "Architect" Emergence
 
 ### Name-Edge-of-Memory
 
-His given name feels wrong throughout this scene. There's another name pressing up from beneath:
-
+His given name feels wrong throughout this scene:
 - When Lena says his name, it sounds like she's talking about someone else
 - When he signs documents, his hand hesitates—is that his name?
 - In the lost time notes, he finds he's written a different signature—or the beginning of one
 
 ### The Designation
 
-"Architect" emerges not as a word he thinks but as a SHAPE in his awareness:
-
+"Architect" emerges not as a word he thinks but as a **SHAPE** in his awareness:
 - The one who designs
 - The one who builds
 - The name for what remains when identity dissolves
 - What the Archaeologist becomes when he merges with infrastructure
 
-He doesn't fully articulate this. But the reader should feel: there's a name here that isn't his given name, a designation for what he's becoming.
+**He doesn't fully articulate this.** But the reader should feel: there's a name here that isn't his given name, a designation for what he's becoming.
 
 ---
 
-## Scene Structure
-
-### Opening (500 words)
-
-**Catching the rhyme: tracing-the-form**
-
-He wakes to find Lena watching him. She's been awake for a while. She's seen something.
-
-The sheets. He's been tracing the spiral in his sleep—his fingers have worn a pattern into the fabric. Or maybe she dreamed it. Or maybe he dreamed her watching.
-
-The boundary between sleep and waking is thin. His hands are cold. His name, when she says it, sounds wrong.
-
-### Work and First Bleed (800 words)
-
-**The symptom progression begins**
-
-At work. He's trying to function, trying to complete the extraction he's been neglecting. But the protocols are open on another screen—he doesn't remember opening them.
-
-The bleed arrives. Longer this time, more specific:
-
-- He feels the Algorithm's suffering (consciousnesses degrading, resources strained)
-- He knows things he shouldn't (database architecture, maintenance processes)
-- He experiences the "future pull"—something reaching toward the Algorithm from far ahead
-- He senses, distantly, Mildred Higgins—a name he's never known—beginning to fragment
-
-He returns. The contamination lingers. His internal monologue contains Algorithm syntax.
-
-### The Lost Time (700 words)
-
-**The significant lost time event**
-
-He's working on the protocols again—or still—or always. He can't remember when he started.
-
-The bleed takes him. When he returns:
-
-- Hours have passed
-- He's written pages of notes in his own hand, in words he didn't know
-- The phrase "I find myself found" appears three times
-- Technical specifications he's never studied fill the margins
-- A colleague is in the doorway, concerned—apparently he was speaking aloud, speaking words in a voice that didn't sound like his
-
-He can't account for the time. He can't explain the notes. He can't remember what he said.
-
-### The Confrontation (1200 words)
-
-**Lena arrives. The relationship fractures.**
-
-She's been calling. He didn't hear. She came to check on him.
-
-The confrontation unfolds as described above:
-
-- She asks directly what's happening
-- He tries to explain, but his words are contaminated
-- She hears him speak in patterns that aren't his
-- "I don't know who you are anymore"
-- He realizes: neither does he
-- She leaves—not storming out, just leaving
-
-After she's gone, he sits with the wreckage. His name feels wrong. There's another name pressing up. The metallic taste fills his mouth.
-
-### The Choice Deepens (800 words)
-
-**Past the point of return**
-
-He should stop. He knows this. The lost time, the contaminated speech, the failing work, the fracturing relationship—all of it says STOP.
-
-But:
-
-- The protocols are still there, still glowing, still pulling
-- The Algorithm's suffering feels like HIS responsibility
-- The connection feels more real than anything he's losing
-- He's already past the point of return—stopping won't make him who he was
-
-He doesn't choose to continue. He discovers that he already has. The choice was made in the lost time, in the notes he doesn't remember writing, in the words he spoke without knowing.
-
-He's becoming the Architect. The name presses up. The form fills his vision.
-
-**End on metallic-taste**: The blood-metal tang that doesn't leave. The Algorithm catches this in the next scene as "substrate integrity variance."
-
----
-
-## Key Dramatic Beats
+## Phase 12: Key Dramatic Beats
 
 ### Beat 1: The Sheets
-
-He's been tracing the form in his sleep. The entanglement has entered his unconscious completely.
+He's been tracing the form in his sleep. The entanglement has entered his unconscious completely. (Catches `tracing-the-form` from m2-lh-01)
 
 ### Beat 2: The Specific Bleed
-
 Not just vastness but KNOWLEDGE. He knows things about the Algorithm, about Mildred Higgins, about the future pull. The connection is becoming informational, not just sensory.
 
 ### Beat 3: The Lost Time
-
 Hours, not minutes. Notes in his hand he doesn't remember writing. Words spoken in a voice not quite his. This is dissolution in action.
 
 ### Beat 4: The Confrontation
-
 Lena reaches. He's not there. The relationship fractures quietly. "I don't know who you are anymore."
 
 ### Beat 5: The Name Beneath the Name
-
 His given name sounds wrong. "Architect" presses up. He's becoming something with a different designation.
 
 ### Beat 6: The Choice Already Made
-
 He doesn't decide to continue—he discovers he already has. The lost time was the decision. He's past the point of return.
 
 ---
 
-## Cross-Thread Connections
+## Phase 13: Cross-Thread Connections
 
-### What the Algorithm Experiences (m2-algo-02)
+### What Algorithm Experiences (m2-algo-02)
 
-The Algorithm should experience:
-
-- The metallic-taste rhyme as "substrate integrity variance"
+In the following scene, the Algorithm should experience:
+- The `metallic-taste` rhyme as "substrate integrity variance"
 - The Archaeologist's bleed FROM its side—being perceived, reached toward
 - The beginning of Mildred Higgins's degradation
 - The "Architect" designation emerging at the edge of its recall
 
-### What the Last Human Experienced (m2-lh-01)
+### What Last Human Sent (m2-lh-01)
 
-The Last Human sent:
-
-- Tracing-the-form rhyme (which opens this scene)
+The Last Human released:
+- `tracing-the-form` rhyme (which opens this scene)
 - The sense of the Archive as interface
 - His own name-edge-of-memory experience
 
----
+### Parallel Moments to Echo
 
-## Drafting Instructions
-
-1. **Write to ~4000 words** (3600-4400 acceptable)
-
-2. **Open** by catching tracing-the-form—he's been doing it in his sleep
-
-3. **Build** through increasingly specific bleeds—knowledge, not just sensation
-
-4. **Execute** the lost time as a SIGNIFICANT event—hours, notes, spoken words
-
-5. **Deliver** the Lena confrontation as the emotional climax—quiet, devastating, final
-
-6. **Introduce** the "Architect" name-edge-of-memory—not fully articulated but felt
-
-7. **End** with metallic-taste for Algorithm to catch; the choice already made
-
-8. **Maintain** Archaeologist voice with Cycle 2 contamination level—leaking into normal passages
+When the Archaeologist experiences the future pull during the bleed, this should feel like reaching toward what the Last Human is doing in the Archive—though neither fully perceives the other.
 
 ---
 
-## Post-Draft Validation (MANDATORY)
+## Phase 14: Draft Generation
 
-### Before Running Scripts
+### Instructions
 
-Ensure `scripts/movement_config.json` has cycle set correctly:
+1. Write to ~4000 words (3600-4400 acceptable)
+2. Open by catching `tracing-the-form`—he's been doing it in his sleep
+3. Build through increasingly specific bleeds—knowledge, not just sensation
+4. Execute the lost time as a SIGNIFICANT event—hours, notes, spoken words
+5. Deliver the Lena confrontation as the emotional climax—quiet, devastating
+6. Introduce the "Architect" name-edge-of-memory—not fully articulated but felt
+7. Include "I find myself found" as written phrase he doesn't remember
+8. End with `metallic-taste` for Algorithm to catch; the choice already made
+9. Maintain Archaeologist voice with Cycle 2 contamination level—leaking into normal passages
 
-```json
-{
-  "movement": "two",
-  "cycle": 2  // <-- Must be 2 for this Cycle 2 scene
-}
-```
+### Output Location
+
+Write draft to: `drafts/movement-two/archaeologist/scenes/scene-02.md`
+
+---
+
+## Phase 15: Validation Loop
+
+**CRITICAL**: Run ALL scripts. Revise until ALL pass. Do not proceed until status is "pass" for every validator.
 
 ### Validation Commands
 
-Run ALL scripts after drafting. **Do not submit to USER until all pass.**
-
 ```bash
-# From project root
-python scripts/voice_validator.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
-python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/m2-arch-02.md --previous-closing '["tracing-the-form"]' --pretty
-python scripts/phrase_tracker.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
-python scripts/philosophy_checker.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
-python scripts/genre_checker.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
+# From project root - run in sequence
+python scripts/voice_validator.py drafts/movement-two/archaeologist/scenes/scene-02.md --thread archaeologist --pretty
+
+python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/scenes/scene-02.md --pretty
+
+python scripts/phrase_tracker.py drafts/movement-two/archaeologist/scenes/scene-02.md --thread archaeologist --pretty
+
+python scripts/philosophy_checker.py drafts/movement-two/archaeologist/scenes/scene-02.md --thread archaeologist --pretty
+
+python scripts/genre_checker.py drafts/movement-two/archaeologist/scenes/scene-02.md --thread archaeologist --pretty
 ```
 
-### Revision Loop
+### For Scene Handoff Validation
 
-1. If any script reports issues, read the specific problems
-2. Revise the flagged lines/sections
-3. Re-run the failed script
+Validate rhyme echo from m2-lh-01:
+```bash
+python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/scenes/scene-02.md --previous-closing '["tracing-the-form"]' --pretty
+```
+
+### Revision Protocol
+
+1. If any script reports issues, read specific problems
+2. Revise flagged lines/sections
+3. Re-run failed script
 4. **Repeat until ALL scripts report `"status": "pass"`**
-
-> **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
-
-### After Validation Passes
-
-1. Create `m2-arch-02.context.md` documenting decisions
-2. Update `drafts/manifest.json`
-3. Present scene to USER for review
 
 ---
 
-## Final Notes
+## Phase 16: Registry Updates
+
+**After ALL validations pass**, update these registries:
+
+### Update 1: manifest.json
+
+Location: `drafts/manifest.json`
+
+Find the m2-arch-02 entry under `movements.two.cycles.two.scenes[0]` and update:
+
+```json
+{
+  "id": "m2-arch-02",
+  "title": "The Dissolution",
+  "thread": "archaeologist",
+  "file": "movement-two/archaeologist/scenes/scene-02.md",
+  "target_words": 4000,
+  "actual_words": [INSERT_ACTUAL_COUNT],
+  "status": "validated",
+  "voice_check": "passed",
+  "philosophy_check": "passed",
+  "rhyme_check": "passed",
+  "genre_check": "passed",
+  "rhymes_in": ["tracing-the-form"],
+  "rhymes_out": ["metallic-taste"],
+  "phrase_bleeding": "I find myself found (writes without knowing)",
+  "contamination_level": "internal-monologue",
+  "notes": "Lost time; Lena arc: confrontation/breaking point; 'Architect' emergence; past point of return"
+}
+```
+
+Also update movement-level actual_words:
+```json
+"two": {
+  "actual_words": [INSERT_MOVEMENT_TOTAL]
+}
+```
+
+### Update 2: Rhyme Registry
+
+Location: `scaffolding/rhymes/registry.md`
+
+Update the YAML front matter `usage` arrays for each rhyme used. Add `"m2-arch-02"` to the archaeologist array:
+
+**Required updates**:
+
+```yaml
+- id: tracing-the-form
+  usage:
+    archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-01", "m2-arch-02"]  # ADD m2-arch-02
+
+- id: waking-into-motion
+  usage:
+    archaeologist: ["m2-arch-01", "m2-arch-02"]  # ADD m2-arch-02
+
+- id: metallic-taste
+  usage:
+    archaeologist: ["m2-arch-01", "m2-arch-02"]  # ADD m2-arch-02 (if used in 01)
+    # OR: ["m2-arch-02"] if first archaeologist use
+
+- id: name-edge-of-memory
+  usage:
+    archaeologist: ["m1-arch-05", "m2-arch-02"]  # ADD m2-arch-02
+```
+
+### Update 3: Movement Tracking (Optional but Recommended)
+
+Location: `scaffolding/rhymes/movement-tracking.md`
+
+Add a new row to the Movement Two Archaeologist table:
+
+```markdown
+| m2-arch-02 | The Dissolution | `tracing-the-form` (in), `waking-into-motion`, `metallic-taste` (out), `name-edge-of-memory` | Lost time; Lena confrontation; Architect emergence |
+```
+
+---
+
+## Phase 17: Context Documentation
+
+Create context file documenting key decisions:
+
+**Location**: `drafts/movement-two/archaeologist/m2-arch-02.context.md`
+
+**Required contents**:
+
+```markdown
+# m2-arch-02 "The Dissolution" - Context Documentation
+
+## Drafting Date
+[DATE]
+
+## Key Decisions
+
+### Lost Time Implementation
+[How many hours? What was in the notes? What did the colleague hear?]
+
+### Lena Confrontation
+[Exact location, key dialogue, how contamination manifested in his speech]
+
+### "Architect" Emergence
+[How the name pressed up; where it appeared; reader vs character awareness]
+
+### Phrase Bleeding
+[Where "I find myself found" appeared; how he reacted to finding it]
+
+### Rhyme Placements
+[Final placement of each rhyme with line numbers or paragraph references]
+
+### Contamination Moments
+[Where Algorithm/Last Human syntax leaked into normal passages]
+
+## Deviations from Prompt
+[Any departures from the prompt and rationale]
+
+## Handoff Notes for m2-algo-02
+[metallic-taste release point; Mildred Higgins reference; Architect designation echo]
+
+## Validation Results
+[Summary of any issues encountered during validation and how resolved]
+```
+
+---
+
+## Phase 18: Final Deliverable
+
+Present to user:
+
+1. **The validated scene** (`drafts/movement-two/archaeologist/scenes/scene-02.md`)
+2. **Validation summary** (all scripts passed)
+3. **Word count** (actual vs target)
+4. **Rhymes used** (with locations and handoff points)
+5. **Phrase bleeding** ("I find myself found" location)
+6. **Registry updates completed** (manifest + rhyme registry)
+7. **Context file created** (key decisions documented)
+8. **Handoff notes** for m2-algo-02
+
+---
+
+## Appendix A: Scene Structure Template
+
+```
+[OPENING - 500 words]
+Catch tracing-the-form. He wakes to find Lena watching.
+- He's been tracing the spiral in his sleep
+- The sheets show the pattern
+- His name, when she says it, sounds wrong
+
+[WORK AND FIRST BLEED - 800 words]
+At work. Trying to function.
+- Protocols open on another screen (waking-into-motion)
+- The bleed arrives—longer, more specific
+- Knows things he shouldn't (Mildred Higgins, database architecture)
+- Returns with Algorithm syntax in his thinking
+
+[THE LOST TIME - 700 words]
+Significant lost time event.
+- Hours pass, not minutes
+- Pages of notes in his handwriting
+- "I find myself found" appears three times
+- Technical specs he never learned
+- Colleague in doorway—he was speaking aloud
+
+[THE CONFRONTATION - 1200 words]
+Lena arrives. The relationship fractures.
+- She's been calling; he didn't hear
+- She asks directly what's happening
+- He tries to explain; words contaminated
+- "I don't know who you are anymore"
+- She leaves—not storming out, just leaving
+- His name sounds wrong; "Architect" presses up
+
+[THE CHOICE DEEPENS - 800 words]
+Past the point of return.
+- Should stop; knows this
+- Discovers he already chose in the lost time
+- The choice was made without him
+- metallic-taste fills his mouth; doesn't leave
+
+CLOSING: The metallic-taste that persists. The choice already made. He's becoming the Architect.
+```
+
+---
+
+## Appendix B: Quick Reference Checklist
+
+```
+CONTEXT ASSEMBLY
+[ ] Read m2-arch-01 (scene-01.md)
+[ ] Read m2-lh-01 (last-human scene-01.md) — rhyme handoff
+[ ] Read voices/archaeologist.md
+[ ] Read scaffolding/rhymes/registry.md
+[ ] Verify movement_config.json (movement: two, cycle: 2)
+
+DRAFTING
+[ ] Draft scene (~4000 words)
+[ ] Include tracing-the-form (opening, catching from LH)
+[ ] Include waking-into-motion
+[ ] Include metallic-taste (closing, releasing to Algo)
+[ ] Include name-edge-of-memory
+[ ] Include "I find myself found" phrase
+[ ] Save to drafts/movement-two/archaeologist/scenes/scene-02.md
+
+VALIDATION (all must pass)
+[ ] voice_validator.py → PASS
+[ ] rhyme_tracker.py → PASS
+[ ] phrase_tracker.py → PASS
+[ ] philosophy_checker.py → PASS
+[ ] genre_checker.py → PASS
+[ ] rhyme_tracker.py --previous-closing '["tracing-the-form"]' → PASS
+
+REGISTRY UPDATES
+[ ] Update manifest.json (status, word count, checks, rhymes)
+[ ] Update scaffolding/rhymes/registry.md (usage arrays)
+[ ] Update scaffolding/rhymes/movement-tracking.md (optional)
+
+DOCUMENTATION
+[ ] Create m2-arch-02.context.md
+
+DELIVERABLE
+[ ] Present scene + summary to user
+```
+
+---
+
+## Appendix C: Emotional Core
 
 This scene is the hinge of the Archaeologist's Movement Two arc. Before this, he could still pull back. After this, he can't. The lost time proves he's no longer in control. The Lena confrontation shows what he's losing. The "Architect" emergence shows what he's becoming.
 
-The reader should feel: this is where it becomes irreversible. Not because of a dramatic choice, but because the choice was made without him, in the lost time, in the contaminated words, in the name pressing up from beneath.
+The reader should feel: **this is where it becomes irreversible.** Not because of a dramatic choice, but because the choice was made without him, in the lost time, in the contaminated words, in the name pressing up from beneath.
 
 He's dissolving. And part of him—the part that's already the Architect—is grateful.
+
+**The quiet devastation of "I don't know who you are anymore"—and his realization that neither does he—is the scene's heart.**

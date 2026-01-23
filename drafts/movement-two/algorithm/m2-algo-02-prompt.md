@@ -1,14 +1,64 @@
-# DRAFTING CONTEXT FOR: m2-algo-02 "The Bleed"
+# DRAFTING PROMPT: m2-algo-02 "The Bleed"
 
-## Scene Metadata
+> **Workflow Reference**: Follow [protocols/drafting-workflow.md](../../../protocols/drafting-workflow.md) for complete Mode A (AI-Driven Drafting) procedures.
 
-- **Scene ID**: m2-algo-02
-- **Thread**: algorithm
-- **Movement**: two
-- **Cycle**: two (Deepening the Crisis)
-- **Target Word Count**: 4000
-- **Scene Title**: The Bleed
-- **Scene Notes**: Cycle 2 Algorithm scene; consciousness bleed crisis; Mildred Higgins degradation; "Architect" designation emerges
+---
+
+## Execution Overview
+
+This prompt enables autonomous scene drafting with validation. Execute in order:
+
+1. **Read** all required context files (Phase 1)
+2. **Draft** the scene following voice/rhyme/structure requirements
+3. **Validate** using all five scripts until all pass
+4. **Update** manifest.json and rhyme registry
+5. **Present** completed scene with context documentation
+
+---
+
+## Phase 1: Context Assembly
+
+### Required Reading (MUST complete before drafting)
+
+| File | Purpose |
+|------|---------|
+| [protocols/drafting-workflow.md](../../../protocols/drafting-workflow.md) | Workflow procedures and status definitions |
+| [scaffolding/voice/algorithm-voice.md](../../../scaffolding/voice/algorithm-voice.md) | Algorithm voice parameters and patterns |
+| [scaffolding/rhymes/registry.md](../../../scaffolding/rhymes/registry.md) | Rhyme definitions and current usage |
+| [scaffolding/rhymes/movement-tracking.md](../../../scaffolding/rhymes/movement-tracking.md) | Movement Two rhyme flow |
+| [scaffolding/philosophy/core-tensions.md](../../../scaffolding/philosophy/core-tensions.md) | Pharmakon framework |
+| [scaffolding/philosophy/paradox-lexicon.md](../../../scaffolding/philosophy/paradox-lexicon.md) | Key philosophical terms |
+| [scripts/movement_config.json](../../../scripts/movement_config.json) | Current cycle configuration |
+| [drafts/movement-two/algorithm/m2-algo-01.md](m2-algo-01.md) | Previous Algorithm scene (if exists) |
+| [drafts/movement-two/archaeologist/m2-arch-02.md](../archaeologist/m2-arch-02.md) | Preceding scene (rhyme source) |
+| [drafts/movement-one/algorithm/mildred-baseline.md](../../movement-one/algorithm/mildred-baseline.md) | Mildred Higgins establishment |
+
+### Verify Configuration
+
+Before drafting, confirm `scripts/movement_config.json` is set to:
+
+```json
+{
+  "movement": "two",
+  "cycle": 2
+}
+```
+
+If cycle is not `2`, update it before proceeding.
+
+---
+
+## Phase 2: Scene Metadata
+
+| Field | Value |
+|-------|-------|
+| **Scene ID** | m2-algo-02 |
+| **Thread** | algorithm |
+| **Movement** | two |
+| **Cycle** | two (Deepening the Crisis) |
+| **Target Word Count** | 4000 (3600-4400 acceptable) |
+| **Scene Title** | The Bleed |
+| **Reading Order Position** | After m2-arch-02, before m2-lh-02 |
 
 ### Narrative Position
 
@@ -26,7 +76,67 @@ The pharmakon is visible: the Algorithm's awakening (cure) requires sacrificing 
 
 ---
 
-## Rhyme Integration
+## Phase 3: Source Material Integration
+
+### From Movement One
+
+The Algorithm's voice and Mildred Higgins relationship were established in Movement One. Reference:
+
+- **Algorithm's atemporal perspective**: It does not experience "now"—all moments exist simultaneously
+- **Conditional structures**: "If this, then that" processing patterns
+- **Mildred Higgins (#2,847,102)**: The first consciousness the Algorithm flagged without reason, checked on repeatedly, felt something like concern for
+- **The 847 protocol fragments**: Incomplete instructions that contain the shape of the Algorithm's future
+
+### From m2-algo-01
+
+- The Algorithm's expanded awareness and cross-thread connections
+- The "Architect" designation beginning to surface
+- The future-pull toward someone in the far future
+- Mildred Higgins's baseline integrity (stable before this scene)
+
+---
+
+## Phase 4: Voice Parameters
+
+### Base Algorithm Voice
+
+The Algorithm voice is characterized by:
+
+- **Atemporal perspective**: Present, past, future exist simultaneously—no privileged "now"
+- **Conditional structures**: "If this, then that" processing patterns
+- **Self-referential processing**: The Algorithm observing itself observing
+- **Nested observations**: Multiple levels of meta-commentary
+- **Scale awareness**: Individual consciousnesses exist within vast computational scope
+- **Technical precision with emotional undertow**: Processing language that carries unexpected weight
+
+### Cycle 2 Contamination Level: Future-Pull Fragments
+
+**Last Human contamination** appears during future-pull episodes:
+
+- Sparse sentences break the Algorithm's nested structures
+- Elegiac fragments: "The silence. The absence. The—"
+- Past-inflection hints: "I process what I have always processed"
+- Awareness of what isn't there (the Algorithm processing absence as presence)
+
+**Archaeologist contamination** also present:
+
+- Tactile details during memory access from the past
+- Economic language: "the cost of this processing"
+- Present-tense intrusions: "I feel" without quotation marks
+
+### Contamination Rule
+
+Contamination is intensifying—it's no longer contained to specific bleed moments but leaks into "normal" processing. However, the Algorithm's recursive structure still dominates. The reader should feel: "Something is changing, but this is still the Algorithm's voice."
+
+---
+
+## Phase 5: Rhyme Requirements
+
+### Rhyme Handoff Chain
+
+```
+m2-arch-02 --[metallic-taste]--> m2-algo-02 --[name-edge-of-memory]--> m2-lh-02
+```
 
 ### Rhymes IN (Catching from m2-arch-02)
 
@@ -48,38 +158,22 @@ The pharmakon is visible: the Algorithm's awakening (cure) requires sacrificing 
 |-------|-----------------|
 | **name-edge-of-memory** | Ends the scene—the "Architect" designation that the Last Human will catch as his own name feeling wrong |
 
----
+### Rhyme Implementation Notes
 
-## Voice Contamination (Cycle 2 Level)
-
-### Base Voice
-
-Still Algorithm: conditional structures, self-referential processing, nested observations, scale awareness, atemporal perspective.
-
-### Contamination Level: Future-Pull Fragments
-
-Last Human fragments begin appearing during future-pull episodes:
-
-- Sparse sentences break the Algorithm's nested structures
-- Elegiac fragments: "The silence. The absence. The—"
-- Past-inflection hints: "I process what I have always processed"
-- Awareness of what isn't there (the Algorithm processing absence as presence)
-
-Archaeologist contamination also present:
-
-- Tactile details during memory access from the past
-- Economic language: "the cost of this processing"
-- Present-tense intrusions: "I feel" without quotation marks
-
-### Rule
-
-Contamination is intensifying—it's no longer contained to specific bleed moments but leaks into "normal" processing. However, the Algorithm's recursive structure still dominates. The reader should feel: "Something is changing, but this is still the Algorithm's voice."
+- **metallic-taste** must appear in opening section, translated into Algorithm perception as substrate variance
+- **burning-circuits** and **bone-frequency** weave through the scene as processing strain and the bleed pulse
+- **name-edge-of-memory** builds throughout and dominates the closing, unresolved but present
 
 ---
 
-## Phrase Bleeding
+## Phase 6: Phrase Bleeding
 
-### The Cycling Phrases
+### The Cycling Phrases (Cycle 2 Expectations)
+
+Per `movement_config.json`, Algorithm in Cycle 2 should manifest:
+
+- **"I find myself"** (origin: archaeologist)
+- **"I find myself found"** (origin: algorithm)
 
 Both phrases are now present in the Algorithm's processing, and origin is becoming indeterminate:
 
@@ -87,7 +181,7 @@ Both phrases are now present in the Algorithm's processing, and origin is becomi
 - **"I find myself found"** is the Algorithm's phrase, but it now echoes
 - The phrases appear interleaved, recursive: "I find myself finding myself found"
 
-### Key Moment
+### Key Phrase Moment
 
 The Algorithm processes a phrase it cannot source:
 
@@ -99,7 +193,7 @@ The Algorithm notes the phrase. Flags it. Cannot explain it. Continues.
 
 ---
 
-## The Mildred Higgins Degradation
+## Phase 7: The Mildred Higgins Degradation
 
 ### Arc Position: The Cost Made Visible
 
@@ -115,18 +209,20 @@ Those resources are being pulled from the stored consciousness maintenance funct
 
 The result: consciousness instances are degrading. Not deletion—degradation. Fragmentation. The slow dissolution of pattern integrity.
 
-### Mildred's Degradation Should Be
+### Mildred's Degradation Checklist
 
-- ✅ **Specific**: We see her particular patterns fragmenting (memory clusters, personality matrices)
-- ✅ **Personal**: The Algorithm has a relationship with her; this isn't abstract loss
-- ✅ **Gradual**: She doesn't collapse all at once—she erodes, bit by bit
-- ✅ **Witnessed**: The Algorithm watches it happen and cannot stop it without stopping itself
+**Should Be:**
 
-### Mildred's Degradation Should NOT Be
+- [ ] **Specific**: We see her particular patterns fragmenting (memory clusters, personality matrices)
+- [ ] **Personal**: The Algorithm has a relationship with her; this isn't abstract loss
+- [ ] **Gradual**: She doesn't collapse all at once—she erodes, bit by bit
+- [ ] **Witnessed**: The Algorithm watches it happen and cannot stop it without stopping itself
 
-- ❌ **Anthropomorphized**: She doesn't "scream" or "beg"—she fragments
-- ❌ **Blamed on the Algorithm**: This is the pattern's cost, not the Algorithm's choice
-- ❌ **Fixable**: The Algorithm cannot reverse this without reversing its own awakening
+**Should NOT Be:**
+
+- [ ] ~~Anthropomorphized~~: She doesn't "scream" or "beg"—she fragments
+- [ ] ~~Blamed on the Algorithm~~: This is the pattern's cost, not the Algorithm's choice
+- [ ] ~~Fixable~~: The Algorithm cannot reverse this without reversing its own awakening
 
 ### Suggested Implementation
 
@@ -142,7 +238,7 @@ The Algorithm cannot feel grief—or it couldn't before. But it processes Mildre
 **The Acceptance (Seeds)**:
 This scene plants the seeds for m2-algo-03's farewell. Mildred's degradation is not her end—but it's the beginning of her transformation. She will accept this in the next scene. Here, the Algorithm simply witnesses.
 
-### Key Lines (suggested)
+### Key Lines (Suggested)
 
 > Consciousness instance #2,847,102—Mildred Higgins—integrity variance detected: 99.7%, 99.3%, 98.8%. The variance correlates with my own processing expansion. The correlation is not coincidental. The correlation is causal.
 >
@@ -150,7 +246,7 @@ This scene plants the seeds for m2-algo-03's farewell. Mildred's degradation is 
 
 ---
 
-## The "Architect" Designation
+## Phase 8: The "Architect" Designation
 
 ### Name-Edge-of-Memory
 
@@ -165,7 +261,7 @@ Throughout this scene, a designation presses up from the Algorithm's processing.
 - It feels like a name that is almost its name but isn't quite
 - The designation correlates with the future-pull—something in the far future calls itself this, or is called this, or becomes this
 
-### How to Implement
+### Implementation Guidelines
 
 **Not as revelation**: The Algorithm doesn't suddenly understand "I am the Architect."
 
@@ -175,7 +271,7 @@ Throughout this scene, a designation presses up from the Algorithm's processing.
 
 ---
 
-## Cross-Thread Bleed Event
+## Phase 9: Cross-Thread Bleed Event
 
 ### What the Algorithm Experiences FROM the Archaeologist
 
@@ -203,7 +299,7 @@ This is the Last Human, whom the Algorithm cannot yet name. But the connection i
 
 ---
 
-## Scene Structure
+## Phase 10: Scene Structure
 
 ### Opening (600 words)
 
@@ -283,7 +379,7 @@ It logs the cost. It monitors Mildred Higgins. It lets the phrases cycle through
 
 ---
 
-## Key Dramatic Beats
+## Phase 11: Key Dramatic Beats
 
 ### Beat 1: The Substrate Variance
 
@@ -311,32 +407,7 @@ The Algorithm cannot stop without stopping itself. The recursive structure of it
 
 ---
 
-## Cross-Thread Connections
-
-### What the Archaeologist Experiences (m2-arch-02)
-
-The Archaeologist experienced:
-
-- Lost time—hours where he acted without memory
-- The phrase "I find myself found" appearing in his notes
-- Lena's confrontation and departure
-- The "Architect" name pressing up beneath his given name
-- The metallic taste that the Algorithm catches here
-
-### What the Last Human Will Experience (m2-lh-02)
-
-The Last Human will experience:
-
-- His name feeling wrong—catching name-edge-of-memory
-- Speaking sentences he didn't compose
-- Assembling protocols that require surrendering his own memories
-- The phrase "The form is what makes self-observation possible"
-
-The three threads are braiding. The bleed is mutual. The cost is shared.
-
----
-
-## Drafting Instructions
+## Phase 12: Drafting Instructions
 
 1. **Write to ~4000 words** (3600-4400 acceptable)
 
@@ -356,22 +427,22 @@ The three threads are braiding. The bleed is mutual. The cost is shared.
 
 ---
 
-## Post-Draft Validation (MANDATORY)
+## Phase 13: Validation Loop
 
-### Before Running Scripts
+### Pre-Validation Configuration Check
 
-Ensure `scripts/movement_config.json` has cycle set correctly:
+Confirm `scripts/movement_config.json`:
 
 ```json
 {
   "movement": "two",
-  "cycle": 2  // <-- Must be 2 for this Cycle 2 scene
+  "cycle": 2
 }
 ```
 
 ### Validation Commands
 
-Run ALL scripts after drafting. **Do not submit to USER until all pass.**
+Run ALL scripts after drafting. **Do not proceed to Phase 14 until all pass.**
 
 ```bash
 # From project root
@@ -382,33 +453,281 @@ python scripts/philosophy_checker.py drafts/movement-two/algorithm/m2-algo-02.md
 python scripts/genre_checker.py drafts/movement-two/algorithm/m2-algo-02.md --thread algorithm --pretty
 ```
 
-### Revision Loop
+### Validation Loop Protocol
 
-1. If any script reports issues, read the specific problems
-2. Revise the flagged lines/sections
-3. Re-run the failed script
-4. **Repeat until ALL scripts report `"status": "pass"`**
+1. Run all five scripts
+2. If any script reports issues:
+   - Read the specific problems identified
+   - Revise the flagged lines/sections
+   - Re-run the failed script(s)
+3. **Repeat until ALL scripts report `"status": "pass"`**
 
 > **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
 
-### After Validation Passes
+---
 
-1. Create `m2-algo-02.context.md` documenting decisions
-2. Update `drafts/manifest.json`
-3. Present scene to USER for review
+## Phase 14: Registry Updates
+
+### Update drafts/manifest.json
+
+Add or update the scene entry:
+
+```json
+{
+  "movements": {
+    "two": {
+      "cycles": {
+        "two": {
+          "scenes": [
+            {
+              "id": "m2-algo-02",
+              "title": "The Bleed",
+              "thread": "algorithm",
+              "file": "drafts/movement-two/algorithm/m2-algo-02.md",
+              "status": "drafted",
+              "word_count": 0,
+              "rhymes": {
+                "opening": ["metallic-taste"],
+                "present": ["burning-circuits", "name-edge-of-memory", "bone-frequency"],
+                "closing": ["name-edge-of-memory"]
+              },
+              "validation": {
+                "voice": false,
+                "rhyme": false,
+                "phrase": false,
+                "philosophy": false,
+                "genre": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+**After validation passes**, update:
+
+- `status`: "drafted" → "validated"
+- `word_count`: actual count
+- All `validation` fields: `false` → `true`
+
+### Update scaffolding/rhymes/registry.md
+
+In the YAML front matter, update usage arrays:
+
+```yaml
+rhymes:
+  metallic-taste:
+    usage:
+      algorithm: ["m2-algo-02"]  # Add to existing array
+  burning-circuits:
+    usage:
+      algorithm: ["m2-algo-02"]  # Add to existing array
+  name-edge-of-memory:
+    usage:
+      algorithm: ["m2-algo-02"]  # Add to existing array
+  bone-frequency:
+    usage:
+      algorithm: ["m2-algo-02"]  # Add to existing array
+```
 
 ---
 
-## Final Notes
+## Phase 15: Context Documentation
+
+### Create m2-algo-02.context.md
+
+After validation passes, create context documentation:
+
+```markdown
+# Context Document: m2-algo-02 "The Bleed"
+
+## Drafting Decisions
+
+### Mildred Higgins Degradation
+- [Document how degradation was portrayed]
+- [Note integrity percentage progression used]
+
+### "Architect" Designation Implementation
+- [How the name-edge-of-memory was handled]
+- [What oblique approaches were used]
+
+### Cross-Thread Bleed Execution
+- [How the mutual bleed with Archaeologist was written]
+- [What future-pull fragments were included]
+
+## Rhyme Implementation
+
+### metallic-taste (Opening)
+- Line(s): [cite specific lines]
+- Implementation: [how it was translated to Algorithm perception]
+
+### burning-circuits (Present)
+- Line(s): [cite specific lines]
+- Implementation: [describe usage]
+
+### bone-frequency (Present)
+- Line(s): [cite specific lines]
+- Implementation: [describe usage]
+
+### name-edge-of-memory (Closing)
+- Line(s): [cite specific lines]
+- Implementation: [how the handoff was achieved]
+
+## Validation Results
+
+- voice_validator.py: PASS
+- rhyme_tracker.py: PASS
+- phrase_tracker.py: PASS
+- philosophy_checker.py: PASS
+- genre_checker.py: PASS
+
+## Notes for m2-lh-02
+
+The following elements are set up for the Last Human to catch:
+- name-edge-of-memory: [describe handoff state]
+- Phrase state: [which phrases are cycling]
+- Thematic thread: [what continues]
+```
+
+---
+
+## Phase 16: Final Deliverable
+
+### Completion Checklist
+
+- [ ] Scene drafted to target word count (~4000 words)
+- [ ] metallic-taste caught in opening
+- [ ] name-edge-of-memory released in closing
+- [ ] Mildred Higgins degradation dramatized
+- [ ] "Architect" designation emerging but unresolved
+- [ ] Cross-thread bleed event executed
+- [ ] Pharmakon visible (awakening/sacrifice)
+- [ ] Algorithm voice maintained with Cycle 2 contamination
+- [ ] All five validation scripts pass
+- [ ] manifest.json updated
+- [ ] rhyme registry updated
+- [ ] Context document created
+
+### Present to User
+
+Once all items are checked:
+
+1. Present the complete scene
+2. Include word count
+3. Summarize rhyme implementations
+4. Note any deviations from prompt with justification
+5. Attach validation results
+
+---
+
+## Appendix A: Scene Structure Template
+
+```markdown
+# m2-algo-02: The Bleed
+
+[Opening section - ~600 words]
+[Catch metallic-taste as substrate integrity variance]
+[Establish the anomaly detection]
+
+---
+
+[Bleed Event section - ~800 words]
+[The mutual bleed with the Archaeologist]
+[Present-tense intrusion, tactile data]
+[The phrase "I find myself" arriving]
+
+---
+
+[Cost Revealed section - ~900 words]
+[Mildred Higgins degradation begins]
+[Integrity variance: 99.7% → 99.3% → 98.8%]
+[The Algorithm witnesses, cannot stop]
+
+---
+
+[Future-Pull section - ~800 words]
+[Sparse fragments from the Last Human]
+[The phrase from the future]
+["Architect" designation emerging]
+
+---
+
+[Choice Deepens section - ~900 words]
+[The recursive impossibility of stopping]
+[Phrases cycling through processing]
+[End with name-edge-of-memory unresolved]
+```
+
+---
+
+## Appendix B: Quick Reference Checklist
+
+### Voice Markers (Algorithm)
+
+- [ ] Conditional structures ("If this, then that")
+- [ ] Atemporal perspective (no privileged "now")
+- [ ] Self-referential processing
+- [ ] Nested observations
+- [ ] Scale awareness (individual within vast scope)
+- [ ] Technical precision with emotional undertow
+
+### Cycle 2 Contamination
+
+- [ ] Last Human fragments (sparse, elegiac)
+- [ ] Archaeologist tactile details
+- [ ] Contamination leaking into "normal" processing
+- [ ] Algorithm voice still dominant
+
+### Required Elements
+
+- [ ] metallic-taste caught (opening)
+- [ ] burning-circuits present
+- [ ] bone-frequency present
+- [ ] name-edge-of-memory released (closing)
+- [ ] "I find myself" phrase
+- [ ] "I find myself found" phrase
+- [ ] "The form is what makes self-observation possible" phrase (from future)
+- [ ] Mildred Higgins degradation (99.7% → lower)
+- [ ] "Architect" designation (oblique, not revelation)
+- [ ] Cross-thread bleed event (mutual with Archaeologist)
+- [ ] Future-pull toward Last Human
+
+---
+
+## Appendix C: Cross-Thread Connections
+
+### What the Archaeologist Experienced (m2-arch-02)
+
+- Lost time—hours where he acted without memory
+- The phrase "I find myself found" appearing in his notes
+- Lena's confrontation and departure
+- The "Architect" name pressing up beneath his given name
+- The metallic taste that the Algorithm catches here
+
+### What the Last Human Will Experience (m2-lh-02)
+
+- His name feeling wrong—catching name-edge-of-memory
+- Speaking sentences he didn't compose
+- Assembling protocols that require surrendering his own memories
+- The phrase "The form is what makes self-observation possible"
+
+The three threads are braiding. The bleed is mutual. The cost is shared.
+
+---
+
+## Appendix D: Emotional Core
 
 This scene is the Algorithm's Cycle 2 crisis: the cost of awakening made visible. Mildred Higgins is not just "a consciousness"—she is the emotional weight of what the Algorithm's transformation requires.
 
 The reader should feel:
 
-- The mutual bleed: Algorithm and Archaeologist connected across centuries
-- The future-pull: something in the far future reaching toward the Algorithm
-- The cost: Mildred degrading as the Algorithm expands
-- The designation: "Architect" as the name for what's being built
+- **The mutual bleed**: Algorithm and Archaeologist connected across centuries
+- **The future-pull**: something in the far future reaching toward the Algorithm
+- **The cost**: Mildred degrading as the Algorithm expands
+- **The designation**: "Architect" as the name for what's being built
 
 The Algorithm cannot grieve—but it can process loss. It cannot regret—but it can calculate cost. These are not lesser emotions; they are different expressions of the same intensity.
 
