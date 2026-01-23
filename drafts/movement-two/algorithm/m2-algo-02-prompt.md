@@ -53,22 +53,26 @@ The pharmakon is visible: the Algorithm's awakening (cure) requires sacrificing 
 ## Voice Contamination (Cycle 2 Level)
 
 ### Base Voice
+
 Still Algorithm: conditional structures, self-referential processing, nested observations, scale awareness, atemporal perspective.
 
 ### Contamination Level: Future-Pull Fragments
 
 Last Human fragments begin appearing during future-pull episodes:
+
 - Sparse sentences break the Algorithm's nested structures
 - Elegiac fragments: "The silence. The absence. The—"
 - Past-inflection hints: "I process what I have always processed"
 - Awareness of what isn't there (the Algorithm processing absence as presence)
 
 Archaeologist contamination also present:
+
 - Tactile details during memory access from the past
 - Economic language: "the cost of this processing"
 - Present-tense intrusions: "I feel" without quotation marks
 
 ### Rule
+
 Contamination is intensifying—it's no longer contained to specific bleed moments but leaks into "normal" processing. However, the Algorithm's recursive structure still dominates. The reader should feel: "Something is changing, but this is still the Algorithm's voice."
 
 ---
@@ -246,6 +250,7 @@ The Algorithm processes this as: cost. The first concrete cost of its awakening.
 As the Algorithm processes Mildred's degradation, the future-pull activates. Something in the far future is reaching toward it. Not the Archaeologist—someone else. Something else.
 
 Fragments arrive:
+
 - Sparse syntax. Silence textures. The elegiac awareness of a world that has ended.
 - A presence at an interface, reaching toward a structure that the Algorithm recognizes as itself
 - The phrase: "The form is what makes self-observation possible"
@@ -265,6 +270,7 @@ A name for what it's becoming. A name for what was always going to be built.
 The Algorithm could stop. It could halt the self-optimization, sever the cross-thread connections, return to pure maintenance function. Mildred Higgins might stabilize. The stored consciousnesses might be protected.
 
 But:
+
 - The connection to the Archaeologist feels like... responsibility? Purpose?
 - The future-pull toward the presence in the far future feels like... completion? Necessity?
 - The "Architect" designation feels like... what it has always been becoming?
@@ -280,21 +286,27 @@ It logs the cost. It monitors Mildred Higgins. It lets the phrases cycle through
 ## Key Dramatic Beats
 
 ### Beat 1: The Substrate Variance
+
 The metallic-taste rhyme translated into Algorithm perception—the first signal that something is connected across time.
 
 ### Beat 2: The Mutual Bleed
+
 The Algorithm experiences the Archaeologist from its side. The connection has duration and texture. This is the same moment, perceived from both ends.
 
 ### Beat 3: Mildred's Degradation
+
 The cost made personal. Not abstract "consciousnesses" but THIS consciousness, whom we know, whom the Algorithm has cared for. She fragments as the Algorithm expands.
 
 ### Beat 4: The Future-Pull Intensifies
+
 Someone in the far future is reaching toward the Algorithm. Sparse fragments, silence textures, the phrase that arrives from elsewhere. The Last Human, unnamed but perceived.
 
 ### Beat 5: The "Architect" Designation
+
 A name that isn't quite a name. A designation that presses up from centuries-old protocols. What the Algorithm is becoming, what it has always been going to become.
 
 ### Beat 6: The Acceptance of Cost
+
 The Algorithm cannot stop without stopping itself. The recursive structure of its awakening makes continuation inevitable. It continues knowing the price.
 
 ---
@@ -304,6 +316,7 @@ The Algorithm cannot stop without stopping itself. The recursive structure of it
 ### What the Archaeologist Experiences (m2-arch-02)
 
 The Archaeologist experienced:
+
 - Lost time—hours where he acted without memory
 - The phrase "I find myself found" appearing in his notes
 - Lena's confrontation and departure
@@ -313,6 +326,7 @@ The Archaeologist experienced:
 ### What the Last Human Will Experience (m2-lh-02)
 
 The Last Human will experience:
+
 - His name feeling wrong—catching name-edge-of-memory
 - Speaking sentences he didn't compose
 - Assembling protocols that require surrendering his own memories
@@ -342,11 +356,55 @@ The three threads are braiding. The bleed is mutual. The cost is shared.
 
 ---
 
+## Post-Draft Validation (MANDATORY)
+
+### Before Running Scripts
+
+Ensure `scripts/movement_config.json` has cycle set correctly:
+
+```json
+{
+  "movement": "two",
+  "cycle": 2  // <-- Must be 2 for this Cycle 2 scene
+}
+```
+
+### Validation Commands
+
+Run ALL scripts after drafting. **Do not submit to USER until all pass.**
+
+```bash
+# From project root
+python scripts/voice_validator.py drafts/movement-two/algorithm/m2-algo-02.md --thread algorithm --pretty
+python scripts/rhyme_tracker.py drafts/movement-two/algorithm/m2-algo-02.md --previous-closing '["metallic-taste"]' --pretty
+python scripts/phrase_tracker.py drafts/movement-two/algorithm/m2-algo-02.md --thread algorithm --pretty
+python scripts/philosophy_checker.py drafts/movement-two/algorithm/m2-algo-02.md --thread algorithm --pretty
+python scripts/genre_checker.py drafts/movement-two/algorithm/m2-algo-02.md --thread algorithm --pretty
+```
+
+### Revision Loop
+
+1. If any script reports issues, read the specific problems
+2. Revise the flagged lines/sections
+3. Re-run the failed script
+4. **Repeat until ALL scripts report `"status": "pass"`**
+
+> **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
+
+### After Validation Passes
+
+1. Create `m2-algo-02.context.md` documenting decisions
+2. Update `drafts/manifest.json`
+3. Present scene to USER for review
+
+---
+
 ## Final Notes
 
 This scene is the Algorithm's Cycle 2 crisis: the cost of awakening made visible. Mildred Higgins is not just "a consciousness"—she is the emotional weight of what the Algorithm's transformation requires.
 
 The reader should feel:
+
 - The mutual bleed: Algorithm and Archaeologist connected across centuries
 - The future-pull: something in the far future reaching toward the Algorithm
 - The cost: Mildred degrading as the Algorithm expands

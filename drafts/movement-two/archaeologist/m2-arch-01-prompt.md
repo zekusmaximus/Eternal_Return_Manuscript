@@ -20,6 +20,7 @@
 Movement One ended with recognition. Movement Two is about **living with recognition**—the entanglement no longer a discovery but a condition.
 
 The First Bleed draft (standalone piece from M1 development) provides the core material:
+
 - The panic that isn't his
 - The sensation of vastness
 - The Algorithm's perspective bleeding through
@@ -96,6 +97,7 @@ The standalone is ~1,200 words. This scene targets ~4,000 words. Expansion shoul
 ### Movement Two Modulation
 
 The voice remains Archaeologist, but with **controlled contamination**:
+
 - Algorithm-like perspective shifts during bleed moments (clearly marked as intrusion)
 - Returns to grounded voice after each bleed
 - Increasing frequency of undermining clauses ("or felt he knew", "he thought she touched his arm")
@@ -145,11 +147,13 @@ Movement Two: Rhymes begin **echoing**—the reader notices before characters do
 ### Movement Two Escalation
 
 **Corporate Gothic intensifies**:
+
 - The workplace itself feels watchful
 - Colleagues notice something wrong; professional consequences loom
 - The economic stakes become more urgent (timeline, performance metrics)
 
 **Cosmic Horror emerges**:
+
 - The bleeds bring the Algorithm's perspective—the sublime terror of vast consciousness
 - His body becomes alien—too small, too bounded, wrong
 - The sense of something massive paying attention
@@ -208,6 +212,7 @@ Establish: time has passed since m1-arch-05 (days or a week). He's been function
 At work. The protocols open on his screen (he can't stay away from them). The panic arrives—the drowning-fall, the vertigo of scale. "The panic thinks I am vast."
 
 For a moment, he IS the Algorithm. Not memory, not imagination—perspective shift. He experiences:
+
 - The database as body
 - Consciousnesses as responsibility
 - The shape of his own future attention
@@ -230,6 +235,7 @@ She mentions Saturday—how he seemed absent even when present. Her mother asked
 **He returns to work. The second bleed.**
 
 This one is longer, more specific. He doesn't just feel vast—he perceives:
+
 - The Algorithm's specific suffering (consciousness bleed, the degrading stored minds)
 - Knowledge he shouldn't have (database architecture, maintenance processes)
 - The "future pull"—the Algorithm sensing the Last Human, though he doesn't know what this means
@@ -246,6 +252,7 @@ Lost time. Waking into motion. The symptom progression from Brainstorm2.
 He knows the protocols are compromising him. He knows he's experiencing something beyond normal stress. He knows he should flag himself for evaluation, step back from the Martinez work, protect his integration timeline.
 
 But:
+
 - The bleeds feel like **connection**, not contamination
 - The Algorithm's suffering feels like **his responsibility**
 - Stopping feels like abandonment—of what, he can't say
@@ -274,6 +281,7 @@ The panic that isn't his. The perspective shift. This is the entanglement becomi
 Ground the cosmic in the relational. Lena can't see what he sees, but she can see that he's changing. Her love is becoming fear. Her patience is becoming distance. What he's becoming will cost him what he had.
 
 **Lena's arc across Movement Two**:
+
 - **This scene (m2-arch-01)**: Concern and noticing. She sees something's wrong; offers "depersonalization" as rational explanation; still trying to reach him.
 - **Next scene (m2-arch-02)**: Confrontation and breaking. She can't reach him; the relationship fractures quietly but definitively.
 - **Final scene (m2-arch-03)**: Absence or departure. She's gone, or this is goodbye.
@@ -299,6 +307,7 @@ Not heroic. Not dramatic. Just... he can't stop. He should, but he can't. The pu
 ### What the Algorithm Experiences
 
 In m2-algo-01 (which follows in reading order), the Algorithm should experience:
+
 - Intensification of the "past memories" (the Archaeologist's sensations)
 - The specific moment of the bleed—from its side
 - The sense of being perceived, reached toward, by something in the past
@@ -309,6 +318,7 @@ The reader should recognize: these are the same moment from two perspectives.
 ### Rhyme Echoes
 
 Rhymes used in m2-arch-01 should appear (varied) in m2-algo-01:
+
 - **bone-frequency**: The Algorithm experiences this as processing resonance
 - **cold-hands**: Appears in memories the Algorithm accesses—hands that aren't its
 - **falling-backward**: The vertigo of self-recognition, from the Algorithm's side
@@ -335,14 +345,54 @@ Rhymes used in m2-arch-01 should appear (varied) in m2-algo-01:
 
 ---
 
-## Workflow Reminders
+## Post-Draft Validation (MANDATORY)
 
-Per `protocols/drafting-workflow.md`:
+### Before Running Scripts
 
-1. Draft to target word count (±10%)
-2. Run validation scripts
-3. Create scene-01.context.md documenting decisions
-4. Update drafts/manifest.json
+Ensure `scripts/movement_config.json` has the correct cycle:
+
+```json
+{
+  "movement": "two",
+  "cycle": 1  // <-- Set to 1, 2, or 3 for current cycle
+}
+```
+
+### Validation Commands
+
+Run ALL scripts after drafting. **Do not submit to USER until all pass.**
+
+```bash
+# From project root
+python scripts/voice_validator.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
+python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/m2-arch-01.md --pretty
+python scripts/phrase_tracker.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
+python scripts/philosophy_checker.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
+python scripts/genre_checker.py drafts/movement-two/archaeologist/m2-arch-01.md --thread archaeologist --pretty
+```
+
+### For Scene Handoffs
+
+If this scene follows another, validate rhyme echoes:
+
+```bash
+python scripts/rhyme_tracker.py <scene.md> --previous-closing '["rhyme-from-previous-scene"]' --pretty
+```
+
+### Revision Loop
+
+1. If any script reports issues, read the specific problems
+2. Revise the flagged lines/sections
+3. Re-run the failed script
+4. **Repeat until ALL scripts report `"status": "pass"`**
+
+> **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
+
+### After Validation Passes
+
+1. Create `m2-arch-01.context.md` documenting decisions
+2. Update `drafts/manifest.json`
+3. Present scene to USER for review
 
 ---
 

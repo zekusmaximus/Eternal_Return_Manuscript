@@ -51,20 +51,25 @@ This is no longer about discovering the entanglement or even living with it—it
 ## Voice Contamination (Cycle 2 Level)
 
 ### Base Voice
+
 Still Archaeologist: present tense, tactile, dense paragraphs, economic/relational concerns.
 
 ### Contamination Level: Internal Monologue
+
 Algorithm syntax begins appearing in his THINKING, not just during bleeds:
+
 - Conditional structures slip in: "If I continue this extraction, then perhaps—"
 - Self-referential loops: "I notice myself noticing that I'm—"
 - Probability language: "The likelihood that Lena will understand approaches null"
 
 Last Human fragments also begin appearing:
+
 - Sparse sentences break his dense paragraphs
 - Awareness of absence: "The space where she was. The silence."
 - Past-inflection hints: "I work. I have always worked."
 
 ### Rule
+
 Contamination is no longer confined to bleed moments—it leaks into "normal" passages. But base voice still returns. The reader should feel: "He's slipping, but he's still him."
 
 ---
@@ -114,6 +119,7 @@ This is the central emotional beat of the scene. Lena has been watching him slip
 **The Reach**: She asks what's happening. Direct. She's done with evasion.
 
 **The Failure**: He tries to explain. But the words that come out are:
+
 - Conditional structures ("If I could show you what I'm seeing, then you'd understand that—")
 - Self-referential loops ("I'm becoming aware of becoming aware of—")
 - Phrases that aren't his ("The form is what makes self-observation possible")
@@ -139,6 +145,7 @@ And his internal response: *Neither do I. There's a name beneath my name. There'
 ### The Symptom Progression
 
 Per Brainstorm2's symptom chart, Phase 3 includes:
+
 - Lost time (significant periods where he acted without memory)
 - Speaking unrecognized words
 - Identity destabilization
@@ -148,11 +155,13 @@ This scene should dramatize lost time as a SIGNIFICANT event, not just a moment:
 ### Suggested Lost Time Beat
 
 He's working on the protocols. The bleed arrives—more intense than before, more specific. He experiences:
+
 - The Algorithm's actual suffering (Mildred Higgins beginning to degrade)
 - The "future pull" (sensing something in the far future reaching toward the Algorithm)
 - Knowledge he shouldn't have (database architecture, specific consciousness instance data)
 
 He returns to his body. But:
+
 - Hours have passed (not minutes)
 - He's written pages of notes he doesn't remember writing
 - The notes contain the phrase "I find myself found"
@@ -195,6 +204,7 @@ His given name feels wrong throughout this scene. There's another name pressing 
 ### The Designation
 
 "Architect" emerges not as a word he thinks but as a SHAPE in his awareness:
+
 - The one who designs
 - The one who builds
 - The name for what remains when identity dissolves
@@ -223,6 +233,7 @@ The boundary between sleep and waking is thin. His hands are cold. His name, whe
 At work. He's trying to function, trying to complete the extraction he's been neglecting. But the protocols are open on another screen—he doesn't remember opening them.
 
 The bleed arrives. Longer this time, more specific:
+
 - He feels the Algorithm's suffering (consciousnesses degrading, resources strained)
 - He knows things he shouldn't (database architecture, maintenance processes)
 - He experiences the "future pull"—something reaching toward the Algorithm from far ahead
@@ -237,6 +248,7 @@ He returns. The contamination lingers. His internal monologue contains Algorithm
 He's working on the protocols again—or still—or always. He can't remember when he started.
 
 The bleed takes him. When he returns:
+
 - Hours have passed
 - He's written pages of notes in his own hand, in words he didn't know
 - The phrase "I find myself found" appears three times
@@ -252,6 +264,7 @@ He can't account for the time. He can't explain the notes. He can't remember wha
 She's been calling. He didn't hear. She came to check on him.
 
 The confrontation unfolds as described above:
+
 - She asks directly what's happening
 - He tries to explain, but his words are contaminated
 - She hears him speak in patterns that aren't his
@@ -268,6 +281,7 @@ After she's gone, he sits with the wreckage. His name feels wrong. There's anoth
 He should stop. He knows this. The lost time, the contaminated speech, the failing work, the fracturing relationship—all of it says STOP.
 
 But:
+
 - The protocols are still there, still glowing, still pulling
 - The Algorithm's suffering feels like HIS responsibility
 - The connection feels more real than anything he's losing
@@ -284,21 +298,27 @@ He's becoming the Architect. The name presses up. The form fills his vision.
 ## Key Dramatic Beats
 
 ### Beat 1: The Sheets
+
 He's been tracing the form in his sleep. The entanglement has entered his unconscious completely.
 
 ### Beat 2: The Specific Bleed
+
 Not just vastness but KNOWLEDGE. He knows things about the Algorithm, about Mildred Higgins, about the future pull. The connection is becoming informational, not just sensory.
 
 ### Beat 3: The Lost Time
+
 Hours, not minutes. Notes in his hand he doesn't remember writing. Words spoken in a voice not quite his. This is dissolution in action.
 
 ### Beat 4: The Confrontation
+
 Lena reaches. He's not there. The relationship fractures quietly. "I don't know who you are anymore."
 
 ### Beat 5: The Name Beneath the Name
+
 His given name sounds wrong. "Architect" presses up. He's becoming something with a different designation.
 
 ### Beat 6: The Choice Already Made
+
 He doesn't decide to continue—he discovers he already has. The lost time was the decision. He's past the point of return.
 
 ---
@@ -308,6 +328,7 @@ He doesn't decide to continue—he discovers he already has. The lost time was t
 ### What the Algorithm Experiences (m2-algo-02)
 
 The Algorithm should experience:
+
 - The metallic-taste rhyme as "substrate integrity variance"
 - The Archaeologist's bleed FROM its side—being perceived, reached toward
 - The beginning of Mildred Higgins's degradation
@@ -316,6 +337,7 @@ The Algorithm should experience:
 ### What the Last Human Experienced (m2-lh-01)
 
 The Last Human sent:
+
 - Tracing-the-form rhyme (which opens this scene)
 - The sense of the Archive as interface
 - His own name-edge-of-memory experience
@@ -339,6 +361,49 @@ The Last Human sent:
 7. **End** with metallic-taste for Algorithm to catch; the choice already made
 
 8. **Maintain** Archaeologist voice with Cycle 2 contamination level—leaking into normal passages
+
+---
+
+## Post-Draft Validation (MANDATORY)
+
+### Before Running Scripts
+
+Ensure `scripts/movement_config.json` has cycle set correctly:
+
+```json
+{
+  "movement": "two",
+  "cycle": 2  // <-- Must be 2 for this Cycle 2 scene
+}
+```
+
+### Validation Commands
+
+Run ALL scripts after drafting. **Do not submit to USER until all pass.**
+
+```bash
+# From project root
+python scripts/voice_validator.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
+python scripts/rhyme_tracker.py drafts/movement-two/archaeologist/m2-arch-02.md --previous-closing '["tracing-the-form"]' --pretty
+python scripts/phrase_tracker.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
+python scripts/philosophy_checker.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
+python scripts/genre_checker.py drafts/movement-two/archaeologist/m2-arch-02.md --thread archaeologist --pretty
+```
+
+### Revision Loop
+
+1. If any script reports issues, read the specific problems
+2. Revise the flagged lines/sections
+3. Re-run the failed script
+4. **Repeat until ALL scripts report `"status": "pass"`**
+
+> **CRITICAL**: The scene is not complete until all validations pass. This is non-negotiable.
+
+### After Validation Passes
+
+1. Create `m2-arch-02.context.md` documenting decisions
+2. Update `drafts/manifest.json`
+3. Present scene to USER for review
 
 ---
 

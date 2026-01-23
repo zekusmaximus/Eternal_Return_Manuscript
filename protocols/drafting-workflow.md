@@ -51,17 +51,26 @@ Use the prompt template in `protocols/prompt-template.md` to structure this cont
 
 ### Step 3: Validation
 
+**Before running scripts**: Set cycle in `scripts/movement_config.json`. All scripts read from this config.
+
 Run validation scripts in order:
 
 ```bash
 # From project root
-python scripts/voice_validator.py drafts/path/to/scene.md --thread archaeologist
-python scripts/philosophy_checker.py drafts/path/to/scene.md
-python scripts/rhyme_tracker.py drafts/path/to/scene.md --movement one
-python scripts/genre_checker.py drafts/path/to/scene.md --thread archaeologist --movement one
+python scripts/voice_validator.py drafts/path/to/scene.md --thread archaeologist --pretty
+python scripts/rhyme_tracker.py drafts/path/to/scene.md --pretty
+python scripts/phrase_tracker.py drafts/path/to/scene.md --thread archaeologist --pretty
+python scripts/philosophy_checker.py drafts/path/to/scene.md --thread archaeologist --pretty
+python scripts/genre_checker.py drafts/path/to/scene.md --thread archaeologist --pretty
 ```
 
-All scripts output JSON. A scene passes when all scripts report `"status": "pass"`.
+**For scene handoffs** (validating rhyme echoes from previous scene):
+
+```bash
+python scripts/rhyme_tracker.py drafts/path/to/scene.md --previous-closing '["bone-frequency","cold-hands"]' --pretty
+```
+
+All scripts output JSON (or formatted text with `--pretty`). A scene passes when all scripts report `"status": "pass"`.
 
 ### Step 4: Iteration
 
@@ -70,7 +79,9 @@ If any validation fails:
 1. Read specific issues from script output
 2. Revise the flagged lines/sections
 3. Re-run failed validation
-4. Repeat until all pass
+4. **Repeat until all scripts report `"status": "pass"`**
+
+> **CRITICAL**: Do not submit scene to USER until all validations pass. Revise and re-validate iteratively.
 
 ### Step 5: User Review
 
@@ -130,13 +141,16 @@ Agent loads:
 
 ### Step 3: Validation Scripts
 
+**Set cycle in `scripts/movement_config.json` first.**
+
 Run all validation scripts:
 
 ```bash
-python scripts/voice_validator.py [file] --thread [thread]
-python scripts/philosophy_checker.py [file]
-python scripts/rhyme_tracker.py [file] --movement [movement]
-python scripts/genre_checker.py [file] --thread [thread] --movement [movement]
+python scripts/voice_validator.py [file] --thread [thread] --pretty
+python scripts/rhyme_tracker.py [file] --pretty
+python scripts/phrase_tracker.py [file] --thread [thread] --pretty
+python scripts/philosophy_checker.py [file] --thread [thread] --pretty
+python scripts/genre_checker.py [file] --thread [thread] --pretty
 ```
 
 ### Step 4: Detailed Analysis
@@ -199,10 +213,12 @@ not_started → draft → validated → revised → polished → final
 
 ```
 scripts/
-├── voice_validator.py
-├── philosophy_checker.py
-├── rhyme_tracker.py
-└── genre_checker.py
+├── movement_config.json   # Edit "cycle" here before running validators
+├── voice_validator.py     # Voice + contamination
+├── rhyme_tracker.py       # Rhymes + handoffs
+├── phrase_tracker.py      # Key phrase bleeding
+├── philosophy_checker.py  # Pharmakon + shackles
+└── genre_checker.py       # Genre + bleed tolerance
 ```
 
 ### Key Reference Files
