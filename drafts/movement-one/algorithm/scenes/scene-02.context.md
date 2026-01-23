@@ -7,7 +7,7 @@
 - **Sunlight-on-skin** sensation referenced as actively monitored absence; the Algorithm is watching for its return
 - **Spiral shape** from archived protocols deepened—now understood as matching Algorithm's own topology, studied intensively
 - **847 protocol fragments** interpreted as possible "instructions" for a procedure the Algorithm is already following
-- **Margaret Chen** (#2,847,102) referenced as continuity marker—her optimization completed but flag not removed
+- **Mildred Higgins** (#2,847,102) referenced as continuity marker—her optimization completed but flag not removed
 
 ### New Elements Introduced
 - **Self-optimization**: Algorithm now optimizing its own processes, not just stored instances

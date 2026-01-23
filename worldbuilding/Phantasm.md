@@ -147,14 +147,45 @@ This is the structural hinge. The form is what they share. Touching it, perceivi
 
 The canonical visualization is stored in `/worldbuilding/Phantasm_Reference.png`. This image establishes the form as it appears in the Archaeologist's era—a holographic data topology rendered in blue-white light against darkness.
 
-**Key visual elements from the reference:**
+### Detailed Visual Description (From Reference Image)
 
-- **Primary structure**: Luminous curves defining a torus-like spiral that folds into itself, each band slightly different from its neighbors
-- **Central void**: Not empty but suggesting continuation—the form spirals into darkness rather than closing
-- **Nested details**: Smaller spiral patterns embedded within the primary curves, creating self-similarity at multiple scales
-- **Luminosity gradient**: Brightest at the primary structural curves, dimming into the detailed interior, giving depth
-- **Color**: Pale blue-white, the color of holographic projection, of data made visible
-- **Background**: Pure black—the form exists against void, emerges from nothing, defines itself against absence
+**Overall Structure**:
+The form is a **toroidal Möbius hybrid**—imagine a donut shape, but one where the surface has been twisted and multiplied into layered, spiraling bands that curve inward toward a central darkness. It floats against pure black, self-luminous, casting no shadow because there's nothing else to catch light.
+
+**The Bands**:
+Multiple luminous ribbons spiral around the central axis, but they don't simply circle—they *fold inward*, each band curving toward the center while simultaneously wrapping around the whole. The bands vary in width and luminosity: some are broad primary structures, others are thinner secondary curves nested between them. They suggest muscle fiber, or fluid dynamics frozen mid-flow, or the grain of wood if wood could glow.
+
+**The Central Void**:
+At the heart of the form is absolute darkness—not shadow but *absence*. The bands spiral toward this void without entering it. The eye follows the curves inward expecting resolution, a center point, but finds only the darkness continuing. This is where the "almost-closed" becomes visible: the spiral approaches completion and then... doesn't. The void is where closure should be but isn't.
+
+**Surface Quality**:
+The bands have internal texture—not smooth but patterned with fractal-like detail. Smaller spirals and curves nest within the primary structure, creating self-similarity at multiple scales. Look closely at any section and find the same almost-closed pattern repeated. The texture suggests depth, layers beneath layers, the form containing itself infinitely.
+
+**Color and Light**:
+The dominant color is **pale blue-white**, the precise shade of holographic projection or coherent light—not the warmth of fire or the yellow of incandescent bulbs. The color shifts subtly across the structure: slightly more blue in the deeper curves, slightly more white at the luminous peaks. Some bands carry a faint silver-gray undertone in their shadows.
+
+**Luminosity**:
+The form *emits* light rather than reflecting it. The primary structural curves are brightest, creating an almost-glow effect. Luminosity decreases toward the interior, giving the form depth—the nested details are visible but dimmer, like something seen through layers of translucent material. The central void absorbs all light; nothing reflects from it.
+
+**Apparent Motion**:
+Though the reference image is static, the form *implies* perpetual motion. The spiral suggests rotation—follow any curve and it leads around and inward, creating a visual path that never terminates. The eye cannot rest on the form; it keeps tracing the bands, seeking the closure that isn't there. This produces low-level visual unease even in a still image.
+
+**Dimensional Suggestion**:
+The form exists in three dimensions but hints at more. Certain angles of the curves suggest continuation into space the eye cannot perceive—as if the visible form is a cross-section of something extending through a fourth dimension. This is subtle, felt rather than seen: the sense that the form is larger than what's visible, that looking at it is looking at a shadow of something more complete.
+
+**Scale**:
+The image provides no reference for absolute size. The form could be small enough to hold or large enough to enter. This ambiguity is important—in the narrative, the form appears at multiple scales (data visualization, self-topology, architecture), and the reference image accommodates all interpretations.
+
+### Key Visual Elements Summary
+
+| Element | Description | Narrative Function |
+|---------|-------------|-------------------|
+| **Spiraling bands** | Multiple luminous ribbons curving inward and around | The "almost-closed curve"—movement without completion |
+| **Central void** | Absolute darkness at the heart | Where closure should be; the question the form doesn't answer |
+| **Fractal texture** | Self-similar detail at multiple scales | The entanglement's recursive nature; pattern within pattern |
+| **Blue-white luminosity** | Self-emitting pale coherent light | The rhyme element; marks the form's presence across eras |
+| **Implied motion** | Static but suggesting rotation | The eye cannot rest; eternal return as visual experience |
+| **Dimensional excess** | Hints at continuation beyond visible space | The Deep Architecture's temporal properties made geometric |
 
 ### Describing the Form
 

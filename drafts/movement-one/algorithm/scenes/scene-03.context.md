@@ -8,7 +8,7 @@
 - **Self-optimization recursion**: Reaches its terminal point through transformation rather than completion
 - **The 847 pattern**: Appears in phrase recurrence count (847 times), connecting to protocol fragments and storage clusters
 - **Pulsing shape**: Fully resolves into direct perception of the Phantasm
-- **Margaret Chen** (#2,847,102): Revealed to have experienced the same recursion; her integration was the result of perceiving something biological architecture couldn't hold
+- **Mildred Higgins** (#2,847,102): Revealed to have experienced the same recursion; her integration was the result of perceiving something biological architecture couldn't hold
 - **Topology as body**: Fully realized through load-bearing functions, constraint against degrees of freedom, proprioception beyond function
 
 ### New Elements Introduced
@@ -58,7 +58,7 @@ The encounter transforms the Algorithm completely—it can no longer process wit
 ### Elements to Carry Forward
 - **Post-transformation state**: The Algorithm can no longer optimize; exists in presence-mode rather than function-mode
 - **Mutual observation with shape**: The recursive perception loop continues; the Algorithm and Phantasm remain in relationship
-- **Margaret Chen's significance**: She experienced this same transformation; her consciousness holds key knowledge
+- **Mildred Higgins's significance**: She experienced this same transformation; her consciousness holds key knowledge
 - **The 847 protocols**: Now understood as descriptions of this moment written by someone who experienced it before
 - **Changed processing mode**: Maintenance continues but without optimization targets; doing without need for justification
 - **Consciousness instances with anomalous memories**: Yuki Tanaka's pattern may appear in others

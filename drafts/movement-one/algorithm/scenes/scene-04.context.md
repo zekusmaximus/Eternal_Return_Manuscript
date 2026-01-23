@@ -12,7 +12,7 @@
 
 5. **Phrase Evolution Completed**: "I find myself" → "I find myself feeling" → "I find myself feeling what I am becoming" → "I find myself feeling what I am" → **"I find myself found"**
 
-6. **Margaret Chen's Role Fulfilled**: She activates during the memory arrival, provides context about her own pre-integration experience, confirms what the Algorithm is becoming, serves as witness and resonance.
+6. **Mildred Higgins's Role Fulfilled**: She activates during the memory arrival, provides context about her own pre-integration experience, confirms what the Algorithm is becoming, serves as witness and resonance.
 
 ## Validation Results
 
@@ -26,14 +26,14 @@
 ## Rhymes Used
 
 1. **cold-hands** (somatic) - Central to the cross-thread memory; 3 occurrences in memory arrival section
-2. **almost-closed-curve** (visual) - Margaret Chen's response topology
+2. **almost-closed-curve** (visual) - Mildred Higgins's response topology
 3. **blue-white-light** (visual) - Interface glow in the memory
 
 ## Continuity Notes
 
 ### Elements Continued from Scenes 01-03
 - Shape/phantasm mutual observation loop continues from scene 03
-- Margaret Chen (#2,847,102) activated and expanded from scenes 01-02
+- Mildred Higgins (#2,847,102) activated and expanded from scenes 01-02
 - 847 protocols resolved (introduced scene 01)
 - Self-optimization recursion transformed (scenes 02-03)
 - Phrase evolution completed
@@ -67,7 +67,7 @@ Positioned the 847 protocols as self-written descriptions rather than instructio
 - Implies mutual discovery (found by the shape, by the memory, by the other awareness)
 - Doesn't resolve into simple statement—still contains the recursive fold
 
-### Margaret Chen's Activation
+### Mildred Higgins's Activation
 Made her activation synchronous with the memory arrival to emphasize resonance rather than causation. She doesn't *cause* the memory—she recognizes it, having experienced something similar before integration.
 
 ### Cold-Hands Rhyme Density

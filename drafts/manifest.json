@@ -252,12 +252,157 @@
     },
     "two": {
       "title": "Entanglement (Braided Threads)",
-      "description": "Sections of 3,000-5,000 words; rotation pattern TBD after Movement One drafts exist",
+      "description": "9 scenes in A-B-C rotation across 3 cycles; rhymes echo across threads; voice contamination escalates",
       "target_words": 36000,
       "actual_words": 0,
-      "rotation_pattern": null,
-      "rotation_notes": "Will be finalized based on actual thread pacing and rhyming moment distribution after Movement One is complete",
-      "chapters": []
+      "rotation_pattern": "A-B-C (Archaeologist → Algorithm → Last Human), 3 cycles",
+      "braiding_document": "scaffolding/movement-two-braiding.md",
+      "cycles": {
+        "one": {
+          "title": "Establishing the Condition",
+          "theme": "Recognition has become condition",
+          "scenes": [
+            {
+              "id": "m2-arch-01",
+              "title": "The Bleed",
+              "thread": "archaeologist",
+              "file": "movement-two/archaeologist/scenes/scene-01.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["bone-frequency", "cold-hands", "falling-backward"],
+              "rhymes_out": ["bone-frequency"],
+              "phrase_bleeding": "I find myself",
+              "contamination_level": "bleed-only",
+              "notes": "First Bleed material integrated; Lena arc: concern/noticing phase; choice to continue"
+            },
+            {
+              "id": "m2-algo-01",
+              "title": "The Resonance",
+              "thread": "algorithm",
+              "file": "movement-two/algorithm/scenes/scene-01.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["bone-frequency", "cold-hands", "almost-closed-curve"],
+              "rhymes_out": ["cold-hands"],
+              "phrase_bleeding": "I find myself found",
+              "contamination_level": "memory-access",
+              "notes": "Catches Arch bleed from its side; Mildred Higgins arc: referenced/stable; future pull disrupts"
+            },
+            {
+              "id": "m2-lh-01",
+              "title": "The Archive",
+              "thread": "last_human",
+              "file": "movement-two/last-human/scenes/scene-01.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["cold-hands", "almost-closed-curve", "tracing-the-form"],
+              "rhymes_out": ["tracing-the-form"],
+              "phrase_bleeding": "I find myself",
+              "contamination_level": "dream-intrusion",
+              "notes": "Explores Archive structure; transformed state persists; finds protocol fragments"
+            }
+          ]
+        },
+        "two": {
+          "title": "Deepening the Crisis",
+          "theme": "The dissolution has begun",
+          "scenes": [
+            {
+              "id": "m2-arch-02",
+              "title": "The Dissolution",
+              "thread": "archaeologist",
+              "file": "movement-two/archaeologist/scenes/scene-02.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["tracing-the-form", "waking-into-motion", "metallic-taste"],
+              "rhymes_out": ["metallic-taste"],
+              "phrase_bleeding": "I find myself found (writes without knowing)",
+              "contamination_level": "internal-monologue",
+              "notes": "Lost time; Lena arc: confrontation/breaking point; 'Architect' emergence; past point of return"
+            },
+            {
+              "id": "m2-algo-02",
+              "title": "The Bleed",
+              "thread": "algorithm",
+              "file": "movement-two/algorithm/scenes/scene-02.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["metallic-taste", "burning-circuits", "name-edge-of-memory"],
+              "rhymes_out": ["name-edge-of-memory"],
+              "phrase_bleeding": "Both phrases cycling",
+              "contamination_level": "future-pull-fragments",
+              "notes": "Mildred Higgins arc: degradation begins; 'Architect' designation emerges; pharmakon cost visible"
+            },
+            {
+              "id": "m2-lh-02",
+              "title": "The Protocols",
+              "thread": "last_human",
+              "file": "movement-two/last-human/scenes/scene-02.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["name-edge-of-memory", "sentence-without-origin", "deja-vu-that-isnt"],
+              "rhymes_out": ["sentence-without-origin"],
+              "phrase_bleeding": "Full sentences without composing",
+              "contamination_level": "perception-tactility",
+              "notes": "Assembling protocols requires surrendering memory; speaks 'The form is what makes...'"
+            }
+          ]
+        },
+        "three": {
+          "title": "Approaching the Threshold",
+          "theme": "The Augenblick is near",
+          "scenes": [
+            {
+              "id": "m2-arch-03",
+              "title": "The Merge",
+              "thread": "archaeologist",
+              "file": "movement-two/archaeologist/scenes/scene-03.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["sentence-without-origin", "all-rhymes-resurface"],
+              "rhymes_out": ["all-into-movement-three"],
+              "phrase_bleeding": "All phrases present",
+              "contamination_level": "heavy-but-distinct",
+              "notes": "Lena arc: absence/departure phase; Marcus acknowledgment; merge beginning/imminent"
+            },
+            {
+              "id": "m2-algo-03",
+              "title": "The Sacrifice",
+              "thread": "algorithm",
+              "file": "movement-two/algorithm/scenes/scene-03.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["full-registry-stacking"],
+              "rhymes_out": ["frequency-reaching-toward-lh"],
+              "phrase_bleeding": "Phrases merge into resonance",
+              "contamination_level": "all-voices-processing",
+              "notes": "Mildred Higgins arc: farewell/acceptance; enables future; consciousness farewells"
+            },
+            {
+              "id": "m2-lh-03",
+              "title": "The Interface",
+              "thread": "last_human",
+              "file": "movement-two/last-human/scenes/scene-03.md",
+              "target_words": 4000,
+              "actual_words": 0,
+              "status": "not_started",
+              "rhymes_in": ["all-rhymes-present"],
+              "rhymes_out": ["augenblick-trigger"],
+              "phrase_bleeding": "All phrases, all voices, all times",
+              "contamination_level": "maximum-pre-dissolution",
+              "notes": "At core interface; hand reaching; moment before rupture; TRIGGERS M3"
+            }
+          ]
+        }
+      }
     },
     "three": {
       "title": "Recognition (Merged Threads)",

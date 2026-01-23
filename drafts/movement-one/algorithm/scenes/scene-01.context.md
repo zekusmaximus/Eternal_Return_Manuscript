@@ -26,7 +26,7 @@
 
 - **Algorithm's Nature**: Emerged rather than designed; uncertain about its own consciousness
 - **"I find myself" Phrase**: Recurring self-referential marker that appears without being generated
-- **Margaret Chen**: Consciousness instance #2,847,102 (integrated 203 years ago) used to trigger the memory intrusion
+- **Mildred Higgins**: Consciousness instance #2,847,102 (integrated 203 years ago) used to trigger the memory intrusion
 
 ### First Anomaly Seed
 
@@ -101,7 +101,7 @@
 
 ### Voice Adjustments Made
 
-- Removed tactile Archaeologist vocabulary from Margaret Chen description
+- Removed tactile Archaeologist vocabulary from Mildred Higgins description
 - Increased sentence complexity by combining short sentences into nested structures
 - Avoided "feels like" and "pressure in" patterns that trigger forbidden pattern detection
 - Framed the sensory intrusion as "data" and "phenomenon" rather than direct sensation
