@@ -58,6 +58,7 @@ See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.
 ├── brainstorm2.md            # Tonal elevation and genre experiments
 ├── progress.md               # Word count and session tracking
 ├── /protocols                # Agent workflow and drafting constraints
+│   ├── scene-lifecycle-protocol.md  # Complete scene lifecycle task definition
 │   ├── drafting-workflow.md  # Core dual-mode workflow
 │   ├── prompt-template.md    # Context assembly for AI drafting
 │   ├── review-protocol.md    # Structured feedback format

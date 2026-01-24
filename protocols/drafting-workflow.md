@@ -4,6 +4,8 @@
 
 This document defines the dual-mode workflow for drafting *The Eternal Return of the Digital Self*. All agents should reference this file when entering a drafting or review session.
 
+**For complete lifecycle management**: See `protocols/scene-lifecycle-protocol.md` for comprehensive task definitions, decision trees, and phase-by-phase guidance for AI agents managing the full scene lifecycle from creation through finalization.
+
 ---
 
 ## Mode A: AI-Driven Drafting
