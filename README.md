@@ -37,12 +37,14 @@ The reading experience itself performs eternal return: the reader returns to eac
 
 ## Current Status
 
-**Phase**: Infrastructure complete — Ready for drafting
+**Phase**: Active drafting — Movement Two, Cycle 2
 
-- Conceptual framework fully developed
-- Dual-mode drafting workflow (AI drafting + human review)
-- Validation scripts for voice, philosophy, rhyme, and genre
-- Manuscript scaffolding and tracking in place
+- Movement One complete (33,192 words across 13 scenes)
+- Movement Two in progress (19,526 words across 5 scenes)
+- Currently drafting Cycle 2 (Deepening the Crisis) — Algorithm scene complete
+- Next scene: m2-lh-02 "The Protocols"
+
+**Total words drafted**: ~52,700 / 101,000 target (52%)
 
 See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.md) for drafting status, and [drafts/manifest.json](drafts/manifest.json) for scene tracking.
 
