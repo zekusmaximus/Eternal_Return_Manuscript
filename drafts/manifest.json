@@ -431,12 +431,21 @@
               "thread": "last_human",
               "file": "movement-two/last-human/scenes/scene-02.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 3728,
+              "status": "draft",
+              "voice_check": "pending",
+              "philosophy_check": "pending",
+              "rhyme_check": "pending",
+              "genre_check": "pending",
               "rhymes_in": [
                 "name-edge-of-memory",
                 "sentence-without-origin",
                 "deja-vu-that-isnt"
+              ],
+              "rhymes_present": [
+                "almost-closed-curve",
+                "tracing-the-form",
+                "cold-hands"
               ],
               "rhymes_out": [
                 "sentence-without-origin"
