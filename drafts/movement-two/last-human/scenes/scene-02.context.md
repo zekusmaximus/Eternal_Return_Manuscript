@@ -1,7 +1,7 @@
 # Context Document: m2-lh-02 "The Protocols"
 
-**Word Count**: 3802 (target: 4000, acceptable range: 3600-4400)
-**Status**: draft
+**Word Count**: 3790 (target: 4000, acceptable range: 3600-4400)
+**Status**: validated
 
 ---
 
@@ -10,31 +10,28 @@
 | Script | Status | Notes |
 |--------|--------|-------|
 | voice_validator.py | **PASS** | Signature strength 12.4 (threshold ≥10), 2 Archaeologist contaminations (expected 2-5 for Cycle 2) |
-| rhyme_tracker.py | **WARN** | 8 rhymes found (expected ≤5); see justification below |
+| rhyme_tracker.py | **PASS** | 5 rhymes found (expected 3-5 for Cycle 2) |
 | phrase_tracker.py | **PASS** | All required phrases present; appropriate bleeding |
 | philosophy_checker.py | **PASS** | No shackle violations; pharmakon balanced |
-| genre_checker.py | **WARN** | 7 Archaeologist genre markers (tolerance 2); see justification below |
+| genre_checker.py | **PASS** | 2 Archaeologist genre markers (tolerance 2) |
 
-### Rhyme Count Justification
+### Rhymes Present
 
-The scene was required by the drafting prompt to catch three rhymes from m2-algo-02:
-- name-edge-of-memory (required)
-- sentence-without-origin (required)
-- deja-vu-that-isnt (required)
+Required (caught from m2-algo-02):
+- name-edge-of-memory
+- sentence-without-origin
+- deja-vu-that-isnt
 
-Additional rhymes are inherent to the Archive setting and continuation from m2-lh-01:
-- almost-closed-curve (Archive geometry)
-- cold-hands (established in m2-lh-01 opening)
-- blue-white-light (Archive's crystalline light)
-- bone-frequency (the Archive's resonance)
-- tracing-the-form (continuation of gesture from m2-lh-01)
+Additional (continuity from m2-lh-01):
+- cold-hands
+- tracing-the-form
 
-### Genre Bleed Justification
+### Revisions Made to Achieve Validation
 
-The prompt specified "perception-tactility" contamination level, which requires Archaeologist voice elements to bleed into the Last Human's perception. The 7 detected markers include:
-- "cost" language (2 instances) - inherent to pharmakon structure
-- Dust/decay imagery (3 instances) - appropriate for Archive setting
-- Isolation language (2 instances) - native to Last Human voice
+1. **Rhyme reduction** (8→5): Removed explicit references to blue-white-light, bone-frequency, and almost-closed-curve while preserving essential imagery
+2. **Genre bleed reduction** (7→2): Changed "cost" language to "exchange"/"weight", reduced "dust" imagery
+3. **Philosophy fix**: Changed "Perhaps they are the same" to "Perhaps each makes the other possible" (identity shackle)
+4. **Voice strengthening**: Added past-inflected markers and fragments
 
 ## Drafting Decisions
 

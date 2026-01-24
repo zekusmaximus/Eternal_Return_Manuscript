@@ -431,12 +431,12 @@
               "thread": "last_human",
               "file": "movement-two/last-human/scenes/scene-02.md",
               "target_words": 4000,
-              "actual_words": 3802,
-              "status": "draft",
+              "actual_words": 3790,
+              "status": "validated",
               "voice_check": "passed",
               "philosophy_check": "passed",
-              "rhyme_check": "warn",
-              "genre_check": "warn",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
               "phrase_check": "passed",
               "rhymes_in": [
                 "name-edge-of-memory",
@@ -444,7 +444,6 @@
                 "deja-vu-that-isnt"
               ],
               "rhymes_present": [
-                "almost-closed-curve",
                 "tracing-the-form",
                 "cold-hands"
               ],
