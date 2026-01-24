@@ -184,6 +184,28 @@ PHARMAKON_MARKERS = {
     }
 }
 
+# General pharmakon lexicon (flexible poison/cure detection)
+PHARMAKON_LEXICON = {
+    "loss": [
+        r'\blose\b', r'\blosing\b', r'\blost\b', r'\bcost\b', r'\bcosts\b',
+        r'\bsacrifice(?:d|s|ing)?\b', r'\bsurrender(?:ed|s|ing)?\b',
+        r'\bgive\s+up\b', r'\babandon(?:ed|s|ing)?\b',
+        r'\bpoison(?:ed|ing)?\b', r'\bharm(?:ed|ful|ing)?\b',
+        r'\bdegrad(?:e|ed|ing)\b', r'\bfail(?:ed|ing)?\b', r'\bdying\b'
+    ],
+    "gain": [
+        r'\bgain(?:ed|ing|s)?\b', r'\bfind(?:s|ing|found)?\b',
+        r'\brecover(?:ed|ing|s)?\b', r'\brestore(?:d|s|ing)?\b',
+        r'\bheal(?:ed|ing|s)?\b', r'\bcure(?:d|s|ing)?\b',
+        r'\bgift(?:s|ed|ing)?\b', r'\bbenefit(?:s|ed|ing)?\b',
+        r'\bcompletion\b', r'\bcomplete(?:d|s|ing)?\b',
+        r'\bconnection\b', r'\bresolve(?:d|s|ing)?\b'
+    ],
+    "explicit": [
+        r'\bpharmakon\b', r'\bpoison\b', r'\bcure\b'
+    ]
+}
+
 
 def load_file(filepath: str) -> str:
     """Load and return file contents."""
@@ -318,23 +340,59 @@ def check_pharmakon(text: str, thread: str = None) -> Dict:
             if re.search(pattern, text, re.IGNORECASE):
                 results["cure_found"] = True
                 results["cure_markers"].append(pattern[:40])
-    
-    # Assess balance
-    if results["poison_found"] and results["cure_found"]:
+
+    def split_sentences(content: str) -> List[str]:
+        raw = re.split(r'(?<=[.!?])\s+', content)
+        return [s.strip() for s in raw if s.strip()]
+
+    def contains_any(patterns: List[str], content: str) -> bool:
+        return any(re.search(pattern, content, re.IGNORECASE) for pattern in patterns)
+
+    sentences = split_sentences(text)
+    window_hits = []
+
+    for idx, sentence in enumerate(sentences):
+        window_start = max(0, idx - 1)
+        window_end = min(len(sentences), idx + 2)
+        window_text = " ".join(sentences[window_start:window_end])
+
+        loss_in_window = contains_any(PHARMAKON_LEXICON["loss"], window_text)
+        gain_in_window = contains_any(PHARMAKON_LEXICON["gain"], window_text)
+        explicit_in_sentence = contains_any(PHARMAKON_LEXICON["explicit"], sentence)
+
+        if loss_in_window:
+            results["poison_found"] = True
+        if gain_in_window:
+            results["cure_found"] = True
+
+        if loss_in_window and gain_in_window:
+            window_hits.append({
+                "sentence_index": idx + 1,
+                "explicit_pharmakon": explicit_in_sentence
+            })
+
+    if window_hits:
         results["balance"] = "balanced"
         results["note"] = "Both poison and cure aspects present—good pharmakon structure"
-    elif results["poison_found"]:
-        results["balance"] = "poison_heavy"
-        results["status"] = "warn"
-        results["note"] = "Only poison aspect visible—consider showing what character gains"
-    elif results["cure_found"]:
-        results["balance"] = "cure_heavy"
-        results["status"] = "warn"
-        results["note"] = "Only cure aspect visible—consider showing what character loses"
-    else:
-        results["balance"] = "neither"
-        results["status"] = "warn"
-        results["note"] = "Neither poison nor cure aspects detected—scene may lack pharmakon dynamic"
+        results["windowed_pairs"] = window_hits
+    
+    # Assess balance
+    if results.get("balance") != "balanced":
+        if results["poison_found"] and results["cure_found"]:
+            results["balance"] = "balanced"
+            results["note"] = "Both poison and cure aspects present—good pharmakon structure"
+        elif results["poison_found"]:
+            results["balance"] = "poison_heavy"
+            results["status"] = "warn"
+            results["note"] = "Only poison aspect visible—consider showing what character gains"
+        elif results["cure_found"]:
+            results["balance"] = "cure_heavy"
+            results["status"] = "warn"
+            results["note"] = "Only cure aspect visible—consider showing what character loses"
+        else:
+            results["balance"] = "neither"
+            results["status"] = "warn"
+            results["note"] = "Neither poison nor cure aspects detected—scene may lack pharmakon dynamic"
     
     return results
 

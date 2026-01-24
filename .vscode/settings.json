@@ -1,0 +1,7 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "Set-Location": true,
+        "C:/Users/zeke/Projects/Eternal_Return_Manuscript/.venv/Scripts/python.exe": true,
+        "Out-File": true
+    }
+}

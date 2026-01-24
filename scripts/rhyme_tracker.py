@@ -198,11 +198,33 @@ RHYME_MARKERS = {
 OPENING_ZONE_WORDS = 500
 CLOSING_ZONE_WORDS = 500
 
+THREAD_ORDER_CYCLE1 = ["archaeologist", "algorithm", "last_human"]
+
 
 def load_file(filepath: str) -> str:
     """Load and return file contents."""
     with open(filepath, 'r', encoding='utf-8') as f:
         return f.read()
+
+
+def infer_thread_from_path(filepath: str) -> str:
+    lower = filepath.lower()
+    if "archaeologist" in lower:
+        return "archaeologist"
+    if "algorithm" in lower:
+        return "algorithm"
+    if "last-human" in lower or "last_human" in lower:
+        return "last_human"
+    return "unknown"
+
+
+def order_sequence(filepaths: List[str], movement: str, cycle: int) -> List[str]:
+    if movement == "two" and cycle == 1:
+        thread_map = {fp: infer_thread_from_path(fp) for fp in filepaths}
+        threads = list(thread_map.values())
+        if all(t in THREAD_ORDER_CYCLE1 for t in threads):
+            return sorted(filepaths, key=lambda fp: THREAD_ORDER_CYCLE1.index(thread_map[fp]))
+    return filepaths
 
 
 def get_text_zones(text: str) -> Dict[str, str]:
@@ -439,16 +461,73 @@ def validate_rhymes(filepath: str, previous_closing: List[str] = None) -> Dict:
     return results
 
 
+def validate_sequence(filepaths: List[str]) -> Dict:
+    """Validate a sequence of scenes with automatic handoff chaining."""
+    movement = CONFIG.get("movement", "two")
+    cycle = CONFIG.get("cycle", 1)
+    ordered = order_sequence(filepaths, movement, cycle)
+
+    results = {
+        "status": "pass",
+        "movement": movement,
+        "cycle": cycle,
+        "sequence": ordered,
+        "scenes": [],
+        "handoff_report": {
+            "status": "pass",
+            "pairs": []
+        }
+    }
+
+    previous_closing = []
+    for index, filepath in enumerate(ordered):
+        scene_result = validate_rhymes(filepath, previous_closing)
+        results["scenes"].append({
+            "file": filepath,
+            "status": scene_result.get("status"),
+            "summary": scene_result.get("summary", {}),
+            "handoff_validation": scene_result.get("handoff_validation", {})
+        })
+
+        if scene_result.get("status") == "fail":
+            results["status"] = "fail"
+        elif scene_result.get("status") == "warn" and results["status"] != "fail":
+            results["status"] = "warn"
+
+        if index > 0:
+            handoff = scene_result.get("handoff_validation", {})
+            results["handoff_report"]["pairs"].append({
+                "from": ordered[index - 1],
+                "to": filepath,
+                "previous_closing": previous_closing,
+                "opening": scene_result.get("summary", {}).get("opening_rhymes", []),
+                "caught": handoff.get("caught", []),
+                "missed": handoff.get("missed", []),
+                "status": handoff.get("status", "skip")
+            })
+
+            if handoff.get("status") == "warn":
+                results["handoff_report"]["status"] = "warn"
+                if results["status"] != "fail":
+                    results["status"] = "warn"
+
+        previous_closing = scene_result.get("summary", {}).get("closing_rhymes", [])
+
+    return results
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Track rhyme usage with position awareness for Movement Two"
     )
-    parser.add_argument("file", help="Path to markdown file to analyze")
+    parser.add_argument("file", nargs="?", help="Path to markdown file to analyze")
     parser.add_argument("--pretty", action="store_true", help="Pretty print JSON output")
     parser.add_argument("--cycle", type=int, choices=[1, 2, 3],
                         help="Override cycle from config (optional)")
     parser.add_argument("--previous-closing", type=str,
                         help="JSON array of rhymes from previous scene's closing zone")
+    parser.add_argument("--sequence", nargs="+",
+                        help="List of scene files (in order) for automatic handoff validation")
     
     args = parser.parse_args()
     
@@ -464,15 +543,21 @@ def main():
         except json.JSONDecodeError:
             print(json.dumps({"status": "error", "message": "Invalid JSON for --previous-closing"}))
             sys.exit(1)
-    
-    results = validate_rhymes(args.file, previous_closing)
+
+    if args.sequence:
+        results = validate_sequence(args.sequence)
+    elif args.file:
+        results = validate_rhymes(args.file, previous_closing)
+    else:
+        print(json.dumps({"status": "error", "message": "Provide a file or use --sequence"}))
+        sys.exit(1)
     
     if args.pretty:
         print(json.dumps(results, indent=2))
     else:
         print(json.dumps(results))
     
-    if results["status"] == "fail":
+    if results.get("status") == "fail":
         sys.exit(1)
     else:
         sys.exit(0)

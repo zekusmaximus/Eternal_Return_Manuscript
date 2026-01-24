@@ -114,6 +114,31 @@ CONTAMINATION_MARKERS = {
     }
 }
 
+INTENSITY_PATTERNS = [
+    r'\bbleed\b',
+    r'\bresonance\b',
+    r'\bresonant\b',
+    r'\bpanic\b',
+    r'\bfrequency\b',
+    r'\bintensity\b',
+    r'\bvibration\b',
+    r'\bdream(?:s|ing|t)?\b',
+    r'\bintrusion\b',
+    r'\bsurge\b',
+    r'\boverload\b',
+    r'\bshock\b',
+    r'\bstatic\b',
+    r'\bsignal\b',
+    r'\bthreshold\b',
+    r'\boverlap\b',
+    r'\bflicker\b',
+    r'\bcold\b',
+    r'\bhands?\b',
+    r'\bweight\b',
+    r'\bpressure\b',
+    r'\btemperature\b'
+]
+
 
 def load_file(filepath: str) -> str:
     """Load and return file contents."""
@@ -124,6 +149,32 @@ def load_file(filepath: str) -> str:
 def count_words(text: str) -> int:
     """Count words in text."""
     return len(text.split())
+
+
+def detect_intensity_lines(lines: List[str]) -> Dict:
+    """Identify intensity lines using keyword patterns."""
+    flags = [False] * len(lines)
+
+    paragraphs = []
+    start = 0
+    for i, line in enumerate(lines):
+        if line.strip() == "":
+            if start <= i - 1:
+                paragraphs.append((start, i - 1))
+            start = i + 1
+    if start < len(lines):
+        paragraphs.append((start, len(lines) - 1))
+
+    for start_idx, end_idx in paragraphs:
+        paragraph_text = "\n".join(lines[start_idx:end_idx + 1])
+        if any(re.search(pattern, paragraph_text, re.IGNORECASE) for pattern in INTENSITY_PATTERNS):
+            for j in range(start_idx, end_idx + 1):
+                flags[j] = True
+
+    return {
+        "flags": flags,
+        "count": sum(1 for f in flags if f)
+    }
 
 
 def analyze_voice_signature(text: str, thread: str) -> Dict:
@@ -165,20 +216,29 @@ def detect_contamination(text: str, thread: str) -> Dict:
     """Detect contamination from other voices."""
     markers = CONTAMINATION_MARKERS[thread]
     lines = text.split('\n')
+    intensity = detect_intensity_lines(lines)
     
     results = {
         "total_contamination": 0,
         "by_source": {},
-        "instances": []
+        "by_segment": {"base": 0, "intensity": 0},
+        "by_source_segment": {},
+        "instances": [],
+        "intensity_segments": {
+            "lines_flagged": intensity["count"],
+            "total_lines": len(lines)
+        }
     }
     
     for source, patterns in markers.items():
         source_thread = source.replace("from_", "")
         results["by_source"][source_thread] = 0
+        results["by_source_segment"][source_thread] = {"base": 0, "intensity": 0}
         
         for pattern, description in patterns:
             for i, line in enumerate(lines, 1):
                 if re.search(pattern, line, re.IGNORECASE):
+                    segment = "intensity" if intensity["flags"][i - 1] else "base"
                     results["instances"].append({
                         "line": i,
                         "source": source_thread,
@@ -187,6 +247,8 @@ def detect_contamination(text: str, thread: str) -> Dict:
                     })
                     results["by_source"][source_thread] += 1
                     results["total_contamination"] += 1
+                    results["by_segment"][segment] += 1
+                    results["by_source_segment"][source_thread][segment] += 1
     
     return results
 
@@ -198,29 +260,50 @@ def assess_contamination(contamination: Dict, cycle: int) -> Dict:
     cycle_budget = budget.get(cycle_key, {"min": 0, "max": 10})
     
     total = contamination["total_contamination"]
+    base_total = contamination["by_segment"].get("base", 0)
+    intensity_total = contamination["by_segment"].get("intensity", 0)
     
     result = {
         "status": "pass",
         "cycle": cycle,
         "expected_range": f"{cycle_budget['min']}-{cycle_budget['max']}",
-        "actual": total,
+        "actual": {
+            "total": total,
+            "base": base_total,
+            "intensity": intensity_total
+        },
         "issues": [],
         "notes": []
     }
-    
-    if total < cycle_budget["min"]:
-        result["status"] = "warn"
-        result["issues"].append(
-            f"Too little contamination for Cycle {cycle}: found {total}, expected ≥{cycle_budget['min']}. "
-            f"Scene may be too 'pure' for Movement Two's braided structure."
-        )
-    
-    if total > cycle_budget["max"]:
-        result["status"] = "warn"
-        result["issues"].append(
-            f"Too much contamination for Cycle {cycle}: found {total}, expected ≤{cycle_budget['max']}. "
-            f"Voice may be dissolving prematurely (save for Movement Three)."
-        )
+
+    if cycle == 1:
+        base_max = max(2, int(cycle_budget["max"] * 0.25))
+        result["expected_range"] = f"base ≤{base_max} (intensity allowed)"
+
+        if base_total > base_max:
+            result["status"] = "warn"
+            result["issues"].append(
+                f"Too much contamination outside intensity segments for Cycle 1: found {base_total}, expected ≤{base_max}."
+            )
+
+        if intensity_total > 0:
+            result["notes"].append(
+                f"Intensity-segment contamination detected ({intensity_total}) and allowed for Cycle 1."
+            )
+    else:
+        if total < cycle_budget["min"]:
+            result["status"] = "warn"
+            result["issues"].append(
+                f"Too little contamination for Cycle {cycle}: found {total}, expected ≥{cycle_budget['min']}. "
+                f"Scene may be too 'pure' for Movement Two's braided structure."
+            )
+        
+        if total > cycle_budget["max"]:
+            result["status"] = "warn"
+            result["issues"].append(
+                f"Too much contamination for Cycle {cycle}: found {total}, expected ≤{cycle_budget['max']}. "
+                f"Voice may be dissolving prematurely (save for Movement Three)."
+            )
     
     # Check for mutual contamination
     sources = contamination["by_source"]
@@ -329,6 +412,7 @@ def validate_voice(filepath: str, thread: str) -> Dict:
         "voice_identifiable": signature["signature_strength"] >= 10,
         "contamination_appropriate": contamination_assessment["status"] == "pass",
         "contamination_sources": [s for s, c in contamination["by_source"].items() if c > 0],
+        "contamination_by_segment": contamination.get("by_segment", {}),
         "recommendations": []
     }
     

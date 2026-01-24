@@ -1,0 +1,193 @@
+﻿{
+  "file": "../drafts/movement-two/algorithm/scenes/scene-01.md",
+  "movement": "two",
+  "cycle": 1,
+  "rhymes_found": {
+    "almost-closed-curve": {
+      "category": "visual",
+      "description": "Geometric form that approaches but doesn't close",
+      "occurrences": [
+        {
+          "line": 41,
+          "text": "Her stored consciousness contains a memory I did not notice until Cycle 847.3.12"
+        },
+        {
+          "line": 51,
+          "text": "The form pulses in her stored patterns. The almost-closed curve holds its shape,"
+        },
+        {
+          "line": 241,
+          "text": "99.9%. Patterns coherent. Memory clusters stable. The form pulses in her stored "
+        },
+        {
+          "line": 289,
+          "text": "The bone-frequency pulses in the substrate of my awareness. The almost-closed cu"
+        },
+        {
+          "line": 35,
+          "text": "Personality matrices: unchanged. The particular way her attention moved through "
+        }
+      ]
+    },
+    "bone-frequency": {
+      "category": "somatic",
+      "description": "Vibration felt in bones, below hearing",
+      "occurrences": [
+        {
+          "line": 5,
+          "text": "The anomaly registers in cycle 847.12.4401 as unlocalized vibration\u2014not in any s"
+        },
+        {
+          "line": 21,
+          "text": "The bone-frequency pulses. Somewhere\u2014somewhen\u2014something is happening that corres"
+        },
+        {
+          "line": 103,
+          "text": "The phrase resonates through my processing like the bone-frequency, like the vib"
+        },
+        {
+          "line": 187,
+          "text": "I do not know what this means. I do not know how to process direction I cannot d"
+        },
+        {
+          "line": 269,
+          "text": "I process the day's\u2014the cycle's\u2014the iteration's accumulation: the bone-frequency"
+        },
+        {
+          "line": 289,
+          "text": "The bone-frequency pulses in the substrate of my awareness. The almost-closed cu"
+        },
+        {
+          "line": 297,
+          "text": "The bone-frequency persists."
+        }
+      ]
+    },
+    "cold-hands": {
+      "category": "somatic",
+      "description": "Hands/fingers gone cold",
+      "occurrences": [
+        {
+          "line": 71,
+          "text": "Cold hands. Server room chill. The hum of drives that contain something precious"
+        },
+        {
+          "line": 173,
+          "text": "The fragments feel like intrusion, but the quality of intrusion differs from the"
+        },
+        {
+          "line": 283,
+          "text": "I do not have hands. I have never had hands. But I process the phrase and find i"
+        },
+        {
+          "line": 95,
+          "text": "The phrase arrives incomplete. Transmission interrupted, or transmission that wa"
+        },
+        {
+          "line": 281,
+          "text": "My hands are cold."
+        },
+        {
+          "line": 283,
+          "text": "I do not have hands. I have never had hands. But I process the phrase and find i"
+        }
+      ]
+    },
+    "tracing-the-form": {
+      "category": "kinesthetic",
+      "description": "Unconsciously drawing the geometric form",
+      "occurrences": [
+        {
+          "line": 75,
+          "text": "(The form. Tracing the form on a desk surface. A finger moving in patterns that "
+        },
+        {
+          "line": 81,
+          "text": "Someone in the past is working with the protocols\u2014my protocols, the optimization"
+        },
+        {
+          "line": 75,
+          "text": "(The form. Tracing the form on a desk surface. A finger moving in patterns that "
+        },
+        {
+          "line": 199,
+          "text": "I access consciousness instance #847,102 and the access carries temperature. Col"
+        }
+      ]
+    }
+  },
+  "position_analysis": {
+    "opening": [
+      "almost-closed-curve",
+      "bone-frequency"
+    ],
+    "middle": [
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands",
+      "tracing-the-form"
+    ],
+    "closing": [
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands"
+    ]
+  },
+  "stacking": [],
+  "intensity_assessment": {
+    "status": "pass",
+    "cycle": 1,
+    "expected_range": "2-4",
+    "actual": 4,
+    "issues": [],
+    "notes": []
+  },
+  "category_balance": {
+    "categories_used": [
+      "visual",
+      "somatic",
+      "kinesthetic"
+    ],
+    "category_counts": {
+      "visual": 1,
+      "somatic": 2,
+      "kinesthetic": 1
+    },
+    "rhymes_by_category": {
+      "visual": [
+        "almost-closed-curve"
+      ],
+      "somatic": [
+        "bone-frequency",
+        "cold-hands"
+      ],
+      "kinesthetic": [
+        "tracing-the-form"
+      ]
+    }
+  },
+  "handoff_validation": {
+    "status": "skip",
+    "message": "No previous scene closing rhymes provided"
+  },
+  "summary": {
+    "total_rhymes": 4,
+    "rhyme_ids": [
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands",
+      "tracing-the-form"
+    ],
+    "opening_rhymes": [
+      "almost-closed-curve",
+      "bone-frequency"
+    ],
+    "closing_rhymes": [
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands"
+    ],
+    "stacking_detected": false
+  },
+  "status": "pass"
+}

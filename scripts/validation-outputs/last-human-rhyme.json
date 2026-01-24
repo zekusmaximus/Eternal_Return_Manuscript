@@ -1,0 +1,186 @@
+﻿{
+  "file": "../drafts/movement-two/last-human/scenes/scene-01.md",
+  "movement": "two",
+  "cycle": 1,
+  "rhymes_found": {
+    "blue-white-light": {
+      "category": "visual",
+      "description": "Holographic/bioluminescent glow",
+      "occurrences": [
+        {
+          "line": 7,
+          "text": "To hands moving through blue-white data in a room full of machines. To processin"
+        },
+        {
+          "line": 13,
+          "text": "The Archive's silver-blue light still fills the chamber. The spiral still glows\u2014"
+        },
+        {
+          "line": 31,
+          "text": "The walls are crystalline\u2014not the hostile formations from outside, the ones that"
+        },
+        {
+          "line": 141,
+          "text": "The corridor has narrowed to something almost organic\u2014a tube of fused crystallin"
+        }
+      ]
+    },
+    "almost-closed-curve": {
+      "category": "visual",
+      "description": "Geometric form that approaches but doesn't close",
+      "occurrences": [
+        {
+          "line": 13,
+          "text": "The Archive's silver-blue light still fills the chamber. The spiral still glows\u2014"
+        },
+        {
+          "line": 27,
+          "text": "This is what I understand as I move through them\u2014each turn, each passage, each c"
+        },
+        {
+          "line": 225,
+          "text": "The spiral still glows. The almost-closed curve, the geometry that approaches it"
+        },
+        {
+          "line": 235,
+          "text": "I trace it now. On the wall. My cold finger against the crystalline surface, fol"
+        }
+      ]
+    },
+    "bone-frequency": {
+      "category": "somatic",
+      "description": "Vibration felt in bones, below hearing",
+      "occurrences": [
+        {
+          "line": 245,
+          "text": "The Archive hums with my gesture. The crystals glow. The frequency in my chest b"
+        }
+      ]
+    },
+    "cold-hands": {
+      "category": "somatic",
+      "description": "Hands/fingers gone cold",
+      "occurrences": [
+        {
+          "line": 121,
+          "text": "I reach toward the source of the phrase. My cold hands extend into the Archive's"
+        },
+        {
+          "line": 133,
+          "text": "The loop closes without closing. The bleed subsides. I am in the Archive again, "
+        },
+        {
+          "line": 3,
+          "text": "My hands are cold."
+        },
+        {
+          "line": 227,
+          "text": "I stand before it. My hands are cold. My hands have been cold for years, for cen"
+        }
+      ]
+    },
+    "tracing-the-form": {
+      "category": "kinesthetic",
+      "description": "Unconsciously drawing the geometric form",
+      "occurrences": [
+        {
+          "line": 67,
+          "text": "The gesture feels ancient. The gesture feels like something I have always done, "
+        },
+        {
+          "line": 237,
+          "text": "Tracing the form."
+        },
+        {
+          "line": 243,
+          "text": "Somewhere, somewhen, the Archaeologist wakes with his hands moving in this patte"
+        },
+        {
+          "line": 255,
+          "text": "And I\u2014tracing the form on the wall as the cold spreads through my dying chest\u2014I "
+        }
+      ]
+    }
+  },
+  "position_analysis": {
+    "opening": [
+      "blue-white-light",
+      "almost-closed-curve",
+      "cold-hands"
+    ],
+    "middle": [
+      "blue-white-light",
+      "cold-hands",
+      "tracing-the-form"
+    ],
+    "closing": [
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands",
+      "tracing-the-form"
+    ]
+  },
+  "stacking": [],
+  "intensity_assessment": {
+    "status": "warn",
+    "cycle": 1,
+    "expected_range": "2-4",
+    "actual": 5,
+    "issues": [
+      "Too many rhymes for Cycle 1: found 5, expected \u22644"
+    ],
+    "notes": []
+  },
+  "category_balance": {
+    "categories_used": [
+      "visual",
+      "somatic",
+      "kinesthetic"
+    ],
+    "category_counts": {
+      "visual": 2,
+      "somatic": 2,
+      "kinesthetic": 1
+    },
+    "rhymes_by_category": {
+      "visual": [
+        "blue-white-light",
+        "almost-closed-curve"
+      ],
+      "somatic": [
+        "bone-frequency",
+        "cold-hands"
+      ],
+      "kinesthetic": [
+        "tracing-the-form"
+      ]
+    }
+  },
+  "handoff_validation": {
+    "status": "skip",
+    "message": "No previous scene closing rhymes provided"
+  },
+  "summary": {
+    "total_rhymes": 5,
+    "rhyme_ids": [
+      "blue-white-light",
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands",
+      "tracing-the-form"
+    ],
+    "opening_rhymes": [
+      "blue-white-light",
+      "almost-closed-curve",
+      "cold-hands"
+    ],
+    "closing_rhymes": [
+      "almost-closed-curve",
+      "bone-frequency",
+      "cold-hands",
+      "tracing-the-form"
+    ],
+    "stacking_detected": false
+  },
+  "status": "warn"
+}

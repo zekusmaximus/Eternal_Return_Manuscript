@@ -1,0 +1,79 @@
+﻿{
+  "file": "../drafts/movement-two/archaeologist/scenes/scene-01.md",
+  "thread": "archaeologist",
+  "movement": "two",
+  "cycle": 1,
+  "primary_genre": "Corporate Gothic / Tech-Noir",
+  "markers_found": {
+    "morgue_atmosphere": {
+      "description": "Server rooms as spaces of the dead",
+      "count": 3,
+      "occurrences": [
+        {
+          "line": 73,
+          "text": "I come back to my body with a gasp. Feel the weight of my hands, the pressure of"
+        },
+        {
+          "line": 145,
+          "text": "Lena stares at me. The kitchen hums around us: refrigerator, fluorescent light, "
+        },
+        {
+          "line": 7,
+          "text": "My hands wrap around the mug. Cold hands\u2014that's what Lena said yesterday, when s"
+        }
+      ]
+    },
+    "economic_predation": {
+      "description": "Immortality commodified, death as transaction",
+      "count": 1,
+      "occurrences": [
+        {
+          "line": 93,
+          "text": "I look at my hands. She's right. They're pale at the fingertips, the color of po"
+        }
+      ]
+    }
+  },
+  "genre_bleed": {
+    "algorithm": {
+      "genre": "Cosmic Horror AI",
+      "categories": [
+        "body_horror"
+      ],
+      "marker_count": 1,
+      "details": {
+        "body_horror": {
+          "description": "Having a body that isn't a body",
+          "count": 1,
+          "occurrences": [
+            {
+              "line": 13,
+              "text": "The protocols wait on my laptop, open in a tab I haven't closed since Wednesday."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "intensity_assessment": {
+    "status": "pass",
+    "cycle": 1,
+    "primary_genre_strength": 4,
+    "bleed_amount": 1,
+    "bleed_tolerance": 1,
+    "issues": [],
+    "notes": []
+  },
+  "summary": {
+    "primary_marker_count": 4,
+    "categories_hit": [
+      "morgue_atmosphere",
+      "economic_predation"
+    ],
+    "bleed_from": [
+      "algorithm"
+    ],
+    "bleed_marker_count": 1
+  },
+  "status": "pass"
+}

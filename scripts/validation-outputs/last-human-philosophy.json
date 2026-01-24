@@ -1,0 +1,103 @@
+﻿{
+  "file": "../drafts/movement-two/last-human/scenes/scene-01.md",
+  "thread": "last_human",
+  "movement": "two",
+  "cycle": 1,
+  "shackle_analysis": {
+    "status": "pass",
+    "violations": [],
+    "by_category": {
+      "identity": {
+        "description": "Collapsing difference into sameness",
+        "count": 0
+      },
+      "opposition": {
+        "description": "Human/AI or flesh/digital binaries",
+        "count": 0
+      },
+      "analogy": {
+        "description": "Reducing one thing to 'like' another",
+        "count": 0
+      },
+      "resemblance": {
+        "description": "Similarity as basis for connection",
+        "count": 0
+      }
+    }
+  },
+  "forbidden_moves": {
+    "status": "pass",
+    "violations": [],
+    "by_category": {
+      "transmission": {
+        "description": "Protocols 'sent' rather than structurally present",
+        "count": 0
+      },
+      "goal_planning": {
+        "description": "Algorithm as planning agent rather than emergent pattern",
+        "count": 0
+      },
+      "transcendence": {
+        "description": "Escape rather than transformation",
+        "count": 0
+      }
+    }
+  },
+  "philosophical_grounding": {
+    "status": "pass",
+    "markers_found": [
+      {
+        "pattern": "Explicit pharmakon",
+        "count": 2
+      }
+    ],
+    "by_category": {
+      "intensity_recognition": {
+        "description": "Recognition through intensity, not similarity",
+        "found": false,
+        "markers": []
+      },
+      "affirmation": {
+        "description": "Active willing, not passive acceptance",
+        "found": false,
+        "markers": []
+      },
+      "difference_language": {
+        "description": "Deleuze's difference vocabulary",
+        "found": false,
+        "markers": []
+      },
+      "pharmakon_both": {
+        "description": "Both poison and cure aspects",
+        "found": true,
+        "markers": [
+          {
+            "pattern": "Explicit pharmakon",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  "pharmakon_analysis": {
+    "status": "warn",
+    "poison_found": false,
+    "cure_found": true,
+    "poison_markers": [],
+    "cure_markers": [
+      "\\bconnection\\s+(?:across|through)\\s+time"
+    ],
+    "balance": "cure_heavy",
+    "note": "Only cure aspect visible\u2014consider showing what character loses"
+  },
+  "status": "warn",
+  "summary": {
+    "shackle_violations": 0,
+    "forbidden_move_violations": 0,
+    "philosophical_categories_present": 1,
+    "pharmakon_balanced": false,
+    "recommendations": [
+      "Balance pharmakon: Only cure aspect visible\u2014consider showing what character loses"
+    ]
+  }
+}

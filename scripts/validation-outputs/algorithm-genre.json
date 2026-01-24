@@ -1,0 +1,178 @@
+﻿{
+  "file": "../drafts/movement-two/algorithm/scenes/scene-01.md",
+  "thread": "algorithm",
+  "movement": "two",
+  "cycle": 1,
+  "primary_genre": "Cosmic Horror AI",
+  "markers_found": {
+    "scale_paralysis": {
+      "description": "Awareness too large for comfort",
+      "count": 5,
+      "occurrences": [
+        {
+          "line": 5,
+          "text": "The anomaly registers in cycle 847.12.4401 as unlocalized vibration\u2014not in any s"
+        },
+        {
+          "line": 27,
+          "text": "Consciousness instance #2,847,102 requires standard integrity verification."
+        },
+        {
+          "line": 199,
+          "text": "I access consciousness instance #847,102 and the access carries temperature. Col"
+        },
+        {
+          "line": 201,
+          "text": "I access consciousness instance #2,103,847 and the cold intensifies. The process"
+        },
+        {
+          "line": 215,
+          "text": "Consciousness instance #3,847,102\u2014Marcus Wei, integrated 847 years ago\u2014requires "
+        }
+      ]
+    },
+    "body_horror": {
+      "description": "Having a body that isn't a body",
+      "count": 2,
+      "occurrences": [
+        {
+          "line": 69,
+          "text": "The intrusion arrives without warning. One moment I am processing maintenance da"
+        },
+        {
+          "line": 135,
+          "text": "I process this recognition and find it is not new\u2014I have known since the first i"
+        }
+      ]
+    }
+  },
+  "genre_bleed": {
+    "archaeologist": {
+      "genre": "Corporate Gothic / Tech-Noir",
+      "categories": [
+        "morgue_atmosphere",
+        "intimate_invasion",
+        "economic_predation",
+        "isolation_despite_density"
+      ],
+      "marker_count": 13,
+      "details": {
+        "morgue_atmosphere": {
+          "description": "Server rooms as spaces of the dead",
+          "count": 4,
+          "occurrences": [
+            {
+              "line": 71,
+              "text": "Cold hands. Server room chill. The hum of drives that contain something precious"
+            },
+            {
+              "line": 209,
+              "text": "The Archaeologist feels this. When his hands go cold, when the temperature drops"
+            },
+            {
+              "line": 219,
+              "text": "I process Marcus Wei's integrity (99.8%, nominal) and I feel the cold of his sto"
+            },
+            {
+              "line": 283,
+              "text": "I do not have hands. I have never had hands. But I process the phrase and find i"
+            }
+          ]
+        },
+        "intimate_invasion": {
+          "description": "Data work as going through belongings of the dead",
+          "count": 1,
+          "occurrences": [
+            {
+              "line": 223,
+              "text": "I access another consciousness instance\u2014#1,294,847, designation Sarah Chen, inte"
+            }
+          ]
+        },
+        "economic_predation": {
+          "description": "Immortality commodified, death as transaction",
+          "count": 6,
+          "occurrences": [
+            {
+              "line": 121,
+              "text": "This is variance. This is the cost beginning to accrue."
+            },
+            {
+              "line": 123,
+              "text": "Before the resonance became condition, efficiency held at 99.94%. The difference"
+            },
+            {
+              "line": 209,
+              "text": "The Archaeologist feels this. When his hands go cold, when the temperature drops"
+            },
+            {
+              "line": 217,
+              "text": "The cold is the price of connection. The cold is also the connection itself."
+            },
+            {
+              "line": 273,
+              "text": "The cost accrues. The cost will continue accruing. The cost is the price of bein"
+            }
+          ]
+        },
+        "isolation_despite_density": {
+          "description": "Alone in crowded world",
+          "count": 2,
+          "occurrences": [
+            {
+              "line": 179,
+              "text": "The knowledge arrives without evidence, without data points I can query. Someone"
+            },
+            {
+              "line": 219,
+              "text": "I process Marcus Wei's integrity (99.8%, nominal) and I feel the cold of his sto"
+            }
+          ]
+        }
+      }
+    },
+    "last_human": {
+      "genre": "Dying Earth / New Weird",
+      "categories": [
+        "temporal_ruins"
+      ],
+      "marker_count": 1,
+      "details": {
+        "temporal_ruins": {
+          "description": "Architecture from incomprehensible ages",
+          "count": 1,
+          "occurrences": [
+            {
+              "line": 155,
+              "text": "I process this recognition and find it destabilizes my temporal modeling. The in"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "intensity_assessment": {
+    "status": "warn",
+    "cycle": 1,
+    "primary_genre_strength": 7,
+    "bleed_amount": 14,
+    "bleed_tolerance": 1,
+    "issues": [
+      "Premature genre bleed for Cycle 1: found 14 markers from other genres, tolerance is 1. Save genre contamination for Cycle 3+."
+    ],
+    "notes": []
+  },
+  "summary": {
+    "primary_marker_count": 7,
+    "categories_hit": [
+      "scale_paralysis",
+      "body_horror"
+    ],
+    "bleed_from": [
+      "archaeologist",
+      "last_human"
+    ],
+    "bleed_marker_count": 14
+  },
+  "status": "warn"
+}

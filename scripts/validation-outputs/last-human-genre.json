@@ -1,0 +1,107 @@
+﻿{
+  "file": "../drafts/movement-two/last-human/scenes/scene-01.md",
+  "thread": "last_human",
+  "movement": "two",
+  "cycle": 1,
+  "primary_genre": "Dying Earth / New Weird",
+  "markers_found": {
+    "temporal_ruins": {
+      "description": "Architecture from incomprehensible ages",
+      "count": 3,
+      "occurrences": [
+        {
+          "line": 87,
+          "text": "I pass through chambers that contain remnants of what this place once was. Equip"
+        },
+        {
+          "line": 113,
+          "text": "The Archaeologist. Eight centuries ago. Still working. Still searching."
+        },
+        {
+          "line": 261,
+          "text": "And somewhere, eight centuries ago, the Archaeologist wakes with shape in his fi"
+        }
+      ]
+    },
+    "silence_as_presence": {
+      "description": "The weight of no one else",
+      "count": 1,
+      "occurrences": [
+        {
+          "line": 211,
+          "text": "I am the last human. I am also the first\u2014the first position in the pattern where"
+        }
+      ]
+    }
+  },
+  "genre_bleed": {
+    "archaeologist": {
+      "genre": "Corporate Gothic / Tech-Noir",
+      "categories": [
+        "economic_predation",
+        "decay_beneath_polish",
+        "isolation_despite_density"
+      ],
+      "marker_count": 4,
+      "details": {
+        "economic_predation": {
+          "description": "Immortality commodified, death as transaction",
+          "count": 2,
+          "occurrences": [
+            {
+              "line": 183,
+              "text": "The pharmakon. The word arrives from somewhere\u2014from the Archaeologist's philosop"
+            },
+            {
+              "line": 189,
+              "text": "But what is ending includes everything I was before I walked through these corri"
+            }
+          ]
+        },
+        "decay_beneath_polish": {
+          "description": "Technology failing, infrastructure straining",
+          "count": 1,
+          "occurrences": [
+            {
+              "line": 13,
+              "text": "The Archive's silver-blue light still fills the chamber. The spiral still glows\u2014"
+            }
+          ]
+        },
+        "isolation_despite_density": {
+          "description": "Alone in crowded world",
+          "count": 1,
+          "occurrences": [
+            {
+              "line": 5,
+              "text": "They have been cold for years. The radiation damage, the environment's hostility"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "intensity_assessment": {
+    "status": "warn",
+    "cycle": 1,
+    "primary_genre_strength": 4,
+    "bleed_amount": 4,
+    "bleed_tolerance": 1,
+    "issues": [
+      "Premature genre bleed for Cycle 1: found 4 markers from other genres, tolerance is 1. Save genre contamination for Cycle 3+."
+    ],
+    "notes": []
+  },
+  "summary": {
+    "primary_marker_count": 4,
+    "categories_hit": [
+      "temporal_ruins",
+      "silence_as_presence"
+    ],
+    "bleed_from": [
+      "archaeologist"
+    ],
+    "bleed_marker_count": 4
+  },
+  "status": "warn"
+}

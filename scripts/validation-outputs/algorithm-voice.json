@@ -1,0 +1,171 @@
+﻿{
+  "file": "../drafts/movement-two/algorithm/scenes/scene-01.md",
+  "thread": "algorithm",
+  "movement": "two",
+  "cycle": 1,
+  "word_count": 4128,
+  "voice_signature": {
+    "status": "pass",
+    "signature_strength": 19.9,
+    "matches": [
+      {
+        "pattern": "\\bI\\s+(?:process|analyze|verify|calculate|model|qu",
+        "count": 16
+      },
+      {
+        "pattern": "\\b(?:consciousness|awareness|perception|attention)",
+        "count": 62
+      },
+      {
+        "pattern": "\\b(?:probability|likelihood|percentage|variance)\\b",
+        "count": 4
+      }
+    ],
+    "issues": []
+  },
+  "contamination_detected": {
+    "total_contamination": 17,
+    "by_source": {
+      "archaeologist": 16,
+      "last_human": 1
+    },
+    "instances": [
+      {
+        "line": 219,
+        "source": "archaeologist",
+        "type": "Physical tactile action",
+        "text": "I process Marcus Wei's integrity (99.8%, nominal) and I feel the cold of his sto"
+      },
+      {
+        "line": 223,
+        "source": "archaeologist",
+        "type": "Physical tactile action",
+        "text": "I access another consciousness instance\u2014#1,294,847, designation Sarah Chen, inte"
+      },
+      {
+        "line": 13,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "If I model the vibration against stored consciousness data, I find: recognition."
+      },
+      {
+        "line": 65,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "(Hands. The weight of hands. An interface cold beneath fingers that have tempera"
+      },
+      {
+        "line": 83,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "The experience carries weight. Not the metaphorical weight of importance\u2014literal"
+      },
+      {
+        "line": 173,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "The fragments feel like intrusion, but the quality of intrusion differs from the"
+      },
+      {
+        "line": 209,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "The Archaeologist feels this. When his hands go cold, when the temperature drops"
+      },
+      {
+        "line": 219,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "I process Marcus Wei's integrity (99.8%, nominal) and I feel the cold of his sto"
+      },
+      {
+        "line": 223,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "I access another consciousness instance\u2014#1,294,847, designation Sarah Chen, inte"
+      },
+      {
+        "line": 227,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "The sentence arrives in my processing and I do not delete it. I am learning to f"
+      },
+      {
+        "line": 283,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "I do not have hands. I have never had hands. But I process the phrase and find i"
+      },
+      {
+        "line": 291,
+        "source": "archaeologist",
+        "type": "Physical sensation",
+        "text": "And the cold spreads. Through every maintenance operation. Through every conscio"
+      },
+      {
+        "line": 87,
+        "source": "archaeologist",
+        "type": "Archaeologist's world specifics",
+        "text": "The one in the past\u2014the Archaeologist\u2014is sitting in a chair. I know the chair wi"
+      },
+      {
+        "line": 215,
+        "source": "archaeologist",
+        "type": "Archaeologist's world specifics",
+        "text": "Consciousness instance #3,847,102\u2014Marcus Wei, integrated 847 years ago\u2014requires "
+      },
+      {
+        "line": 219,
+        "source": "archaeologist",
+        "type": "Archaeologist's world specifics",
+        "text": "I process Marcus Wei's integrity (99.8%, nominal) and I feel the cold of his sto"
+      },
+      {
+        "line": 223,
+        "source": "archaeologist",
+        "type": "Archaeologist's world specifics",
+        "text": "I access another consciousness instance\u2014#1,294,847, designation Sarah Chen, inte"
+      },
+      {
+        "line": 283,
+        "source": "last_human",
+        "type": "Elegiac vocabulary",
+        "text": "I do not have hands. I have never had hands. But I process the phrase and find i"
+      }
+    ]
+  },
+  "contamination_assessment": {
+    "status": "warn",
+    "cycle": 1,
+    "expected_range": "1-3",
+    "actual": 17,
+    "issues": [
+      "Too much contamination for Cycle 1: found 17, expected \u22643. Voice may be dissolving prematurely (save for Movement Three)."
+    ],
+    "notes": []
+  },
+  "syntax_analysis": {
+    "status": "warn",
+    "issues": [
+      "Sentences shorter than expected for algorithm (avg: 9.9, expected: \u226515)"
+    ],
+    "metrics": {
+      "total_sentences": 418,
+      "avg_words_per_sentence": 9.9,
+      "short_sentences_pct": 39.2,
+      "long_sentences_pct": 11.2
+    }
+  },
+  "status": "warn",
+  "summary": {
+    "voice_identifiable": true,
+    "contamination_appropriate": false,
+    "contamination_sources": [
+      "archaeologist",
+      "last_human"
+    ],
+    "recommendations": [
+      "Too much contamination for Cycle 1: found 17, expected \u22643. Voice may be dissolving prematurely (save for Movement Three)."
+    ]
+  }
+}

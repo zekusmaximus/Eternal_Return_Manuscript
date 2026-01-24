@@ -1,0 +1,117 @@
+﻿{
+  "file": "../drafts/movement-two/archaeologist/scenes/scene-01.md",
+  "movement": "two",
+  "cycle": 1,
+  "rhymes_found": {
+    "bone-frequency": {
+      "category": "somatic",
+      "description": "Vibration felt in bones, below hearing",
+      "occurrences": [
+        {
+          "line": 260,
+          "text": "I don't have an answer. The Algorithm doesn't have an answer, or if it does, the"
+        }
+      ]
+    },
+    "cold-hands": {
+      "category": "somatic",
+      "description": "Hands/fingers gone cold",
+      "occurrences": [
+        {
+          "line": 7,
+          "text": "My hands wrap around the mug. Cold hands\u2014that's what Lena said yesterday, when s"
+        }
+      ]
+    },
+    "falling-backward": {
+      "category": "somatic",
+      "description": "Vertigo/falling through sensation",
+      "occurrences": [
+        {
+          "line": 51,
+          "text": "Not mine. The sensation comes without context\u2014a vertigo, a sense of falling back"
+        },
+        {
+          "line": 51,
+          "text": "Not mine. The sensation comes without context\u2014a vertigo, a sense of falling back"
+        }
+      ]
+    },
+    "waking-into-motion": {
+      "category": "kinesthetic",
+      "description": "Finding yourself already moving",
+      "occurrences": [
+        {
+          "line": 192,
+          "text": "I wake\u2014if waking is what this is\u2014to find myself standing at my desk."
+        },
+        {
+          "line": 194,
+          "text": "Not lying in bed. Standing. The laptop is open, the protocols glowing on the scr"
+        }
+      ]
+    }
+  },
+  "position_analysis": {
+    "opening": [
+      "cold-hands"
+    ],
+    "middle": [
+      "falling-backward",
+      "waking-into-motion"
+    ],
+    "closing": [
+      "bone-frequency"
+    ]
+  },
+  "stacking": [],
+  "intensity_assessment": {
+    "status": "pass",
+    "cycle": 1,
+    "expected_range": "2-4",
+    "actual": 4,
+    "issues": [],
+    "notes": []
+  },
+  "category_balance": {
+    "categories_used": [
+      "somatic",
+      "kinesthetic"
+    ],
+    "category_counts": {
+      "somatic": 3,
+      "kinesthetic": 1
+    },
+    "rhymes_by_category": {
+      "somatic": [
+        "bone-frequency",
+        "cold-hands",
+        "falling-backward"
+      ],
+      "kinesthetic": [
+        "waking-into-motion"
+      ]
+    }
+  },
+  "handoff_validation": {
+    "status": "skip",
+    "message": "No previous scene closing rhymes provided"
+  },
+  "summary": {
+    "total_rhymes": 4,
+    "rhyme_ids": [
+      "bone-frequency",
+      "cold-hands",
+      "falling-backward",
+      "waking-into-motion"
+    ],
+    "opening_rhymes": [
+      "cold-hands"
+    ],
+    "closing_rhymes": [
+      "bone-frequency"
+    ],
+    "stacking_detected": false
+  },
+  "status": "pass"
+}
