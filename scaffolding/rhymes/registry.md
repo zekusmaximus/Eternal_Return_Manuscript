@@ -24,7 +24,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-03"]
-      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01", "m2-algo-02"]
+      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01", "m2-algo-02", "m2-algo-03"]
       last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
   - id: geometric-shadow
@@ -45,7 +45,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m2-arch-01", "m2-arch-03"]
-      algorithm: ["m1-algo-02", "m2-algo-01", "m2-algo-02"]
+      algorithm: ["m1-algo-02", "m2-algo-01", "m2-algo-02", "m2-algo-03"]
       last_human: ["m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
   - id: cold-hands
@@ -55,7 +55,7 @@ rhymes:
     intensity_peak: movement-two
     usage:
       archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01", "m2-arch-02", "m2-arch-03"]
-      algorithm: ["m1-algo-04", "m2-algo-01"]
+      algorithm: ["m1-algo-04", "m2-algo-01", "m2-algo-03"]
       last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
   - id: falling-backward
@@ -75,7 +75,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m2-arch-02", "m2-arch-03"]
-      algorithm: ["m2-algo-02"]
+      algorithm: ["m2-algo-02", "m2-algo-03"]
       last_human: ["m1-lh-03"]
 
   # KINESTHETIC CATEGORY
@@ -127,7 +127,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: []
-      algorithm: ["m2-algo-02"]
+      algorithm: ["m2-algo-02", "m2-algo-03"]
       last_human: []
 
   # COGNITIVE CATEGORY
@@ -138,7 +138,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m1-arch-05", "m2-arch-02", "m2-arch-03"]
-      algorithm: ["m2-algo-02"]
+      algorithm: ["m2-algo-02", "m2-algo-03"]
       last_human: []
 
   - id: deja-vu-that-isnt
