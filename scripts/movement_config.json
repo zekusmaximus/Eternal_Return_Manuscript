@@ -1,7 +1,7 @@
 {
     "version": "2.0.0",
     "movement": "two",
-    "cycle": 2,
+    "cycle": 3,
     "description": "Movement Two: Braided Entanglement",
     "contamination": {
         "tolerance": {

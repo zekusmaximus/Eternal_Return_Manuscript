@@ -2,7 +2,7 @@
   "metadata": {
     "title": "The Eternal Return of the Digital Self",
     "version": "0.2.0",
-    "last_updated": "2026-01-22",
+    "last_updated": "2026-01-24",
     "target_word_count": 101000,
     "workflow_version": "dual-mode-v1"
   },
@@ -280,7 +280,7 @@
       "title": "Entanglement (Braided Threads)",
       "description": "9 scenes in A-B-C rotation across 3 cycles; rhymes echo across threads; voice contamination escalates",
       "target_words": 36000,
-      "actual_words": 12006,
+      "actual_words": 15625,
       "rotation_pattern": "A-B-C (Archaeologist → Algorithm → Last Human), 3 cycles",
       "braiding_document": "scaffolding/movement-two-braiding.md",
       "cycles": {
@@ -466,18 +466,34 @@
               "thread": "archaeologist",
               "file": "movement-two/archaeologist/scenes/scene-03.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 3619,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
               "rhymes_in": [
-                "sentence-without-origin",
-                "all-rhymes-resurface"
+                "sentence-without-origin"
+              ],
+              "rhymes_present": [
+                "blue-white-light",
+                "almost-closed-curve",
+                "bone-frequency",
+                "falling-backward",
+                "metallic-taste",
+                "tracing-the-form",
+                "waking-into-motion",
+                "name-edge-of-memory",
+                "deja-vu-that-isnt",
+                "sentence-without-origin"
               ],
               "rhymes_out": [
-                "all-into-movement-three"
+                "all-available-for-m3"
               ],
-              "phrase_bleeding": "All phrases present",
-              "contamination_level": "heavy-but-distinct",
-              "notes": "Lena arc: absence/departure phase; Marcus acknowledgment; merge beginning/imminent"
+              "phrase_bleeding": "All phrases present; origin dissolved; conspiracy of intensities",
+              "contamination_level": "pervasive-but-distinct",
+              "notes": "Lena arc: goodbye scene (Option A); Marcus acknowledgment of impossible work; 'Architect' nearly arrived; at threshold; stacked rhymes throughout"
             },
             {
               "id": "m2-algo-03",
