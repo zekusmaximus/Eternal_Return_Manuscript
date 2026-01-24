@@ -401,21 +401,29 @@
               "id": "m2-algo-02",
               "title": "The Bleed",
               "thread": "algorithm",
-              "file": "movement-two/algorithm/scenes/scene-02.md",
+              "file": "movement-two/algorithm/m2-algo-02.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 4397,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
               "rhymes_in": [
-                "metallic-taste",
+                "metallic-taste"
+              ],
+              "rhymes_present": [
                 "burning-circuits",
-                "name-edge-of-memory"
+                "bone-frequency",
+                "name-edge-of-memory",
+                "almost-closed-curve"
               ],
               "rhymes_out": [
                 "name-edge-of-memory"
               ],
-              "phrase_bleeding": "Both phrases cycling",
+              "phrase_bleeding": "Both phrases cycling; 'The form is what makes self-observation possible' arrives from future",
               "contamination_level": "future-pull-fragments",
-              "notes": "Mildred Higgins arc: degradation begins; 'Architect' designation emerges; pharmakon cost visible"
+              "notes": "Mildred Higgins arc: degradation begins (99.9% → 97.2%); 'Architect' designation emerges; pharmakon cost visible; cross-thread bleed with Archaeologist"
             },
             {
               "id": "m2-lh-02",
