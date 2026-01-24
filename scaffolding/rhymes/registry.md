@@ -54,7 +54,7 @@ rhymes:
     phantasm_connection: "The substrate's temperature"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01"]
+      archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01", "m2-arch-02"]
       algorithm: ["m1-algo-04", "m2-algo-01"]
       last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
 
@@ -74,7 +74,7 @@ rhymes:
     phantasm_connection: "Substrate integrity variance"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
+      archaeologist: ["m2-arch-02"]
       algorithm: []
       last_human: ["m1-lh-03"]
 
@@ -85,7 +85,7 @@ rhymes:
     phantasm_connection: "Unconscious recognition of the pattern"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05"]
+      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-02"]
       algorithm: ["m2-algo-01"]
       last_human: ["m1-lh-04", "m2-lh-01"]
 
@@ -105,7 +105,7 @@ rhymes:
     phantasm_connection: "Actions preceding awareness"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m2-arch-01"]
+      archaeologist: ["m2-arch-01", "m2-arch-02"]
       algorithm: []
       last_human: []
 
@@ -137,7 +137,7 @@ rhymes:
     phantasm_connection: "Identity dissolution"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-05"]
+      archaeologist: ["m1-arch-05", "m2-arch-02"]
       algorithm: []
       last_human: []
 

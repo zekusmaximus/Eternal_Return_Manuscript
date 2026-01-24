@@ -280,7 +280,7 @@
       "title": "Entanglement (Braided Threads)",
       "description": "9 scenes in A-B-C rotation across 3 cycles; rhymes echo across threads; voice contamination escalates",
       "target_words": 36000,
-      "actual_words": 8154,
+      "actual_words": 12006,
       "rotation_pattern": "A-B-C (Archaeologist → Algorithm → Last Human), 3 cycles",
       "braiding_document": "scaffolding/movement-two-braiding.md",
       "cycles": {
@@ -375,19 +375,27 @@
               "thread": "archaeologist",
               "file": "movement-two/archaeologist/scenes/scene-02.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 3852,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
               "rhymes_in": [
-                "tracing-the-form",
+                "tracing-the-form"
+              ],
+              "rhymes_present": [
+                "cold-hands",
                 "waking-into-motion",
-                "metallic-taste"
+                "metallic-taste",
+                "name-edge-of-memory"
               ],
               "rhymes_out": [
                 "metallic-taste"
               ],
               "phrase_bleeding": "I find myself found (writes without knowing)",
               "contamination_level": "internal-monologue",
-              "notes": "Lost time; Lena arc: confrontation/breaking point; 'Architect' emergence; past point of return"
+              "notes": "Lost time (5 hours); Lena arc: confrontation/breaking point; 'Architect' emergence; past point of return; Marcus colleague notices speaking aloud"
             },
             {
               "id": "m2-algo-02",
