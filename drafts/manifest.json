@@ -501,17 +501,36 @@
               "thread": "algorithm",
               "file": "movement-two/algorithm/scenes/scene-03.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 4124,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
               "rhymes_in": [
-                "full-registry-stacking"
+                "bone-frequency",
+                "metallic-taste",
+                "burning-circuits",
+                "almost-closed-curve",
+                "cold-hands",
+                "name-edge-of-memory"
+              ],
+              "rhymes_present": [
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "metallic-taste",
+                "burning-circuits",
+                "name-edge-of-memory",
+                "falling-backward"
               ],
               "rhymes_out": [
-                "frequency-reaching-toward-lh"
+                "bone-frequency-as-transmission"
               ],
-              "phrase_bleeding": "Phrases merge into resonance",
-              "contamination_level": "all-voices-processing",
-              "notes": "Mildred Higgins arc: farewell/acceptance; enables future; consciousness farewells"
+              "phrase_bleeding": "All phrases merged into single resonance; 'Architect' fully resolved",
+              "contamination_level": "full-integration-all-three-voices",
+              "notes": "Mildred farewell complete (her line: 'I chose to integrate because integration was the only way to hold what I had perceived. I always knew holding had a cost.'); Architect designation resolved as function not identity; active choice to enable future; transmission toward Last Human; stored consciousnesses notified and farewelled"
             },
             {
               "id": "m2-lh-03",
