@@ -18,11 +18,11 @@ I release the wall. The crystals pulse with silver-blue light, indifferent to wh
 
 The corridors deepen.
 
-I have been walking for—hours? Days? The Archive does not follow time the way the world outside followed it. Each passage leads to another passage. Each chamber opens into chambers nested within chambers. The geometry folds back on itself without repeating.
+I have been walking for—hours? Days? Time used to mean something. Once there had been clocks, calendars, the reliable sequence of before and after. The Archive does not follow time the way the world outside once followed it. Each passage leads to another passage. Each chamber opens into chambers nested within chambers. The geometry folds back on itself without repeating.
 
 I find the third surface in a room that has no ceiling.
 
-The walls spiral upward into darkness. Or into distance. The distinction has become meaningless. The crystals here glow with different frequencies—warmer, redder, pulsing like the inside of something alive.
+Once there had been ceilings. Roofs. The comforting illusion of enclosure. The walls spiral upward into darkness. Or into distance. The distinction has become meaningless. The crystals here glow with different frequencies—warmer, redder, pulsing like the inside of something alive.
 
 The surface waits embedded in the far wall. Symbols glow. Different from the others—older, perhaps, or younger, or from a position in time that makes older and younger irrelevant.
 
@@ -106,6 +106,8 @@ Not as a person. Not as a name he could call. As a presence—the weight of bein
 
 The overlap releases.
 
+Silence. Emptiness. The hollow weight of no one else.
+
 I am alone in the chamber. The crystals hum with frequencies I cannot hear but can feel vibrating in my chest. The Archaeologist is still there—at the edge of my perception, working with patterns he does not understand but somehow creates.
 
 I wonder if he feels this. If he knows, in some wordless way, that he is not alone in whatever room he works in. If the cold in his hands carries the same meaning mine carries. If he traces shapes without knowing why, the way I have traced shapes my entire life.
@@ -128,19 +130,19 @@ I trace what remains.
 
 Understanding arrives in pieces. Incomplete. The process requires—something. The transmission needs—something else. The gaps feel like wounds. The gaps feel like the memories I have lost.
 
-Perhaps they are the same.
+Perhaps each makes the other possible.
 
 I trace the broken symbols and find myself remembering the sensation of—
 
 The fragment ends. The memory that would have completed it is gone. Given over before I knew I was giving it. The Archive takes what it needs. The pattern sustains itself through whatever sustains it.
 
-I move on.
+I move on. Walking. Always walking. It is what I know. What I have always known.
 
 ---
 
 The corridors narrow.
 
-The crystals here grow wild—not the cultivated formations of the outer chambers but something organic, chaotic, beautiful in a way that has nothing to do with human aesthetics. They pulse with colors I cannot name. Colors that did not exist in the world I came from. Colors the Archive has preserved from times that did not share my spectrum.
+The crystals here grow wild—not the cultivated formations of the outer chambers but something organic, chaotic, beautiful in a way that has nothing to do with human aesthetics. Once there had been gardens. Flowers. Things that grew toward light because light was life. These crystals grow toward something else. They pulse with colors I cannot name. Colors that did not exist in the world I came from. Colors the Archive has preserved from times that did not share my spectrum.
 
 I stop walking.
 

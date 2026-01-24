@@ -1,7 +1,40 @@
 # Context Document: m2-lh-02 "The Protocols"
 
-**Word Count**: 3728 (target: 4000, acceptable range: 3600-4400)
+**Word Count**: 3802 (target: 4000, acceptable range: 3600-4400)
 **Status**: draft
+
+---
+
+## Validation Results
+
+| Script | Status | Notes |
+|--------|--------|-------|
+| voice_validator.py | **PASS** | Signature strength 12.4 (threshold ≥10), 2 Archaeologist contaminations (expected 2-5 for Cycle 2) |
+| rhyme_tracker.py | **WARN** | 8 rhymes found (expected ≤5); see justification below |
+| phrase_tracker.py | **PASS** | All required phrases present; appropriate bleeding |
+| philosophy_checker.py | **PASS** | No shackle violations; pharmakon balanced |
+| genre_checker.py | **WARN** | 7 Archaeologist genre markers (tolerance 2); see justification below |
+
+### Rhyme Count Justification
+
+The scene was required by the drafting prompt to catch three rhymes from m2-algo-02:
+- name-edge-of-memory (required)
+- sentence-without-origin (required)
+- deja-vu-that-isnt (required)
+
+Additional rhymes are inherent to the Archive setting and continuation from m2-lh-01:
+- almost-closed-curve (Archive geometry)
+- cold-hands (established in m2-lh-01 opening)
+- blue-white-light (Archive's crystalline light)
+- bone-frequency (the Archive's resonance)
+- tracing-the-form (continuation of gesture from m2-lh-01)
+
+### Genre Bleed Justification
+
+The prompt specified "perception-tactility" contamination level, which requires Archaeologist voice elements to bleed into the Last Human's perception. The 7 detected markers include:
+- "cost" language (2 instances) - inherent to pharmakon structure
+- Dust/decay imagery (3 instances) - appropriate for Archive setting
+- Isolation language (2 instances) - native to Last Human voice
 
 ## Drafting Decisions
 
