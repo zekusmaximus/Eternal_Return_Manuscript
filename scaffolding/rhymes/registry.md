@@ -15,7 +15,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m2-arch-03"]
       algorithm: ["m1-algo-04"]
-      last_human: ["m1-lh-01", "m1-lh-04", "m2-lh-01"]
+      last_human: ["m1-lh-01", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
 
   - id: almost-closed-curve
     name: "The Almost-Closed Curve"
@@ -25,7 +25,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-03"]
       algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01", "m2-algo-02", "m2-algo-03"]
-      last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
+      last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
 
   - id: geometric-shadow
     name: "The Geometric Shadow"
@@ -46,7 +46,7 @@ rhymes:
     usage:
       archaeologist: ["m2-arch-01", "m2-arch-03"]
       algorithm: ["m1-algo-02", "m2-algo-01", "m2-algo-02", "m2-algo-03"]
-      last_human: ["m1-lh-03", "m1-lh-04", "m2-lh-01"]
+      last_human: ["m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
 
   - id: cold-hands
     name: "Cold Hands"
@@ -56,7 +56,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01", "m2-arch-02", "m2-arch-03"]
       algorithm: ["m1-algo-04", "m2-algo-01", "m2-algo-03"]
-      last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01"]
+      last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
 
   - id: falling-backward
     name: "Falling Backward"
@@ -66,7 +66,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-05", "m2-arch-01", "m2-arch-03"]
       algorithm: ["m1-algo-03"]
-      last_human: ["m1-lh-04"]
+      last_human: ["m1-lh-04", "m2-lh-03"]
 
   - id: metallic-taste
     name: "Metallic Taste"
@@ -76,7 +76,7 @@ rhymes:
     usage:
       archaeologist: ["m2-arch-02", "m2-arch-03"]
       algorithm: ["m2-algo-02", "m2-algo-03"]
-      last_human: ["m1-lh-03"]
+      last_human: ["m1-lh-03", "m2-lh-03"]
 
   # KINESTHETIC CATEGORY
   - id: tracing-the-form
@@ -87,7 +87,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-02", "m2-arch-03"]
       algorithm: ["m2-algo-01"]
-      last_human: ["m1-lh-04", "m2-lh-01"]
+      last_human: ["m1-lh-04", "m2-lh-01", "m2-lh-03"]
 
   - id: held-breath
     name: "The Held Breath"
@@ -107,7 +107,7 @@ rhymes:
     usage:
       archaeologist: ["m2-arch-01", "m2-arch-02", "m2-arch-03"]
       algorithm: []
-      last_human: []
+      last_human: ["m2-lh-03"]
 
   # OLFACTORY CATEGORY
   - id: ozone-wet-stone
@@ -128,7 +128,7 @@ rhymes:
     usage:
       archaeologist: []
       algorithm: ["m2-algo-02", "m2-algo-03"]
-      last_human: []
+      last_human: ["m2-lh-03"]
 
   # COGNITIVE CATEGORY
   - id: name-edge-of-memory
@@ -139,7 +139,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-05", "m2-arch-02", "m2-arch-03"]
       algorithm: ["m2-algo-02", "m2-algo-03"]
-      last_human: []
+      last_human: ["m2-lh-03"]
 
   - id: deja-vu-that-isnt
     name: "Déjà Vu That Isn't"
@@ -149,7 +149,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-03", "m1-arch-04", "m2-arch-03"]
       algorithm: []
-      last_human: ["m1-lh-04"]
+      last_human: ["m1-lh-04", "m2-lh-03"]
 
   - id: sentence-without-origin
     name: "The Sentence Without Origin"
@@ -159,7 +159,7 @@ rhymes:
     usage:
       archaeologist: ["m1-arch-05", "m2-arch-03"]
       algorithm: []
-      last_human: ["m1-lh-04"]
+      last_human: ["m1-lh-04", "m2-lh-03"]
 
 categories:
   visual: "Light, shape, color, geometric patterns"
