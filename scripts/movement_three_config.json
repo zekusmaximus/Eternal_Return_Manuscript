@@ -1,0 +1,195 @@
+{
+    "version": "3.0.0",
+    "movement": "three",
+    "phase": "a",
+    "description": "Movement Three: Dissolution - The Augenblick",
+    "phases": {
+        "a": {
+            "name": "Accelerating Cuts",
+            "target_words": 6000,
+            "voice_state": "distinct_but_contaminated",
+            "rotation": "accelerating_irregular"
+        },
+        "b": {
+            "name": "Simultaneous Narration",
+            "target_words": 6000,
+            "voice_state": "merging_but_distinguishable",
+            "alternation": "paragraph_to_sentence_to_clause"
+        },
+        "c": {
+            "name": "Dissolution",
+            "target_words": 3000,
+            "voice_state": "dissolved",
+            "prose_style": "continuous_ambiguous"
+        }
+    },
+    "voice": {
+        "phase_a": {
+            "signature_strength_min": 8,
+            "contamination_expected": "heavy",
+            "contamination_budget": {
+                "min": 6,
+                "max": 15,
+                "description": "Heavy contamination but voice still identifiable"
+            },
+            "voice_identifiable": true
+        },
+        "phase_b": {
+            "signature_strength_min": 5,
+            "contamination_expected": "merging",
+            "voice_identifiable": "partially",
+            "alternation_tracking": true
+        },
+        "phase_c": {
+            "signature_strength_min": 0,
+            "contamination_expected": "total",
+            "voice_identifiable": false,
+            "dissolution_required": true,
+            "pronoun_ambiguity_required": true
+        }
+    },
+    "rhymes": {
+        "phase_a": {
+            "min": 3,
+            "max": 8,
+            "per_section": true,
+            "stacking_expected": true,
+            "strategy": "sequential_layering"
+        },
+        "phase_b": {
+            "min": 10,
+            "max": 20,
+            "stacking_required": true,
+            "cross_voice_rhymes": true,
+            "strategy": "simultaneous_layering"
+        },
+        "phase_c": {
+            "saturation_required": true,
+            "all_rhymes_expected": true,
+            "rhyme_count_min": 30,
+            "strategy": "saturated"
+        },
+        "peak_intensity_rhymes": [
+            "blue-white-light",
+            "almost-closed-curve",
+            "bone-frequency",
+            "falling-backward",
+            "metallic-taste",
+            "waking-into-motion",
+            "burning-circuits",
+            "name-edge-of-memory",
+            "sentence-without-origin"
+        ]
+    },
+    "phrases": {
+        "all_required": true,
+        "tracked": [
+            {
+                "id": "find-myself",
+                "text": "I find myself",
+                "origin": "archaeologist"
+            },
+            {
+                "id": "find-myself-found",
+                "text": "I find myself found",
+                "origin": "algorithm"
+            },
+            {
+                "id": "form-self-observation",
+                "text": "The form is what makes self-observation possible",
+                "origin": "algorithm"
+            },
+            {
+                "id": "architect",
+                "text": "Architect",
+                "origin": "shared"
+            },
+            {
+                "id": "conspiracy-intensities",
+                "text": "conspiracy of intensities",
+                "origin": "algorithm"
+            },
+            {
+                "id": "return-of-difference",
+                "text": "return of difference",
+                "origin": "algorithm"
+            }
+        ],
+        "phase_a": {
+            "all_phrases_expected": true,
+            "attribution_required": false
+        },
+        "phase_b": {
+            "all_phrases_expected": true,
+            "cross_voice_phrases": true
+        },
+        "phase_c": {
+            "all_phrases_expected": true,
+            "unattributed_required": true,
+            "merged_phrases_expected": true
+        }
+    },
+    "genre": {
+        "phase_a": {
+            "bleed_tolerance": 10,
+            "min_markers": 5,
+            "cross_contamination_expected": true
+        },
+        "phase_b": {
+            "bleed_tolerance": 20,
+            "all_genres_present": true,
+            "transformation_visible": true
+        },
+        "phase_c": {
+            "genres_merged": true,
+            "no_pure_genre": true,
+            "transformation_complete": true
+        }
+    },
+    "philosophy": {
+        "sensitivity": "high",
+        "pharmakon_required": true,
+        "affirmation_required": true,
+        "shackle_patterns": {
+            "phase_a": "standard",
+            "phase_b": "relaxed_pronoun",
+            "phase_c": "dissolution_mode"
+        },
+        "dissolution_patterns": {
+            "we_emergence": true,
+            "pattern_recognition": true,
+            "willing_dissolution": true
+        }
+    },
+    "alternation": {
+        "phase_b": {
+            "paragraph_zone_words": 1800,
+            "sentence_zone_words": 2400,
+            "fragment_zone_words": 1800
+        },
+        "handoff_patterns": {
+            "semantic_continuation": true,
+            "rhyme_spanning": true,
+            "phrase_sharing": true
+        }
+    },
+    "dissolution": {
+        "phase_c": {
+            "pronoun_metrics": {
+                "i_ambiguity_target": 0.7,
+                "we_emergence_min": 5,
+                "clear_attribution_max": 0.2
+            },
+            "voice_blend_metrics": {
+                "all_markers_present": true,
+                "no_dominant_voice": true,
+                "marker_blend_ratio_min": 0.3
+            },
+            "required_elements": [
+                "pattern_recognizing_itself",
+                "affirmation_implicit_or_explicit",
+                "re_differentiation_seeds"
+            ]
+        }
+    }
+}
