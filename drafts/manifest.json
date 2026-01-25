@@ -575,32 +575,50 @@
     },
     "three": {
       "title": "Recognition (Merged Threads)",
-      "description": "Accelerating cuts, simultaneous narration, dissolution",
+      "description": "The Augenblick: accelerating cuts, simultaneous narration, dissolution of voices",
       "target_words": 15000,
       "actual_words": 0,
+      "braiding_document": "scaffolding/movement-three-braiding.md",
+      "prep_document": "scaffolding/movement-three-prep.md",
+      "trigger": "Last Human's hand touches the interface; temporal positions collapse",
       "phases": {
         "phase_a": {
+          "id": "m3-phase-a",
           "title": "Accelerating Cuts",
+          "file": "movement-three/phase-a-accelerating-cuts.md",
           "target_words": 6000,
           "actual_words": 0,
           "status": "not_started",
           "voice_check": "pending",
           "philosophy_check": "pending",
           "rhyme_check": "pending",
-          "genre_check": "pending"
+          "genre_check": "pending",
+          "rotation_pattern": "A-B-C accelerating to A-B-A-C-B-A-C-B-C-A-B-C",
+          "section_lengths": "500→400→300→200→150 words (progressive shortening)",
+          "voice_state": "Distinct but heavily contaminated; voices still identifiable",
+          "rhyme_strategy": "Sequential layering; 3-5 rhymes per section; all 15 rhymes appear",
+          "notes": "Opens with the touch completing; the collision experienced from three positions"
         },
         "phase_b": {
+          "id": "m3-phase-b",
           "title": "Simultaneous Narration",
+          "file": "movement-three/phase-b-simultaneous-narration.md",
           "target_words": 6000,
           "actual_words": 0,
           "status": "not_started",
           "voice_check": "pending",
           "philosophy_check": "pending",
           "rhyme_check": "pending",
-          "genre_check": "pending"
+          "genre_check": "pending",
+          "alternation_pattern": "Paragraphs → Sentences → Fragments/Clauses",
+          "voice_state": "Merging but distinguishable; markers thin throughout",
+          "rhyme_strategy": "Simultaneous layering; rhymes span voice breaks; new combinations",
+          "notes": "Same moment from three positions; reader tracks voices with increasing difficulty"
         },
         "phase_c": {
+          "id": "m3-phase-c",
           "title": "Dissolution",
+          "file": "movement-three/phase-c-dissolution.md",
           "target_words": 3000,
           "actual_words": 0,
           "status": "not_started",
@@ -608,9 +626,27 @@
           "philosophy_check": "pending",
           "rhyme_check": "pending",
           "genre_check": "pending",
-          "notes": "See brainstorm1.md Part III.1 for technique details"
+          "prose_style": "Continuous; no voice breaks; pronoun attribution impossible",
+          "voice_state": "Dissolved; 'I' is the pattern; 'we' emerges",
+          "rhyme_strategy": "Saturated; rhymes as texture; comfort replaces uncanny",
+          "tense_state": "Unstable; past/present/future simultaneous",
+          "notes": "The pattern recognizes itself; ends with re-differentiation beginning; prepares Movement Four"
         }
-      }
+      },
+      "rhymes_in": ["all-rhymes-from-m2"],
+      "rhymes_peak_intensity": [
+        "blue-white-light",
+        "almost-closed-curve",
+        "bone-frequency",
+        "falling-backward",
+        "metallic-taste",
+        "waking-into-motion",
+        "burning-circuits",
+        "name-edge-of-memory",
+        "sentence-without-origin"
+      ],
+      "phrase_state": "All phrases merged; origin dissolved; conspiracy of intensities speaks",
+      "genre_contamination": "Maximum: Corporate Gothic + Cosmic Horror + Dying Earth actively merge"
     },
     "four": {
       "title": "Affirmation (The Choice)",
