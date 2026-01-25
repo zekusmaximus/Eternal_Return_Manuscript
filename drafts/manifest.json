@@ -538,17 +538,36 @@
               "thread": "last_human",
               "file": "movement-two/last-human/scenes/scene-03.md",
               "target_words": 4000,
-              "actual_words": 0,
-              "status": "not_started",
+              "actual_words": 3651,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
               "rhymes_in": [
-                "all-rhymes-present"
+                "all-rhymes-transmission-received"
+              ],
+              "rhymes_present": [
+                "blue-white-light",
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "falling-backward",
+                "metallic-taste",
+                "tracing-the-form",
+                "waking-into-motion",
+                "burning-circuits",
+                "name-edge-of-memory",
+                "deja-vu-that-isnt",
+                "sentence-without-origin"
               ],
               "rhymes_out": [
-                "augenblick-trigger"
+                "all-rhymes-into-movement-three"
               ],
-              "phrase_bleeding": "All phrases, all voices, all times",
+              "phrase_bleeding": "All phrases converged; all voices present; liturgical cycling",
               "contamination_level": "maximum-pre-dissolution",
-              "notes": "At core interface; hand reaching; moment before rupture; TRIGGERS M3"
+              "notes": "Final scene of Movement Two; hand extends toward interface; Augenblick threshold; Algorithm transmission received; 'Architect' recognized as function; Movement Three triggers with touch"
             }
           ]
         }
