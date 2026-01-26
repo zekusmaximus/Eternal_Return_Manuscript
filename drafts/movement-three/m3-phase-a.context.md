@@ -47,14 +47,17 @@ Phase A opens with the completion of this gesture. The touch happens.
 ### Contamination Markers to Track
 
 **Archaeologist acquires from**:
+
 - Algorithm: conditional syntax, processing vocabulary
 - Last Human: sentence fragments, past-inflection
 
 **Algorithm acquires from**:
+
 - Archaeologist: tactile verbs, economic language
 - Last Human: sparse syntax, silence awareness
 
 **Last Human acquires from**:
+
 - Archaeologist: present tense, dense description
 - Algorithm: probability language, conditionals
 
@@ -218,3 +221,7 @@ python scripts/genre_checker.py drafts/movement-three/phase-a-accelerating-cuts.
 |------|--------|-------|
 | 2026-01-25 | Context created | Prepared for drafting |
 | 2026-01-25 | Draft completed | 5,781 words, 22 sections, all validation passed |
+| 2026-01-26 | Prompt 1 revision | Added breath-space in Sections 4-6 (split paragraphs every 3-4 sentences) |
+| 2026-01-26 | Prompt 2 revision | Reframed unity statement (Sec 12), converted memory→intensity (Sec 9), removed Klossowski (Sec 15) |
+| 2026-01-26 | Prompt 3 revision | Added self-similar/quasi-symmetry (Sec 11), anti-symbolic statement (Sec 16), transformed buildings callback |
+| 2026-01-26 | Prompt 4 revision | Added rhyme cluster (Sec 8), verified genre bleed & tense calibration |

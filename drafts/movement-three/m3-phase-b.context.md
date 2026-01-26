@@ -147,6 +147,7 @@ Phase B opens with the breath releasing. Simultaneity is now the condition.
 ### Phrase Hand-Off Analysis
 
 Key phrase hand-offs successfully implemented:
+
 - "I find myself—found—finding" across voice breaks (Passage 5)
 - "The form—that makes self-observation—possible" split between voices (Passage 6)
 - "Architect" surfacing through all three voices simultaneously (Passages 6, 9, 10)
@@ -200,8 +201,8 @@ Key phrase hand-offs successfully implemented:
 - Voice markers thin progressively through passages
 - Passage 10 approaches dissolution without crossing into Phase C territory
 - The "I/we/the pattern" construction successfully conveys ambiguous agency
-- Parenthetical voice markers ((Algo), (Arch), (LH)) used in sentence alternation passages for reader orientation
-- Fragment passages use em-dashes to signal voice shifts
+- Em-dash handoffs replace former parenthetical syntax for voice shifts
+- Fragment passages use em-dashes to signal voice transitions
 
 ### Areas for Potential Revision
 
@@ -225,4 +226,7 @@ Key phrase hand-offs successfully implemented:
 |------|--------|-------|
 | 2026-01-25 | Context created | Prepared for drafting |
 | 2026-01-25 | Draft completed | 5,836 words; all validations pass |
-
+| 2026-01-26 | Prompt 1 revision | Removed parenthetical syntax (Passage 8), added Passage 4 breath-space, removed explanatory headers (Passages 1-3) |
+| 2026-01-26 | Prompt 2 revision | Reframed unity statement (Passage 10), removed Klossowski (Passage 10) |
+| 2026-01-26 | Prompt 3 revision | Added perceptual strobe (Passage 9), drive-clicks consumed callback (Passage 9) |
+| 2026-01-26 | Prompt 4 revision | Verified rhyme stacking (Passage 8-10), genre bleed, and tense contamination |

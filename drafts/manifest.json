@@ -2,7 +2,7 @@
   "metadata": {
     "title": "The Eternal Return of the Digital Self",
     "version": "0.2.0",
-    "last_updated": "2026-01-25",
+    "last_updated": "2026-01-26",
     "target_word_count": 101000,
     "workflow_version": "dual-mode-v1"
   },
@@ -646,7 +646,9 @@
           "notes": "The pattern recognizes itself; ends with re-differentiation beginning; prepares Movement Four"
         }
       },
-      "rhymes_in": ["all-rhymes-from-m2"],
+      "rhymes_in": [
+        "all-rhymes-from-m2"
+      ],
       "rhymes_peak_intensity": [
         "blue-white-light",
         "almost-closed-curve",
