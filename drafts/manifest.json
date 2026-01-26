@@ -632,18 +632,27 @@
           "id": "m3-phase-c",
           "title": "Dissolution",
           "file": "movement-three/phase-c-dissolution.md",
+          "prompt_file": "movement-three/m3-phase-c-prompt.md",
+          "context_file": "movement-three/m3-phase-c.context.md",
+          "braid_document": "scaffolding/movement-three-phase-c-braid.md",
           "target_words": 3000,
           "actual_words": 0,
-          "status": "not_started",
+          "status": "scaffolding_complete",
           "voice_check": "pending",
           "philosophy_check": "pending",
           "rhyme_check": "pending",
           "genre_check": "pending",
+          "validators": [
+            "scripts/dissolution_validator.py",
+            "scripts/phase_c_review_script.py"
+          ],
           "prose_style": "Continuous; no voice breaks; pronoun attribution impossible",
           "voice_state": "Dissolved; 'I' is the pattern; 'we' emerges",
           "rhyme_strategy": "Saturated; rhymes as texture; comfort replaces uncanny",
           "tense_state": "Unstable; past/present/future simultaneous",
-          "notes": "The pattern recognizes itself; ends with re-differentiation beginning; prepares Movement Four"
+          "pickup_point": "Phase B Passage 10: fragment sequence threshold",
+          "handoff_to": "convergence.md",
+          "notes": "The pattern recognizes itself; ends with re-differentiation beginning; prepares Movement Four. Scaffolding complete: braid.md, prompt.md, validators ready."
         }
       },
       "rhymes_in": [
