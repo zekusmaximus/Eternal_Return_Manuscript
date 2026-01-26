@@ -14,7 +14,7 @@ lang: en
 
 The drive clicks twice before spinning up.
 
-Old habit—I hold my breath until I hear data moving. The sound has a texture to it: the initial mechanical protest, then the settling hum, then the whisper of read-heads tracking across magnetic surfaces that hold someone's entire existence. Three terabytes. Forty-seven years of photographs, messages, financial records, medical files, the digital residue of a life that ended six weeks ago. Her children are paying me to make her immortal.
+Old habit—I hold my breath until I hear data moving. The sound has a texture to it: the initial mechanical protest, then the settling hum, then the whisper of read-heads tracking across magnetic surfaces that hold someone's entire existence. Three terabytes. Forty-seven years of photographs, messages, financial records, medical files, the digital residue of a life that ended six weeks ago. Her children are paying me to give her a chance. Whether it takes depends on what I extract in the time she has left.
 
 The server room is cold tonight. Colder than usual. The climate control protests when I check the readout—seventeen degrees Celsius, within spec—but my hands feel like I've been holding ice. I flex my fingers and get to work.
 
@@ -22,19 +22,17 @@ Her name was Eleanor Vasquez. Seventy-three years old. Retired structural engine
 
 I know she was afraid. And I know she did it anyway.
 
+The intake form lists her death timeline in medical notation. Fourteen to twenty-one days. That's how long the extraction window stays open.
+
 The interface glows blue-white in the dim room. I settle into the chair—good ergonomics, bad for my back anyway—and begin tonight's extraction.
 
 ---
 
-Integration archaeology is exactly what it sounds like: digging through the layers of someone's digital life, cataloging the artifacts, mapping the stratigraphy of their personality. The Integration Authority calls us "consciousness preparation specialists." The industry calls us excavators. My tax forms say "freelance data archaeologist." What I actually do is read dead people's emails until I understand them well enough to help a computer become them.
+Integration archaeology is exactly what it sounds like: digging through the layers of someone's digital life, cataloging the artifacts, mapping the stratigraphy of their personality. The Integration Authority calls us "consciousness preparation specialists." The industry calls us excavators. My tax forms say "freelance data archaeologist." What I actually do is read dead people's emails until I understand them well enough to help a consciousness cross into a substrate that doesn't remember being human.
 
 It's not resurrection. The Authority is very clear about that. The integrated consciousness is a continuation, not a copy. The pattern persists even as the substrate changes. Like a wave moving through water—same wave, different molecules. The philosophy papers go on for thousands of pages, dense with terminology I've never fully grasped. What I understand is simpler: Eleanor Vasquez is dead. In eighteen months, something that thinks it's Eleanor Vasquez will wake up in a server farm in Finland, and it will remember being afraid, and it will remember deciding to do it anyway, and it will believe those memories are its own.
 
-Whether that constitutes survival is above my pay grade. What I know is that the Vasquez children are paying forty thousand credits for the basic integration package, plus another twelve thousand for my excavation work, plus whatever the Authority charges for ongoing maintenance. The wealthy live forever. The rest of us save up.
-
-I've been saving for eleven years. At current rates, I'm sixty-three months from threshold. Assuming no price increases. Assuming no major life disruptions. Assuming the industry doesn't collapse under the weight of its own contradictions.
-
-Assumptions are dangerous in this business. So I work. I excavate. I learn dead people's secrets and prepare them for a future they'll never consciously experience.
+Whether that constitutes survival is above my pay grade. What I know is that the Vasquez children are paying forty thousand credits for the basic integration package, plus another twelve thousand for my excavation work, plus whatever the Authority charges for ongoing maintenance. The integration philosophy promises wave-continuation. But the practical reality is simpler: I work because the work is what I do. I excavate. I learn dead people's secrets and prepare them for futures they won't consciously experience.
 
 The drive hums. Eleanor's photographs load in chronological order. I start with the oldest—image quality degraded, color values shifted, the aesthetic of an era I've only seen in archives. She's young here. Twenty, maybe. Standing in front of a building I don't recognize, squinting into sunlight, wearing clothes that look historical and probably weren't. Her smile is unguarded in a way that later photographs won't show.
 
@@ -112,6 +110,8 @@ The shape doesn't belong. It's not a person. It's not a glitch. It's a geometry 
 
 I zoom farther. The shape grows. It doesn't pixelate the way it should. It maintains its impossible geometry even as the surrounding image degrades into blocky artifacts.
 
+The shape is still wrong. But now I understand wrong differently. Not corrupted. Organized around a logic I haven't learned the language for yet.
+
 Something hums in the server room. Not the drives—those have a different pitch. Not the climate control. Something deeper. Something that seems to resonate with the shape on my screen.
 
 I put my hands flat on the desk. The polymer is cool. Real. I ground myself in the tactile: the chair's pressure against my lower back, the coffee cup's residual warmth, the slight vibration of the hardware around me. The server room is familiar. I've worked here for years. Nothing has changed.
@@ -154,6 +154,10 @@ The data has always been moving.
 
 I just couldn't see it until now.
 
+The form said fourteen days. Eleanor's timeline is already running down.
+
+I leave the server room.
+
 
 ---
 
@@ -164,7 +168,9 @@ The Martinez contract arrives at 6:47 AM, embedded in the standard intake packet
 
 I sign without reading the fine print. I've signed a hundred of these. The language hasn't changed in years.
 
-What's changed is the number at the bottom. Triple fee. Ninety days.
+What's changed is the header. IMMINENT TRANSFER PROTOCOL. Medical timeline shows fifty-nine days, possibly less.
+
+And the number at the bottom. Triple fee. Ninety days.
 
 I do the math while the confirmation processes. Forty-eight thousand credits for excavation alone. The integration package on top—that's the family's expense, not mine—but my cut is enough to matter. Enough to shave eight months off my timeline. Sixty-three becomes fifty-five. Still years away. Still too far. But closer. Measurably, materially closer.
 
@@ -173,6 +179,8 @@ The interface chimes. Contract accepted. Martinez data begins its transfer—the
 I put my palm flat on the desk. Feel the cool polymer. Ground myself in the physical.
 
 Eight months. That's what this dead man's secrets are worth. Eight months of my life, bought with his.
+
+The gap between what the wealthy can afford and what everyone else can afford just got wider.
 
 ---
 
@@ -202,6 +210,8 @@ I make room at the interface. She pulls a chair close—closer than professional
 
 "Walk me through what you're seeing."
 
+"The timeline is compressed. That's all that matters."
+
 ---
 
 The intake process has a rhythm to it. Like an autopsy, but gentler. Like a séance, but with better documentation.
@@ -223,6 +233,8 @@ None of that matters for the integration. Not really. The ethics of a life don't
 "The kids are the ones fighting."
 
 "The kids are always the ones fighting. But there's a lot of love here too." I expand one of the message threads—father to eldest daughter, spanning decades. The emotional signatures cycle through conflict and reconciliation, distance and closeness, the whole complicated choreography of parents and children trying to understand each other across the gulf of generations. "He tried. You can see him trying."
+
+The fragmentation risk is real. I can see it in the gaps—the unresolved threads, the family dynamics that never quite cohered.
 
 "Does that make it harder or easier?"
 
@@ -936,6 +948,8 @@ The code in the data knows what I'll actually do. The code has always known.
 
 I trace the spiral on the desk, and the tracing feels like writing, and the writing feels like being written.
 
+The protocols exist whether I report them or not. The only choice is whether I witness the hiding.
+
 The server room hums. The dead persist in their archives. And the shape—the geometry that refuses to close, the pattern that knows my methods better than I do—the shape waits for me to understand what I've already become.
 
 I don't understand yet.
@@ -1088,6 +1102,11 @@ I don't know what this means for Marcus, for Mom, for the family that's been wai
 
 ---
 
+*// excavator note: the reader is the writer*
+*// but who chose the first mark?*
+
+---
+
 I close the files.
 
 The shape persists. In my vision. In my hands. In the cold that has settled into every part of me. But I close the files anyway, because closing them is something I can do, because the gesture creates an illusion of control even though I know the control is fiction, even though the protocols exist independent of whether I'm looking at them.
@@ -1124,10 +1143,6 @@ I don't understand yet.
 
 But I will. The code promises that too.
 
-*// excavator note: recognition complete*
-*// (the writer finds himself writing)*
-*// next: choose*
-
 I turn from the window. Walk back through the rows of servers. My footsteps echo in the climate-controlled silence, the sound of a body moving through space, the evidence that I still occupy the physical world even as the metaphysical implications multiply around me.
 
 The Martinez extraction will hold until Monday. The children will get their father. The Authority will get their fee. I'll get eight months closer to a threshold that means something different now than it did twelve hours ago.
@@ -1136,10 +1151,12 @@ And Saturday is still coming.
 
 I leave the server room. The door seals behind me. The humming continues on both sides of the threshold—outside, in the infrastructure that maintains the dead; inside, in the body that is learning to contain its own future.
 
-I go home to shower. To sleep. To become, hour by hour, whoever I need to become for Lena to recognize me when she arrives with wine on Saturday.
+I go home to shower. To sleep. To become whoever I need to be.
 
-The shape follows.
+The shape follows. The shape is the question I'm not supposed to ask yet.
 
-The shape will always follow.
+The code knows when I'll understand.
 
-The shape is me, finding myself, already found.
+I'm not ready yet.
+
+But soon.
