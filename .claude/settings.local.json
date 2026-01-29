@@ -5,7 +5,8 @@
       "Bash(python scripts/philosophy_checker.py:*)",
       "Bash(python scripts/rhyme_tracker.py:*)",
       "Bash(python scripts/genre_checker.py:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(powershell -Command:*)"
     ]
   }
 }
