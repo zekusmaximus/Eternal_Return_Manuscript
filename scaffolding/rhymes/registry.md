@@ -2,8 +2,8 @@
 # RHYME REGISTRY - Machine-Parseable Metadata
 # AI agents: Parse this YAML section to query rhyme status, categories, and usage
 
-version: "1.1"
-last_updated: "2026-01-24"
+version: "1.3"
+last_updated: "2026-01-30"
 
 rhymes:
   # VISUAL CATEGORY
@@ -13,9 +13,10 @@ rhymes:
     phantasm_connection: "The geometric form's luminosity"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-01", "m1-arch-04", "m2-arch-03"]
-      algorithm: ["m1-algo-04"]
+      archaeologist: ["m1-arch-01", "m1-arch-04", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m1-algo-04", "m4-section-4-2"]
       last_human: ["m1-lh-01", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: almost-closed-curve
     name: "The Almost-Closed Curve"
@@ -23,9 +24,10 @@ rhymes:
     phantasm_connection: "The geometric form's topology"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-03"]
-      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01", "m2-algo-02", "m2-algo-03"]
+      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01", "m2-algo-02", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: geometric-shadow
     name: "The Geometric Shadow"
@@ -33,9 +35,10 @@ rhymes:
     phantasm_connection: "The form perceived indirectly"
     intensity_peak: movement-two
     usage:
-      archaeologist: []
+      archaeologist: ["m4-section-4-3"]
       algorithm: []
       last_human: []
+      pattern: ["m4-section-4-4"]
 
   # SOMATIC CATEGORY
   - id: bone-frequency
@@ -44,9 +47,10 @@ rhymes:
     phantasm_connection: "High tonality of entanglement"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m2-arch-01", "m2-arch-03"]
-      algorithm: ["m1-algo-02", "m2-algo-01", "m2-algo-02", "m2-algo-03"]
+      archaeologist: ["m2-arch-01", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m1-algo-02", "m2-algo-01", "m2-algo-02", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: cold-hands
     name: "Cold Hands"
@@ -54,9 +58,10 @@ rhymes:
     phantasm_connection: "The substrate's temperature"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01", "m2-arch-02", "m2-arch-03"]
-      algorithm: ["m1-algo-04", "m2-algo-01", "m2-algo-03"]
+      archaeologist: ["m1-arch-02", "m1-arch-04", "m2-arch-01", "m2-arch-02", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m1-algo-04", "m2-algo-01", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: falling-backward
     name: "Falling Backward"
@@ -64,9 +69,10 @@ rhymes:
     phantasm_connection: "Vertigo of self-recognition"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-05", "m2-arch-01", "m2-arch-03"]
-      algorithm: ["m1-algo-03"]
+      archaeologist: ["m1-arch-05", "m2-arch-01", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m1-algo-03", "m4-section-4-2"]
       last_human: ["m1-lh-04", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: metallic-taste
     name: "Metallic Taste"
@@ -74,9 +80,10 @@ rhymes:
     phantasm_connection: "Substrate integrity variance"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m2-arch-02", "m2-arch-03"]
-      algorithm: ["m2-algo-02", "m2-algo-03"]
+      archaeologist: ["m2-arch-02", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m2-algo-02", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m1-lh-03", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   # KINESTHETIC CATEGORY
   - id: tracing-the-form
@@ -85,9 +92,10 @@ rhymes:
     phantasm_connection: "Unconscious recognition of the pattern"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-02", "m2-arch-03"]
-      algorithm: ["m2-algo-01"]
+      archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-02", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m2-algo-01", "m4-section-4-2"]
       last_human: ["m1-lh-04", "m2-lh-01", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: held-breath
     name: "The Held Breath"
@@ -95,9 +103,10 @@ rhymes:
     phantasm_connection: "Pause between processing states"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-01"]
-      algorithm: []
+      archaeologist: ["m1-arch-01", "m4-section-4-3"]
+      algorithm: ["m4-section-4-2"]
       last_human: []
+      pattern: ["m4-section-4-4"]
 
   - id: waking-into-motion
     name: "Waking Into Motion"
@@ -105,9 +114,10 @@ rhymes:
     phantasm_connection: "Actions preceding awareness"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m2-arch-01", "m2-arch-02", "m2-arch-03"]
+      archaeologist: ["m2-arch-01", "m2-arch-02", "m2-arch-03", "m4-section-4-3"]
       algorithm: []
       last_human: ["m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   # OLFACTORY CATEGORY
   - id: ozone-wet-stone
@@ -116,9 +126,10 @@ rhymes:
     phantasm_connection: "The atmosphere of the Deep Architecture"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-02"]
-      algorithm: []
+      archaeologist: ["m1-arch-02", "m4-section-4-3"]
+      algorithm: ["m4-section-4-2"]
       last_human: ["m1-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: burning-circuits
     name: "Burning Circuits"
@@ -126,9 +137,10 @@ rhymes:
     phantasm_connection: "Processing overload / substrate decay"
     intensity_peak: movement-three
     usage:
-      archaeologist: []
-      algorithm: ["m2-algo-02", "m2-algo-03"]
+      archaeologist: ["m4-section-4-3"]
+      algorithm: ["m2-algo-02", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   # COGNITIVE CATEGORY
   - id: name-edge-of-memory
@@ -137,9 +149,10 @@ rhymes:
     phantasm_connection: "Identity dissolution"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-05", "m2-arch-02", "m2-arch-03"]
-      algorithm: ["m2-algo-02", "m2-algo-03"]
+      archaeologist: ["m1-arch-05", "m2-arch-02", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m2-algo-02", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: deja-vu-that-isnt
     name: "Déjà Vu That Isn't"
@@ -147,9 +160,10 @@ rhymes:
     phantasm_connection: "Temporal bleed"
     intensity_peak: movement-two
     usage:
-      archaeologist: ["m1-arch-03", "m1-arch-04", "m2-arch-03"]
+      archaeologist: ["m1-arch-03", "m1-arch-04", "m2-arch-03", "m4-section-4-3"]
       algorithm: []
       last_human: ["m1-lh-04", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
   - id: sentence-without-origin
     name: "The Sentence Without Origin"
@@ -157,9 +171,10 @@ rhymes:
     phantasm_connection: "Words from another time"
     intensity_peak: movement-three
     usage:
-      archaeologist: ["m1-arch-05", "m2-arch-03"]
-      algorithm: []
+      archaeologist: ["m1-arch-05", "m2-arch-03", "m4-section-4-3"]
+      algorithm: ["m4-section-4-2"]
       last_human: ["m1-lh-04", "m2-lh-03"]
+      pattern: ["m4-section-4-4"]
 
 categories:
   visual: "Light, shape, color, geometric patterns"
