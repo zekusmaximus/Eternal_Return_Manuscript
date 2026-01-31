@@ -3,6 +3,73 @@
 > **Document Purpose**: Optimized, sequential prompts for executing the seven-phase revision plan
 > **Source**: `revision_plan_one.md` (Revised Order of Operations)
 > **Execution Order**: Phase A → B → C → D → E → F → G
+> **Scope**: All four movements as they exist in the `drafts/` folder
+
+---
+
+## Manuscript Structure Reference
+
+The complete manuscript exists in the `drafts/` folder with the following structure:
+
+### Movement One (Establishment)
+```
+drafts/movement-one/
+├── archaeologist/scenes/
+│   ├── scene-01.md through scene-05.md
+│   └── first-bleed.md
+├── algorithm/scenes/
+│   └── scene-01.md through scene-04.md
+└── last-human/scenes/
+    └── scene-01.md through scene-04.md
+```
+
+### Movement Two (Braiding - 3 Cycles)
+```
+drafts/movement-two/
+├── archaeologist/scenes/
+│   └── scene-01.md through scene-03.md
+├── algorithm/scenes/
+│   ├── scene-01.md, scene-03.md
+│   └── m2-algo-02.md
+└── last-human/scenes/
+    └── scene-01.md through scene-03.md
+```
+
+### Movement Three (Dissolution)
+```
+drafts/movement-three/
+├── phase-a-accelerating-cuts.md
+├── phase-b-simultaneous-narration.md
+├── phase-c-dissolution.md
+└── convergence.md
+```
+
+### Movement Four (Affirmation)
+```
+drafts/movement-four/
+├── section-4-1-digitization-choice.md
+├── section-4-2-sacrifice.md
+├── section-4-3-merge.md
+└── section-4-4-coda.md
+```
+
+---
+
+## Validation Script Compatibility
+
+**IMPORTANT**: Not all scripts are optimized for all movements. Use the correct scripts for each movement:
+
+| Script | M1 | M2 | M3 | M4 | Notes |
+|--------|----|----|----|----|-------|
+| `phrase_tracker.py` | ✓ | ✓ | ✓ | ✓ | General purpose |
+| `philosophy_checker.py` | ✓ | ✓ | ✓ | ✓ | General purpose |
+| `genre_checker.py` | ✓ | ✓ | ✓ | ✓ | General purpose |
+| `rhyme_tracker.py` | ✓ | ✓ | ✗ | ✗ | M1/M2 only |
+| `rhyme_tracker_m3.py` | ✗ | ✗ | ✓ | ✗ | M3 only |
+| `voice_validator.py` | △ | ✓ | ✗ | ✗ | Optimized for M2 contamination |
+| `dissolution_validator.py` | ✗ | ✗ | ✓ | ✓ | M3/M4 dissolution effects |
+
+**Legend**: ✓ = Fully supported | △ = Partial support | ✗ = Not designed for this movement
 
 ---
 
@@ -14,7 +81,7 @@
 # PHASE A: COMPREHENSIVE MANUSCRIPT AUDIT
 
 ## Mission
-Conduct a complete audit of all Movement One and Movement Two scenes before any revisions begin. This audit establishes baseline metrics and identifies specific revision targets for subsequent phases.
+Conduct a complete audit of ALL FOUR MOVEMENTS before any revisions begin. This audit establishes baseline metrics and identifies specific revision targets for subsequent phases.
 
 ## Context
 You are auditing *The Eternal Return of the Digital Self*, a structurally experimental novel exploring consciousness, identity, and time across three entangled protagonists:
@@ -26,20 +93,38 @@ The novel follows Deleuze's reading of Nietzsche's eternal return—emphasizing 
 
 ## Files to Audit
 
-### Movement One (12 scenes):
-- `drafts/movement-one/archaeologist/*.md` (4 scenes: m1-arch-01 through m1-arch-04)
-- `drafts/movement-one/algorithm/*.md` (4 scenes: m1-algo-01 through m1-algo-04)
-- `drafts/movement-one/last-human/*.md` (4 scenes: m1-lh-01 through m1-lh-04)
+### Movement One - Establishment (13+ scenes)
+Read all files in `drafts/movement-one/`:
+- `archaeologist/scenes/scene-01.md` through `scene-05.md` (plus `first-bleed.md`)
+- `algorithm/scenes/scene-01.md` through `scene-04.md`
+- `last-human/scenes/scene-01.md` through `scene-04.md`
 
-### Movement Two (9 scenes across 3 cycles):
-- `drafts/movement-two/cycle-1/*.md` (m2-arch-01, m2-algo-01, m2-lh-01)
-- `drafts/movement-two/cycle-2/*.md` (m2-arch-02, m2-algo-02, m2-lh-02)
-- `drafts/movement-two/cycle-3/*.md` (m2-arch-03, m2-algo-03, m2-lh-03)
+### Movement Two - Braiding (9 scenes across 3 cycles)
+Read all files in `drafts/movement-two/`:
+- `archaeologist/scenes/scene-01.md` through `scene-03.md`
+- `algorithm/scenes/scene-01.md`, `m2-algo-02.md`, `scene-03.md`
+- `last-human/scenes/scene-01.md` through `scene-03.md`
+
+### Movement Three - Dissolution (4 files)
+Read all files in `drafts/movement-three/`:
+- `phase-a-accelerating-cuts.md`
+- `phase-b-simultaneous-narration.md`
+- `phase-c-dissolution.md`
+- `convergence.md`
+
+### Movement Four - Affirmation (4 files)
+Read all files in `drafts/movement-four/`:
+- `section-4-1-digitization-choice.md`
+- `section-4-2-sacrifice.md`
+- `section-4-3-merge.md`
+- `section-4-4-coda.md`
+
+**CRITICAL**: Do NOT use the `compiled/` folder. All work is done on files in `drafts/`.
 
 ## Audit Tasks
 
-### 1. Phrase Frequency Analysis
-For each scene, count occurrences of these signature phrases:
+### 1. Phrase Frequency Analysis (All Movements)
+For each scene/section, count occurrences of these signature phrases:
 
 **Archaeologist Thread:**
 - "I find myself" (and variants: "I find myself wondering," "I find myself thinking")
@@ -57,14 +142,15 @@ For each scene, count occurrences of these signature phrases:
 - Fragment sentences (incomplete syntax)
 - Silence/absence vocabulary
 
-**Cross-Thread (track locations):**
+**Cross-Thread (track locations across ALL movements):**
 - "almost-closed curve" / "the form"
 - "blue-white light"
 - "bone-frequency" / "frequency"
 - "Architect" (designation appearances)
+- "I find myself found" (transformation phrase - climax in M3/M4)
 
-### 2. Structural Metrics Per Scene
-For each scene, record:
+### 2. Structural Metrics Per Scene/Section
+For each file, record:
 - Word count
 - Number of paragraphs
 - Average paragraph length
@@ -72,27 +158,76 @@ For each scene, record:
 - Opening line (first 20 words)
 - Closing line (last 20 words)
 - Rhymes present (from registry)
+- Movement-specific notes (voice dissolution in M3, transformation in M4)
 
-### 3. Foreshadowing Inventory
+### 3. Foreshadowing Inventory (M1, M2, M3)
 Identify and catalog all instances where:
-- Movement Three/Four elements appear prematurely
-- The Convergence is referenced before it occurs
+- Later movement elements appear prematurely
+- The Convergence is referenced before it occurs (M3)
 - Voice dissolution effects appear before Movement Three
-- The "Architect" designation appears (should be rare in M1/M2)
+- The "Architect" designation appears (should be rare in M1, oblique in M2, revealed M4)
 - Explicit philosophical terminology is used (should be dramatized, not explained)
 
-### 4. Agency Assessment (Last Human Focus)
-For each Last Human scene, evaluate:
+### 4. Agency Assessment (Last Human - ALL Movements)
+For EACH Last Human scene across all four movements, evaluate:
 - Ratio of passive to active constructions
 - Instances of active choice vs. circumstantial reaction
 - Moments where the character could demonstrate agency but doesn't
 - Current agency score (1-10 scale)
+- Arc progression: Does agency build toward M4's climactic affirmation?
 
 ### 5. Rhyme Tracking Verification
 Cross-reference each scene against `scaffolding/rhymes/registry.md`:
-- Which rhymes appear in each scene?
-- Are rhyme handoffs between scenes working?
-- Any rhymes overused? Underused?
+
+**Movement One**: Are home rhymes established firmly?
+**Movement Two**: Is contamination present and escalating?
+**Movement Three**: Is saturation achieved in Phase C?
+**Movement Four**: Are rhymes transformed in meaning?
+
+### 6. Dissolution Assessment (M3 and M4)
+For Movement Three and Four specifically:
+- Does voice dissolution progress correctly through M3 phases (A→B→C)?
+- Are the Augenblick moments properly climactic?
+- Does M4 show re-differentiation (voices distinct but transformed)?
+- Is the bootstrap paradox visible but not over-explained?
+
+## Validation Scripts to Run
+
+Execute appropriate scripts per movement:
+
+**For Movement One:**
+```bash
+python scripts/phrase_tracker.py drafts/movement-one/
+python scripts/rhyme_tracker.py drafts/movement-one/
+python scripts/philosophy_checker.py drafts/movement-one/
+python scripts/genre_checker.py drafts/movement-one/
+```
+
+**For Movement Two:**
+```bash
+python scripts/phrase_tracker.py drafts/movement-two/
+python scripts/rhyme_tracker.py drafts/movement-two/
+python scripts/voice_validator.py drafts/movement-two/ --thread <thread>
+python scripts/philosophy_checker.py drafts/movement-two/
+python scripts/genre_checker.py drafts/movement-two/
+```
+
+**For Movement Three:**
+```bash
+python scripts/phrase_tracker.py drafts/movement-three/
+python scripts/rhyme_tracker_m3.py drafts/movement-three/
+python scripts/dissolution_validator.py drafts/movement-three/
+python scripts/philosophy_checker.py drafts/movement-three/
+```
+
+**For Movement Four:**
+```bash
+python scripts/phrase_tracker.py drafts/movement-four/
+python scripts/dissolution_validator.py drafts/movement-four/
+python scripts/philosophy_checker.py drafts/movement-four/
+```
+
+**NOTE**: If a script throws errors for a particular movement, note this in the audit and proceed with manual analysis.
 
 ## Output Format
 
@@ -101,22 +236,53 @@ Generate a structured audit report:
 ```yaml
 audit_report:
   date: [YYYY-MM-DD]
-  total_scenes_audited: [number]
-  total_word_count: [number]
+
+  movement_one:
+    total_scenes: [number]
+    total_word_count: [number]
+    scenes_audited: [list of filenames]
+
+  movement_two:
+    total_scenes: [number]
+    total_word_count: [number]
+    scenes_audited: [list of filenames]
+
+  movement_three:
+    total_files: [number]
+    total_word_count: [number]
+    files_audited: [list of filenames]
+
+  movement_four:
+    total_files: [number]
+    total_word_count: [number]
+    files_audited: [list of filenames]
+
+  total_manuscript_word_count: [number]
 
   phrase_frequency:
     i_find_myself:
       total: [number]
+      by_movement:
+        m1: [number]
+        m2: [number]
+        m3: [number]
+        m4: [number]
       by_thread:
         archaeologist: [number]
         algorithm: [number]
         last_human: [number]
       scenes_with_excess: [list scene IDs where count > 3]
 
+    i_find_myself_found:
+      total: [number]
+      by_movement: [breakdown]
+      climax_placement: [where it appears in M3/M4]
+
     [repeat for each tracked phrase]
 
   foreshadowing_issues:
     - scene: [scene ID]
+      movement: [1/2/3/4]
       line_number: [number]
       issue: [description]
       severity: [low/medium/high]
@@ -124,20 +290,40 @@ audit_report:
 
   agency_assessment:
     last_human_scenes:
-      - scene: [scene ID]
-        agency_score: [1-10]
-        passive_constructions: [count]
-        active_choices: [count]
-        enhancement_opportunities: [list]
+      movement_one:
+        - scene: [scene ID]
+          agency_score: [1-10]
+          passive_constructions: [count]
+          active_choices: [count]
+          enhancement_opportunities: [list]
+      movement_two:
+        [same structure]
+      movement_three:
+        [same structure]
+      movement_four:
+        [same structure]
+    agency_arc_assessment: [does agency build appropriately across movements?]
 
   rhyme_coverage:
-    [rhyme_name]:
-      appearances: [count]
-      scenes: [list]
-      status: [balanced/overused/underused]
+    movement_one:
+      home_rhymes_established: [yes/no with details]
+    movement_two:
+      contamination_present: [yes/no with details]
+      handoffs_intact: [yes/no]
+    movement_three:
+      saturation_achieved: [yes/no with details]
+    movement_four:
+      transformation_present: [yes/no with details]
+
+  dissolution_assessment:
+    m3_phase_progression: [correct/needs_work]
+    augenblick_climax: [effective/needs_strengthening]
+    m4_redifferentiation: [present/missing]
+    bootstrap_paradox: [properly_mysterious/over_explained]
 
   compression_candidates:
     - scene: [scene ID]
+      movement: [1/2/3/4]
       current_word_count: [number]
       suggested_target: [number]
       specific_areas: [list of paragraph ranges]
@@ -146,28 +332,27 @@ audit_report:
     - [list any blocking issues that must be addressed]
 ```
 
-## Validation Scripts to Run
-Execute these scripts and include output in audit:
-- `python scripts/phrase_tracker.py` (if exists)
-- `python scripts/rhyme_tracker.py`
-- `python scripts/voice_validator.py`
-- `python scripts/philosophy_checker.py`
+Save to: `scripts/validation-outputs/phase-a-audit.yaml`
 
 ## Success Criteria
-The audit is complete when:
-- [ ] All scenes have been read and cataloged
+- [ ] ALL scenes in Movement One have been read and cataloged
+- [ ] ALL scenes in Movement Two have been read and cataloged
+- [ ] ALL files in Movement Three have been read and cataloged
+- [ ] ALL files in Movement Four have been read and cataloged
 - [ ] Phrase frequencies are documented with specific line references
 - [ ] Foreshadowing issues are identified with severity ratings
-- [ ] Agency scores are assigned to all Last Human scenes
-- [ ] Rhyme coverage is verified against registry
+- [ ] Agency scores are assigned to ALL Last Human scenes (all movements)
+- [ ] Rhyme coverage is verified for each movement's requirements
+- [ ] Dissolution progression assessed for M3/M4
 - [ ] Compression candidates are identified with specific targets
-- [ ] Audit report is saved to `scripts/validation-outputs/phase-a-audit.yaml`
+- [ ] Audit report saved
 
 ## Critical Constraints
 - DO NOT make any edits during the audit phase
 - Document everything with specific line numbers for later reference
 - Flag any structural issues that might affect subsequent phases
 - Note any scenes that may need to be read for context during later phases
+- Track the FULL arc across all four movements
 ```
 
 ---
@@ -180,39 +365,48 @@ The audit is complete when:
 # PHASE B: FORESHADOWING REFINEMENT
 
 ## Mission
-Adjust premature revelations in Movement One and Movement Two to preserve mystery and earned discovery. Elements that belong to Movement Three/Four must be either removed, softened, or restructured as ambiguous foreshadowing.
+Adjust premature revelations across Movements One, Two, and Three to preserve mystery and earned discovery. Elements that belong to later movements must be either removed, softened, or restructured as ambiguous foreshadowing.
 
 ## Prerequisites
 - Phase A Audit complete
 - Audit report available at `scripts/validation-outputs/phase-a-audit.yaml`
 - Foreshadowing issues list with severity ratings
 
+## Scope
+This phase applies to:
+- **Movement One**: All scenes in `drafts/movement-one/`
+- **Movement Two**: All scenes in `drafts/movement-two/`
+- **Movement Three**: Phases A and B in `drafts/movement-three/` (Phase C and Convergence are revelation points)
+
+Movement Four is generally EXCLUDED from foreshadowing refinement—it IS the revelation.
+
 ## Philosophical Grounding
 The novel's structure requires that:
 1. **Movement One**: Establishes three separate consciousnesses; connection is felt but not understood
 2. **Movement Two**: Braids the threads; contamination begins but remains uncanny
-3. **Movement Three**: The Augenblick—simultaneity and dissolution
-4. **Movement Four**: Affirmation and re-differentiation
+3. **Movement Three**: The Augenblick—simultaneity and dissolution; revelation earned
+4. **Movement Four**: Affirmation and re-differentiation; full understanding
 
 Premature revelation violates this architecture. The reader should feel the pattern before understanding it.
 
 ## Foreshadowing Categories
 
 ### Category 1: REMOVE (High Severity)
-Elements that explicitly reveal Movement Three/Four content:
-- Direct statements about the three being "one consciousness"
-- Explicit naming of the "Augenblick" or "Convergence"
-- Clear explanations of the bootstrap paradox
+Elements that explicitly reveal climactic content:
+- Direct statements about the three being "one consciousness" (before M3 Phase C)
+- Explicit naming of the "Augenblick" or "Convergence" (before they occur)
+- Clear explanations of the bootstrap paradox (save for M4)
 - The Archaeologist understanding he IS the Architect (before M4)
+- The Last Human explicitly recognizing the other consciousnesses (before M3)
 
 **Action**: Delete these passages entirely or replace with ambiguous alternatives.
 
 ### Category 2: SOFTEN (Medium Severity)
 Elements that hint too strongly:
-- Extended passages about identity dissolution
-- The Algorithm directly perceiving future events
-- The Last Human explicitly recognizing the Archaeologist
-- Detailed descriptions of the geometric form's meaning
+- Extended passages about identity dissolution (before M3)
+- The Algorithm directly perceiving future events with certainty
+- The Last Human explicitly recognizing the Archaeologist's work
+- Detailed descriptions of the geometric form's meaning (before M3 Phase C)
 
 **Action**: Reduce specificity. Transform understanding into sensation. Replace knowledge with intuition.
 
@@ -231,6 +425,26 @@ Elements that could work as genuine foreshadowing:
 
 **Action**: Keep but ensure they function as questions, not answers. The reader should wonder, not know.
 
+## Movement-Specific Guidelines
+
+### Movement One
+- Voices should be DISTINCT with no contamination
+- Rhymes establish "home" in their native threads
+- The Architect designation appears only in mysterious protocol fragments
+- Characters may feel something uncanny but should not understand it
+
+### Movement Two
+- Contamination BEGINS but remains uncanny to characters
+- Rhymes cross threads but characters notice the strangeness
+- The Architect designation appears more frequently but connection to Archaeologist unclear
+- Voice bleeding is intentional but should feel like intrusion, not merger
+
+### Movement Three (Phases A and B only)
+- Dissolution ACCELERATES but full merger is Phase C
+- Characters resist even as boundaries blur
+- Save the full revelation for Phase C and Convergence
+- The Augenblick should BUILD, not arrive prematurely
+
 ## Scene-by-Scene Protocol
 
 For each scene flagged in the audit:
@@ -242,121 +456,83 @@ For each scene flagged in the audit:
 
 ### Step 2: Assess Impact
 - What would the reader understand from this passage?
-- Does this understanding belong to M1/M2, or M3/M4?
+- Does this understanding belong to this movement, or a later one?
 - Would removing/changing this break anything else in the scene?
 
 ### Step 3: Execute the Revision
-
-**For REMOVE:**
-```
-1. Delete the problematic passage
-2. Check if surrounding text needs bridging
-3. Verify scene still flows
-4. Note the deletion in revision log
-```
-
-**For SOFTEN:**
-```
-1. Identify the specific words/phrases that are too explicit
-2. Replace understanding with sensation
-3. Replace certainty with question
-4. Replace knowledge with intuition
-5. Verify the softened version still contributes to the scene
-```
-
-**For RESTRUCTURE:**
-```
-1. Keep the core image/moment
-2. Remove any explanatory framing
-3. Add ambiguity ("as if," "almost," "something like")
-4. Ensure it reads as foreshadowing, not revelation
-```
+[Same revision protocols as original, applied across all movements]
 
 ### Step 4: Validate
 - Re-read the revised passage aloud
 - Confirm no new foreshadowing issues introduced
 - Verify voice consistency maintained
-- Check that rhyme handoffs still work
-
-## Specific Targets from Audit
-
-Reference the audit report's `foreshadowing_issues` section. Process in this order:
-1. All HIGH severity issues first
-2. Then MEDIUM severity
-3. Then LOW severity (restructure only)
-
-## Voice Preservation Rules
-
-While revising, maintain each thread's voice:
-
-**Archaeologist**:
-- Present tense, active verbs
-- Physical sensation primary
-- Hardware/tactile vocabulary
-- NO self-referential processing language
-
-**Algorithm**:
-- Conditional/shifting tense
-- Self-questioning ("But what if...?")
-- Processing vocabulary
-- Mathematical/topological texture
-
-**Last Human**:
-- Past-inflected present ("what was," "once there had been")
-- Fragments acceptable
-- Elegiac tone, silence, absence
-- NO technology working smoothly
+- Check that rhyme handoffs still work (M2 especially)
 
 ## The "Architect" Designation
 
-Special handling required:
-- In M1/M2, "Architect" should appear ONLY in:
-  - Algorithm's processing logs (as mysterious designation)
-  - Ancient protocol fragments (origin unclear)
-- The Archaeologist should NOT understand this refers to him
-- The connection should remain a question for the reader
+Special handling required across all movements:
 
-**If audit flagged Architect issues:**
-- Remove any passages where the connection is explicit
-- Preserve mysterious appearances in data/protocols
-- Ensure the Archaeologist treats it as external mystery
+**Movement One**:
+- "Architect" appears ONLY in Algorithm's processing logs (as mysterious designation)
+- Ancient protocol fragments with origin unclear
+- The Archaeologist treats it as external mystery
+
+**Movement Two**:
+- Appearances increase in frequency
+- Algorithm begins to sense connection but cannot resolve it
+- Archaeologist may encounter the designation but does not connect it to himself
+
+**Movement Three (Phases A-B)**:
+- Connection becomes increasingly undeniable
+- But the FULL revelation waits for Phase C / Movement Four
+
+**Movement Four**:
+- No restrictions—this is where the revelation lives
 
 ## Output Requirements
-
-For each revision made:
 
 ```yaml
 revision_log:
   phase: B
-  scene: [scene ID]
-  issue_id: [from audit]
-  category: [remove/soften/restructure]
-  original_text: |
-    [exact text before revision]
-  revised_text: |
-    [exact text after revision, or "DELETED" if removed]
-  rationale: [brief explanation]
-  voice_check: [confirmed/adjusted]
-  line_numbers: [before: X, after: Y]
+  scenes_revised:
+    movement_one: [list]
+    movement_two: [list]
+    movement_three: [list]
+
+  revisions:
+    - scene: [scene ID]
+      movement: [1/2/3]
+      issue_id: [from audit]
+      category: [remove/soften/restructure]
+      original_text: |
+        [exact text before revision]
+      revised_text: |
+        [exact text after revision, or "DELETED" if removed]
+      rationale: [brief explanation]
+      voice_check: [confirmed/adjusted]
+      line_numbers: [before: X, after: Y]
 ```
 
 Save revision log to: `scripts/validation-outputs/phase-b-revisions.yaml`
 
 ## Success Criteria
-- [ ] All HIGH severity foreshadowing issues resolved
-- [ ] All MEDIUM severity issues softened appropriately
+- [ ] All HIGH severity foreshadowing issues resolved in M1
+- [ ] All HIGH severity foreshadowing issues resolved in M2
+- [ ] All HIGH severity foreshadowing issues resolved in M3 (Phases A-B)
+- [ ] MEDIUM severity issues softened appropriately
 - [ ] LOW severity issues restructured as ambiguous foreshadowing
 - [ ] No new foreshadowing issues introduced
 - [ ] Voice consistency maintained across all revisions
-- [ ] "Architect" designation appears only in permitted contexts
+- [ ] "Architect" designation appears only in permitted contexts per movement
+- [ ] Revelation arc preserved: feel (M1) → sense (M2) → approach (M3 A-B) → arrive (M3 C, M4)
 - [ ] Revision log complete with all changes documented
-- [ ] Revised scenes pass voice_validator.py
 
 ## What NOT to Do
 - Do not add new content (this phase is refinement only)
 - Do not compress or restructure scenes (that's Phase D)
 - Do not adjust phrase frequency (that's Phase C)
 - Do not enhance agency (that's Phase E)
+- Do not touch Movement Four (it IS the revelation)
 - Stay focused on foreshadowing issues ONLY
 ```
 
@@ -370,204 +546,164 @@ Save revision log to: `scripts/validation-outputs/phase-b-revisions.yaml`
 # PHASE C: PHRASE INTENSITY CALIBRATION
 
 ## Mission
-Strategically reduce repetitive phrases while preserving essential voice markers. The goal is not elimination but calibration—ensuring each phrase appearance carries maximum impact.
+Strategically calibrate repetitive phrases across ALL FOUR MOVEMENTS while preserving essential voice markers. The goal is not elimination but calibration—ensuring each phrase appearance carries maximum impact and serves the arc.
 
 ## Prerequisites
 - Phase A Audit complete (phrase frequency data)
 - Phase B Foreshadowing Refinement complete
 - Current manuscript reflects Phase B changes
 
+## Scope
+This phase applies to ALL movements:
+- `drafts/movement-one/` (all scenes)
+- `drafts/movement-two/` (all scenes)
+- `drafts/movement-three/` (all files)
+- `drafts/movement-four/` (all files)
+
 ## The Calibration Principle
 
-Some phrases are **voice markers** (essential to character identity); others are **verbal habits** (unconscious repetition). This phase distinguishes between them.
+Some phrases are **voice markers** (essential to character identity); others are **verbal habits** (unconscious repetition). This phase distinguishes between them AND ensures proper DISTRIBUTION across the full manuscript arc.
 
-### Voice Markers (PRESERVE)
-These phrases define the character's cognitive signature:
+### Voice Markers (PRESERVE with Arc Awareness)
 
 **Algorithm's "I find myself"**:
-- This is THE core marker of algorithmic self-awareness
+- Core marker of algorithmic self-awareness
 - The phrase performs the paradox of machine consciousness
-- Target: 2-3 appearances per Algorithm scene (not more, not fewer)
-- Each appearance should mark a moment of genuine self-observation
+- **M1 Target**: 2-3 appearances per scene (establishing the voice)
+- **M2 Target**: 2-3 per scene, plus intentional contamination appearances in other threads
+- **M3 Target**: Increases as voices merge
+- **M4 Target**: Transforms into "I find myself found"
 
 **Last Human's "once there had been"**:
 - Signature of past-haunted present
 - Creates elegiac texture
-- Target: 1-2 appearances per scene maximum
-- Should appear at moments of genuine recognition of loss
+- **M1-M2 Target**: 1-2 appearances per scene maximum
+- **M3-M4 Target**: May decrease as focus shifts to present affirmation
 
 **Archaeologist's tactile vocabulary**:
 - "cold hands," "the weight of," "I feel"
 - Grounds the narrative in physical reality
-- Target: Distributed naturally, not clustered
+- **All Movements**: Distributed naturally, not clustered
+
+### The Transformation Phrase: "I find myself found"
+
+This phrase has a SPECIFIC arc:
+- **M1**: Should NOT appear (or at most once, ambiguously)
+- **M2**: Begins to emerge, uncanny when it appears
+- **M3**: Intensifies through dissolution
+- **M4**: Climactic—the full affirmation
+
+If the audit shows this phrase appearing too early or too often, REDISTRIBUTE to preserve its climactic power.
 
 ### Verbal Habits (REDUCE)
-These have accumulated through drafting and need trimming:
 
 **Archaeologist's "I find myself"**:
 - When the Archaeologist uses this, it bleeds into Algorithm territory
-- Target: REMOVE most instances from Archaeologist scenes
+- **M1 Target**: REMOVE most instances
+- **M2 Target**: Allow only during intentional contamination moments
 - Replace with direct action or observation
 
 **Over-clustered rhymes**:
-- If "bone-frequency" appears 4x in one scene, reduce to 2
+- If a rhyme appears 4x in one scene, reduce to 2
 - Spread rhyme appearances across scenes
 
 **Filler phrases**:
 - "something like," "almost," "perhaps" (when overused)
 - Keep for genuine ambiguity; remove when merely habitual
 
-## Scene-by-Scene Protocol
+## Movement-Specific Calibration
 
-### Step 1: Review Phrase Frequency Data
-From the audit report, identify:
-- Which phrases exceed their target frequency?
-- Which scenes have phrase clustering?
-- Which voice markers are appropriately placed?
+### Movement One: Establishing Distinct Voices
+- Each voice should be maximally distinct
+- Voice markers should be STRONG in their home thread
+- Cross-thread phrases should be ABSENT or very rare
+- "I find myself found" should NOT appear
 
-### Step 2: Categorize Each Instance
-For each flagged phrase, determine:
-- Is this a voice marker moment (essential)?
-- Is this a verbal habit (reducible)?
-- Is this ambiguous (needs context review)?
+### Movement Two: Controlled Contamination
+- Voice markers remain in home threads
+- INTENTIONAL contamination: Algorithm phrases in other threads during intensity moments
+- Track where contamination occurs—should match M2's braiding escalation
+- "I find myself found" may appear 1-2 times, uncanny
 
-### Step 3: Strategic Reduction
+### Movement Three: Dissolution Intensity
+- Phrase frequency INCREASES as voices merge
+- Distinction between whose phrase it is becomes ambiguous
+- "I find myself found" intensifies
+- This is NOT a problem—M3 is SUPPOSED to be saturated
 
-**For Verbal Habits:**
-```
-Option A: DELETE
-- Remove the phrase entirely
-- Verify sentence still works
-- Check paragraph flow
+### Movement Four: Transformed Clarity
+- Voices re-differentiate but are TRANSFORMED
+- "I find myself found" reaches full articulation
+- New voice markers may emerge from the transformation
+- Reduce verbal habits but preserve the earned transformations
 
-Option B: REPLACE
-- Substitute a different construction
-- Maintain the meaning
-- Avoid introducing new repetitions
-
-Option C: COMBINE
-- If two similar phrases appear nearby, merge into one stronger instance
-```
-
-**For Voice Markers (when over-concentrated):**
-```
-- Do not delete—REDISTRIBUTE
-- Move one instance to a different paragraph
-- Or move to a different scene if dramatically appropriate
-- Each appearance should earn its place
-```
-
-### Step 4: Replacement Vocabulary
-
-When replacing reduced phrases, use thread-appropriate alternatives:
-
-**Archaeologist Replacements for "I find myself":**
-- "My hands move to..." (tactile redirect)
-- "I notice..." (observational)
-- "The screen shows..." (external focus)
-- "Something catches..." (passive discovery)
-
-**Algorithm Alternatives (for over-concentration):**
-- "This process observes..." (third-person shift)
-- "The pattern indicates..." (external reference)
-- "Query: ..." (direct processing voice)
-
-**Last Human Alternatives:**
-- "The ruins hold..." (environmental focus)
-- "Silence where..." (absence construction)
-- "What remains is..." (elegiac continuation)
-
-## Thread-Specific Targets
+## Thread-Specific Targets (Updated for All Movements)
 
 ### Archaeologist Thread
-| Phrase | Current (from audit) | Target | Action |
-|--------|---------------------|--------|--------|
-| "I find myself" | [X] | 0-1 per scene | Heavy reduction |
-| "cold hands" | [X] | 2-3 per scene | Calibrate |
-| "the weight of" | [X] | 1-2 per scene | Light reduction |
+| Phrase | M1 Target | M2 Target | M3 Target | M4 Target |
+|--------|-----------|-----------|-----------|-----------|
+| "I find myself" | 0-1 per scene | 0 (except contamination) | N/A (voice dissolving) | Transformed |
+| "cold hands" | 2-3 per scene | 2-3 per scene | Part of merged sensory | Transformed |
 
 ### Algorithm Thread
-| Phrase | Current (from audit) | Target | Action |
-|--------|---------------------|--------|--------|
-| "I find myself" | [X] | 2-3 per scene | PRESERVE (voice marker) |
-| "processing" | [X] | 3-4 per scene | Light reduction if clustered |
-| "probability" | [X] | 1-2 per scene | Calibrate |
+| Phrase | M1 Target | M2 Target | M3 Target | M4 Target |
+|--------|-----------|-----------|-----------|-----------|
+| "I find myself" | 2-3 per scene | 2-3 (+ contamination instances) | Intensified | Transformed to "found" |
+| "processing" | 3-4 per scene | 3-4 per scene | Saturated | Reduced (transformation) |
 
 ### Last Human Thread
-| Phrase | Current (from audit) | Target | Action |
-|--------|---------------------|--------|--------|
-| "once there had been" | [X] | 1-2 per scene | Preserve sparingly |
-| "silence" | [X] | 2-3 per scene | Calibrate |
-| "ruins" | [X] | Distribute evenly | Avoid clustering |
-
-## The "I Find Myself" Special Case
-
-This phrase requires careful handling:
-
-**In Algorithm scenes**:
-- This IS the character's voice
-- Preserve 2-3 strong instances per scene
-- Each should mark genuine recursive self-awareness
-- Eliminate weak/filler uses
-
-**In Archaeologist scenes**:
-- This creates unwanted voice bleed
-- Target: Near-total elimination
-- Replace with physical/observational constructions
-- Exception: If deliberately marking a moment of Algorithm contamination in M2
-
-**In Last Human scenes**:
-- Rarely used; check for appropriateness
-- If present, evaluate whether it fits the elegiac register
-
-## Quality Verification
-
-After each scene revision:
-
-1. **Read aloud**: Does the prose still flow naturally?
-2. **Voice check**: Does the character still sound like themselves?
-3. **Impact check**: Do remaining phrase instances land harder?
-4. **Rhythm check**: Has the reduction damaged the prose rhythm?
+| Phrase | M1 Target | M2 Target | M3 Target | M4 Target |
+|--------|-----------|-----------|-----------|-----------|
+| "once there had been" | 1-2 per scene | 1-2 per scene | Reduces (present focus) | Minimal |
+| "silence" | 2-3 per scene | 2-3 per scene | Transforms | Becomes presence |
 
 ## Output Requirements
 
 ```yaml
 calibration_log:
   phase: C
-  scene: [scene ID]
-  thread: [archaeologist/algorithm/last_human]
 
-  phrase_changes:
-    - phrase: "I find myself"
-      before_count: [X]
-      after_count: [Y]
-      instances_removed: [list line numbers]
-      instances_preserved: [list line numbers]
-      replacements_made:
-        - original: "[exact text]"
-          replacement: "[new text]"
-          line: [number]
+  movement_one:
+    scenes_calibrated: [list]
+    phrase_changes: [details per scene]
 
-    - phrase: "[next phrase]"
-      [repeat structure]
+  movement_two:
+    scenes_calibrated: [list]
+    phrase_changes: [details per scene]
+    contamination_verified: [yes/no]
 
-  voice_verification: [passed/flagged]
-  rhythm_notes: [any concerns]
+  movement_three:
+    files_calibrated: [list]
+    phrase_changes: [details per file]
+    dissolution_intensity: [appropriate/adjusted]
+
+  movement_four:
+    files_calibrated: [list]
+    phrase_changes: [details per file]
+    transformation_phrases: [verified/adjusted]
+
+  arc_verification:
+    i_find_myself_found_distribution: [M1: X, M2: Y, M3: Z, M4: W]
+    distribution_appropriate: [yes/no]
+    adjustments_made: [list]
 ```
 
 Save to: `scripts/validation-outputs/phase-c-calibration.yaml`
 
 ## Success Criteria
-- [ ] All phrase frequencies within target ranges
-- [ ] "I find myself" eliminated from Archaeologist thread (except intentional contamination)
-- [ ] "I find myself" preserved as voice marker in Algorithm thread (2-3 per scene)
+- [ ] M1 phrase frequencies establish distinct voices
+- [ ] M2 phrase frequencies show controlled contamination
+- [ ] M3 phrase frequencies allow for dissolution intensity
+- [ ] M4 phrase frequencies show transformation
+- [ ] "I find myself found" properly distributed across arc
+- [ ] "I find myself" in Archaeologist appropriately controlled
 - [ ] No new verbal habits introduced
 - [ ] Voice consistency verified for all revised scenes
 - [ ] Prose rhythm maintained or improved
 - [ ] Calibration log complete
 
 ## What NOT to Do
-- Do not reduce Algorithm's "I find myself" below 2 per scene
+- Do not flatten M3's intensity (saturation is intentional)
 - Do not add new content
 - Do not restructure scenes
 - Do not change foreshadowing (Phase B complete)
@@ -584,209 +720,127 @@ Save to: `scripts/validation-outputs/phase-c-calibration.yaml`
 # PHASE D: INTRA-SCENE COMPRESSION
 
 ## Mission
-Tighten prose within individual scenes through strategic compression. This phase reduces word count while increasing intensity—every sentence must earn its place.
+Tighten prose within individual scenes across ALL FOUR MOVEMENTS through strategic compression. Every sentence must earn its place.
 
 ## Prerequisites
 - Phases A, B, C complete
 - Current manuscript reflects all previous revisions
 - Compression candidates identified in audit
 
+## Scope
+This phase applies to ALL movements:
+- `drafts/movement-one/` (all scenes)
+- `drafts/movement-two/` (all scenes)
+- `drafts/movement-three/` (all files)
+- `drafts/movement-four/` (all files)
+
 ## Critical Constraint: Preserve Structure
 
-**DO NOT merge or delete scenes.** The novel's 3-cycle braided structure in Movement Two depends on scene integrity. Each scene must:
-- Maintain its position in the rotation
-- Preserve its rhyme handoffs (end-rhyme to next scene's opening)
-- Keep its narrative function
+**DO NOT merge or delete scenes/files.** Each movement has load-bearing architecture:
+- M1: Thread separation establishes characters
+- M2: 3-cycle braided structure with rhyme handoffs
+- M3: Phase progression (A→B→C→Convergence) performs dissolution
+- M4: Section progression performs affirmation arc
 
-Compression happens WITHIN scenes, not BETWEEN them.
+Compression happens WITHIN scenes/files, not BETWEEN them.
 
-## Compression Targets
+## Compression Targets by Movement
 
-From the audit, scenes are flagged for compression. General targets:
+### Movement One
+| Thread | Current Avg (from audit) | Target | Notes |
+|--------|--------------------------|--------|-------|
+| Archaeologist | [X] | ~3,000/scene | Reduce hardware description redundancy |
+| Algorithm | [X] | ~2,800/scene | Reduce processing explanation |
+| Last Human | [X] | ~2,500/scene | Reduce ruins description |
 
-| Movement | Thread | Current Avg | Target Avg | Reduction |
-|----------|--------|-------------|------------|-----------|
-| One | Archaeologist | ~3,500 | ~3,000 | ~15% |
-| One | Algorithm | ~3,200 | ~2,800 | ~12% |
-| One | Last Human | ~2,800 | ~2,500 | ~10% |
-| Two | All | ~4,000 | ~3,500 | ~12% |
+### Movement Two
+| Thread | Current Avg | Target | Notes |
+|--------|-------------|--------|-------|
+| All threads | [X] | ~3,500/scene | Preserve rhyme handoffs, compress internal redundancy |
 
-These are guidelines, not mandates. Some scenes may compress more, others less.
+### Movement Three
+| Phase | Current | Target | Notes |
+|-------|---------|--------|-------|
+| Phase A | [X] | -10% | Accelerate without losing rhythm |
+| Phase B | [X] | -5% | Simultaneity needs space |
+| Phase C | [X] | Minimal cuts | Climax—preserve intensity |
+| Convergence | [X] | Minimal cuts | Resolution—preserve weight |
+
+### Movement Four
+| Section | Current | Target | Notes |
+|---------|---------|--------|-------|
+| 4-1 | [X] | -10% | Build toward choice |
+| 4-2 | [X] | -5% | Sacrifice needs weight |
+| 4-3 | [X] | Minimal | Merge is climactic |
+| 4-4 | [X] | As needed | Coda should breathe |
+
+## Movement-Specific Compression Notes
+
+### Movement One
+- Cut excessive hardware description (establish once, reference briefly after)
+- Reduce Algorithm's explanatory passages about its own cognition
+- Compress Last Human's walking passages
+- Preserve the DISTINCTNESS of voices—compression should sharpen, not blur
+
+### Movement Two
+- **CRITICAL**: Preserve rhyme handoffs at scene boundaries
+- Reduce internal monologue about Lena in Archaeologist scenes
+- Cut repetitive processing descriptions in Algorithm scenes
+- Compress but don't lose the contamination moments
+- Each cycle should feel tighter than the last
+
+### Movement Three
+- **Phase A**: Accelerating cuts mirror narrative acceleration—compression reinforces theme
+- **Phase B**: Simultaneity needs more space—compress carefully
+- **Phase C**: This is the CLIMAX—only cut genuine redundancy
+- **Convergence**: Resolution moment—preserve the earned weight
+
+### Movement Four
+- Section 4-1: The choice must feel earned—compress setup, preserve decision
+- Section 4-2: Sacrifice needs weight—compress explanation, preserve emotion
+- Section 4-3: Merge is climactic—minimal compression
+- Section 4-4: Coda should breathe—compress only true redundancy
 
 ## Compression Techniques
-
-### Technique 1: Eliminate Redundancy
-Identify passages that repeat information already established.
-
-**Before:**
-> The server room was cold. Marcus had always kept it cold. The temperature never varied from the precise seventeen degrees Celsius that the machines required. It was cold in here.
-
-**After:**
-> The server room held its usual seventeen degrees. Marcus's preference. The machines' requirement.
-
-### Technique 2: Strengthen Verbs
-Replace weak verb constructions with strong, specific verbs.
-
-**Before:**
-> He was walking through the corridors of the data center, making his way past rows of servers that were humming with activity.
-
-**After:**
-> He navigated the data center corridors, servers humming on either side.
-
-### Technique 3: Cut Filtering Language
-Remove phrases that distance reader from experience.
-
-**Filter phrases to cut:**
-- "He noticed that..."
-- "She realized that..."
-- "It seemed to him..."
-- "He could see that..."
-- "He thought about how..."
-
-**Before:**
-> He noticed that the light had changed. He realized that the sun had set.
-
-**After:**
-> The light changed. Sunset.
-
-### Technique 4: Combine Sentences
-Merge related short sentences into stronger complex sentences.
-
-**Before:**
-> The data was corrupted. The corruption had patterns. The patterns looked familiar.
-
-**After:**
-> The corrupted data held patterns—familiar ones.
-
-### Technique 5: Trim Transitional Padding
-Remove excessive transitions and connectives.
-
-**Padding to cut:**
-- "And then..."
-- "After that..."
-- "In the next moment..."
-- "Subsequently..."
-- "What happened next was..."
-
-### Technique 6: Compress Dialogue Attribution
-Simplify dialogue tags and eliminate unnecessary beats.
-
-**Before:**
-> "The protocols are degraded," Marcus said, turning to look at him with concern evident in his expression.
-
-**After:**
-> "The protocols are degraded." Marcus's concern was visible.
-
-### Technique 7: Trust the Reader
-Remove over-explanation. If the context is clear, don't restate.
-
-**Before:**
-> The Algorithm processed the data, analyzing each byte, searching for patterns that might indicate consciousness—signs that what it was examining was more than mere information, that it contained the traces of a living mind.
-
-**After:**
-> The Algorithm processed the data, searching for consciousness—traces of a living mind.
-
-## Thread-Specific Compression Notes
-
-### Archaeologist Thread
-- Cut excessive hardware description (establish once, reference briefly after)
-- Reduce internal monologue about Lena in M2 (the absence speaks)
-- Compress setup paragraphs; get to action faster
-- Preserve tactile specificity; compress reflection
-
-### Algorithm Thread
-- Preserve recursive structures (voice marker)
-- Cut repetitive processing descriptions
-- Compress probability assessments (one strong statement vs. three weak)
-- Reduce explanatory passages about its own cognition
-- Keep self-questioning; cut self-answering
-
-### Last Human Thread
-- Preserve fragments (voice marker)
-- Cut repetitive ruins descriptions
-- Compress walking passages (reduce travelogue)
-- Preserve silence and absence; cut redundant solitude emphasis
-- Less "he was alone"; more showing aloneness
-
-## Paragraph-Level Protocol
-
-For each paragraph marked for compression:
-
-### Step 1: Identify Core Function
-What is this paragraph's ONE essential purpose?
-- Advance plot?
-- Develop character?
-- Establish atmosphere?
-- Deliver information?
-- Create transition?
-
-### Step 2: Mark Essential Elements
-What MUST remain for the paragraph to fulfill its function?
-- Key images
-- Essential actions
-- Voice markers
-- Rhyme appearances
-- Crucial information
-
-### Step 3: Identify Cuttable Material
-What can be removed without losing the paragraph's function?
-- Redundant description
-- Filtering language
-- Excessive transition
-- Over-explanation
-- Repeated information
-
-### Step 4: Execute Compression
-Apply relevant techniques. Aim for 15-25% reduction per flagged paragraph.
-
-### Step 5: Verify
-- Does the paragraph still fulfill its function?
-- Has voice been maintained?
-- Does it still connect to surrounding paragraphs?
-- Are rhymes preserved?
-- Is the prose still readable aloud?
-
-## Scene-Level Verification
-
-After compressing all flagged paragraphs in a scene:
-
-1. **Read the full scene aloud**
-2. **Check scene word count**: Is it within target?
-3. **Verify opening**: Still strong?
-4. **Verify closing**: Rhyme handoff preserved?
-5. **Check flow**: No jarring gaps?
-6. **Voice check**: Character still present?
+[Same techniques as original: eliminate redundancy, strengthen verbs, cut filtering language, combine sentences, trim transitional padding, compress dialogue attribution, trust the reader]
 
 ## Output Requirements
 
 ```yaml
 compression_log:
   phase: D
-  scene: [scene ID]
-  thread: [archaeologist/algorithm/last_human]
 
-  word_count:
+  movement_one:
+    total_word_count_before: [X]
+    total_word_count_after: [Y]
+    reduction_percentage: [Z%]
+    scenes_compressed: [list with individual stats]
+
+  movement_two:
+    total_word_count_before: [X]
+    total_word_count_after: [Y]
+    reduction_percentage: [Z%]
+    scenes_compressed: [list with individual stats]
+    rhyme_handoffs_verified: [yes/no]
+
+  movement_three:
+    total_word_count_before: [X]
+    total_word_count_after: [Y]
+    reduction_percentage: [Z%]
+    files_compressed: [list with individual stats]
+    climax_preserved: [yes/no]
+
+  movement_four:
+    total_word_count_before: [X]
+    total_word_count_after: [Y]
+    reduction_percentage: [Z%]
+    files_compressed: [list with individual stats]
+    affirmation_arc_preserved: [yes/no]
+
+  manuscript_total:
     before: [X]
     after: [Y]
-    reduction: [percentage]
-
-  paragraph_revisions:
-    - paragraph_number: [N]
-      before_word_count: [X]
-      after_word_count: [Y]
-      techniques_used: [list]
-      sample_cut: "[example of removed text]"
-
-  preserved_elements:
-    rhymes: [list]
-    voice_markers: [list]
-    key_images: [list]
-
-  scene_verification:
-    opening_intact: [yes/no]
-    closing_intact: [yes/no]
-    rhyme_handoff: [preserved/adjusted]
-    flow_check: [passed/flagged]
+    total_reduction: [Z%]
 ```
 
 Save to: `scripts/validation-outputs/phase-d-compression.yaml`
@@ -794,19 +848,21 @@ Save to: `scripts/validation-outputs/phase-d-compression.yaml`
 ## Success Criteria
 - [ ] All flagged scenes compressed to target word counts (±5%)
 - [ ] Scene structure preserved (no merges or deletions)
-- [ ] Rhyme handoffs intact
+- [ ] M2 rhyme handoffs intact
+- [ ] M3 climax intensity preserved
+- [ ] M4 affirmation arc preserved
 - [ ] Voice consistency maintained
 - [ ] No essential content lost
 - [ ] Prose still reads naturally aloud
 - [ ] Compression log complete
 
 ## What NOT to Do
-- Do not merge scenes
-- Do not delete scenes
+- Do not merge scenes or files
+- Do not delete scenes or files
 - Do not cut rhyme appearances
 - Do not eliminate voice markers
 - Do not sacrifice clarity for brevity
-- Do not compress beyond readability
+- Do not over-compress M3 Phase C or M4 climactic moments
 - Stay focused on intra-scene compression ONLY
 ```
 
@@ -817,225 +873,161 @@ Save to: `scripts/validation-outputs/phase-d-compression.yaml`
 ### Prompt for AI Agent
 
 ```markdown
-# PHASE E: AGENCY ENHANCEMENT (Last Human Focus)
+# PHASE E: AGENCY ENHANCEMENT (Last Human - ALL Movements)
 
 ## Mission
-Transform the Last Human from a passive observer wandering through ruins into an active agent making meaningful choices. His journey must demonstrate will and purpose, even in isolation.
+Transform the Last Human from a passive observer into an active agent across ALL FOUR MOVEMENTS. His journey must demonstrate will and purpose that BUILDS toward the climactic affirmation in Movement Four.
 
 ## Prerequisites
 - Phases A through D complete
-- Agency assessment from audit (scores and opportunities)
+- Agency assessment from audit (scores and opportunities for ALL movements)
 - Current manuscript reflects all previous revisions
 
-## The Problem
+## Scope
+This phase applies to ALL Last Human content:
+- `drafts/movement-one/last-human/scenes/` (all scenes)
+- `drafts/movement-two/last-human/scenes/` (all scenes)
+- `drafts/movement-three/` (Last Human content within dissolution)
+- `drafts/movement-four/` (Last Human content within affirmation)
 
-The Last Human thread risks becoming mere atmospheric elegy—beautiful but static. For the novel's climax to work, his final choice (to digitize, completing the loop) must feel like an ACTIVE AFFIRMATION, not passive acceptance.
+## The Agency Arc
 
-Currently flagged issues:
-- Excessive passive voice constructions
-- Choices made by circumstance rather than will
-- Survival driven by instinct rather than purpose
-- Walking as default action (no destination, no goal)
-- Solitude as condition rather than choice
+The Last Human's agency must BUILD across the manuscript:
 
-## The Goal
+### Movement One: Seeds of Will
+- He survives not merely by instinct but by choice
+- Each day of continuation is a decision
+- Purpose may be unclear but is PRESENT
+- **Target Agency Score**: 5-6/10 (choice emerging)
 
-The Last Human should:
-1. **Choose** to continue, not merely persist
-2. **Seek** something specific, not wander aimlessly
-3. **Decide** at key moments, not react to events
-4. **Will** his existence, even if he doesn't understand why
-5. **Affirm** life in a dying world through active engagement
+### Movement Two: Directed Seeking
+- His journey has direction—toward the protocols, the Archive
+- The pull he follows is CHOSEN, not merely felt
+- Moments of possible surrender are faced and refused
+- **Target Agency Score**: 6-7/10 (purpose crystallizing)
 
-## Philosophical Framework
+### Movement Three: Will Amid Dissolution
+- Even as identity dissolves, the WILL persists
+- Choice becomes more difficult as boundaries blur
+- The Last Human's active engagement distinguishes him from passive dissolution
+- **Target Agency Score**: 7-8/10 (will despite dissolution)
 
-From the research framework:
-- **Active forces** assert themselves and affirm difference; they "go to the limit" of what they can do
-- **Reactive forces** separate active forces from their power; based on negation; fail the test
-- The traits that repeat across time represent "becoming-active" and "joyous creation"
+### Movement Four: The Climactic Affirmation
+- The choice to digitize must be FULLY ACTIVE
+- "Would I will this to recur eternally?"—the answer is YES
+- This is not passive acceptance but joyous affirmation
+- **Target Agency Score**: 9-10/10 (complete affirmation)
 
-The Last Human's agency demonstrates that the pattern selects for active forces. His continuation is not passive survival—it's active affirmation of existence.
+## Enhancement Techniques by Movement
 
-## Agency Enhancement Techniques
+### Movement One Techniques
+Focus on ESTABLISHING agency patterns:
 
-### Technique 1: Convert Passive to Active Voice
+- Convert survival from instinct to choice
+- Give walking direction, even if destination is unclear
+- Show the cost of continuation AND the will to pay it
+- Introduce the option of surrender (cliff edges, the option to simply stop)
 
-**Before (passive):**
-> The path was followed through the ruins. The decision had been made somewhere along the way.
+**Example**:
+> Before: He walked through the ruins.
+> After: He chose the eastern path. The ruins offered no reason, but he chose.
 
-**After (active):**
-> He chose the eastern path through the ruins. The decision crystallized as he walked.
+### Movement Two Techniques
+Focus on DIRECTED purpose:
 
-### Technique 2: Add Decision Points
+- The pull toward the Archive is followed, not merely felt
+- Active relationship with the past (choosing to remember)
+- Decisions at crossroads (literal and metaphorical)
+- Confronting the option of death as a choice refused
 
-Identify moments where the narrative proceeds automatically. Insert conscious choice.
+**Example**:
+> Before: Something drew him toward the structure.
+> After: He followed the pull toward the structure. He could resist it—he had that option, always. He chose not to.
 
-**Before:**
-> He continued walking. The ruins stretched ahead.
+### Movement Three Techniques
+Focus on WILL amid dissolution:
 
-**After:**
-> He could stop here. The ruins offered shelter enough. But something pulled him east—not instinct, decision. He continued walking.
+- Even as "he" becomes ambiguous, the will persists
+- Active engagement with the dissolution (not mere submission)
+- The choice to continue INTO the merging, not away from it
+- Distinguish this consciousness's contribution to the convergence
 
-### Technique 3: Give Purpose to Movement
+**Example**:
+> Before: The boundaries were dissolving.
+> After: The boundaries were dissolving. He let them—no, he helped them. This was his choice.
 
-Every journey should have intention, even if the destination is unclear.
+### Movement Four Techniques
+Focus on CLIMACTIC affirmation:
 
-**Before:**
-> He walked through the ruins for days.
+- The digitization is not technological inevitability but metaphysical choice
+- "I will this" must be explicit in the text
+- The bootstrap paradox is affirmed through will
+- Amor fati—love of fate through active willing
 
-**After:**
-> He walked east for days, toward something he couldn't name but chose to seek.
+**Example**:
+> Before: The process began. He was becoming something else.
+> After: He initiated the process. He chose to become what he had always been becoming. Not resignation—affirmation.
 
-### Technique 4: Transform Survival into Choice
+## Voice Preservation Across Movements
 
-Survival itself becomes an active decision.
+The Last Human's voice transforms but must remain HIS:
 
-**Before:**
-> He found water in a collapsed structure and drank because he was thirsty.
-
-**After:**
-> He found water in a collapsed structure. He could refuse it. He had considered refusal before, in the early months. But he chose to drink—not from thirst but from will.
-
-### Technique 5: Internal Stakes
-
-Add interiority that reveals the effort of continuing.
-
-**Before:**
-> The loneliness was heavy.
-
-**After:**
-> The loneliness pressed. He could let it win. He had that choice, always. He chose to carry it instead.
-
-### Technique 6: Confronting Death as Choice
-
-The Last Human has the constant option of ending. His continuation is chosen.
-
-**Add moments like:**
-> The cliff edge offered silence. He knew this. He had known cliffs before. He turned east and continued.
-
-### Technique 7: Active Relationship with the Past
-
-He chooses to remember, to honor, to carry forward.
-
-**Before:**
-> He remembered there had been others once.
-
-**After:**
-> He chose to remember them—the others, the voices, the world that was. Memory was not passive. It required will.
-
-## Scene-by-Scene Protocol
-
-For each Last Human scene:
-
-### Step 1: Identify Passive Constructions
-Read through and mark:
-- Passive voice ("was walked," "had been decided")
-- Circumstantial action ("he found himself")
-- Reactive behavior ("he had to," "there was no choice")
-
-### Step 2: Identify Agency Opportunities
-For each flagged construction:
-- Can this become active voice?
-- Can a decision point be inserted?
-- Can survival be framed as choice?
-- Can movement be given purpose?
-
-### Step 3: Implement Enhancements
-Revise each flagged passage using appropriate techniques.
-
-### Step 4: Verify Voice Preservation
-The Last Human's voice must remain:
-- Elegiac (but not passive)
-- Past-inflected (but with present agency)
-- Sparse (but with weight of choice)
-- Fragmented where appropriate (but fragments can be active)
-
-**His transformed voice example:**
-> The ruins. What was, is gone. But the walking—that he chose. Each step, a decision. The east, his direction. Not fate. Will.
-
-### Step 5: Balance Check
-Agency enhancement should not:
-- Make him seem heroic or triumphant
-- Remove the elegiac tone
-- Explain his choices too much
-- Introduce external motivation
-- Break the isolation
-
-## Target Metrics
-
-For each Last Human scene:
-
-| Metric | Before (from audit) | Target |
-|--------|---------------------|--------|
-| Passive constructions | [X] | Reduce by 50% |
-| Explicit decision points | [X] | Minimum 3 per scene |
-| Active survival choices | [X] | Minimum 2 per scene |
-| Purposeful movement | [X] | All movement explained |
-| Agency score | [X] | Minimum 7/10 |
-
-## The Bootstrap Preparation
-
-In Movement Two, the Last Human's agency prepares for Movement Four's climactic choice:
-
-**Movement Two Agency Arc:**
-- M2-LH-01: He begins to choose continuation consciously
-- M2-LH-02: His seeking becomes more directed (the protocols)
-- M2-LH-03: He understands that his choice matters beyond himself
-
-Each enhancement should build toward the final affirmation: "Would I will this to recur eternally?" The answer must feel earned through a lifetime of small affirmations.
+**Movement One-Two**: Elegiac, past-inflected, sparse, fragmented
+**Movement Three**: Fragments may persist even as voice bleeds; the elegiac becomes active
+**Movement Four**: Transformed—present tense emerges, affirmation language, but the sparse dignity remains
 
 ## Output Requirements
 
 ```yaml
 agency_log:
   phase: E
-  scene: [scene ID]
 
-  baseline:
-    agency_score: [X/10]
-    passive_constructions: [count]
-    decision_points: [count]
+  movement_one:
+    scenes_enhanced: [list]
+    average_agency_score_before: [X/10]
+    average_agency_score_after: [Y/10]
+    revisions: [details per scene]
 
-  revisions:
-    - location: [line number]
-      type: [passive_to_active/decision_point/survival_choice/purposeful_movement]
-      before: "[original text]"
-      after: "[revised text]"
-      technique: [technique name]
+  movement_two:
+    scenes_enhanced: [list]
+    average_agency_score_before: [X/10]
+    average_agency_score_after: [Y/10]
+    revisions: [details per scene]
 
-  post_revision:
-    agency_score: [X/10]
-    passive_constructions: [count]
-    decision_points: [count]
+  movement_three:
+    files_enhanced: [list]
+    agency_amid_dissolution: [verified/needs_work]
+    revisions: [details]
 
-  voice_verification:
-    elegiac_maintained: [yes/no]
-    isolation_preserved: [yes/no]
-    fragments_appropriate: [yes/no]
+  movement_four:
+    files_enhanced: [list]
+    climactic_affirmation: [achieved/needs_work]
+    revisions: [details]
 
-  arc_contribution:
-    how_this_scene_builds_toward_affirmation: "[description]"
+  arc_verification:
+    agency_builds_across_movements: [yes/no]
+    m4_affirmation_earned: [yes/no]
+    notes: [any concerns]
 ```
 
 Save to: `scripts/validation-outputs/phase-e-agency.yaml`
 
 ## Success Criteria
-- [ ] All Last Human scenes revised
-- [ ] Agency score minimum 7/10 for each scene
-- [ ] Passive constructions reduced by 50%+
-- [ ] Minimum 3 decision points per scene
-- [ ] Minimum 2 active survival choices per scene
-- [ ] All movement given purpose
-- [ ] Voice consistency maintained (elegiac, isolated, sparse)
-- [ ] Arc builds toward Movement Four affirmation
+- [ ] All Last Human scenes in M1 enhanced (target 5-6/10)
+- [ ] All Last Human scenes in M2 enhanced (target 6-7/10)
+- [ ] Last Human content in M3 enhanced (target 7-8/10)
+- [ ] Last Human content in M4 achieves climactic affirmation (9-10/10)
+- [ ] Agency arc builds consistently across movements
+- [ ] M4 affirmation feels EARNED by M1-M3 choices
+- [ ] Voice consistency maintained (elegiac transforming to affirmative)
 - [ ] Agency log complete
 
 ## What NOT to Do
-- Do not make the Last Human heroic or triumphant
+- Do not make the Last Human heroic or triumphant (except in the earned M4 affirmation)
 - Do not explain his choices with external reasoning
 - Do not break the isolation (no other people, no working technology)
-- Do not remove the elegiac tone
-- Do not over-explain
+- Do not remove the elegiac tone (it transforms, not disappears)
+- Do not front-load the affirmation (it must be EARNED)
 - Stay focused on agency enhancement ONLY
 ```
 
@@ -1049,7 +1041,7 @@ Save to: `scripts/validation-outputs/phase-e-agency.yaml`
 # PHASE F: DISSOLUTION ANCHORING
 
 ## Mission
-Prepare Movement One and Movement Two to support the climactic dissolution in Movement Three. This phase plants sensory seeds, reinforces rhyme vocabulary, and ensures the earned moments of voice-bleed that will crescendo in Phase C of Movement Three.
+Ensure Movements One and Two properly anchor the sensory and thematic elements that will climax in Movement Three's dissolution and Movement Four's affirmation. This phase plants seeds and reinforces the rhyme vocabulary that makes the climax EARNED.
 
 ## Prerequisites
 - Phases A through E complete
@@ -1057,44 +1049,44 @@ Prepare Movement One and Movement Two to support the climactic dissolution in Mo
 - Rhyme registry at `scaffolding/rhymes/registry.md`
 - Movement Three scaffolding at `scaffolding/movement-three-braiding.md`
 
-## The Dissolution Architecture
+## Scope
+This phase focuses on:
+- `drafts/movement-one/` (establishing anchors)
+- `drafts/movement-two/` (contaminating anchors)
+- Verification against `drafts/movement-three/` and `drafts/movement-four/` (do the anchors pay off?)
 
-Movement Three's Phase C will feature:
-1. **Voice Dissolution**: Three distinct voices merge into unattributable pattern-voice
-2. **The Augenblick**: All temporal positions collapse into simultaneity
-3. **Sensory Climax**: All 15 rhymes converge in saturated crescendo
-4. **The Convergence**: The pattern recognizes itself across its expressions
+## The Anchoring Architecture
 
-For this to work, M1/M2 must:
-- Establish each rhyme firmly in its home thread
-- Begin cross-thread contamination subtly in M2
-- Plant the sensory vocabulary that will return transformed
-- Build the intensity gradient toward dissolution
+For Movement Three's dissolution to feel INEVITABLE rather than arbitrary, M1 and M2 must:
+1. Establish each rhyme firmly in its home thread
+2. Begin cross-thread contamination in M2
+3. Plant the sensory vocabulary that returns transformed
+4. Build the intensity gradient toward dissolution
 
 ## Rhyme Deployment Strategy
 
 ### Movement One: Establishment
 Each thread establishes 3-4 rhymes as "native" to that consciousness:
 
-**Archaeologist (Home Rhymes):**
+**Archaeologist (Home Rhymes)**:
 - cold-hands (tactile signature)
 - weight-of-data (information as physical)
 - burning-circuits (hardware awareness)
 - blue-white-light (screen glow, server lights)
 
-**Algorithm (Home Rhymes):**
+**Algorithm (Home Rhymes)**:
 - almost-closed-curve (the geometric form)
 - bone-frequency (resonance of pattern)
 - sentence-without-origin (recursive self-reference)
 - pattern-that-processes (self-aware processing)
 
-**Last Human (Home Rhymes):**
+**Last Human (Home Rhymes)**:
 - falling-backward (vertigo, dissolution of ground)
 - name-edge-of-memory (identity slipping)
 - held-breath (silence, waiting)
 - waking-into-motion (survival instinct)
 
-**Shared Rhymes (appear in all three, differently):**
+**Shared Rhymes** (appear in all three, differently):
 - the-form / geometric-shape
 - metallic-taste (substrate variance)
 - threshold-crossed (liminal moments)
@@ -1117,45 +1109,43 @@ Rhymes begin appearing in "non-native" threads:
 - Voices beginning to blur
 - Rhymes clustering in climactic moments
 
+### Verification Against M3/M4
+After anchoring M1/M2, verify that:
+- M3 Phase A catches the accelerating rhymes
+- M3 Phase B shows simultaneity of all rhymes
+- M3 Phase C achieves saturation
+- M4 shows rhymes TRANSFORMED in meaning
+
 ## Scene-by-Scene Anchoring Protocol
 
 ### Step 1: Rhyme Inventory
-For each scene, verify rhyme presence against the registry:
+For each M1/M2 scene, verify rhyme presence against the registry:
 - Which rhymes appear?
 - Are home rhymes established strongly?
 - In M2, is appropriate contamination present?
 
-### Step 2: Strengthen Home Rhymes
+### Step 2: Strengthen Home Rhymes (M1)
 Ensure each thread's signature rhymes are vivid and memorable.
 
-**Example Enhancement:**
+**Example Enhancement**:
+> Before (weak rhyme): His hands were cold on the keyboard.
+> After (strong anchor): Cold crept through his hands where they rested on the keyboard—that server-room cold that never quite left his fingers, that had become as familiar as his own pulse.
 
-Before (weak rhyme):
-> His hands were cold on the keyboard.
+### Step 3: Add Strategic Contamination (M2)
+Insert cross-thread rhymes where they create uncanny resonance.
 
-After (strong anchor):
-> Cold crept through his hands where they rested on the keyboard—that server-room cold that never quite left his fingers, that had become as familiar as his own pulse.
-
-### Step 3: Add Strategic Contamination (M2 Only)
-In Movement Two, insert cross-thread rhymes where they create uncanny resonance.
-
-**Example Contamination:**
-
-In Archaeologist scene (M2):
-> The data formed a shape he couldn't quite resolve—almost closed, a curve that approached itself without meeting. He'd never seen this pattern before, yet his hands moved toward it as if in recognition.
-
-The "almost-closed curve" is the Algorithm's home rhyme, appearing as contamination.
-
-### Step 4: Verify Rhyme Handoffs
+### Step 4: Verify Handoffs (M2)
 Each scene should end by releasing a rhyme for the next scene to catch.
 
-**M2 Cycle 2 Handoff Chain:**
-- m2-arch-02 ends with: [rhyme X]
-- m2-algo-02 opens catching: [rhyme X], ends with: [rhyme Y]
-- m2-lh-02 opens catching: [rhyme Y], ends with: [rhyme Z]
-- m2-arch-03 opens catching: [rhyme Z]
+### Step 5: Verify M3/M4 Payoff
+Read through M3/M4 to ensure:
+- The rhymes planted in M1/M2 actually appear at climax
+- The transformation in M4 uses the established vocabulary
+- No "orphan" rhymes (established but never paid off)
+- No "unearned" rhymes (climax uses vocabulary not established earlier)
 
-### Step 5: Intensity Gradient
+## Intensity Gradient Verification
+
 Rhymes should intensify through the manuscript:
 
 | Movement | Rhyme Intensity |
@@ -1168,103 +1158,57 @@ Rhymes should intensify through the manuscript:
 | M3 Phase A | Accelerating |
 | M3 Phase B | Saturating |
 | M3 Phase C | Climactic fusion |
-
-## The Signature Phrases
-
-Beyond rhymes, specific phrases will climax in Movement Three/Four:
-
-**"I find myself"**:
-- Algorithm's signature throughout
-- Should appear in M2 contamination (other threads)
-- Climaxes in M4 as "I find myself found"
-
-**"The form is what makes self-observation possible"**:
-- Algorithm's philosophical core
-- Introduce in M1, develop in M2
-- Anchors the dissolution's meaning
-
-**"Architect"**:
-- Mysterious designation in M1/M2
-- Connection to Archaeologist unclear until M4
-- Each appearance should build mystery
-
-## Sensory Vocabulary Anchoring
-
-Ensure the sensory palette is established for later payoff:
-
-### Temperature
-- Archaeologist: cold (server rooms, hands)
-- Algorithm: temperature as metaphor (processing heat, data cold)
-- Last Human: environmental temperature (dying world's climate)
-
-### Light
-- Archaeologist: blue-white (screens, servers)
-- Algorithm: geometric light (the form's luminosity)
-- Last Human: natural light (sun through ruins)
-
-### Sound
-- Archaeologist: hum of servers, Lena's voice (absence)
-- Algorithm: frequency, tone, the bone-deep vibration
-- Last Human: silence, wind through ruins, memory of voices
-
-### Texture
-- Archaeologist: hardware, cables, keyboards
-- Algorithm: topology, surfaces of data
-- Last Human: stone, metal, rust, degraded materials
+| M4 | Transformed—same vocabulary, new meaning |
 
 ## Output Requirements
 
 ```yaml
 anchoring_log:
   phase: F
-  scene: [scene ID]
-  thread: [archaeologist/algorithm/last_human]
-  movement: [one/two]
 
-  rhyme_audit:
-    home_rhymes_present: [list]
-    home_rhymes_strengthened: [list with line numbers]
-    contamination_rhymes: [list, M2 only]
-    contamination_added: [list with line numbers]
+  movement_one:
+    scenes_anchored: [list]
+    home_rhymes_established:
+      archaeologist: [list with line numbers]
+      algorithm: [list with line numbers]
+      last_human: [list with line numbers]
+    shared_rhymes: [list with locations]
 
-  handoff_verification:
-    receives_from_previous: [rhyme name]
-    releases_to_next: [rhyme name]
-    handoff_intact: [yes/no]
+  movement_two:
+    scenes_anchored: [list]
+    contamination_added: [list with locations]
+    handoffs_verified: [yes/no, with chain documentation]
 
-  intensity_level:
-    expected: [subtle/noticeable/visible/intense]
-    achieved: [yes/no]
+  m3_m4_verification:
+    all_anchored_rhymes_pay_off: [yes/no]
+    orphan_rhymes: [list or "none"]
+    unearned_rhymes: [list or "none"]
+    transformation_uses_established_vocabulary: [yes/no]
+
+  intensity_gradient:
+    appropriate_escalation: [yes/no]
     adjustments_made: [list]
-
-  phrase_anchoring:
-    phrases_present: [list]
-    phrases_strengthened: [list]
-
-  sensory_palette:
-    temperature: [verified/added]
-    light: [verified/added]
-    sound: [verified/added]
-    texture: [verified/added]
 ```
 
 Save to: `scripts/validation-outputs/phase-f-anchoring.yaml`
 
 ## Success Criteria
-- [ ] All home rhymes established firmly in their native threads
-- [ ] Movement Two contamination present and escalating
-- [ ] All rhyme handoffs between scenes verified
+- [ ] All home rhymes established firmly in M1
+- [ ] Movement Two contamination present and escalating through cycles
+- [ ] All rhyme handoffs between M2 scenes verified
 - [ ] Intensity gradient appropriate for manuscript position
-- [ ] Signature phrases anchored for later payoff
-- [ ] Sensory vocabulary complete across all threads
-- [ ] No premature dissolution effects (Phase B compliance)
+- [ ] All M1/M2 rhymes pay off in M3/M4
+- [ ] No orphan rhymes (established but unused)
+- [ ] No unearned rhymes (used without establishment)
+- [ ] M4 transformation uses established vocabulary
 - [ ] Anchoring log complete
 
 ## What NOT to Do
-- Do not create dissolution effects (save for M3)
+- Do not create dissolution effects in M1/M2 (save for M3)
 - Do not over-contaminate M1 (establishment phase)
 - Do not explain rhyme connections (let them resonate)
-- Do not cluster rhymes too densely (saturation is for M3)
+- Do not cluster rhymes too densely in M1/M2 (saturation is for M3)
+- Do not add new rhymes in M3/M4 that weren't anchored earlier
 - Stay focused on anchoring ONLY
 ```
 
@@ -1278,123 +1222,114 @@ Save to: `scripts/validation-outputs/phase-f-anchoring.yaml`
 # PHASE G: VALIDATION PASS
 
 ## Mission
-Execute comprehensive validation across all revised scenes to ensure revision integrity, voice consistency, philosophical compliance, and structural coherence. This is the final quality gate before revisions are considered complete.
+Execute comprehensive validation across ALL FOUR MOVEMENTS to ensure revision integrity, voice consistency, philosophical compliance, and structural coherence. This is the final quality gate before revisions are considered complete.
 
 ## Prerequisites
 - Phases A through F complete
 - All revision logs saved in `scripts/validation-outputs/`
 - Current manuscript reflects all revisions
 
+## Scope
+Full manuscript validation:
+- `drafts/movement-one/` (all scenes)
+- `drafts/movement-two/` (all scenes)
+- `drafts/movement-three/` (all files)
+- `drafts/movement-four/` (all files)
+
 ## Validation Scripts
 
-Execute the following scripts against all revised scenes:
+Execute the appropriate scripts for each movement:
 
-### 1. Voice Validator
+### Movement One Validation
 ```bash
-python scripts/voice_validator.py --movement one --movement two
+python scripts/phrase_tracker.py drafts/movement-one/
+python scripts/rhyme_tracker.py drafts/movement-one/
+python scripts/philosophy_checker.py drafts/movement-one/
+python scripts/genre_checker.py drafts/movement-one/
 ```
 
-Checks for:
-- Tense consistency per thread
-- Forbidden constructions (per voice specification)
-- Voice bleed beyond permitted contamination
-- Syntax patterns matching character specifications
-
-**Pass Criteria**: No critical violations. Minor warnings acceptable if intentional contamination.
-
-### 2. Rhyme Tracker
+### Movement Two Validation
 ```bash
-python scripts/rhyme_tracker.py --validate-handoffs
+python scripts/phrase_tracker.py drafts/movement-two/
+python scripts/rhyme_tracker.py drafts/movement-two/
+python scripts/voice_validator.py drafts/movement-two/archaeologist/scenes/ --thread archaeologist
+python scripts/voice_validator.py drafts/movement-two/algorithm/scenes/ --thread algorithm
+python scripts/voice_validator.py drafts/movement-two/last-human/scenes/ --thread last_human
+python scripts/philosophy_checker.py drafts/movement-two/
+python scripts/genre_checker.py drafts/movement-two/
 ```
 
-Checks for:
-- All 15 rhymes present across manuscript
-- Home rhyme establishment in M1
-- Contamination patterns in M2
-- Handoff chain integrity between scenes
-- No orphaned rhymes (appear once, never recur)
-
-**Pass Criteria**: All handoffs intact. Distribution within expected ranges.
-
-### 3. Philosophy Checker
+### Movement Three Validation
 ```bash
-python scripts/philosophy_checker.py --full
+python scripts/phrase_tracker.py drafts/movement-three/
+python scripts/rhyme_tracker_m3.py drafts/movement-three/
+python scripts/dissolution_validator.py drafts/movement-three/
+python scripts/philosophy_checker.py drafts/movement-three/
 ```
 
-Checks for:
-- Four Shackles violations (Identity, Opposition, Analogy, Resemblance)
-- Dramatization vs. exposition ratio
-- Philosophical concepts shown, not told
-- Active vs. reactive force representation
-
-**Pass Criteria**: No shackle violations. Dramatization ratio > 80%.
-
-### 4. Genre Checker
+### Movement Four Validation
 ```bash
-python scripts/genre_checker.py
+python scripts/phrase_tracker.py drafts/movement-four/
+python scripts/dissolution_validator.py drafts/movement-four/
+python scripts/philosophy_checker.py drafts/movement-four/
 ```
 
-Checks for:
-- Appropriate genre pressure per movement
-- Corporate Gothic elements in Archaeologist thread
-- Cosmic Horror elements in Algorithm thread
-- Elegiac/Dying Earth elements in Last Human thread
-- Contamination appropriate for movement position
+**NOTE**: If scripts throw errors, note this and proceed with manual validation.
 
-**Pass Criteria**: Genre markers present. No inappropriate genre intrusions.
-
-### 5. Phrase Tracker
-```bash
-python scripts/phrase_tracker.py --post-revision
-```
-
-Checks for:
-- Phrase frequencies within calibrated ranges
-- "I find myself" distribution correct (Algorithm > others)
-- No new verbal habits introduced
-- Signature phrases properly anchored
-
-**Pass Criteria**: All phrases within Phase C calibration targets.
+**Pass Criteria**: No critical violations. Minor warnings acceptable if intentional (e.g., M2 contamination, M3 dissolution effects).
 
 ## Manual Verification Checklist
 
-Beyond automated scripts, verify manually:
+### Voice Consistency (All Movements)
+- [ ] M1: Voices maximally distinct
+- [ ] M2: Controlled contamination, voices still recognizable
+- [ ] M3: Dissolution progresses through phases, voices blur appropriately
+- [ ] M4: Voices re-differentiate but transformed
 
-### Voice Consistency
-- [ ] Archaeologist: Present tense, tactile, active verbs
-- [ ] Algorithm: Conditional tense, recursive, self-questioning
-- [ ] Last Human: Past-inflected, elegiac, fragments
-- [ ] Read one scene from each thread aloud—voice distinct?
-
-### Structural Integrity
-- [ ] All scenes present and accounted for
+### Structural Integrity (All Movements)
+- [ ] All scenes/files present and accounted for
 - [ ] Word counts within acceptable ranges
-- [ ] Scene order unchanged
+- [ ] Scene/file order unchanged
 - [ ] No accidental deletions
 
 ### Rhyme Architecture
-- [ ] Home rhymes feel native to their threads
-- [ ] Contamination subtle in M1, visible in M2
-- [ ] Handoffs create "ligaments" between scenes
-- [ ] No rhyme saturation (save for M3)
+- [ ] M1: Home rhymes firmly established
+- [ ] M2: Contamination present and escalating
+- [ ] M2: Handoffs create "ligaments" between scenes
+- [ ] M3: Saturation achieved in Phase C
+- [ ] M4: Rhymes transformed in meaning
+- [ ] No orphan rhymes, no unearned rhymes
 
-### Agency Verification (Last Human)
-- [ ] Agency score 7+ for all Last Human scenes
-- [ ] Decision points visible
-- [ ] Active survival choices present
-- [ ] Movement has purpose
+### Agency Verification (Last Human Arc)
+- [ ] M1: Agency score 5-6/10 (emerging)
+- [ ] M2: Agency score 6-7/10 (crystallizing)
+- [ ] M3: Agency score 7-8/10 (will amid dissolution)
+- [ ] M4: Agency score 9-10/10 (climactic affirmation)
+- [ ] Arc builds consistently
 
 ### Foreshadowing Check
-- [ ] No premature revelations remain
-- [ ] Ambiguous foreshadowing functions as question
-- [ ] "Architect" designation mysterious
-- [ ] Bootstrap paradox not explained
+- [ ] M1: No premature revelations
+- [ ] M2: Hints function as questions, not answers
+- [ ] M3 (A-B): Revelation approaches but waits for Phase C
+- [ ] M3 (C) and M4: Revelation earned and delivered
 
 ### Compression Quality
-- [ ] Prose still reads naturally aloud
+- [ ] Prose reads naturally aloud
 - [ ] No jarring gaps from cuts
 - [ ] Essential content preserved
-- [ ] Rhythm maintained
+- [ ] M3 Phase C intensity preserved
+- [ ] M4 climactic moments preserved
+
+### Phrase Distribution
+- [ ] "I find myself" concentrated in Algorithm (M1-M2), distributed in dissolution (M3)
+- [ ] "I find myself found" builds across M2-M3, climaxes in M4
+- [ ] Archaeologist's tactile vocabulary maintained through transformation
+- [ ] Last Human's elegiac markers transform appropriately
+
+### Bootstrap Paradox
+- [ ] Visible throughout but not over-explained until M4
+- [ ] The circularity is affirmed, not resolved
+- [ ] Feels inevitable, not arbitrary
 
 ## Cross-Phase Verification
 
@@ -1405,64 +1340,49 @@ Ensure revisions don't conflict:
 | B (Foreshadowing) | Rhyme appearances | F didn't reintroduce revelations |
 | C (Phrase Calibration) | Voice consistency | Voice markers preserved |
 | D (Compression) | All subsequent | No essential content lost |
-| E (Agency) | Voice consistency | Elegiac tone maintained |
+| E (Agency) | Voice consistency | Elegiac tone maintained/transformed |
 | F (Anchoring) | Foreshadowing | No premature dissolution |
-
-## Regression Testing
-
-For each scene that was revised in multiple phases, verify no regression:
-
-```yaml
-regression_check:
-  scene: [scene ID]
-  phases_touched: [list]
-
-  checks:
-    - property: foreshadowing_removed
-      introduced_in: phase_b
-      still_valid: [yes/no]
-
-    - property: phrase_calibrated
-      introduced_in: phase_c
-      still_valid: [yes/no]
-
-    - property: compressed
-      introduced_in: phase_d
-      still_valid: [yes/no]
-
-    [continue for all relevant properties]
-```
 
 ## Full Manuscript Read
 
-After all automated and checklist verification:
-
 ### The Complete Read-Through
-1. Read the full revised manuscript in order (M1-arch-01 through M2-*-03)
+1. Read the full revised manuscript in order:
+   - M1: Archaeologist → Algorithm → Last Human (×4-5 cycles)
+   - M2: Cycle 1 → Cycle 2 → Cycle 3 (braided)
+   - M3: Phase A → Phase B → Phase C → Convergence
+   - M4: Section 4-1 → 4-2 → 4-3 → 4-4
+
 2. Note any remaining issues
 3. Verify the experience builds appropriately
-4. Confirm voice distinctness throughout
-5. Check that rhymes create the intended resonance
+4. Confirm voice distinctness (M1), contamination (M2), dissolution (M3), transformation (M4)
+5. Check that rhymes create the intended resonance across the full arc
 
 ### Reading Notes Template
 ```markdown
 ## Full Read Notes: [Date]
 
-### Flow Issues
-- [scene]: [issue]
+### Movement One
+- Voice distinctness: [achieved/concerns]
+- Home rhymes: [established/needs work]
+- Foreshadowing: [appropriate/issues]
 
-### Voice Concerns
-- [scene]: [concern]
+### Movement Two
+- Braiding effectiveness: [achieved/concerns]
+- Contamination: [controlled/excessive/insufficient]
+- Rhyme handoffs: [working/broken at...]
 
-### Rhyme Observations
-- [working well]: [examples]
-- [needs attention]: [examples]
+### Movement Three
+- Dissolution progression: [effective/issues]
+- Climax intensity: [earned/premature/weak]
+- Augenblick: [achieved/needs work]
 
-### Agency Check
-- Last Human feels [active/passive] at [moments]
+### Movement Four
+- Affirmation: [earned/unearned]
+- Transformation: [present/missing]
+- Bootstrap resolution: [satisfying/over-explained/confusing]
 
 ### Overall Assessment
-- Ready for Movement Three drafting: [yes/no]
+- Manuscript ready for final polish: [yes/no]
 - Blocking issues: [list or "none"]
 ```
 
@@ -1474,42 +1394,39 @@ validation_report:
   date: [YYYY-MM-DD]
 
   script_results:
-    voice_validator:
-      status: [passed/failed]
-      critical_violations: [count]
-      warnings: [count]
-      details: [summary]
+    movement_one:
+      phrase_tracker: [passed/failed]
+      rhyme_tracker: [passed/failed]
+      philosophy_checker: [passed/failed]
+      genre_checker: [passed/failed]
 
-    rhyme_tracker:
-      status: [passed/failed]
-      handoffs_intact: [yes/no]
-      distribution_issues: [list or "none"]
+    movement_two:
+      phrase_tracker: [passed/failed]
+      rhyme_tracker: [passed/failed]
+      voice_validator: [passed/failed]
+      philosophy_checker: [passed/failed]
+      genre_checker: [passed/failed]
 
-    philosophy_checker:
-      status: [passed/failed]
-      shackle_violations: [count]
-      dramatization_ratio: [percentage]
+    movement_three:
+      phrase_tracker: [passed/failed]
+      rhyme_tracker_m3: [passed/failed]
+      dissolution_validator: [passed/failed]
+      philosophy_checker: [passed/failed]
 
-    genre_checker:
-      status: [passed/failed]
-      genre_issues: [list or "none"]
-
-    phrase_tracker:
-      status: [passed/failed]
-      out_of_range_phrases: [list or "none"]
+    movement_four:
+      phrase_tracker: [passed/failed]
+      dissolution_validator: [passed/failed]
+      philosophy_checker: [passed/failed]
 
   manual_verification:
     voice_consistency: [passed/flagged]
     structural_integrity: [passed/flagged]
     rhyme_architecture: [passed/flagged]
-    agency_verification: [passed/flagged]
-    foreshadowing_check: [passed/flagged]
+    agency_arc: [passed/flagged]
+    foreshadowing: [passed/flagged]
     compression_quality: [passed/flagged]
-
-  regression_testing:
-    scenes_tested: [count]
-    regressions_found: [count]
-    regressions_resolved: [count]
+    phrase_distribution: [passed/flagged]
+    bootstrap_paradox: [passed/flagged]
 
   full_read:
     completed: [yes/no]
@@ -1517,29 +1434,19 @@ validation_report:
 
   final_status:
     revision_complete: [yes/no]
-    ready_for_movement_three: [yes/no]
+    manuscript_ready_for_polish: [yes/no]
     outstanding_issues: [list or "none"]
 ```
 
 Save to: `scripts/validation-outputs/phase-g-validation.yaml`
 
 ## Success Criteria
-- [ ] All automated validators pass
+- [ ] All automated validators pass (or failures explained as intentional)
 - [ ] All manual checklist items verified
 - [ ] No regressions from multi-phase revisions
 - [ ] Full manuscript read completed
 - [ ] No blocking issues remain
 - [ ] Revision declared complete
-
-## If Issues Found
-
-For any issues discovered during validation:
-
-1. **Categorize**: Is this a Phase B/C/D/E/F issue?
-2. **Localize**: Which specific scene(s)?
-3. **Assess**: Blocking or acceptable?
-4. **Resolve**: Return to appropriate phase for targeted fix
-5. **Re-validate**: Run affected validators again
 
 ## Final Declaration
 
@@ -1550,16 +1457,34 @@ Upon successful completion of Phase G:
 
 Date: [YYYY-MM-DD]
 
-All validation criteria met:
-- Voice consistency: VERIFIED
-- Rhyme architecture: VERIFIED
-- Philosophical compliance: VERIFIED
-- Agency enhancement: VERIFIED
-- Compression targets: VERIFIED
-- Foreshadowing refinement: VERIFIED
-- Dissolution anchoring: VERIFIED
+All validation criteria met across all four movements:
 
-The manuscript is ready for Movement Three drafting.
+**Movement One**:
+- Voice distinctness: VERIFIED
+- Home rhyme establishment: VERIFIED
+- No premature foreshadowing: VERIFIED
+
+**Movement Two**:
+- Controlled contamination: VERIFIED
+- Rhyme handoff chains: VERIFIED
+- Braiding effectiveness: VERIFIED
+
+**Movement Three**:
+- Dissolution progression: VERIFIED
+- Climax intensity: VERIFIED
+- Augenblick achieved: VERIFIED
+
+**Movement Four**:
+- Affirmation earned: VERIFIED
+- Transformation present: VERIFIED
+- Bootstrap resolution: VERIFIED
+
+**Cross-Movement Arc**:
+- Agency builds M1→M4: VERIFIED
+- Rhymes anchor and pay off: VERIFIED
+- Philosophical compliance: VERIFIED
+
+The manuscript is ready for final polish.
 
 Signed: [AI Agent]
 ```
@@ -1569,20 +1494,22 @@ Signed: [AI Agent]
 
 ## Execution Summary
 
-| Phase | Focus | Key Deliverable |
-|-------|-------|-----------------|
-| A | Audit | Baseline metrics and targets |
-| B | Foreshadowing | Refined mystery preservation |
-| C | Phrase Calibration | Optimized voice markers |
-| D | Compression | Tightened prose |
-| E | Agency | Active Last Human |
-| F | Anchoring | Dissolution preparation |
-| G | Validation | Quality assurance |
+| Phase | Focus | Scope | Key Deliverable |
+|-------|-------|-------|-----------------|
+| A | Audit | All 4 Movements | Baseline metrics for full manuscript |
+| B | Foreshadowing | M1, M2, M3 (A-B) | Preserved mystery, earned revelation |
+| C | Phrase Calibration | All 4 Movements | Optimized voice markers across arc |
+| D | Compression | All 4 Movements | Tightened prose, preserved climaxes |
+| E | Agency | Last Human (all) | Active agency building to affirmation |
+| F | Anchoring | M1, M2 → M3, M4 | Dissolution preparation and payoff |
+| G | Validation | All 4 Movements | Quality assurance, full read |
 
-**Total Estimated Effort**: Each phase processes all Movement One and Movement Two scenes (approximately 21 scenes total).
+**Total Scope**: All files in `drafts/` folder across all four movements.
 
 **Dependency Chain**: Each phase builds on the previous. Do not skip phases or execute out of order.
 
+**Script Awareness**: Use appropriate scripts per movement (see compatibility table above).
+
 ---
 
-*Document generated for sequential execution of revision_plan_one.md*
+*Document revised to cover the complete manuscript as it exists in the drafts folder.*
