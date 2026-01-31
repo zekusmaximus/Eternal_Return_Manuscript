@@ -1,0 +1,589 @@
+# Phase A: Comprehensive Manuscript Audit
+# Generated: 2026-01-31
+# The Eternal Return of the Digital Self
+
+audit_metadata:
+  generated_by: "Claude Code Phase A Audit"
+  date: "2026-01-31"
+  manuscript_version: "current"
+  total_files_read: 31
+
+# =============================================================================
+# STRUCTURAL METRICS
+# =============================================================================
+
+structure:
+  movement_one:
+    total_scenes: 14
+    archaeologist:
+      scenes: 6  # scene-01 through scene-05 + first-bleed
+      word_count_estimate: 15000
+      status: complete
+    algorithm:
+      scenes: 4  # scene-01 through scene-04
+      word_count_estimate: 12000
+      status: complete
+    last_human:
+      scenes: 4  # scene-01 through scene-04
+      word_count_estimate: 11000
+      status: complete
+
+  movement_two:
+    total_scenes: 9
+    archaeologist:
+      scenes: 3  # scene-01, scene-02, scene-03
+      word_count_estimate: 10500
+      status: complete
+    algorithm:
+      scenes: 3  # scene-01, m2-algo-02, scene-03
+      word_count_estimate: 12000
+      status: complete
+    last_human:
+      scenes: 3  # scene-01, scene-02, scene-03
+      word_count_estimate: 10000
+      status: complete
+
+  movement_three:
+    phases:
+      - phase-a-accelerating-cuts:
+          word_count: 5839
+          status: complete
+          validation_score: 60
+      - phase-b-simultaneous-narration:
+          word_count: 5369
+          status: complete
+          validation_score: 90
+      - phase-c-dissolution:
+          word_count: 2694
+          status: complete
+          validation_score: 40
+      - convergence:
+          word_count: 1200
+          status: complete
+
+  movement_four:
+    sections:
+      - section-4-1-digitization-choice:
+          word_count: 3500
+          perspective: last_human
+          status: complete
+      - section-4-2-sacrifice:
+          word_count: 3400
+          perspective: algorithm
+          status: complete
+      - section-4-3-merge:
+          word_count: 4000
+          perspective: archaeologist
+          status: complete
+      - section-4-4-coda:
+          word_count: 1400
+          perspective: unified_pattern
+          status: complete
+
+# =============================================================================
+# PHRASE FREQUENCY ANALYSIS
+# =============================================================================
+
+phrase_tracking:
+
+  "I find myself":
+    expected_trajectory: "Algorithm signature, increasing through M2, climaxing in M3"
+    movement_one:
+      archaeologist: 2  # minimal, emerging
+      algorithm: 45+    # heavy usage, primary voice marker
+      last_human: 3     # beginning contamination
+    movement_two:
+      archaeologist: 8  # contamination increasing
+      algorithm: 50+    # peak usage
+      last_human: 15    # significant bleeding
+    movement_three:
+      presence: pervasive
+      note: "Becomes shared phrase across all voices"
+    movement_four:
+      presence: unified
+      note: "All three perspectives use phrase naturally"
+    status: PASS
+
+  "I find myself found":
+    expected_trajectory: "Transformation phrase, rare in M1, climaxing M3/M4"
+    movement_one:
+      archaeologist: 0
+      algorithm: 2  # foreshadowing
+      last_human: 0
+    movement_two:
+      archaeologist: 3
+      algorithm: 8
+      last_human: 6
+    movement_three:
+      presence: pervasive
+      note: "Central phrase of dissolution, appears dozens of times"
+    movement_four:
+      presence: climactic
+      note: "Final statement in multiple sections"
+    status: PASS
+
+  "The form is what makes self-observation possible":
+    expected_trajectory: "Sentence without origin, arriving mysteriously"
+    first_appearance: M1-Algorithm-scene-03
+    movement_one:
+      archaeologist: 1  # unconscious speaking
+      algorithm: 3
+      last_human: 2  # arrives in dreams
+    movement_two:
+      presence: increasing
+      note: "All three speak it without choosing"
+    movement_three:
+      presence: pervasive
+      note: "Becomes shared understanding"
+    movement_four:
+      presence: foundational
+      note: "Understood rather than mysterious"
+    status: PASS
+
+  "cold hands":
+    expected_trajectory: "Archaeologist signature, spreading through contamination"
+    movement_one:
+      archaeologist: 15+  # primary sensory marker
+      algorithm: 2  # beginning awareness
+      last_human: 8  # establishing rhyme
+    movement_two:
+      archaeologist: 20+
+      algorithm: 12  # significant contamination
+      last_human: 15
+    movement_three:
+      presence: unified
+      note: "Temperature becomes shared experience"
+    movement_four:
+      presence: transformed
+      note: "Cold as home, not alienation"
+    status: PASS
+
+  "Architect":
+    expected_trajectory: "Emerging designation, surfaces fully in M2, central in M4"
+    movement_one:
+      archaeologist: 0
+      algorithm: 3  # hints only
+      last_human: 1
+    movement_two:
+      archaeologist: 8  # pressing up from beneath
+      algorithm: 10
+      last_human: 8
+    movement_three:
+      presence: crystallized
+      note: "Name fully surfaces"
+    movement_four:
+      presence: central
+      note: "Function recognized across all perspectives"
+    status: PASS
+
+  "almost-closed curve / the form":
+    movement_one: present in all threads
+    movement_two: intensifying
+    movement_three:
+      phase_a: 9 occurrences
+      phase_b: 13 occurrences
+      phase_c: 4 occurrences
+    movement_four: foundational
+    status: PASS
+
+  "conspiracy of intensities":
+    first_clear_appearance: M2-Algorithm-scene-02
+    movement_three: central philosophical term
+    movement_four: accepted understanding
+    status: PASS
+
+# =============================================================================
+# LAST HUMAN AGENCY ASSESSMENT
+# =============================================================================
+
+last_human_agency:
+
+  movement_one:
+    scene_01:
+      agency_score: 7
+      notes: "Active walker, making survival decisions"
+      key_actions: ["walking east", "observing ruins", "first dream encounter"]
+    scene_02:
+      agency_score: 7
+      notes: "Exploring Archive, choosing to touch surfaces"
+      key_actions: ["entering Archive", "touching first surface", "losing memories"]
+    scene_03:
+      agency_score: 6
+      notes: "Learning protocols, some compulsion beginning"
+      key_actions: ["tracing symbols", "understanding transmission process"]
+    scene_04:
+      agency_score: 5
+      notes: "Increasing overlap with others, dreams intensifying"
+      key_actions: ["speaking phrases without choosing", "approaching core"]
+    average: 6.25
+    assessment: "Good baseline agency, appropriate decline as transformation begins"
+
+  movement_two:
+    scene_01:
+      agency_score: 5
+      notes: "Archive directing, but still making choices about engagement"
+      key_actions: ["choosing to continue despite memory loss", "grief for 'her'"]
+    scene_02:
+      agency_score: 4
+      notes: "Protocols overwhelming, losing her name"
+      key_actions: ["rage against Archive", "continuing anyway", "speaking Architect"]
+    scene_03:
+      agency_score: 3
+      notes: "Approaching interface, almost pure compulsion"
+      key_actions: ["hand reaching toward form", "threshold moment"]
+    average: 4.0
+    assessment: "Appropriate decline - transformation in progress"
+
+  movement_three:
+    phase_a:
+      agency_score: 2
+      notes: "Voice contaminated, acting with/as others"
+    phase_b:
+      agency_score: 1
+      notes: "Near-dissolution, sentence fragments"
+    phase_c:
+      agency_score: 2
+      notes: "Post-dissolution clarity, new form of agency"
+    convergence:
+      agency_score: 3
+      notes: "Affirmation possible, choosing eternal return"
+    average: 2.0
+    assessment: "NEEDS ATTENTION - Some sections may lose him as distinctive presence too early"
+
+  movement_four:
+    section_4_1:
+      agency_score: 8
+      notes: "STRONG - Making the digitization choice deliberately, affirming"
+      key_actions: ["choosing dissolution", "saying yes", "understanding the cost"]
+    section_4_2:
+      agency_score: N/A
+      notes: "Algorithm perspective"
+    section_4_3:
+      agency_score: N/A
+      notes: "Archaeologist perspective"
+    section_4_4:
+      agency_score: 5
+      notes: "Unified perspective, agency distributed"
+    assessment: "Strong recovery in M4.1 - critical for reader satisfaction"
+
+  overall_assessment: |
+    The Last Human's agency trajectory is mostly appropriate:
+    - M1: Active protagonist making meaningful choices (6.25 average)
+    - M2: Declining as transformation accelerates (4.0 average)
+    - M3: Near-dissolution, may need minor strengthening in Phase B (2.0 average)
+    - M4.1: Strong affirmation scene - he CHOOSES the eternal return (8.0)
+
+    RECOMMENDATION: In M3 Phase B, ensure moments where Last Human's voice
+    remains distinguishable even amid contamination. His sparse, elegiac syntax
+    should surface periodically to prevent complete dissolution before appropriate.
+
+# =============================================================================
+# RHYME TRACKING VERIFICATION
+# =============================================================================
+
+rhyme_coverage:
+
+  total_rhymes: 15
+
+  visual:
+    - blue-white-light:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: excellent
+        m4_coverage: good
+        valence_shift: "uncanny -> home achieved"
+    - almost-closed-curve:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: excellent
+        m4_coverage: good
+    - geometric-shadow:
+        m1_coverage: sparse
+        m2_coverage: moderate
+        m3_coverage: present
+        m4_coverage: present
+        note: "Underused in M1, acceptable"
+
+  somatic:
+    - bone-frequency:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: good
+        m4_coverage: good
+    - cold-hands:
+        m1_coverage: excellent
+        m2_coverage: excellent
+        m3_coverage: excellent
+        m4_coverage: excellent
+        note: "Primary rhyme, well-executed"
+    - falling-backward:
+        m1_coverage: moderate
+        m2_coverage: good
+        m3_coverage: moderate
+        m4_coverage: good
+    - metallic-taste:
+        m1_coverage: sparse
+        m2_coverage: good
+        m3_coverage: moderate
+        m4_coverage: good
+
+  kinesthetic:
+    - tracing-the-form:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: underused
+        m4_coverage: moderate
+        flag: "NEEDS ATTENTION in M3 Phase C"
+    - held-breath:
+        m1_coverage: moderate
+        m2_coverage: good
+        m3_coverage: moderate
+        m4_coverage: good
+    - waking-into-motion:
+        m1_coverage: sparse
+        m2_coverage: good
+        m3_coverage: underused
+        m4_coverage: moderate
+        flag: "Could use strengthening"
+
+  olfactory:
+    - ozone-wet-stone:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: moderate
+        m4_coverage: good
+    - burning-circuits:
+        m1_coverage: sparse
+        m2_coverage: good
+        m3_coverage: underused
+        m4_coverage: good
+        flag: "M3 Phase C needs more instances"
+
+  cognitive:
+    - name-edge-of-memory:
+        m1_coverage: good
+        m2_coverage: excellent
+        m3_coverage: moderate
+        m4_coverage: good
+    - deja-vu-that-isnt:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: moderate
+        m4_coverage: moderate
+    - sentence-without-origin:
+        m1_coverage: good
+        m2_coverage: good
+        m3_coverage: underused
+        m4_coverage: good
+        flag: "M3 Phase C needs strengthening"
+
+  validation_results:
+    phase_a_score: 60
+    phase_b_score: 90
+    phase_c_score: 40
+
+  issues:
+    - "Phase C dissolution has low rhyme density (10.4 per 1000 words)"
+    - "Phase C missing 'tracing-the-form' rhyme entirely"
+    - "Multiple rhymes underused in Phase C: bone-frequency, falling-backward, metallic-taste, waking-into-motion, burning-circuits, name-edge-of-memory, sentence-without-origin"
+
+# =============================================================================
+# DISSOLUTION EFFECT VERIFICATION (M3/M4)
+# =============================================================================
+
+dissolution_tracking:
+
+  movement_three:
+    phase_a:
+      voice_markers:
+        archaeologist: 43.6%
+        algorithm: 14.7%
+        last_human: 41.7%
+      pronoun_ambiguity_score: 49.1%
+      we_emergence: true
+      tense_stability: true (64.6% present)
+      assessment: "Good voice distribution, we-emergence successful"
+
+    phase_b:
+      voice_distribution: accelerating merge
+      sentence_fragmentation: progressive
+      paragraph_shortening: achieved
+      max_rhyme_stack: 6 rhymes in single paragraph
+      assessment: "STRONG - strobe effect working well"
+
+    phase_c:
+      voice_markers:
+        archaeologist: 43.6%
+        algorithm: 14.7%
+        last_human: 41.7%
+      pronoun_ambiguity_score: 49.1%
+      we_emergence: true
+      valence_state: "home"
+      issues:
+        - "Voice distribution may favor archaeologist too heavily (43.6%)"
+        - "Algorithm voice too subdued (14.7%) for three-way merge"
+        - "Rhyme density below target"
+      assessment: "NEEDS WORK - dissolution incomplete, voices unbalanced"
+
+  movement_four:
+    section_4_1:
+      perspective: last_human
+      dissolution_markers: present
+      affirmation_clarity: STRONG
+      assessment: "Excellent - clear transformation with agency"
+
+    section_4_2:
+      perspective: algorithm
+      sacrifice_clarity: STRONG
+      mildred_higgins_presence: appropriate
+      stored_consciousness_theme: well-developed
+      assessment: "Excellent - meaningful sacrifice"
+
+    section_4_3:
+      perspective: archaeologist
+      infrastructure_theme: well-developed
+      lena_farewell: appropriate
+      merge_completion: achieved
+      assessment: "Excellent - satisfying closure for this thread"
+
+    section_4_4:
+      perspective: unified
+      phrase_resolution: achieved
+      return_of_difference: articulated
+      eternal_return_affirmation: clear
+      assessment: "Good coda, appropriately brief"
+
+# =============================================================================
+# FORESHADOWING INVENTORY
+# =============================================================================
+
+foreshadowing:
+
+  items_to_verify:
+    - item: "Mildred Higgins introduction"
+      planted: M1-Algorithm-scene-01
+      payoff: M4-section-4-2
+      status: VERIFIED
+
+    - item: "Architect designation"
+      planted: M1-Algorithm-scene-03 (hints)
+      developed: M2 (pressing up from beneath)
+      payoff: M3/M4
+      status: VERIFIED
+
+    - item: "Lena departure"
+      planted: M1-Archaeologist scenes
+      escalated: M2-Archaeologist-scene-03
+      payoff: M4-section-4-3
+      status: VERIFIED
+
+    - item: "The sentence without origin"
+      planted: M1 (multiple threads)
+      developed: M2
+      payoff: M3/M4 (understood)
+      status: VERIFIED
+
+    - item: "Cold hands as connection"
+      planted: M1-Archaeologist-scene-01
+      developed: All threads
+      payoff: M4 ("cold is home")
+      status: VERIFIED
+
+    - item: "Her name lost"
+      planted: M2-Last-Human (early)
+      developed: Progressive loss
+      payoff: M4 (dissolution complete)
+      status: VERIFIED
+
+    - item: "Bootstrap paradox (protocols predating birth)"
+      planted: M1-Archaeologist
+      developed: M2
+      payoff: M4-section-4-3
+      status: VERIFIED
+
+# =============================================================================
+# CRITICAL ISSUES REQUIRING ATTENTION
+# =============================================================================
+
+critical_issues:
+
+  high_priority:
+    - issue: "M3 Phase C rhyme density too low"
+      location: drafts/movement-three/phase-c-dissolution.md
+      current: "10.4 rhymes per 1000 words"
+      target: "15+ rhymes per 1000 words"
+      recommendation: "Add more rhyme instances, especially underused rhymes"
+
+    - issue: "M3 Phase C missing tracing-the-form rhyme"
+      location: drafts/movement-three/phase-c-dissolution.md
+      recommendation: "Add at least one instance of tracing the form"
+
+    - issue: "M3 Phase C Algorithm voice too subdued"
+      location: drafts/movement-three/phase-c-dissolution.md
+      current: "14.7% of voice markers"
+      target: "~30% for balanced three-way merge"
+      recommendation: "Strengthen Algorithm-specific markers in dissolution"
+
+  medium_priority:
+    - issue: "M3 Phase A rhyme stacking below target"
+      location: drafts/movement-three/phase-a-accelerating-cuts.md
+      current_score: 60
+      target_score: 80+
+      recommendation: "Add more rhymes per section (target 3-5 per passage)"
+
+    - issue: "Last Human agency in M3 Phase B may be too diminished"
+      location: drafts/movement-three/phase-b-simultaneous-narration.md
+      recommendation: "Ensure periodic emergence of distinctive LH syntax"
+
+  low_priority:
+    - issue: "waking-into-motion rhyme underused throughout"
+      recommendation: "Consider adding 1-2 more instances in M3"
+
+    - issue: "geometric-shadow underused in M1"
+      recommendation: "Optional - could strengthen in M1 if revising"
+
+# =============================================================================
+# VALIDATION SUMMARY
+# =============================================================================
+
+validation_summary:
+
+  scripts_run:
+    - dissolution_validator.py (Phase C)
+    - rhyme_tracker_m3.py (Phases A, B, C)
+    - phrase_tracker.py (sample files)
+    - voice_validator.py (sample files)
+
+  overall_status: MOSTLY_PASSING
+
+  passing:
+    - Phrase frequency trajectories
+    - Key foreshadowing planted and paid off
+    - M4 structure and clarity
+    - Last Human agency in critical M4.1 scene
+    - M3 Phase B dissolution mechanics
+    - Rhyme coverage in M1, M2, M4
+
+  needs_attention:
+    - M3 Phase C rhyme density and coverage
+    - M3 Phase C voice balance
+    - M3 Phase A rhyme stacking
+
+# =============================================================================
+# RECOMMENDED PHASE B ACTIONS
+# =============================================================================
+
+phase_b_recommendations:
+
+  immediate:
+    - "Revise M3 Phase C to increase rhyme density"
+    - "Add missing tracing-the-form instances to Phase C"
+    - "Strengthen Algorithm voice markers in Phase C"
+
+  secondary:
+    - "Consider adding rhyme stacking to M3 Phase A sections"
+    - "Review Last Human passages in M3 Phase B for agency moments"
+
+  deferred:
+    - "Optional: strengthen geometric-shadow in M1"
+    - "Optional: add waking-into-motion instances throughout"

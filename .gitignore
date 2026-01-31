@@ -1,1 +1,5 @@
 nul
+nul
+
+# Ignore project virtual environment
+.venv/
