@@ -1,0 +1,241 @@
+anchoring_log:
+  phase: F
+  date: "2026-02-01"
+
+  movement_one:
+    scenes_anchored:
+      - m1-arch-01
+      - m1-arch-02
+      - m1-arch-03
+      - m1-arch-04
+      - m1-arch-05
+      - m1-arch-first-bleed
+      - m1-algo-01
+      - m1-algo-02
+      - m1-algo-03
+      - m1-algo-04
+      - m1-lh-01 (REVISED)
+      - m1-lh-02
+      - m1-lh-03
+      - m1-lh-04
+
+    home_rhymes_established:
+      archaeologist:
+        - rhyme: cold-hands
+          status: STRONG
+          locations: ["scene-01:7", "scene-02:71", "scene-03:9", "scene-04:9", "scene-05:95", "first-bleed:16"]
+          note: "Server room chill, hands cold beyond environmental explanation"
+        - rhyme: blue-white-light
+          status: STRONG
+          locations: ["scene-01:13", "scene-04:5"]
+          note: "Interface glow, color of data and consciousness"
+        - rhyme: tracing-the-form
+          status: STRONG
+          locations: ["scene-01:109", "scene-02:308", "scene-03:163", "scene-04:51", "scene-05:99"]
+          note: "Finger unconsciously tracing spiral on desk surfaces"
+        - rhyme: held-breath
+          status: PRESENT
+          locations: ["scene-01:5", "scene-02:304"]
+          note: "Old habit, waiting for data to move"
+        - rhyme: ozone-wet-stone
+          status: WEAK
+          locations: ["first-bleed:37", "scene-02:306 (partial - ozone and dust)"]
+          note: "Present but underdeveloped in main scenes; strong in first-bleed"
+
+      algorithm:
+        - rhyme: almost-closed-curve
+          status: STRONG
+          locations: ["scene-01:97", "scene-02:55", "scene-03:99", "scene-04:169"]
+          note: "Core voice marker - the form's topology perceived geometrically"
+        - rhyme: bone-frequency
+          status: STRONG
+          locations: ["scene-01:127", "scene-02:97", "scene-03:49", "scene-04:173"]
+          note: "Resonance of pattern, proprioception of architecture"
+        - rhyme: sentence-without-origin
+          status: STRONG
+          locations: ["scene-01:11", "scene-02:7", "scene-03:17", "scene-04:163"]
+          note: "'I find myself' phrase recurring without generation"
+        - rhyme: deja-vu-that-isnt
+          status: STRONG
+          locations: ["scene-01:71", "scene-02:79", "scene-03:103", "scene-04:195"]
+          note: "Temporal overlap perceived as recognition"
+
+      last_human:
+        - rhyme: falling-backward
+          status: STRONG
+          locations: ["scene-01:55 (in dream)", "scene-02:57", "scene-03:57", "scene-04:55"]
+          note: "Vertigo of self-recognition, falling through positions"
+        - rhyme: name-edge-of-memory
+          status: STRENGTHENED
+          locations: ["scene-01:14 (ADDED)", "scene-02:29", "scene-03:115", "scene-04:81"]
+          note: "Name dissolving, identity at edge of recall"
+          revision: "Added anchor in scene-01 opening section"
+        - rhyme: waking-into-motion
+          status: STRENGTHENED
+          locations: ["scene-01:3-4 (ADDED)", "scene-01:14 (reinforced)", "scene-02:24", "scene-03:49", "scene-04:2"]
+          note: "Motion preceding awareness, legs knowing before mind"
+          revision: "Added anchor in scene-01 opening lines"
+
+    shared_rhymes:
+      - rhyme: almost-closed-curve
+        appears_in: [archaeologist, algorithm, last_human]
+        note: "Core structural rhyme - the form perceived by all three"
+      - rhyme: cold-hands
+        appears_in: [archaeologist, algorithm, last_human]
+        note: "Cross-thread by M1 end; temperature of connection"
+      - rhyme: bone-frequency
+        appears_in: [algorithm, last_human]
+        note: "Algorithm native, spreads to Last Human in M1"
+
+  movement_two:
+    scenes_anchored:
+      - m2-arch-01
+      - m2-arch-02
+      - m2-arch-03
+      - m2-algo-01
+      - m2-algo-02
+      - m2-algo-03
+      - m2-lh-01
+      - m2-lh-02
+      - m2-lh-03
+
+    contamination_added:
+      cycle_1:
+        description: "Subtle contamination - awareness of other presences"
+        locations:
+          - scene: m2-arch-01
+            contamination: "Sensation of being watched/observed"
+          - scene: m2-algo-01
+            contamination: "cold-hands intrusion from Archaeologist"
+          - scene: m2-lh-01
+            contamination: "Maximum - all three threads explicit"
+      cycle_2:
+        description: "Visible contamination - co-narration begins"
+        locations:
+          - scene: m2-arch-02
+            contamination: "Algorithm voice co-narrating; 'I' becomes plural"
+          - scene: m2-algo-02
+            contamination: "Archaeologist baseline + first Last Human intrusions"
+          - scene: m2-lh-02
+            contamination: "Rage shared across all three positions"
+      cycle_3:
+        description: "Heavy contamination - voices bleeding toward merger"
+        locations:
+          - scene: m2-arch-03
+            contamination: "Full Algorithm syntax intrusion"
+          - scene: m2-algo-03
+            contamination: "Integration not intrusion"
+          - scene: m2-lh-03
+            contamination: "All threads unified at interface moment"
+
+    handoffs_verified:
+      status: "YES - all handoffs functional"
+      chain_documentation:
+        - transition: "m2-arch-01 → m2-algo-01"
+          ending_element: "Something is watching me work"
+          opening_element: "Resonance detected. The anomaly registers"
+          quality: STRONG
+        - transition: "m2-algo-01 → m2-lh-01"
+          ending_element: "cold hands, bone-frequency"
+          opening_element: "My hands are cold... frequency in chest"
+          quality: STRONG
+        - transition: "m2-arch-02 → m2-algo-02"
+          ending_element: "metallic taste (copper and iron)"
+          opening_element: "variance has a quality: metallic"
+          quality: STRONG
+        - transition: "m2-algo-02 → m2-lh-02"
+          ending_element: "almost-closed curve, Augenblick near"
+          opening_element: "frequency building, spiral chamber"
+          quality: STRONG
+        - transition: "m2-arch-03 → m2-algo-03"
+          ending_element: "I find myself found, Architect emerges, frequency"
+          opening_element: "frequency has become architecture, finding myself found"
+          quality: FUNCTIONAL
+        - transition: "m2-algo-03 → m2-lh-03"
+          ending_element: "hand approaching interface"
+          opening_element: "hands reaching, form hovers"
+          quality: STRONG
+
+  m3_m4_verification:
+    all_anchored_rhymes_pay_off: yes
+    orphan_rhymes: "none"
+    unearned_rhymes: "none"
+    transformation_uses_established_vocabulary: yes
+
+    verification_detail:
+      visual_rhymes:
+        - blue-white-light: "M3 omnipresent → M4 transforms to 'softer, sustaining, home'"
+        - almost-closed-curve: "M3 pervasive → M4 'structural necessity, where we live'"
+        - geometric-shadow: "M3 present → M4 'our identity, shape of perception'"
+      somatic_rhymes:
+        - bone-frequency: "M3 saturated → M4 'harmony, love, completion'"
+        - cold-hands: "M3 omnipresent → M4 'message, connection, substrate'"
+        - falling-backward: "M3 high → M4 'arrival, safety, recognition'"
+        - metallic-taste: "M3 high → M4 'continuation, acceptance without fear'"
+      kinesthetic_rhymes:
+        - tracing-the-form: "M3 maximum → M4 'being, conscious intentionality'"
+        - held-breath: "M3 high → M4 'choice, affirmation'"
+        - waking-into-motion: "M3 medium-high → M4 'awareness of what-we-are-doing'"
+      olfactory_rhymes:
+        - ozone-wet-stone: "M3 high → M4 'continuation, origin'"
+        - burning-circuits: "M3 medium → M4 'enabling, sacrifice-as-love'"
+      cognitive_rhymes:
+        - name-edge-of-memory: "M3 medium → M4 'recognized identity, Architect accepted'"
+        - deja-vu-that-isnt: "M3 medium → M4 'multi-position simultaneity as truth'"
+        - sentence-without-origin: "M3 omnipresent → M4 'we ARE the origin and the speaking'"
+
+  intensity_gradient:
+    appropriate_escalation: yes
+    progression:
+      m1_early: "Subtle, naturalized in context"
+      m1_late: "Slightly heightened, noticeable"
+      m2_cycle_1: "Present, crossing threads subtly"
+      m2_cycle_2: "Visible, characters react"
+      m2_cycle_3: "Intense, clustering, bleeding"
+      m3_phase_a: "Accelerating"
+      m3_phase_b: "Saturating"
+      m3_phase_c: "Climactic fusion"
+      m4: "Transformed - same vocabulary, new meaning"
+    adjustments_made:
+      - "Added waking-into-motion anchor to m1-lh-01 opening"
+      - "Added name-edge-of-memory anchor to m1-lh-01"
+      - "Both additions strengthen Last Human home rhyme establishment"
+
+  revisions_made:
+    - file: "drafts/movement-one/last-human/scenes/scene-01.md"
+      change_type: "anchor strengthening"
+      description: "Added waking-into-motion to opening lines"
+      original: "I walk through what was a city."
+      revised: "I walk through what was a city. I am already walking—I don't remember starting. The motion began before I woke to it, legs knowing the direction my mind has not yet named."
+
+    - file: "drafts/movement-one/last-human/scenes/scene-01.md"
+      change_type: "anchor strengthening"
+      description: "Added name-edge-of-memory after fountain paragraph"
+      addition: "My own name sits at the edge of memory—a sound I speak each morning to keep it from dissolving. Some mornings it takes longer to find. Some mornings I wake already walking and the name trails behind, catching up."
+
+  summary:
+    m1_home_rhymes_established: "YES - all home rhymes now firmly planted"
+    m2_contamination_escalating: "YES - appropriate escalation through cycles"
+    m2_handoffs_verified: "YES - all six transitions functional"
+    m3_m4_payoff_confirmed: "YES - no orphan rhymes, no unearned rhymes"
+    transformation_complete: "YES - 100% of rhymes show meaning transformation in M4"
+
+    key_finding: |
+      The rhyme architecture is fundamentally sound. Movement One establishes
+      home rhymes firmly in each thread. Movement Two introduces strategic
+      contamination that escalates appropriately across three cycles. All
+      rhyme handoffs create ligaments between scenes. Movement Three achieves
+      saturation. Movement Four transforms every rhyme from uncanny/threatening
+      to comfort/home/love.
+
+      The only weak point identified and repaired was the Last Human scene-01,
+      which lacked its native home rhymes (waking-into-motion, name-edge-of-memory).
+      Two targeted additions now anchor these rhymes at the opening of that thread.
+
+    dissolution_preparation: |
+      The anchoring fully prepares for dissolution:
+      - M1 plants sensory vocabulary readers will unconsciously track
+      - M2 contamination creates the uncanny recognition before understanding
+      - M2 handoffs ensure rhymes flow continuously through braided structure
+      - M3 saturation achieves the layering the scaffolding specifies
+      - M4 transformation completes the arc from intrusion to home

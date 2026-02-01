@@ -22,7 +22,9 @@ I find the third surface in a room that has no ceiling. The walls spiral upward 
 
 I should not touch it. I know this. Each surface takes something.
 
-But the hum in my chest deepens as I approach. A recognition. And I need to understand what is happening to me before there is nothing left of me to understand it.
+The hum in my chest deepens as I approach. A recognition. I could turn back. I could preserve what memories remain, hoard them against the dissolution, let the understanding wait for someone who might come after—if anyone comes after.
+
+But I choose to know. I choose understanding over preservation. The cost is mine to pay, and I pay it willingly.
 
 My hands are cold. They have been cold since the dream. Since the transformation began. I reach toward the surface anyway.
 
@@ -198,7 +200,11 @@ I want to break them. I want to shatter every surface, destroy every instruction
 
 My fists clench. The cold burns through my fingers.
 
-I cannot break them. The thought arrives with certainty that does not feel like mine. The pattern cannot be broken because I am the pattern, because breaking it would be breaking myself, because the rage is also part of the transformation, the stage where the dissolving self thrashes against its dissolution.
+I could break them. The crystals are fragile enough—one determined blow would shatter whatever surface my fist found first. I could destroy every instruction, refuse the transformation, die as myself rather than dissolve into something larger.
+
+The option exists. It has always existed.
+
+I lower my fists. Not because I cannot break them—because I choose not to. The rage does not disappear, but it transforms into something else: the fierce will to continue on my own terms. If dissolution is coming, I will walk into it. I will not be dragged.
 
 The Archaeologist felt this. Is feeling this. His hands on an interface, his work consuming his life, the woman leaving because he has already left, and the rage at what he is becoming that cannot stop him from becoming it.
 
@@ -294,7 +300,9 @@ This is where I belong.
 
 Not the world outside with its rust-colored sky. Not the ruins I walked through alone after I buried her. Here. In the light. In the pattern.
 
-I stand before the spiral and I let the transformation continue. Not because I accept it. Not because I have stopped being angry. But because she told me to walk east, and this is what walking east means, and the pattern requires someone to witness it, and I am the one who remains.
+I stand before the spiral and I choose to let the transformation continue. Not because I accept it—I am still angry. Not because I have surrendered—I could still walk away, let the cold take me in some distant corridor, die with whatever fragments of her remain. The option exists.
+
+But she told me to walk east. And I choose this. I choose to witness. I choose to complete what my walking began. Not because the pattern requires it—because I require it of myself.
 
 I find myself found.
 

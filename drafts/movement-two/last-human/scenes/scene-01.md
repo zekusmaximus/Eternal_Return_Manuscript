@@ -18,7 +18,9 @@ I am still inside the Archive. Still dying. Still changed.
 
 The chamber where I touched the light is not the whole of this place. Corridors extend from it in directions that have nothing to do with architecture—spiraling, curving, approaching each other without meeting. The geometry I have drawn my whole life made physical. Made architecture. Made home.
 
-I start walking. Walking is what I know.
+I choose to walk. The Archive offers corridors in every direction, and I could stop here—could let the chamber hold me until the cold finishes what it started. The option exists. It has always existed.
+
+I choose the deeper path. Walking is what I know, but knowing is not the same as compulsion. Each step is a decision I make again.
 
 ---
 
@@ -72,7 +74,7 @@ But they are incomplete. The process they describe is fragmentary—a piece of s
 
 The Archive has more chambers. More glowing surfaces. More fragments.
 
-I will find them.
+I will find them. Not because I must—the dying could happen here as easily as anywhere. But because she told me to walk east, and I choose to honor that. I choose to continue even knowing what continuation costs.
 
 ---
 
@@ -118,7 +120,9 @@ I find him finding himself. Or he finds me finding him. The temporal direction c
 
 The words carry weight. The texture of a life I have not lived—the room full of machines, the cold of work that touches the dead, the warmth of being known by someone who worries. *You're freezing.* The concern of someone who loves what is being lost.
 
-I reach toward the source of the phrase. My cold hands extend into the Archive's crystalline air.
+I reach toward the source of the phrase. My cold hands extend into the Archive's crystalline air—a choice, not a compulsion. I could turn away from this connection. I could refuse the recognition. The option exists, as it has always existed.
+
+I reach anyway. I choose the reaching.
 
 And for a moment—
 

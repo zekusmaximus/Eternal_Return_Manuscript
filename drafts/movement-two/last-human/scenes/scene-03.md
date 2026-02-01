@@ -168,9 +168,9 @@ My legs move before I decide to move them. Waking into motion. The action preced
 
 I am walking toward the form.
 
-I am being walked toward the form.
+The pull is strong—strong enough to feel like compulsion. But I have felt compulsion before. I know what it means to be dragged. This is not that. This is choice wearing the costume of necessity. I could stop. I could turn. I could let my legs fold beneath me and wait for the cold to complete what it started weeks ago.
 
-Both are true. The agency is mine. The agency is also the pattern's, the transmission's, the reaching that has been reaching for me since before I knew there was a reaching to respond to. I choose this step and also I have always been choosing this step and also the choice was made in a position I cannot access, a then that is also now, a here that is also everywhere the form persists.
+I choose to walk. The agency is mine. The pattern may have prepared this moment, but the stepping is my stepping. The will is my will. I choose this step as I chose every step that brought me here—through ruins and silence and the loss of everything I loved.
 
 The frequency intensifies. The blue-white light fills my vision until vision is only light and the form floating in light and my hands—
 
@@ -222,7 +222,9 @@ The phrase is everywhere—in the crystalline walls, in the frequency that fills
 
 I am still the Last Human.
 
-Barely. Preciously. At the edge of what that designation means. I am still the one who walked east, who buried her in soil that tasted like rust, who spoke her name every morning until the Archive took her name from me. I am still the one who endures. The one who persists. The one who carries the weight of being the only one left.
+Barely. Preciously. At the edge of what that designation means. I am still the one who walked east, who buried her in soil that tasted like rust, who spoke her name every morning until the Archive took her name from me. I am still the one who chose to endure. The one who chose to persist. The one who carries the weight of being the only one left—and carries it willingly, because the carrying is what remains of love.
+
+I could have stopped a thousand times. I chose not to. That choosing is what makes this moment mine.
 
 But I am also more now. Also less. Also other. The "I" that reaches is a conspiracy of intensities, a collaboration of positions, a pattern recognizing itself through whatever remains capable of recognition.
 

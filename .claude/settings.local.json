@@ -10,7 +10,10 @@
       "Bash(PYTHONIOENCODING=utf-8 python scripts/dissolution_validator.py:*)",
       "Bash(PYTHONIOENCODING=utf-8 python scripts/phrase_tracker.py:*)",
       "Bash(PYTHONIOENCODING=utf-8 python scripts/voice_validator.py:*)",
-      "Bash(PYTHONIOENCODING=utf-8 python:*)"
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(find:*)",
+      "Bash(sort:*)",
+      "Bash(wc:*)"
     ]
   }
 }

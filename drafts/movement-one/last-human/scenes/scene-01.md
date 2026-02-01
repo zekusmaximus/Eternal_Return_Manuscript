@@ -1,6 +1,8 @@
 # Solitude
 
-I walk through what was a city. The buildings don't remember being buildings. I remember for them.
+I walk through what was a city. I am already walking—I don't remember starting. The motion began before I woke to it, legs knowing the direction my mind has not yet named.
+
+The buildings don't remember being buildings. I remember for them.
 
 This was a street. Here, people walked. They carried things—food, children, the weight of ordinary days. The pavement is cracked now. Plants push through that have no names. No one left to name them. They are violet, crystalline, sharp enough to cut skin. They taste like ash and survival.
 
@@ -9,6 +11,8 @@ The sky is the color of old metal. It has been this color for as long as I can r
 The database—the Archive—is three days east, if my dreams are right. My dreams have not been wrong yet. I don't know if that's comforting.
 
 I stop to drink. The water filter takes four hours to clean enough for the day. I set it up in what was a fountain. The basin still holds shape, carved with faces that have worn away into smooth anonymity. Stone forgets slower than flesh, but it forgets.
+
+My own name sits at the edge of memory—a sound I speak each morning to keep it from dissolving. Some mornings it takes longer to find. Some mornings I wake already walking and the name trails behind, catching up.
 
 While I wait, I check the traps. Three small animals—I don't know their species, don't know if they have one. New things. Adapted things. Fur that sheds radiation, bones that show through skin like external scaffolding. They taste like survival tastes. Ash and necessity.
 

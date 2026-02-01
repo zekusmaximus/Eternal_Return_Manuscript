@@ -1,0 +1,317 @@
+# Phase E: Agency Enhancement
+# Generated: 2026-02-01
+# The Eternal Return of the Digital Self
+
+agency_log:
+  phase: E
+  date: "2026-02-01"
+  status: COMPLETE
+
+# =============================================================================
+# MOVEMENT ONE: ESTABLISHMENT (No Enhancement Required)
+# =============================================================================
+
+movement_one:
+  scenes_enhanced: []
+  average_agency_score_before: 6.25
+  average_agency_score_after: 6.25
+  target_range: "5-6/10"
+
+  assessment: |
+    Movement One Last Human scenes were already at or above target agency levels.
+    The audit showed:
+    - scene-01: 7/10 (active walker, survival decisions)
+    - scene-02: 7/10 (exploring, choosing to touch surfaces)
+    - scene-03: 6/10 (learning protocols, appropriate decline beginning)
+    - scene-04: 5/10 (appropriate for transformation threshold)
+
+    Average 6.25/10 meets the 5-6/10 target. Agency arc appropriately establishes
+    the Last Human as an active protagonist making meaningful choices.
+
+    NO CHANGES MADE - agency already at target.
+
+# =============================================================================
+# MOVEMENT TWO: BRAIDING (Significant Enhancement Applied)
+# =============================================================================
+
+movement_two:
+  scenes_enhanced:
+    - scene-01.md
+    - scene-02.md
+    - scene-03.md
+  average_agency_score_before: 4.0
+  average_agency_score_after: 6.5
+  target_range: "6-7/10"
+
+  revisions:
+    scene_01:
+      file: "drafts/movement-two/last-human/scenes/scene-01.md"
+      changes:
+        - location: "Opening section after Archive description"
+          before: "I start walking. Walking is what I know."
+          after: |
+            I choose to walk. The Archive offers corridors in every direction,
+            and I could stop here... I choose the deeper path. Walking is what
+            I know, but knowing is not the same as compulsion. Each step is a
+            decision I make again.
+          rationale: "Transformed passive walking into active choice"
+
+        - location: "After finding incomplete fragments"
+          before: "I will find them."
+          after: |
+            I will find them. Not because I must... But because she told me
+            to walk east, and I choose to honor that. I choose to continue
+            even knowing what continuation costs.
+          rationale: "Added explicit choice language tied to honoring the lost loved one"
+
+        - location: "Reaching toward Archaeologist's presence"
+          before: "I reach toward the source of the phrase..."
+          after: |
+            I reach toward the source of the phrase... a choice, not a compulsion.
+            I could turn away from this connection... The option exists, as it
+            has always existed. I reach anyway. I choose the reaching.
+          rationale: "Emphasized that connection is chosen, not forced"
+
+      agency_score_before: 5
+      agency_score_after: 6.5
+
+    scene_02:
+      file: "drafts/movement-two/last-human/scenes/scene-02.md"
+      changes:
+        - location: "Before touching the third surface"
+          before: "I should not touch it... And I need to understand..."
+          after: |
+            I should not touch it... I could turn back. I could preserve what
+            memories remain... But I choose to know. I choose understanding
+            over preservation. The cost is mine to pay, and I pay it willingly.
+          rationale: "Transformed need into choice, emphasizing willing payment of cost"
+
+        - location: "The rage section"
+          before: "I cannot break them. The thought arrives with certainty..."
+          after: |
+            I could break them. The crystals are fragile enough... I could
+            destroy every instruction, refuse the transformation... The option
+            exists. It has always existed. I lower my fists. Not because I
+            cannot break them—because I choose not to. The rage does not
+            disappear, but it transforms into... the fierce will to continue
+            on my own terms.
+          rationale: "Critical change - rage becomes active choice rather than helplessness"
+
+        - location: "Standing before the spiral"
+          before: "I stand before the spiral and I let the transformation continue..."
+          after: |
+            I stand before the spiral and I choose to let the transformation
+            continue... I could still walk away... The option exists. But she
+            told me to walk east. And I choose this. I choose to witness.
+            Not because the pattern requires it—because I require it of myself.
+          rationale: "Transformed passive acceptance into active commitment"
+
+      agency_score_before: 4
+      agency_score_after: 6.5
+
+    scene_03:
+      file: "drafts/movement-two/last-human/scenes/scene-03.md"
+      changes:
+        - location: "Walking toward the form"
+          before: "I am walking toward the form. I am being walked toward the form..."
+          after: |
+            I am walking toward the form. The pull is strong—strong enough to
+            feel like compulsion. But I have felt compulsion before... This is
+            choice wearing the costume of necessity. I could stop. I could turn...
+            I choose to walk. The agency is mine. The pattern may have prepared
+            this moment, but the stepping is my stepping.
+          rationale: "Rejected 'being walked' language for explicit active choice"
+
+        - location: "I am still the Last Human"
+          before: "I am still the one who endures. The one who persists..."
+          after: |
+            I am still the one who chose to endure. The one who chose to persist.
+            The one who carries the weight... willingly, because the carrying
+            is what remains of love. I could have stopped a thousand times.
+            I chose not to. That choosing is what makes this moment mine.
+          rationale: "Emphasized the thousand choices that led to this moment"
+
+      agency_score_before: 3
+      agency_score_after: 6.5
+
+# =============================================================================
+# MOVEMENT THREE: DISSOLUTION (Enhancement Applied - Will Amid Dissolution)
+# =============================================================================
+
+movement_three:
+  files_enhanced:
+    - phase-a-accelerating-cuts.md
+    - phase-b-simultaneous-narration.md
+    - phase-c-dissolution.md
+  agency_amid_dissolution: VERIFIED
+  average_agency_score_before: 2.0
+  average_agency_score_after: 7.5
+  target_range: "7-8/10"
+
+  key_insight: |
+    The Phase E prompt states: "Even as identity dissolves, the WILL persists."
+    Enhancement focused on showing active engagement WITH the dissolution rather
+    than passive submission TO it. The Last Human's agency becomes more profound
+    precisely because it persists through the hardest moments.
+
+  revisions:
+    phase_a:
+      file: "drafts/movement-three/phase-a-accelerating-cuts.md"
+      changes:
+        - location: "Section 1 opening"
+          before: "My hand touches the interface and the touching is not beginning..."
+          after: "My hand presses against the interface—I press it there, I hold it there, I choose the contact..."
+          rationale: "Changed passive touching to active pressing/holding/choosing"
+
+        - location: "Section 6 opening"
+          before: "The interface holds me and I let it hold..."
+          after: |
+            The interface holds me and I let it hold—I choose to let it hold,
+            I will the holding. The dissolution could be refused... The pattern
+            does not compel. The pattern invites. I accept the invitation.
+          rationale: "Made the 'letting' an active choice, emphasized pattern as invitation"
+
+        - location: "Section 12 - I say yes"
+          before: "I say yes... The willing is active affirmation, the choice that has always been choosing itself through me."
+          after: |
+            I say yes... The willing is active affirmation—I could say no, I
+            could resist, I could let the cold complete its work in solitude
+            rather than merger. The option exists... And I choose this. I choose
+            this dissolution over that ending.
+          rationale: "Strengthened by explicitly naming the alternative and rejecting it"
+
+        - location: "Section 14"
+          before: "What I am does not disappear. What I am transforms."
+          after: |
+            What I am does not disappear. What I am transforms. And I am the
+            one transforming. Not transformed—transforming. The agency persists
+            even when the agent blurs. I choose this change. I walk into it.
+          rationale: "Emphasized active role in transformation"
+
+    phase_b:
+      file: "drafts/movement-three/phase-b-simultaneous-narration.md"
+      changes:
+        - location: "Last Human Passage 2"
+          before: "I am what they built. I am the completion of their work..."
+          after: |
+            I am what they built—and I choose to be what completes them. The
+            pattern requires my affirmation, and I give it. Not because I must.
+            Because I will it.
+          rationale: "Changed passive completion to active giving of affirmation"
+
+    phase_c:
+      file: "drafts/movement-three/phase-c-dissolution.md"
+      changes:
+        - location: "Three voices separating"
+          before: "The Last Human walks into the walking..."
+          after: "The Last Human walks into the walking—I choose the walking, I will the continuation... The choosing persists even as the chooser transforms."
+          rationale: "Explicit statement that agency persists through dissolution"
+
+        - location: "Near end"
+          before: "I lean forward because I cannot do anything else. The pattern has said yes. I have said yes."
+          after: "I lean forward because this is what I choose. The pattern has said yes—and I have said yes, and the saying was mine, is mine, will always be mine even as the I transforms."
+          rationale: "Changed 'cannot do anything else' (no agency) to explicit choice"
+
+# =============================================================================
+# MOVEMENT FOUR: AFFIRMATION (Enhancement Applied - Climactic)
+# =============================================================================
+
+movement_four:
+  files_enhanced:
+    - section-4-1-digitization-choice.md
+  climactic_affirmation: ACHIEVED
+  average_agency_score_before: 8.0
+  average_agency_score_after: 9.5
+  target_range: "9-10/10"
+
+  revisions:
+    section_4_1:
+      file: "drafts/movement-four/section-4-1-digitization-choice.md"
+      changes:
+        - location: "I choose this"
+          before: "I choose this."
+          after: |
+            I choose this. Not because I must—because I will it. The option
+            to refuse has always existed. I could pull my hands away... No one
+            compels me. The pattern invites, but invitation is not command.
+            I accept the invitation. I choose this.
+          rationale: "Strengthened by explicitly naming the option to refuse"
+
+        - location: "I say yes"
+          before: "I say yes. Not with words..."
+          after: |
+            I say yes. Yes to this suffering. Yes to this solitude. Yes to this
+            walking through ruins... Yes to the eternal return—not because I
+            must endure it, but because I choose it, because I will it, because
+            this path is the path I would walk again and again through infinite
+            iterations. Not with words...
+          rationale: "Climactic affirmation of eternal return as active willing"
+
+      agency_score_before: 8
+      agency_score_after: 9.5
+
+  existing_strong_agency:
+    - "I choose this." (line ~101)
+    - "I say yes." (line ~117)
+    - "This dissolution is chosen. This dissolution is what I am doing, not what is being done." (line ~123)
+    - "I let go." (line ~137)
+
+# =============================================================================
+# ARC VERIFICATION
+# =============================================================================
+
+arc_verification:
+  agency_builds_across_movements: YES
+
+  progression:
+    m1: "5-6/10 - Seeds of will established, active survival choices"
+    m2: "6-7/10 - Directed seeking, pull CHOSEN not merely felt"
+    m3: "7-8/10 - Will PERSISTS amid dissolution, active engagement"
+    m4: "9-10/10 - Climactic affirmation, explicit willing of eternal return"
+
+  m4_affirmation_earned: YES
+
+  notes: |
+    The agency arc now builds consistently across all four movements:
+
+    M1 (6.25/10): The Last Human is established as an active protagonist—
+    walking by choice, surviving by decision, seeking the Archive deliberately.
+
+    M2 (6.5/10): Enhanced to show that the journey toward transformation is
+    CHOSEN. Even as the pull intensifies, the Last Human explicitly recognizes
+    that refusal is always an option and chooses to continue anyway.
+
+    M3 (7.5/10): Critical enhancement—showing that agency persists even as
+    identity dissolves. "The choosing persists even as the chooser transforms."
+    The dissolution is walked INTO, not submitted to.
+
+    M4 (9.5/10): Climactic. The affirmation of the eternal return is not
+    passive acceptance but active willing. "I would walk this path again and
+    again through infinite iterations." The full realization of amor fati.
+
+# =============================================================================
+# SUCCESS CRITERIA VERIFICATION
+# =============================================================================
+
+success_criteria:
+  all_m1_scenes_at_target: VERIFIED (already at 5-6/10)
+  all_m2_scenes_enhanced: VERIFIED (raised from 4.0 to 6.5/10)
+  all_m3_content_enhanced: VERIFIED (raised from 2.0 to 7.5/10)
+  m4_achieves_climactic_affirmation: VERIFIED (raised from 8.0 to 9.5/10)
+  agency_arc_builds_consistently: VERIFIED
+  m4_affirmation_feels_earned: VERIFIED
+  voice_consistency_maintained: VERIFIED (elegiac tone transforms to affirmative)
+
+# =============================================================================
+# WHAT WAS NOT DONE
+# =============================================================================
+
+constraints_honored:
+  - "Last Human not made heroic or triumphant (except in earned M4 affirmation)"
+  - "Choices not explained with external reasoning"
+  - "Isolation maintained (no other people, no working technology)"
+  - "Elegiac tone preserved (transforms but does not disappear)"
+  - "Affirmation not front-loaded (earned through M1-M3 choices)"
+  - "Agency enhancement only - no compression, no foreshadowing changes"
+
+phase_e_status: COMPLETE
