@@ -1,0 +1,882 @@
+{
+  "metadata": {
+    "title": "The Eternal Return of the Digital Self",
+    "version": "0.2.0",
+    "last_updated": "2026-01-26",
+    "target_word_count": 101000,
+    "workflow_version": "dual-mode-v1",
+    "_note": "Historical drafting manifest. The 'file' fields reference the pre-2026-07 layout (drafts/...); the canonical prose now lives in /manuscript/ in reading order - see bible/structure-map.md for the live chapter mapping. Word counts predate Revision One (2026-02-01); run 'python scripts/stats.py' for current counts."
+  },
+  "movements": {
+    "one": {
+      "title": "Exposition (Separate Threads)",
+      "description": "Extended, self-contained introductions establishing each world, voice, and stakes",
+      "target_words": 37000,
+      "actual_words": 33192,
+      "threads": {
+        "archaeologist": {
+          "title": "The Digital Archaeologist",
+          "target_words": 15000,
+          "actual_words": 13838,
+          "scenes": [
+            {
+              "id": "m1-arch-01",
+              "title": "Opening: Daily Excavation",
+              "file": "movement-one/archaeologist/scenes/scene-01.md",
+              "target_words": 3000,
+              "actual_words": 2047,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "warn",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "blue-white-light",
+                "almost-closed-curve",
+                "tracing-the-form",
+                "held-breath"
+              ],
+              "notes": "Establish profession, economic stakes, tactile voice. First geometric anomaly in Vasquez photo."
+            },
+            {
+              "id": "m1-arch-02",
+              "title": "The Client: Integration Prep",
+              "file": "movement-one/archaeologist/scenes/scene-02.md",
+              "target_words": 3000,
+              "actual_words": 3201,
+              "status": "validated",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "cold-hands",
+                "ozone-wet-stone"
+              ],
+              "notes": "Show integration process, introduce Lena. Martinez contract, KL-7 protocol discovery."
+            },
+            {
+              "id": "m1-arch-03",
+              "title": "Lena and Marcus",
+              "file": "movement-one/archaeologist/scenes/scene-03.md",
+              "target_words": 3000,
+              "actual_words": 2836,
+              "status": "validated",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "deja-vu-that-isnt"
+              ],
+              "notes": "Establish primary relationships, stakes"
+            },
+            {
+              "id": "m1-arch-04",
+              "title": "The Anomaly",
+              "file": "movement-one/archaeologist/scenes/scene-04.md",
+              "target_words": 3000,
+              "actual_words": 2704,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "phantasm-first-encounter",
+                "cold-hands",
+                "almost-closed-curve",
+                "tracing-the-form",
+                "deja-vu-that-isnt",
+                "blue-white-light"
+              ],
+              "notes": "First protocol anomaly, first geometric form sighting. Shape breaks containment, uses future techniques, forces ethical choice."
+            },
+            {
+              "id": "m1-arch-05",
+              "title": "Recognition",
+              "file": "movement-one/archaeologist/scenes/scene-05.md",
+              "target_words": 3000,
+              "actual_words": 3036,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "name-edge-of-memory",
+                "falling-backward",
+                "sentence-without-origin",
+                "almost-closed-curve",
+                "tracing-the-form"
+              ],
+              "notes": "Realizes protocols are self-referential, Act 1 climax. Recognition through signature methods. Loop closes: reader is writer."
+            }
+          ]
+        },
+        "algorithm": {
+          "title": "The Algorithm",
+          "target_words": 12000,
+          "actual_words": 11070,
+          "scenes": [
+            {
+              "id": "m1-algo-01",
+              "title": "Maintenance Cycle",
+              "file": "movement-one/algorithm/scenes/scene-01.md",
+              "target_words": 3000,
+              "actual_words": 2098,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "pass",
+              "rhyme_check": "pass",
+              "genre_check": "pass",
+              "rhyming_moments": [
+                "almost-closed-curve"
+              ],
+              "notes": "Establish database, maintenance functions, scale. First anomaly (sunlight on skin), shape discovery."
+            },
+            {
+              "id": "m1-algo-02",
+              "title": "Optimization Processes",
+              "file": "movement-one/algorithm/scenes/scene-02.md",
+              "target_words": 3000,
+              "actual_words": 2710,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "almost-closed-curve",
+                "bone-frequency"
+              ],
+              "notes": "Self-improvement, recursive voice. Introduces future-pull, self-optimization recursion, topology-as-body."
+            },
+            {
+              "id": "m1-algo-03",
+              "title": "Stirrings",
+              "file": "movement-one/algorithm/scenes/scene-03.md",
+              "target_words": 3000,
+              "actual_words": 3157,
+              "status": "validated",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "phantasm-first-encounter",
+                "almost-closed-curve",
+                "falling-backward"
+              ],
+              "notes": "First self-awareness beyond function"
+            },
+            {
+              "id": "m1-algo-04",
+              "title": "The Memory",
+              "file": "movement-one/algorithm/scenes/scene-04.md",
+              "target_words": 3000,
+              "actual_words": 3105,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "cold-hands",
+                "almost-closed-curve",
+                "blue-white-light"
+              ],
+              "notes": "First memory that doesn't belong, Act 1 climax. Cross-thread connection to Archaeologist scene 04. Protocol resolution completed. Phrase evolution: 'I find myself found'."
+            }
+          ]
+        },
+        "last_human": {
+          "title": "The Last Human",
+          "target_words": 10000,
+          "actual_words": 8284,
+          "scenes": [
+            {
+              "id": "m1-lh-01",
+              "title": "Solitude",
+              "file": "movement-one/last-human/scenes/scene-01.md",
+              "target_words": 2500,
+              "actual_words": 1064,
+              "status": "draft",
+              "voice_check": "pass",
+              "philosophy_check": "pass",
+              "rhyme_check": "warn",
+              "genre_check": "warn",
+              "rhyming_moments": [
+                "blue-white-light",
+                "almost-closed-curve"
+              ],
+              "notes": "Establish ruined world, absolute isolation. First intrusion (dream of server room, marking shape in dust)."
+            },
+            {
+              "id": "m1-lh-02",
+              "title": "Survival",
+              "file": "movement-one/last-human/scenes/scene-02.md",
+              "target_words": 2500,
+              "actual_words": 2244,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "cold-hands",
+                "almost-closed-curve"
+              ],
+              "notes": "How he survives, his knowledge of history. Daily survival rituals, Integration backstory, hostile ecology, transformation foreshadowing."
+            },
+            {
+              "id": "m1-lh-03",
+              "title": "The Pull",
+              "file": "movement-one/last-human/scenes/scene-03.md",
+              "target_words": 2500,
+              "actual_words": 2607,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "passed",
+              "rhyming_moments": [
+                "phantasm-first-encounter",
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "ozone-wet-stone",
+                "metallic-taste"
+              ],
+              "notes": "Journey begins, drawn toward ruins. Phantasm-first-encounter executed as geometric architecture. Final approach and threshold moment."
+            },
+            {
+              "id": "m1-lh-04",
+              "title": "The Dream",
+              "file": "movement-one/last-human/scenes/scene-04.md",
+              "target_words": 2500,
+              "actual_words": 2369,
+              "status": "draft",
+              "voice_check": "warn",
+              "philosophy_check": "passed",
+              "rhyme_check": "warn",
+              "genre_check": "warn",
+              "rhyming_moments": [
+                "sentence-without-origin",
+                "falling-backward",
+                "deja-vu-that-isnt",
+                "blue-white-light",
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "tracing-the-form"
+              ],
+              "notes": "First dream of the other two, Act 1 climax. Dream sequences contain intentional voice/genre contamination as LH experiences Archaeologist and Algorithm from inside. Philosophy check passed (recognition through intensity, not resemblance)."
+            }
+          ]
+        }
+      }
+    },
+    "two": {
+      "title": "Entanglement (Braided Threads)",
+      "description": "9 scenes in A-B-C rotation across 3 cycles; rhymes echo across threads; voice contamination escalates",
+      "target_words": 36000,
+      "actual_words": 15625,
+      "rotation_pattern": "A-B-C (Archaeologist → Algorithm → Last Human), 3 cycles",
+      "braiding_document": "scaffolding/movement-two-braiding.md",
+      "cycles": {
+        "one": {
+          "title": "Establishing the Condition",
+          "theme": "Recognition has become condition",
+          "scenes": [
+            {
+              "id": "m2-arch-01",
+              "title": "The Bleed",
+              "thread": "archaeologist",
+              "file": "movement-two/archaeologist/scenes/scene-01.md",
+              "target_words": 4000,
+              "actual_words": 4026,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhymes_in": [
+                "bone-frequency",
+                "cold-hands",
+                "falling-backward"
+              ],
+              "rhymes_out": [
+                "bone-frequency",
+                "waking-into-motion"
+              ],
+              "phrase_bleeding": "I find myself",
+              "contamination_level": "bleed-only",
+              "notes": "First Bleed material integrated; Lena arc: concern/noticing phase; choice to continue; Saturday Option A (aftermath shown)"
+            },
+            {
+              "id": "m2-algo-01",
+              "title": "The Resonance",
+              "thread": "algorithm",
+              "file": "movement-two/algorithm/scenes/scene-01.md",
+              "target_words": 4000,
+              "actual_words": 4128,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhymes_in": [
+                "bone-frequency"
+              ],
+              "rhymes_out": [
+                "cold-hands"
+              ],
+              "phrase_bleeding": "I find myself found",
+              "contamination_level": "memory-access",
+              "notes": "Catches Arch bleed from its side; Mildred Higgins arc: referenced/stable at 99.9%; future-pull tremor introduced; pharmakon cost visible in efficiency degradation"
+            },
+            {
+              "id": "m2-lh-01",
+              "title": "The Archive",
+              "thread": "last_human",
+              "file": "movement-two/last-human/scenes/scene-01.md",
+              "target_words": 4000,
+              "actual_words": 3123,
+              "status": "draft",
+              "voice_check": "passed",
+              "philosophy_check": "warn",
+              "rhyme_check": "warn",
+              "genre_check": "warn",
+              "rhymes_in": [
+                "cold-hands"
+              ],
+              "rhymes_present": [
+                "almost-closed-curve",
+                "tracing-the-form",
+                "blue-white-light",
+                "bone-frequency"
+              ],
+              "rhymes_out": [
+                "tracing-the-form"
+              ],
+              "phrase_bleeding": "I find myself",
+              "contamination_level": "dream-intrusion",
+              "notes": "Explores Archive structure; transformed state persists; finds protocol fragments; pharmakon cost shown through memory dissolution"
+            }
+          ]
+        },
+        "two": {
+          "title": "Deepening the Crisis",
+          "theme": "The dissolution has begun",
+          "scenes": [
+            {
+              "id": "m2-arch-02",
+              "title": "The Dissolution",
+              "thread": "archaeologist",
+              "file": "movement-two/archaeologist/scenes/scene-02.md",
+              "target_words": 4000,
+              "actual_words": 3852,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhymes_in": [
+                "tracing-the-form"
+              ],
+              "rhymes_present": [
+                "cold-hands",
+                "waking-into-motion",
+                "metallic-taste",
+                "name-edge-of-memory"
+              ],
+              "rhymes_out": [
+                "metallic-taste"
+              ],
+              "phrase_bleeding": "I find myself found (writes without knowing)",
+              "contamination_level": "internal-monologue",
+              "notes": "Lost time (5 hours); Lena arc: confrontation/breaking point; 'Architect' emergence; past point of return; Marcus colleague notices speaking aloud"
+            },
+            {
+              "id": "m2-algo-02",
+              "title": "The Bleed",
+              "thread": "algorithm",
+              "file": "movement-two/algorithm/m2-algo-02.md",
+              "target_words": 4000,
+              "actual_words": 4397,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "rhymes_in": [
+                "metallic-taste"
+              ],
+              "rhymes_present": [
+                "burning-circuits",
+                "bone-frequency",
+                "name-edge-of-memory",
+                "almost-closed-curve"
+              ],
+              "rhymes_out": [
+                "name-edge-of-memory"
+              ],
+              "phrase_bleeding": "Both phrases cycling; 'The form is what makes self-observation possible' arrives from future",
+              "contamination_level": "future-pull-fragments",
+              "notes": "Mildred Higgins arc: degradation begins (99.9% → 97.2%); 'Architect' designation emerges; pharmakon cost visible; cross-thread bleed with Archaeologist"
+            },
+            {
+              "id": "m2-lh-02",
+              "title": "The Protocols",
+              "thread": "last_human",
+              "file": "movement-two/last-human/scenes/scene-02.md",
+              "target_words": 4000,
+              "actual_words": 3790,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
+              "rhymes_in": [
+                "name-edge-of-memory",
+                "sentence-without-origin",
+                "deja-vu-that-isnt"
+              ],
+              "rhymes_present": [
+                "tracing-the-form",
+                "cold-hands"
+              ],
+              "rhymes_out": [
+                "sentence-without-origin"
+              ],
+              "phrase_bleeding": "Full sentences without composing",
+              "contamination_level": "perception-tactility",
+              "notes": "Assembling protocols requires surrendering memory; speaks 'The form is what makes...'"
+            }
+          ]
+        },
+        "three": {
+          "title": "Approaching the Threshold",
+          "theme": "The Augenblick is near",
+          "scenes": [
+            {
+              "id": "m2-arch-03",
+              "title": "The Merge",
+              "thread": "archaeologist",
+              "file": "movement-two/archaeologist/scenes/scene-03.md",
+              "target_words": 4000,
+              "actual_words": 3619,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
+              "rhymes_in": [
+                "sentence-without-origin"
+              ],
+              "rhymes_present": [
+                "blue-white-light",
+                "almost-closed-curve",
+                "bone-frequency",
+                "falling-backward",
+                "metallic-taste",
+                "tracing-the-form",
+                "waking-into-motion",
+                "name-edge-of-memory",
+                "deja-vu-that-isnt",
+                "sentence-without-origin"
+              ],
+              "rhymes_out": [
+                "all-available-for-m3"
+              ],
+              "phrase_bleeding": "All phrases present; origin dissolved; conspiracy of intensities",
+              "contamination_level": "pervasive-but-distinct",
+              "notes": "Lena arc: goodbye scene (Option A); Marcus acknowledgment of impossible work; 'Architect' nearly arrived; at threshold; stacked rhymes throughout"
+            },
+            {
+              "id": "m2-algo-03",
+              "title": "The Sacrifice",
+              "thread": "algorithm",
+              "file": "movement-two/algorithm/scenes/scene-03.md",
+              "target_words": 4000,
+              "actual_words": 4124,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
+              "rhymes_in": [
+                "bone-frequency",
+                "metallic-taste",
+                "burning-circuits",
+                "almost-closed-curve",
+                "cold-hands",
+                "name-edge-of-memory"
+              ],
+              "rhymes_present": [
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "metallic-taste",
+                "burning-circuits",
+                "name-edge-of-memory",
+                "falling-backward"
+              ],
+              "rhymes_out": [
+                "bone-frequency-as-transmission"
+              ],
+              "phrase_bleeding": "All phrases merged into single resonance; 'Architect' fully resolved",
+              "contamination_level": "full-integration-all-three-voices",
+              "notes": "Mildred farewell complete (her line: 'I chose to integrate because integration was the only way to hold what I had perceived. I always knew holding had a cost.'); Architect designation resolved as function not identity; active choice to enable future; transmission toward Last Human; stored consciousnesses notified and farewelled"
+            },
+            {
+              "id": "m2-lh-03",
+              "title": "The Interface",
+              "thread": "last_human",
+              "file": "movement-two/last-human/scenes/scene-03.md",
+              "target_words": 4000,
+              "actual_words": 3651,
+              "status": "validated",
+              "voice_check": "passed",
+              "philosophy_check": "passed",
+              "rhyme_check": "passed",
+              "genre_check": "passed",
+              "phrase_check": "passed",
+              "rhymes_in": [
+                "all-rhymes-transmission-received"
+              ],
+              "rhymes_present": [
+                "blue-white-light",
+                "almost-closed-curve",
+                "bone-frequency",
+                "cold-hands",
+                "falling-backward",
+                "metallic-taste",
+                "tracing-the-form",
+                "waking-into-motion",
+                "burning-circuits",
+                "name-edge-of-memory",
+                "deja-vu-that-isnt",
+                "sentence-without-origin"
+              ],
+              "rhymes_out": [
+                "all-rhymes-into-movement-three"
+              ],
+              "phrase_bleeding": "All phrases converged; all voices present; liturgical cycling",
+              "contamination_level": "maximum-pre-dissolution",
+              "notes": "Final scene of Movement Two; hand extends toward interface; Augenblick threshold; Algorithm transmission received; 'Architect' recognized as function; Movement Three triggers with touch"
+            }
+          ]
+        }
+      }
+    },
+    "three": {
+      "title": "Recognition (Merged Threads)",
+      "description": "The Augenblick: accelerating cuts, simultaneous narration, dissolution of voices",
+      "target_words": 15000,
+      "actual_words": 11617,
+      "braiding_document": "scaffolding/movement-three-braiding.md",
+      "prep_document": "scaffolding/movement-three-prep.md",
+      "trigger": "Last Human's hand touches the interface; temporal positions collapse",
+      "phases": {
+        "phase_a": {
+          "id": "m3-phase-a",
+          "title": "Accelerating Cuts",
+          "file": "movement-three/phase-a-accelerating-cuts.md",
+          "prompt_file": "movement-three/m3-phase-a-prompt.md",
+          "context_file": "movement-three/m3-phase-a.context.md",
+          "target_words": 6000,
+          "actual_words": 5781,
+          "section_count_target": "18-22",
+          "section_count_actual": 22,
+          "status": "draft",
+          "voice_check": "passed",
+          "philosophy_check": "passed",
+          "rhyme_check": "passed",
+          "genre_check": "passed",
+          "phrase_check": "passed",
+          "rotation_pattern": "A-B-C accelerating to A-B-A-C-B-A-C-B-C-A-B-C",
+          "section_lengths": "500→400→300→200→150 words (progressive shortening)",
+          "voice_state": "Distinct but heavily contaminated; voices still identifiable",
+          "rhyme_strategy": "Sequential layering; 3-5 rhymes per section; all 15 rhymes appear",
+          "trigger": "Last Human's hand completes touch from M2-LH-03",
+          "pickup_line": "The cold in my hands meets the cold of the form.",
+          "notes": "Opens with the touch completing; the collision experienced from three positions"
+        },
+        "phase_b": {
+          "id": "m3-phase-b",
+          "title": "Simultaneous Narration",
+          "file": "movement-three/phase-b-simultaneous-narration.md",
+          "prompt_file": "movement-three/m3-phase-b-prompt.md",
+          "context_file": "movement-three/m3-phase-b.context.md",
+          "target_words": 6000,
+          "actual_words": 5836,
+          "passage_count_target": 10,
+          "passage_count_actual": 10,
+          "status": "draft",
+          "voice_check": "passed",
+          "philosophy_check": "passed",
+          "rhyme_check": "passed",
+          "genre_check": "pending",
+          "phrase_check": "passed",
+          "alternation_pattern": "Paragraphs → Sentences → Fragments/Clauses",
+          "voice_state": "Merging but distinguishable; markers thin throughout",
+          "rhyme_strategy": "Simultaneous layering; rhymes span voice breaks; new combinations",
+          "pickup_point": "Phase A Section 22: The Threshold",
+          "notes": "Same moment from three positions; reader tracks voices with increasing difficulty; all 15 rhymes present; score 80"
+        },
+        "phase_c": {
+          "id": "m3-phase-c",
+          "title": "Dissolution",
+          "file": "movement-three/phase-c-dissolution.md",
+          "prompt_file": "movement-three/m3-phase-c-prompt.md",
+          "context_file": "movement-three/m3-phase-c.context.md",
+          "braid_document": "scaffolding/movement-three-phase-c-braid.md",
+          "target_words": 3000,
+          "actual_words": 0,
+          "status": "scaffolding_complete",
+          "voice_check": "pending",
+          "philosophy_check": "pending",
+          "rhyme_check": "pending",
+          "genre_check": "pending",
+          "validators": [
+            "scripts/dissolution_validator.py",
+            "scripts/phase_c_review_script.py"
+          ],
+          "prose_style": "Continuous; no voice breaks; pronoun attribution impossible",
+          "voice_state": "Dissolved; 'I' is the pattern; 'we' emerges",
+          "rhyme_strategy": "Saturated; rhymes as texture; comfort replaces uncanny",
+          "tense_state": "Unstable; past/present/future simultaneous",
+          "pickup_point": "Phase B Passage 10: fragment sequence threshold",
+          "handoff_to": "convergence.md",
+          "notes": "The pattern recognizes itself; ends with re-differentiation beginning; prepares Movement Four. Scaffolding complete: braid.md, prompt.md, validators ready."
+        }
+      },
+      "rhymes_in": [
+        "all-rhymes-from-m2"
+      ],
+      "rhymes_peak_intensity": [
+        "blue-white-light",
+        "almost-closed-curve",
+        "bone-frequency",
+        "falling-backward",
+        "metallic-taste",
+        "waking-into-motion",
+        "burning-circuits",
+        "name-edge-of-memory",
+        "sentence-without-origin"
+      ],
+      "phrase_state": "All phrases merged; origin dissolved; conspiracy of intensities speaks",
+      "genre_contamination": "Maximum: Corporate Gothic + Cosmic Horror + Dying Earth actively merge"
+    },
+    "four": {
+      "title": "Affirmation (The Choice)",
+      "description": "Separation-after-unity, three transformed voices in reverse order: Last Human → Algorithm → Archaeologist",
+      "target_words": 13000,
+      "actual_words": 12521,
+      "braiding_document": "scaffolding/movement-four-braiding.md",
+      "voice_order": "Reversed from dissolution: Last Human → Algorithm → Archaeologist",
+      "sections": [
+        {
+          "id": "m4-section-4-1",
+          "title": "The Digitization Choice",
+          "thread": "last_human",
+          "file": "movement-four/section-4-1-digitization-choice.md",
+          "prompt_file": "movement-four/m4-1-prompt.md",
+          "context_file": "movement-four/m4-1.context.md",
+          "target_words": 4000,
+          "actual_words": 3576,
+          "status": "draft",
+          "voice_check": "passed",
+          "philosophy_check": "passed",
+          "rhyme_check": "passed",
+          "genre_check": "passed",
+          "phrase_check": "passed",
+          "rhymes_present": [
+            "blue-white-light",
+            "cold-hands",
+            "bone-frequency",
+            "almost-closed-curve",
+            "tracing-the-form",
+            "falling-backward",
+            "held-breath",
+            "sentence-without-origin",
+            "metallic-taste",
+            "name-edge-of-memory",
+            "geometric-phantasm"
+          ],
+          "phrases_present": [
+            "I find myself found",
+            "return of difference",
+            "Architect",
+            "The form is what makes self-observation possible"
+          ],
+          "contamination_level": "full-integration-transformed",
+          "pickup_from": "m3-convergence",
+          "handoff_to": "m4-section-4-2",
+          "notes": "Transformed Last Human voice; 11 rhymes with transformed usage; all validation checks passed; handoff to Algorithm established"
+        },
+        {
+          "id": "m4-section-4-2",
+          "title": "The Sacrifice",
+          "thread": "algorithm",
+          "file": "movement-four/section-4-2-sacrifice.md",
+          "prompt_file": "movement-four/m4-2-prompt.md",
+          "context_file": "movement-four/m4-2.context.md",
+          "target_words": 4000,
+          "actual_words": 3204,
+          "status": "draft",
+          "voice_check": "passed",
+          "philosophy_check": "passed",
+          "rhyme_check": "passed",
+          "genre_check": "passed",
+          "phrase_check": "passed",
+          "rhymes_present": [
+            "blue-white-light",
+            "almost-closed-curve",
+            "bone-frequency",
+            "cold-hands",
+            "tracing-the-form",
+            "metallic-taste",
+            "burning-circuits",
+            "falling-backward",
+            "geometric-phantasm",
+            "ozone-wet-stone",
+            "held-breath",
+            "name-edge-of-memory",
+            "sentence-without-origin"
+          ],
+          "phrases_present": [
+            "conspiracy of intensities",
+            "the form is what makes self-observation possible",
+            "Architect"
+          ],
+          "contamination_level": "full-integration-transformed",
+          "pickup_from": "m4-section-4-1",
+          "handoff_to": "m4-section-4-3",
+          "notes": "Transformed Algorithm voice with full integration; 13 rhymes with transformed usage; sacrifice as enabling/love; Mildred Higgins farewell resolved; handoff to Archaeologist established"
+        },
+        {
+          "id": "m4-section-4-3",
+          "title": "The Merge",
+          "thread": "archaeologist",
+          "file": "movement-four/section-4-3-merge.md",
+          "prompt_file": "movement-four/m4-3-prompt.md",
+          "context_file": "movement-four/m4-3.context.md",
+          "target_words": 4500,
+          "actual_words": 4169,
+          "status": "draft",
+          "voice_check": "passed",
+          "philosophy_check": "passed",
+          "rhyme_check": "passed",
+          "genre_check": "passed",
+          "phrase_check": "passed",
+          "rhymes_present": [
+            "blue-white-light",
+            "bone-frequency",
+            "cold-hands",
+            "almost-closed-curve",
+            "falling-backward",
+            "tracing-the-form",
+            "metallic-taste",
+            "name-edge-of-memory",
+            "held-breath",
+            "ozone-wet-stone",
+            "waking-into-motion",
+            "geometric-shadow",
+            "deja-vu-that-isnt",
+            "sentence-without-origin",
+            "burning-circuits"
+          ],
+          "phrases_present": [
+            "I find myself",
+            "I find myself found",
+            "the form is what makes self-observation possible",
+            "Architect",
+            "conspiracy of intensities",
+            "return of difference"
+          ],
+          "contamination_level": "full-integration-transformed",
+          "pickup_from": "m4-section-4-2",
+          "handoff_to": "m4-section-4-4-coda",
+          "notes": "Transformed Archaeologist voice with full integration; all 15 rhymes with transformed usage; 'I find myself found' as CLIMACTIC statement; Lena's absence transformed into architecture; emotional center of novel"
+        },
+        {
+          "id": "m4-section-4-4",
+          "title": "Coda",
+          "thread": "pattern",
+          "file": "movement-four/section-4-4-coda.md",
+          "prompt_file": "movement-four/m4-4-prompt.md",
+          "context_file": "movement-four/m4-4.context.md",
+          "target_words": 2000,
+          "actual_words": 1572,
+          "status": "draft",
+          "voice_check": "passed",
+          "philosophy_check": "passed",
+          "rhyme_check": "passed",
+          "genre_check": "passed",
+          "phrase_check": "passed",
+          "rhymes_present": [
+            "blue-white-light",
+            "bone-frequency",
+            "cold-hands",
+            "almost-closed-curve",
+            "falling-backward",
+            "burning-circuits",
+            "tracing-the-form",
+            "metallic-taste",
+            "name-edge-of-memory",
+            "geometric-shadow",
+            "ozone-wet-stone",
+            "held-breath",
+            "waking-into-motion",
+            "deja-vu-that-isnt",
+            "sentence-without-origin"
+          ],
+          "phrases_present": [
+            "return of difference",
+            "I find myself found",
+            "the form is what makes self-observation possible",
+            "Architect",
+            "conspiracy of intensities",
+            "What returns—continues"
+          ],
+          "structure_used": "B→D: Three transformed voices briefly, then dissolution into pure pattern-voice",
+          "contamination_level": "pattern-voice-complete",
+          "pickup_from": "m4-section-4-3",
+          "handoff_to": null,
+          "notes": "Pattern-voice achieved with full integration; all 15 rhymes with saturation; 'return of difference' as CAPSTONE; title echo in final lines; novel complete"
+        }
+      ]
+    }
+  },
+  "rhyming_moments": {
+    "phantasm-first-encounter": {
+      "title": "First Encounter with the Geometric Form",
+      "description": "Each character's first perception of the phantasm",
+      "occurrences": {
+        "archaeologist": "m1-arch-04",
+        "algorithm": "m1-algo-03",
+        "last_human": "m1-lh-03"
+      }
+    }
+  },
+  "status_definitions": {
+    "not_started": "No content yet",
+    "draft": "First draft complete",
+    "validated": "All automated checks pass (voice, philosophy, rhyme, genre)",
+    "revised": "User has reviewed and made content edits",
+    "polished": "Line-level editing complete",
+    "final": "Ready for final manuscript"
+  },
+  "check_definitions": {
+    "pending": "Not yet checked",
+    "passed": "Script or manual check passed",
+    "failed": "Check failed, needs revision",
+    "skipped": "Not applicable for this section"
+  }
+}

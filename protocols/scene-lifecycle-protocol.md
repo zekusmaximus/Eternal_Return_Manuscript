@@ -1,5 +1,7 @@
 # Scene Lifecycle Protocol
 
+> **Layout note (2026-07):** this document predates the repository reorganization; paths like `drafts/...`, `scaffolding/...`, `voices/...` refer to the old layout. See `editorial/REORG_PLAN.md` for the old->new mapping. Canonical prose: `/manuscript/`.
+
 ## Overview
 
 This protocol defines the complete lifecycle management for scenes in *The Eternal Return of the Digital Self*, structuring how scenes progress from conception through final manuscript-ready status. It is designed to align with how Claude Code and AI agents process tasks, providing clear decision trees, validation checkpoints, and handoff procedures.

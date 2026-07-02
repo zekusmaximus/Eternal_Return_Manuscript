@@ -1,5 +1,9 @@
-nul
-nul
-
 # Ignore project virtual environment
 .venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Assembled manuscript output (rebuild with: python scripts/assemble.py)
+build/

@@ -37,53 +37,42 @@ The reading experience itself performs eternal return: the reader returns to eac
 
 ## Current Status
 
-**Phase**: Active drafting — Movement Two, Cycle 2
+**Phase**: Complete draft through Revision One (2026-02-01); developmental edit in progress.
 
-- Movement One complete (33,192 words across 13 scenes)
-- Movement Two in progress (19,526 words across 5 scenes)
-- Currently drafting Cycle 2 (Deepening the Crisis) — Algorithm scene complete
-- Next scene: m2-lh-02 "The Protocols"
-
-**Total words drafted**: ~52,700 / 101,000 target (52%)
-
-See [Notes.md](Notes.md) for detailed development notes, [progress.md](progress.md) for drafting status, and [drafts/manifest.json](drafts/manifest.json) for scene tracking.
+- All four movements drafted: 30 scenes/sections, ~90,600 words
+- Revision One (phases A–G) complete — records in `editorial/revision-one/`
+- Full developmental edit and revision roadmap: see `editorial/`
+- Session status at any time: `python scripts/edit_status.py`
 
 ## Repository Structure
 
 ```
 /
 ├── README.md                 # This file
-├── Notes.md                  # Development notes and conceptual framework
-├── Brainstorm1.md            # Detailed mechanism and narrative answers
-├── brainstorm2.md            # Tonal elevation and genre experiments
-├── progress.md               # Word count and session tracking
-├── /protocols                # Agent workflow and drafting constraints
-│   ├── scene-lifecycle-protocol.md  # Complete scene lifecycle task definition
-│   ├── drafting-workflow.md  # Core dual-mode workflow
-│   ├── prompt-template.md    # Context assembly for AI drafting
-│   ├── review-protocol.md    # Structured feedback format
-│   └── philosophy-constraints.md  # Four Shackles and dramatization
-├── /scripts                  # Validation scripts
-│   ├── voice_validator.py    # Tense, syntax, contamination checks
-│   ├── philosophy_checker.py # Four Shackles, forbidden moves
-│   ├── rhyme_tracker.py      # Rhyme detection and intensity
-│   └── genre_checker.py      # Genre markers and bleed detection
-├── /drafts                   # Working drafts organized by movement
-│   ├── manifest.json         # Scene tracking and status
-│   └── /movement-one, two, three, four
-├── /voices                   # Voice reference for each consciousness
-│   ├── archaeologist.md
-│   ├── algorithm.md
-│   └── last-human.md
-├── /scaffolding              # Structural tracking
-│   ├── /narrative_protocols  # In-universe protocol designs
-│   ├── /rhymes               # Sensory rhyme registry
-│   └── genre-pressure.md     # Genre framework by movement
-├── /worldbuilding            # Setting details by era
-├── /characters               # Character profiles
-├── /research                 # Philosophical framework reference
-└── /.archive                 # Archived legacy files
+├── CLAUDE.md                 # Standing rules for AI-assisted sessions
+├── /manuscript               # THE NOVEL — 30 canonical prose files in reading order
+│                             #   NN-mX-thread-slug.md (e.g. 14-m2-arch-1-the-bleed.md)
+├── /bible                    # Reference: development notes, philosophy, voices,
+│                             #   worldbuilding, rhyme registry, narrative protocols
+├── /editorial                # Editorial output: INVENTORY, REORG_PLAN, BOOK-MAP,
+│                             #   DEV-EDIT-REPORT, REVISION-ROADMAP, STATE, WORKFLOW,
+│                             #   /chapters per-chapter notes, /revision-one prior records
+├── /outlines                 # Structural documents: braiding specs, scene manifest
+├── /protocols                # Drafting/review process docs (dual-mode workflow)
+├── /scripts                  # Tooling: assemble, stats, continuity, edit_status,
+│                             #   plus the legacy validators
+├── /archive                  # Everything superseded — see archive/README.md
+└── /build                    # (git-ignored) assembled manuscript output
 ```
+
+## Working With the Manuscript
+
+- Assemble the full book (with ending verification): `python scripts/assemble.py`
+- Word counts / scene stats: `python scripts/stats.py`
+- Proper-noun continuity index: `python scripts/continuity.py`
+- Editorial session status: `python scripts/edit_status.py`
+
+The compiled manuscript previously at `compiled1/` (including the DOCX) is **stale pre-revision text with a truncated ending** — it lives in `archive/compiled1/`; do not distribute it. Always rebuild from `/manuscript/`.
 
 ## Key Influences
 

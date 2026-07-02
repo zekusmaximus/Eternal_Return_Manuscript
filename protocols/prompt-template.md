@@ -1,5 +1,7 @@
 # Prompt Template for AI Drafting
 
+> **Layout note (2026-07):** this document predates the repository reorganization; paths like `drafts/...`, `scaffolding/...`, `voices/...` refer to the old layout. See `editorial/REORG_PLAN.md` for the old->new mapping. Canonical prose: `/manuscript/`.
+
 ## Usage
 
 When an AI agent is tasked with drafting a scene, it should assemble context using this template structure. Each section should be populated from the relevant source files.

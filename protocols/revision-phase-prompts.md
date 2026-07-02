@@ -1,5 +1,7 @@
 # Revision Phase Prompts: *The Eternal Return of the Digital Self*
 
+> **Layout note (2026-07):** this document predates the repository reorganization; paths like `drafts/...`, `scaffolding/...`, `voices/...` refer to the old layout. See `editorial/REORG_PLAN.md` for the old->new mapping. Canonical prose: `/manuscript/`.
+
 > **Document Purpose**: Optimized, sequential prompts for executing the seven-phase revision plan
 > **Source**: `revision_plan_one.md` (Revised Order of Operations)
 > **Execution Order**: Phase A → B → C → D → E → F → G
