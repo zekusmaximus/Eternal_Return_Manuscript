@@ -1,0 +1,7 @@
+# Dev notes — 02 (M1 Arch 2, "The Client: Integration Prep")
+
+1. **The date 2047.03.14 is an unpaid promise.** Problem: "// NOTE: shortcut discovered 2047.03.14 (excavator will recognize this date)" promises recognition that never comes — the date never recurs (ledger P9). Fix: cut the comment, or anchor the date to a late event (the merge; Lena's departure) in one line during the M4 pass.
+2. **Lena's lost person is set up and dropped.** Problem: the café scene's disclosure ("I lost someone… who should have [made threshold]") motivates her worldview and is never resolved (P7). Evidence: scene 4; no later mention. Fix: one clause in her ch. 20 goodbye ("I've already watched one person disappear without…") — closes it without a new scene.
+3. **"847 hours / seven sites" — mark the rhyme or lose the precision.** Problem: the seven excavation sites quietly rhyme with the seven Archive surfaces (ch. 19), but nothing marks it; readers can't earn the echo. Fix: when ch. 19 is touched (the "her" item), consider one sentence of recognition ("Seven. The number arrives with déjà vu…") — or accept it as private architecture and simplify here.
+4. **Timeline arithmetic: this chapter sets 63→55.** See continuity ledger item (mechanical #11); the ch. 03 price rise to 57 is contradicted by chs. 04–05's "fifty-five."
+5. **Strong: the grief-oscillation code block.** The `when encoding GRIEF` fragment is the book's best diegetic artifact — protect it in any compression pass; it is quoted nowhere else and shouldn't be.

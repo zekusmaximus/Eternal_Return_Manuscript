@@ -1,0 +1,5 @@
+# Dev notes — 16 (M2 LH 1, "The Archive")
+
+1. **Compress ~25–30% (report §4-Sag 2; roadmap R-09).** Problem: three surface-discovery beats before the memory-cost engine exists (ch. 19); the chapter's reveals are re-delivered more powerfully there. Fix: fold surfaces one and two into a single scene; keep the corridor-geometry establishment, the Algorithm-preserved-the-crystals insight (scene 4), the cross-time "I find myself" contact (scene 5), and the closing tracing-the-form beat.
+2. **"She told me to walk east" (scene 4) — the referent doesn't exist yet and M1 contradicts it.** As a mystery-seed for ch. 19 the *placement* works; it just requires R-01 (M1 accommodation) to be legitimate. Inside R-01, verify this line reads as intended-mystery rather than error (consider "she — the word surfaces with no face attached" to mark it deliberate).
+3. **The memory-cost mechanism should shadow this chapter.** Problem: ch. 19 reveals each teaching consumes a memory, but here he traces two surfaces cost-free. Fix (cheap, strong): end the first surface scene with one unexplained absence (he reaches for a small memory and finds a gap) — pays forward without explaining.

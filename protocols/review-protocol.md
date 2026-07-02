@@ -1,5 +1,7 @@
 # Review Protocol
 
+> **Layout note (2026-07):** this document predates the repository reorganization; paths like `drafts/...`, `scaffolding/...`, `voices/...` refer to the old layout. See `editorial/REORG_PLAN.md` for the old->new mapping. Canonical prose: `/manuscript/`.
+
 ## Purpose
 
 This document defines the structured feedback format for reviewing human-drafted sections. All review feedback should follow this format for consistency.

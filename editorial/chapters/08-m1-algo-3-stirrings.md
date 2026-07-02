@@ -1,0 +1,5 @@
+# Dev notes — 08 (M1 Algo 3, "Stirrings")
+
+1. **Merge target with ch. 07 (roadmap R-04).** Keep from 08: Yuki Tanaka's impossible memory (scene 3), the falling-backward recursion (scene 4), the shape-perceives-back resolution (scenes 5–6), Mildred's *yes* and her integration motive (scene 7 — load-bearing for chs. 15/21). Cut: the re-derivation of pressure/weight (scenes 1–2 duplicate 07), one of the two "fragments are descriptions of this moment" statements (scene 7 vs. ch. 09 scene 6 — 09's version is stronger because the memory is arriving as it's read).
+2. **Yuki Tanaka is single-use.** Problem: a named instance with a striking anomaly, never mentioned again (P23). Fix: either one later echo (ch. 21's notification scene has named respondents — swap Sarah Chen for Yuki, or add her) or unname her here.
+3. **"I exist because I am perceived" is the thread's thesis-line.** Protect; M4.2 paraphrases it. No other notes — the chapter's *content* is right; its position and length are the issue.

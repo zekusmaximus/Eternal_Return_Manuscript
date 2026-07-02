@@ -1,5 +1,7 @@
 # Drafting Workflow
 
+> **Layout note (2026-07):** this document predates the repository reorganization; paths like `drafts/...`, `scaffolding/...`, `voices/...` refer to the old layout. See `editorial/REORG_PLAN.md` for the old->new mapping. Canonical prose: `/manuscript/`.
+
 ## Overview
 
 This document defines the dual-mode workflow for drafting *The Eternal Return of the Digital Self*. All agents should reference this file when entering a drafting or review session.

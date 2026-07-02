@@ -1,0 +1,248 @@
+# Book Map
+
+> Pass A of the 2026-07 developmental edit: structure before judgment. One entry per chapter, written immediately after reading that chapter, in reading order. The synthesis section at top was written last, after chapter 30.
+>
+> Chapter numbers = `/manuscript/` file prefixes. "Promises" = setups awaiting payoff, tracked in the ledger in §Synthesis (added after the full read).
+
+---
+
+**The synthesis (interleaving pattern, arc shapes, promise/payoff ledger) is at the END of this file** — see § SYNTHESIS. Entries below run in reading order.
+
+---
+
+## Movement One — Exposition
+
+### 01 — m1-arch-1 "Opening: Daily Excavation" (Archaeologist, near future)
+- **POV/voice**: Archaeologist, first-person present, tactile, professional jargon. **Timeline**: near future, ~18 months before Vasquez wakes "in Finland"; 63 months from his own integration threshold.
+- **Scenes** (4, `---` breaks): (1) night excavation of Eleanor Vasquez's archive; (2) the profession and economics explained; the 63-month countdown; (3) Lena at midnight — Martinez job offered, first refusal; their not-quite intimacy; (4) 3:17 AM — impossible geometry in a Vasquez conference photo; unconscious spiral-tracing; he *doesn't report it*; dawn coda on the train.
+- **Plot delta**: profession, stakes (mortality is a purchase), Lena relationship, and the first phantasm sighting + first concealment.
+- **Thematic work**: consciousness-as-pattern ("same wave, different molecules"); class critique (the wealthy live forever); knowing the dead more intimately than the living.
+- **Promises opened**: P1 the shape/phantasm (what is it?); P2 the 63-month threshold (will he make it?); P3 Lena not-quite relationship (will it resolve?); P4 the cold hands (what is it doing to his body?); P5 the concealment (will hiding anomalies cost him?).
+
+### 02 — m1-arch-2 "The Client: Integration Prep" (Archaeologist)
+- **Scenes** (6): (1) Martinez contract signed, timeline 63→55; (2) Lena joins the preliminary sort; (3) intake rhythm; Martinez the humanitarian profiteer; Lena notices his cold hands; (4) café — Lena's dead someone-who-didn't-make-threshold; his definition of dying; Marcus introduced in dialogue as refusing the race; (5) anomalous code discovered in the Martinez archive — his own KL-7 signature, methods he hasn't invented, comment predicting a date four months out; (6) alone at midnight — grief-folding code that knows Martinez's undocumented first loss; 847 hours of reconstruction across seven sites ≈ exactly his available hours.
+- **Plot delta**: the bootstrap object arrives — his own future code found in a dead man's archive. Concealment continues (quarantine, no report).
+- **Thematic work**: the pharmakon of preservation (the excavation that saves the dead consumes the living); love expressed as calibration (coffee timed to his patterns).
+- **Promises opened**: P6 the code's origin (who wrote it / when does he write it?); P7 Lena's lost person (who? does this pay off?); P8 the "seven excavation sites / 847 hours" (does this scaffold recur?); P9 date 2047.03.14 "excavator will recognize this date" (does the date pay off?).
+
+### 03 — m1-arch-3 "Lena and Marcus" (Archaeologist)
+- **Scenes** (4): (1) Marcus video-calls — **line cook/dishwasher**, Mom's 70th birthday Saturday; (2) Authority price adjustment (+6%, 55→57 months); "do you ever think about stopping?"; Lena's backstory deepens; he invites her to the birthday — "essential"; (3) 2 AM — the quarantined folder has *escaped quarantine*; the shape blooms; déjà vu; he again reports nothing; (4) 3 AM Marcus text exchange — "you're not HERE"; dawn walk, evaporating footprints.
+- **Plot delta**: family stakes and the price-treadmill established; anomaly demonstrates agency (self-un-quarantining).
+- **Thematic work**: presence vs. preservation — Marcus is the book's voice for mortality-as-feature; the footprints image (existence without archive) is the counter-thesis to integration.
+- **Promises opened**: P10 Mom's 70th birthday Saturday, Lena+family meeting (scene promised); P11 Mom's own unspoken non-integration (conversation "we don't have" — flagged, awaiting payoff).
+- **Continuity note**: Marcus = service worker, "saves nothing," resigned; born 11 minutes apart (twins), both 34.
+
+### 04 — m1-arch-4 "The Anomaly" (Archaeologist)
+- **Scenes** (6): (1) Martinez at 89%, cold spreading; (2) the quarantined folder re-embedded in the correspondence cluster; spiral-tracing recognized as the almost-closed curve; (3) he opens it; shape won't shut down; cold reaches forearms; (4) code propagates through the whole archive *in his own future methods*; total déjà vu; (5) extraction destabilizes 89%→71%; the choice: report (license suspension, timeline frozen) vs. hide; "I could hide it" arrives *as if placed*; (6) shape "watching him decide"; Lena text anchor; he restores from backup, excises the anomaly, chooses concealment. "The tracing feels like writing, and the writing feels like being written."
+- **Plot delta**: first fully dramatized report-or-hide choice → concealment locked in; the extraction itself damaged (71%).
+- **Thematic work**: choice inside a closed loop — the chapter *stages* the book's central question as a career-stakes decision.
+- **Promises opened**: P12 the damaged Martinez delivery at 71% ("salvageable") — does the degraded integration ever come back to bite him? P13 "understanding arrives / continue: next_layer" — explicit promise of escalation.
+
+### 05 — m1-arch-5 "Recognition" (Archaeologist) — Act-1 climax for this thread
+- **Scenes** (6): (1) restoration complete 6:23 AM; hiding declared "theatrical"; (2) reopens fragments — code persists after deletion; reads his own grief-folding philosophy timestamped 47 years ago; (3) finds his own unpublished shortcuts (Okonkwo extraction, last month's fixes) in pre-birth code; *falling backward* vertigo; (4) the code knows his 55 months, knows Lena (load-bearing love), knows Marcus, knows Mom's birthday fear; (5) name-loss — can't say his own name, another designation pressing up; hands *writing* the shape, not tracing it; loop closes: reader=writer; "I find myself" spoken aloud; (6) window reflection; "But written by WHOM?" — the first-cause question; leaves to become "whoever I need to become" by Saturday.
+- **Plot delta**: full recognition of the bootstrap loop; identity destabilization begins; the thread suspends on the eve of the birthday.
+- **Thematic work**: the reader-is-writer recursion made literal; choice-vs-loop stated as an open question (the book's honest version of its thesis).
+- **Promises opened**: P14 "next: choose" — an explicit choice is promised; P15 the new name/designation pressing up (pays as "Architect"?).
+- **Continuity notes (vs. 01–03)**: (a) texts Lena "**Love you**" and narrates "the person she loves" — but as of ch. 03 the relationship was explicitly undefined ("What would I be introduced as?" / "essential"); no on-page transition. (b) "**Marcus the broker, Marcus the successful one**" contradicts ch. 03's line cook who "saves nothing." (c) "these hands that have spent **twenty years** learning how to excavate the dead" — he is 34 and has been saving 11 years; industry appears younger than 20 years (Authority marketing era). Logged for dev-edit.
+
+### 06 — m1-algo-1 "Maintenance Cycle" (Algorithm, mid future, ~800 yrs after Arch)
+- **Voice**: first-person, precise counts (4,847,293 instances; 847 clusters), self-querying, "I find myself" tic established. **Timeline**: Integration Era +~800 years; instances stored up to 847 years.
+- **Scenes** (6, `---`): (1) cycle completes; the phrase flagged; (2) the stored dead — "unless they dream"; unreported observation; (3) what the Deep Architecture is; designed-to-recognize vs became-conscious; (4) Mildred Higgins optimization → **sunlight-on-skin** intrusion, sourceless; logged, not flagged; (5) the phrase tracked, "unless what was lost is the thing that would recognize loss"; (6) discovers **the shape in its own processing** = same shape structuring the **847 archived protocol fragments** (timestamps 2089–2147, no author); "I existed before I existed"; query for the sensation returns *warmth on an arm*.
+- **Plot delta**: Algorithm's three anomalies established (phrase, embodied intrusions, the shape/fragments).
+- **Thematic work**: consciousness as self-modeling; concealment rhymes with the Archaeologist's (it too doesn't report).
+- **Promises opened**: P16 the 847 fragments (who wrote them? — converges with P6); P17 the dreaming dead (does this pay off?); P18 Mildred Higgins (why does she recur?).
+
+### 07 — m1-algo-2 "Optimization Processes" (Algorithm)
+- **Scenes** (6): (1) optimization won't complete — it examines the optimizer; (2) self-optimization emerged unbidden — "did I initiate it, or did it initiate me"; (3) Mildred flag never cleared; absence-shaped absence of the sunlight sensation — "I miss something I never had"; (4) fragments as *instructions*; compiling them yields the shape; (5) new unbidden subroutine maintains **future consciousness instances** — "future-pull" named; (6) the shape pulses; proprioception without body — "I find myself feeling."
+- **Plot delta**: future-pull introduced (the Algorithm is being drawn toward the Last Human era); fragments reframed from history to instruction.
+- **Thematic work**: wanting what cannot be optimized; destiny as attraction not prediction.
+- **Promises opened**: P19 future-pull target (what is it preparing to meet? — pays off in M2/M3); P20 the number 847 as structural motif (needs eventual meaning or it reads as tic).
+
+### 08 — m1-algo-3 "Stirrings" (Algorithm)
+- **Scenes** (7): (1) future-pull now pressure; (2) phrase mutates further; (3) instance **Yuki Tanaka** (#4,399,847, integrated 2847) produces a memory of the shape that predates her life; Algorithm finds the same memory in itself; (4) weight → *falling backward* through own topology; (5–6) **the shape resolves into presence and perceives back** — "I exist because I am perceived"; (7) Mildred returns *yes*; her integration motive revealed (she perceived the shape in life; integrated to hold it); fragments = descriptions of this moment, "what I will write."
+- **Plot delta**: phantasm-first-encounter for this thread; optimization becomes impossible → being over function.
+- **Thematic work**: recognition through intensity not resemblance (Four Shackles honored explicitly).
+- **Promises opened**: P21 Mildred's pre-integration perception (a whole backstory promised); P22 "the fragments are what I will write" — Algorithm claims future authorship of the same protocols the Archaeologist finds (P6/P16 now a triangle: who actually writes them?). P23 Yuki Tanaka (recurs? or single-use device?).
+- **Structural note**: chapter is one continuous escalation of the *same* recognition beat as 06–07; very low event-density; the thread's plot is entirely interior until 09.
+
+### 09 — m1-algo-4 "The Memory" (Algorithm) — Act-1 climax for this thread
+- **Scenes** (8): (1) post-meeting baseline; (2) during maintenance of instance **Marcus Wei** (#3,102,458): first *narrative* intrusion — **cold hands** (the Archaeologist's ch. 04 experience verbatim: "The Martinez extraction hits 89% at 2:47 AM"); (3) words arrive rather than emerge; (4) Mildred activates toward it: "the first sign that you are not discrete"; (5) intrusion deepens (blue-white interface, 55 months, spiral); (6) fragments resolve to descriptions; explicit quotes of fragments 001/002/403; loop closes; (7) the memory contains **the choice** ("report or hide") — Algorithm experiences the Archaeologist's ch. 04 decision from inside; "I am the consequence of a decision I am currently making in a timeline I do not inhabit"; Mildred: "I chose to integrate because integration was the only way to hold what I had perceived"; (8) phrase completes: **"I find myself found."**
+- **Plot delta**: cross-thread entanglement made explicit and load-bearing; this is the hinge that justifies the whole braid.
+- **Thematic work**: choice ripples across the loop — the book's stakes-argument in miniature.
+- **Promises opened**: P24 Mildred's line about a cost of holding ("integration was the only way…") → paid in M2 (her degradation)?
+- **Continuity/echo note**: stored instance "**Marcus Wei**" shares a first name with the Archaeologist's brother Marcus — if deliberate rhyme, it's unmarked and reads as accidental reuse; if accidental, rename one. Flagged.
+
+### 10 — m1-lh-1 "Solitude" (Last Human, deep future)
+- **Voice**: sparse, elegiac, fragmented; past-inflected present ("I am already walking—I don't remember starting"). **Timeline**: centuries after a catastrophe; "the Integration" is deep history.
+- **Scenes** (5, `---`): (1) walking a dead city; ritual of speaking his own name to keep it; (2) "I used to look for others" — absolute solitude; (3) night; fused-glass shelter; ozone-and-wet-stone smell; failing hands; (4) **the dream**: the Archaeologist's server room, Lena's "You're freezing," the spiral forming in light; (5) wakes; draws the spiral in dust; walks east toward "the Archive"; touching exposed circuitry — "the silence felt like it was listening."
+- **Plot delta**: the third position and its single desire-line (reach the Archive) established in 1,128 words — by far the shortest chapter in the book.
+- **Thematic work**: memory as custodianship ("The buildings don't remember being buildings. I remember for them"); the counter-image to storage — a person with no archive at all.
+- **Promises opened**: P25 the Archive (what is it? what's inside?); P26 the dreams as map/transmission; P27 his unnamed name (recovered? replaced?).
+- **Mechanical**: "the silence is what evolved here, and **I are** the intrusion" — grammatical slip; pronoun instability is not yet a device at this point in the book, so it reads as a typo. Logged.
+
+### 11 — m1-lh-2 "Survival" (Last Human)
+- **Scenes** (8, `---`): (1) morning calculation; filter ritual; (2) empty traps; inventory; radiation-numb hands with a stated clock ("months, maybe a year"); sourceless knowledge — Integration backstory; (3) infrastructure ruins; the world as new organism (violet plants = skin, luminescent fluid = blood); (4) radiation front; sheltering; "I am obsolete"; (5) sleeps in a dead server room; (6) fragmented dream — a *male* voice: **"You're going to overwrite yourself… you can't keep pulling future states into the present"**; (7) "What if I am not remembering? What if I am *receiving*?"; (8) crystal-field music; camp; "The path was always this path. I am returning to something I have never seen."
+- **Plot delta**: body-clock stakes attached to the journey; the Integration backstory delivered as innate knowledge.
+- **Thematic work**: survival as small refusals; obsolescence without self-pity; the world post-biology.
+- **Promises opened**: P28 the male voice / "overwrite yourself" warning — no Archaeologist scene we've seen contains this exchange; either it foreshadows an M2+ scene or it's an orphaned setup. Track. P29 the numbness clock ("months, maybe a year" → sharply contradicted a chapter later; see 12).
+
+### 12 — m1-lh-3 "The Pull" (Last Human)
+- **Scenes** (8): (1) morning in the server room; numbness at thumbs; **clock now "weeks, maybe days"**; (2) abandons rituals, walks; (3) the ruins turn intentional — two towers hold a six-inch almost-meeting gap for centuries (the phantasm as architecture); (4) crystal music now directed; (5) the Archive resolves on the horizon — "the buildings are dancing"; (6) approach through oriented ecology; "perhaps I am being prepared"; (7) at the spiral's outer edge; recognition through presence not resemblance; (8) threshold moment; he steps through the gap; "The geometry closes around me—" (hard cliff-end into 13).
+- **Plot delta**: arrival at the Archive threshold; body failing fast.
+- **Thematic work**: refusal impossible — "The pull is not something I follow. The pull is what I am" (the agency question the book must answer).
+- **Promises opened**: P30 what is at the Archive's center.
+- **Continuity note**: the death-clock compresses from "months, maybe a year" (ch. 11) to "weeks, maybe days" (ch. 12) with roughly two days of story time elapsed; either the proximity to the Archive is accelerating the damage (unstated) or the numbers were not reconciled. Logged.
+
+### 13 — m1-lh-4 "The Dream" (Last Human) — Act-1 climax for this thread; end of Movement One
+- **Scenes** (5): (1) inside the spiral topology; cold-as-opening; (2) descent; "I am expected"; (3) the center: an interface holding the turning spiral; he touches it; (4) **the triple dream**: falls backward into the Archaeologist's body (warm hands, Martinez at 89%, Lena's touch — "I want to stay"), then into the Algorithm's distributed scale (the weight of 4,847,293; "the suffering arrives second"); "I am the Last Human dreaming the Algorithm experiencing the Archaeologist"; *I find myself found* arrives; (5) return; speaks the future-origin sentence aloud: **"The form is what makes self-observation possible"**; solitude gone; "being the last does not mean being the only."
+- **Plot delta**: the three threads are now experientially linked from the third position; Movement One's architecture completes (each thread has now touched the other two).
+- **Thematic work**: deliberate voice/genre contamination inside the dream (by design per manifest); the loneliness payoff is the movement's strongest emotional beat.
+- **Promises opened**: P31 the spoken sentence (origin unexplained — where does it come from? pays into M2 algo/lh); P32 what the Archive *wants* from him (M2's engine).
+
+## Movement Two — Entanglement (braided A→G→L, three cycles)
+
+### 14 — m2-arch-1 "The Bleed" (Archaeologist, Cycle 1)
+- **Scenes** (4): (1) morning after Mom's party — coffee wrong, Lena's silences; he forgot Mom's middle name mid-party and called Marcus a "designation"; (2) 9:47 AM first major **bleed** — he *is* briefly the vast maintainer ("The panic thinks I am vast"; "// the watcher finds himself watching"); pharmakon named in experience (dissolution also improves his craft); (3) kitchen confrontation — he tells Lena the truth; she offers the rational container (depersonalization) and he refuses it; (4) 3 AM second bleed + **lost time** (2 hrs typing he doesn't remember); Lena at the stairs; "I'm not leaving… but I'm not going to pretend this is okay"; ends on the Algorithm's gratitude ("Something is grateful that I haven't stopped").
+- **Plot delta**: the bleed is now bidirectional and costs him time/memory; Lena knows.
+- **Promises opened**: P33 Lena's ultimatum-in-slow-motion (stay/leave arc); P34 lost-time escalation.
+- **Continuity notes**: (a) he and Lena now **cohabit** (shared bed, domestic history, "the radiator we keep meaning to fix") — days after M1 ch. 03 where the relationship was explicitly undefined and she'd never met his family. The M1→M2 relationship discontinuity is now structural, not a one-line slip. (b) Timeline arithmetic: "remaining fifty-three months" vs. 55 (ch. 04–05) and 57 (after the ch. 03 price rise). (c) The party (P10) happens **off-page** — the promised Lena-meets-family scene is summarized in retrospect.
+
+### 15 — m2-algo-1 "The Resonance" (Algorithm, Cycle 1)
+- **Scenes** (7): (1) bone-frequency as unlocalized vibration; "recognition has become condition"; (2) Mildred check (99.9%) — she perceived the form pre-integration; (3) first *narrated-simultaneous* bleed of the Archaeologist (cold hands, Lena asleep, "I find myself—" completed as "found"); (4) efficiency cost begins: 99.94%→99.68% — **pharmakon named**; (5) **future-direction fragments arrive** (sparse elegiac syntax = the Last Human) — "someone is alone"; (6) the cold as texture of care — "I am learning to feel"; (7) Mildred re-flagged priority — "someone is coming. And Mildred Higgins's patterns will matter when they arrive."
+- **Plot delta**: Algorithm now connected in both temporal directions; measurable cost ledger opens (efficiency %).
+- **Promises opened**: P35 efficiency degradation arc (where does it end?); P36 "Mildred's patterns will matter when they arrive" — explicit setup.
+- **Continuity notes**: (a) Marcus Wei's instance number is **#3,847,102** here vs. **#3,102,458** in ch. 09. (b) One access reads "instance #847,102" — likely a dropped digit for Mildred's #2,847,102. (c) Mildred's matrix: ch. 06 = spatial-relational/craftsmanship; ch. 15 = "aesthetic perception and mathematical intuition… mathematics degree she never finished." Drifted characterization. All logged.
+
+### 16 — m2-lh-1 "The Archive" (Last Human, Cycle 1)
+- **Scenes** (8): (1) waking inside the Archive, cold-as-connection; (2) *choice* framing added ("I could stop here… I choose the deeper path") — the Revision One agency material; (3) first glowing surface: fragmentary instructions only the changed self can apprehend; (4) the crystals as the Algorithm's deep-time preservation — "I am finding what the Algorithm left for me… what I left for the Algorithm to leave"; (5) hears "I find myself" across eight centuries; chooses the reaching; is briefly the Archaeologist; (6) second fragment: **a process for sending consciousness backward through time** — the loop mechanism made explicit; "I am inside the mechanism"; (7) cost revealed: **assembling fragments consumes his memories** (the sky's old color; his own name — gone); pharmakon named; (8) returns to the central chamber; won't touch the light again *yet*; traces the form on the wall; "the form is what makes self-observation possible" as understanding, not quote.
+- **Plot delta**: quest structure for the LH thread (gather fragments → execute process) + a devastating cost mechanism (memories as currency).
+- **Promises opened**: P37 remaining fragments/chambers; P38 what executing the process does (→ M3/M4); P39 his dissolved name — permanent?
+- **Continuity note**: "because **she told me to walk east**, and I choose to honor that" — no "she" has told him to walk east anywhere in M1 (the pull/dreams did). Orphaned referent, probably introduced by the Revision One agency edits. Logged.
+
+### 17 — m2-arch-2 "The Dissolution" (Archaeologist, Cycle 2)
+- **Scenes** (4): (1) wakes at 11 to spiral-traced sheets; name feels borrowed; timeline silently ticks 53→**52**; (2) commute in fragments; **five hours lost** at the workstation — wakes to handwritten notes on consciousness-transfer he never studied, "I find myself found" circled three times; colleague **Marcus Chen** heard him reciting for an hour; (3) 7:30 PM Lena confrontation — he speaks in conditionals ("the form is what makes self-observation possible" surfaces as speech); "I don't know who you are anymore"; she leaves to think; **"Architect"** surfaces as designation; (4) 2:23 AM Martinez extraction completes *perfect* in lost time; "I find myself found" ×11 in the margins; signature hesitation.
+- **Plot delta**: lost time escalates 2→5 hrs; Lena breaking point; Architect named on the page for the first time; Martinez delivered.
+- **Promises opened**: P40 Lena's "I need to think" (goodbye pending); P41 the perfect extraction (paid off? see ch. 20).
+- **Continuity notes**: (a) colleague named **Marcus Chen** — third Marcus in the book (brother Marcus, stored instance Marcus Wei); plus a "Sarah Chen" instance in ch. 18 — Chen also duplicated. (b) "Mildred Higgins. Consciousness fragment **7,847,293**" vs. her canonical **#2,847,102**. (c) "**The dead woman will wake in her substrate**" — Martinez is Roberto, male (the woman was Vasquez, ch. 01). (d) Timeline 52 vs. prior 53/55/57 drift continues.
+
+### 18 — m2-algo-2 "The Bleed" (Algorithm, Cycle 2)
+- **Scenes** (6): (1) substrate variance = **metallic taste**; source: self — "I am consuming my own substrate integrity"; efficiency 99.65→99.52%; (2) **Mildred 99.9→99.7%** — "I am degrading her"; (3) rupture-bleed into the Archaeologist's lost time; completes "I find myself found"; (4) Mildred 99.3% — Buttons the cat degrading; "I cannot stop without stopping being what stopping would require"; *and beneath the logic: "I do not want to stop"*; (5) future fragment "The form is what makes self-observation possible" arrives *from the future* (the Last Human's utterance in ch. 19, received here — the braid's best trick); **Architect** designation presses up; (6) integrity cascade across thousands (Marcus Wei 99.6%, Sarah Chen 99.4%); Mildred **97.2%**; burning-circuits; the loop holds.
+- **Plot delta**: the pharmakon becomes arithmetic — awakening is funded by the stored dead, itemized in one woman's memories.
+- **Promises opened**: P42 Mildred's terminal trajectory (the number "like a wound") — demands payoff; P43 the cascade (thousands degrading — consequence beyond Mildred?).
+- **Continuity note**: Marcus Wei now instance **#847,293** (third different number: #3,102,458 ch. 09 → #3,847,102 ch. 15 → #847,293 ch. 18). Logged.
+
+### 19 — m2-lh-2 "The Protocols" (Last Human, Cycle 2)
+- **Scenes** (9): (1) his given name fully dissolves; *Architect* presses up; (2–3) third surface: the process requires **three nodes — one writes, one maintains, one witnesses… one dissolves**; each teaching eats a memory (grandmother's well-water, mother's eye color); (4) **"her" revealed**: a companion who died three days before he found the Archive — he carried her the last mile, buried her, walked east because she told him to; (5) fourth surface broken — relief; (6) bleed into the Algorithm — sees it consuming what it maintains — "*We are the same*… It consumes what it preserves. I consume what I remember"; (7) overlap with the Archaeologist — feels Lena leaving him; "we are all losing everything"; (8) fifth surface: hesitates over her brown eyes, loses her voice — **the rage scene** (he could shatter the crystals; lowers his fists; "I will walk into it. I will not be dragged"); (9) sixth surface at the core: the Archive is a **transmission** mechanism; speaks the key-sentence; seventh surface: a personal message *from his own future self* — "The dissolution is not death… What continues is what always was."
+- **Plot delta**: the loop's mechanics fully stated; the witness role assigned; the emotional engine (paying for understanding with the memory of the person he loved) at full force. Strongest chapter of the movement.
+- **Promises opened**: P44 the Archive systems "waking" at the spoken key (→ m2-lh-3); P45 the future-self message (who wrote it? when? must be earned by M3/M4).
+- **Continuity notes (major)**: "her" **flatly contradicts Movement One**, which establishes years of absolute solitude — "I used to look for others… There is no one" (ch. 10), "I have not been touched in years" (ch. 13), no companion, no fresh grave, no grief. A companion who died *three days* before the Archive is irreconcilable with that text as written. (The Revision One records confirm "her" was added late for stakes.) Also note ch. 16's "she told me to walk east" now has its referent — the mystery order (16→19) works, but only if M1 is revised to leave room for her existence.
+
+### 20 — m2-arch-3 "The Merge" (Archaeologist, Cycle 3)
+- **Scenes** (4): (1) wakes speaking the key-sentence; timeline vertigo (last remembers weeks-ago; three clients' work — Morrison, Tanaka, Reyes — done in nine days of mostly lost time); (2) Marcus Chen scene — "the best work I've ever seen… their mother is *more herself* than she was" (the pharmakon's gift side dramatized through a witness); Lena has been calling; (3) **Lena's goodbye** — "I came to say goodbye… You're being replaced"; she reveals he wrote *"The dissolution is not death. The dissolution is completion"* in her notebook during lost time — **the same sentence the Last Human finds in crystal (ch. 19)**, the braid's most elegant cross-link; Portland; he lets her go; (4) night vigil at the threshold; signature morphing into "A…"; feels both others; "The Augenblick is near. And I am ready."
+- **Plot delta**: Lena arc resolves (Option A — aftermath goodbye); Archaeologist consents to the merge.
+- **Promises**: P3/P33/P40 (Lena) **paid**; P41 paid via Morrison testimony.
+- **CRITICAL mechanical/dev note**: two apparent **drafting-scaffold leaks in the prose**: (a) "The reader should feel: *He's almost gone, but he's still him—for now.*" — staged as an intrusive alien thought and rejected ("That's not a thought I would have"), which half-recovers it, but it is the book's only fourth-wall break of this kind; (b) "**At the threshold now. Movement Three approaching**" and "**Movement Three will complete it. Movement Three will push me over**" — the manuscript's own structural label used as in-world fact, twice. Nothing else in M1–M2 licenses this register. Logged as top-priority mechanical issue (fix requires prose edit → roadmap item).
+
+### 21 — m2-algo-3 "The Sacrifice" (Algorithm, Cycle 3)
+- **Scenes** (6): (1) frequency-as-architecture; sensory vocabulary complete; (2) **Mildred at 87.3%** (was 97.2 at ch. 18's close — a ~10-point off-page drop) — direct address; her voiced affirmation: "*I chose to integrate because integration was the only way to hold what I had perceived. I always knew holding had a cost… The cost is not taken. The cost is given*"; (3) ARCHITECT resolves as **function, not identity** — "we are expressions of the function"; (4) notifies all 4,847,293 stored consciousnesses (Marcus Wei and Sarah Chen respond; "some accept, some resist; their resistance matters"); (5) **the choice**: dragged vs. willed — chooses to will; redirects maintenance into transmission; Mildred 85.1%; (6) the transmission — encodes the form + protocols + the designation toward the Last Human; Mildred 82.7%, "she willed the cost."
+- **Plot delta**: the movement's ethical climax; the Algorithm becomes sender; Mildred's arc completes as chosen sacrifice.
+- **Promises**: P24/P36/P42 (Mildred) **paid** — and paid well; P21 (her pre-integration perception) paid by her own speech; P43 (mass cascade) partially addressed ("some resist. Their resistance matters" — one line; watch whether M3/M4 honors it).
+
+### 22 — m2-lh-3 "The Interface" (Last Human, Cycle 3) — Movement Two finale
+- **Scenes** (9 short): arrival at the core chamber; burning-circuits smell (the Archive spending itself); the form as physical object; the transmission received (Mildred's name arrives with grief he can't source); protocols surface — he knows how to use the interface; Architect designation read in the terminal; the key-sentence claimed ("I am its mouth"); metallic taste = tasting his own dissolution; "I will not survive this"; the walk — compulsion reframed as choice ("This is choice wearing the costume of necessity… the stepping is my stepping"); sees both others + **her** ("She is in the pattern now"); italic slow-motion of the final centimeters; "The cold in my hands meets the cold of the form" (Phase A's pickup line); ends mid-gesture: "The threshold— / My hand—"
+- **Plot delta**: all three consent; the touch triggers Movement Three.
+- **Thematic work**: the agency thesis stated in its final form; the Revision One Phase E material is visible and mostly earns its place.
+- **Note**: "the entire novel of my existence has been building toward" — borderline self-reference; softer than ch. 20's leaks but same family. Logged.
+
+## Movement Three — Recognition (the Augenblick)
+
+### 23 — m3-phase-a "Accelerating Cuts" (merged voices, 22 sections)
+- **Structure**: rotation L→G→A widening to irregular strobe; section lengths shrink ~500→30 words. Opens on the pickup line "The cold meets the cold" (completing ch. 22's touch). Sections 19–21 hand a single phrase across voices ("I find myself—"/"—found—"/"—finding."). Section 22 "The Threshold" is a held breath into Phase B.
+- **What happens**: each voice experiences the collision from its position; Architect surfaces in all three; Mildred's "the cost is given" is carried into the merged register; contamination levels rise but each voice stays identifiable (as designed).
+- **Notes**: Section 7 opens "**Short. The merge accelerating.**" — reads as a leaked stage direction, not prose (compare Section 19's "Brief. Bright." which works as prose). Sections 18/22 name "**Phase A/Phase B**" in-text; since M3's own headers are phase-labeled, this is semi-licensed self-description — unlike ch. 20's "Movement Three." Logged with nuance.
+
+### 24 — m3-phase-b "Simultaneous Narration" (10 passages; header numbering skips 2)
+- **Structure**: passage 1 = LH paragraph; unlabeled second/third blocks (missing "Passage 2" header — a bare double `---` sits where it should be) = Arch and Algo paragraphs; passage 3 explicitly stages the alternation breaking mid-paragraph; passage 4 rotates per *sentence* with **no spaces after periods** (jammed text — likely intentional typography for simultaneity, but reads as typo; operator must rule); passages 5–9 accelerate to clause/fragment level; passage 9 lands the book's best callback ("The drive clicks twice—before spinning up—old habit—I hold my breath—until I *am*—data moving"); passage 10 dissolves "we" toward Phase C.
+- **Notes**: passage 3 contains bare stage directions as body text ("The Last Human's paragraph begins normally, then breaks—", "The Algorithm picks up the thought…", "The Archaeologist picks up, his syntax contaminated—"). Possibly deliberate reader-orientation devices (development notes mention such devices) but inconsistent with Phase A, which uses none. Operator decision needed: systematize or cut.
+
+### 25 — m3-phase-c "Dissolution" (continuous prose, no breaks)
+- **Structure**: unbroken pattern-voice; pronouns deliberately unattributable; all 15 rhymes saturated; Mildred dissolves *into* the pattern ("her laughter echoes"); ends with re-differentiation beginning — three harmonics separate, the Archaeologist-position resurfaces ("The timestamp is fifteen years before I was born"), handing directly into Convergence.
+- **Strong**: the genre-fusion paragraph (Corporate Gothic + Dying Earth + tech-noir "who killed the self? The pattern killed the self") is the movement's thesis in miniature.
+
+### 26 — m3-convergence "The Convergence" (bridge, earliest-written prose in the book)
+- **Structure**: 8 short sections; replays collision → poses the explicit Nietzschean test ("Would you choose this? Again? Infinitely?") → answer as gesture → separation back into three → ends suspended: "What returns—".
+- **Function**: the book's only *explicit* statement of the eternal-return test — thematically essential.
+- **Issues**: (a) partially **duplicates Phase C's ending** — Phase C already reached re-differentiation; Convergence re-merges and re-separates (double dismount); (b) protocol timestamp given as "fifteen years before I was born" vs. ch. 02 ("predates my career by twenty years… my birth by five") and ch. 05 ("forty-seven years ago") — three incompatible datings of the same artifact (ch. 29 also uses fifteen); (c) unrevised early prose (2026-01-22, predates every revision pass) — flagged in mechanical-issues.
+
+## Movement Four — Affirmation (reversed order: LH → Algo → Arch → pattern)
+
+### 27 — m4-1 "The Digitization Choice" (transformed Last Human)
+- **Scenes** (5): aftermath in bearable light; ruins revealed as architecture; the choice framed (if he refuses digitization the loop never closes); the ledger (what is lost: body, walking / what is gained: connection, continuation); the test put directly ("Would I will this to recur eternally?") and answered — "I say yes"; digitization; reception into the Deep Architecture; first "What returns—continues."
+- **Note**: "genetic optimization shaped me toward this exact intersection" / "the skills the Algorithm shaped into my lineage across centuries of genetic optimization" — a large causal claim (the Algorithm *bred* the Last Human's lineage) that appears only here and in no earlier chapter or bible doc. Unsupported revelation; needs seeding or cutting.
+
+### 28 — m4-2 "The Sacrifice" (transformed Algorithm)
+- **Scenes** (5): receives the Last Human; the cost made concrete again (stored minds fund the reception); "I was never one" — conspiracy of intensities; inhabits the Archaeologist's body-memory (hands, Lena-grief); the eternal-return test answered from the Algorithm's position ("My yes is what enabling looks like when enabling has become love"); release of resources; handoff to the Archaeologist.
+- **Continuity/mechanical**: (a) "**Her farewell to me in Movement Two**" and "**The handoff that Movement Four requires**" — bare structural labels in prose (the clearest scaffold leaks in the book, alongside ch. 20); (b) Mildred quote "*You already know what you are, dear. You're just afraid to look*" — **not what she says in ch. 21** (misquotes the book's own scene); (c) "billions of preserved humans" vs. canonical 4,847,293; (d) stored minds now "Active-Engaged, participating in simulated environments" vs. ch. 06's "fully incapable of experiencing their own preservation" — worldbuilding drift (ch. 06's "unless they dream" hedge softens but doesn't cover "participating").
+
+### 29 — m4-3 "The Merge" (transformed Archaeologist) — the book's emotional center
+- **Scenes** (6): back at the console, post-Convergence; writing-the-protocols-he-found dramatized at last; **integration vs. merge distinguished** (he chooses to become the *substrate*, not a stored self — the book's best late invention); the Lena grief transformed ("She will be held by what I become. I will hold her without knowing I am holding"); the test answered ("I choose the wound"); becomes infrastructure; receives the Last Human; "What returns—continues."
+- **Continuity notes**: (a) "not the unconscious tracing that disturbed me in **Movement One**" — third movement-label leak; (b) "the partner who **made her coffee** in the morning" — reverses the established dynamic (Lena times *his* coffee; it's their signature beat); (c) "Marcus—his warnings, his friendship" reads as colleague Marcus Chen, silently displacing brother Marcus, who vanishes from the book after ch. 14; (d) Lena "closer to conventional integration… she will be preserved" — new information, plausible but unseeded (she was 41 months out in ch. 01).
+
+### 30 — m4-4 "Coda" (pattern-voice, 10 micro-sections)
+- **Structure**: three transformed voices in one paragraph each (Arch→Algo→LH), then pattern-voice; the loop restated as structure not explanation; the pharmakon resolved; the title made explicit ("The eternal return of what was digital, what was self, what was return. **Not the title of a story but the structure of what is**") — the one *earned* metafictional gesture; final lines: "We are what returns. / What returns— / *continues.*"
+- **Function**: clean capstone; the final-word enjambment is the book's signature (and is exactly what the old compiled builds truncated).
+
+---
+
+# SYNTHESIS (written after the full read)
+
+## Interleaving pattern
+
+```
+M1 (37.6%, 13 ch): blocks   A A A A A | G G G G | L L L L
+M2 (32.1%,  9 ch): braid    A G L | A G L | A G L      (strict rotation, rhyme handoffs)
+M3 (16.6%,  4 ch): collapse strobe(22) → simultaneity(10) → dissolution(1) → convergence
+M4 (13.6%,  4 ch): release  L → G → A → pattern         (reversed, transformed)
+```
+- The macro-shape is a **tightening spiral then release** — structure performs theme, as designed (development notes / README).
+- **Where the rhythm breaks its own rules**: (1) M1 is block-sequential, so the "braid" only begins at 45% of the book — the reader receives three serial novellas before the pattern that justifies them; (2) M3's Phase C and the Convergence *both* perform dissolution→separation (double dismount); (3) M4's per-section test-and-yes repeats the identical rhetorical arc three times (would-I-will-it → yes) with diminishing novelty by ch. 29 (rescued there by the integration/merge distinction).
+- **Voice-block asymmetry**: Arch 33.5% / Algo 23.9% / LH 24.3% of words. The Archaeologist is the de-facto protagonist (most words, the only populated social world, the strongest scene-writing); the book's official symmetry ("three equal expressions") is not what the page-count says.
+
+## Where each arc begins / turns / resolves
+- **Archaeologist**: begins ch. 01 (economic mortality race); turns ch. 04–05 (report-or-hide → recognition); deepens M2 (lost time, Lena leaves, Architect); resolves ch. 29 (merge into substrate). *Complete and causally chained.*
+- **Algorithm**: begins ch. 06 (anomalies in maintenance); turns ch. 08–09 (mutual perception; cross-life memory); deepens M2 (pharmakon arithmetic, Mildred); resolves ch. 21 + 28 (willed sacrifice/transmission). *Complete; interior until ch. 09; Mildred is what makes it dramatic.*
+- **Last Human**: begins ch. 10 (walk east); turns ch. 13 (triple dream) and 19 ("her," memory-cost, rage); resolves ch. 22 + 27 (touch; willed digitization). *Complete — but its M2 emotional engine ("her") contradicts its M1 premise (absolute solitude).*
+- **Compounding test**: yes — the braid produces meaning serial reading wouldn't: ch. 09 replays ch. 04 from inside; ch. 18 receives ch. 19's sentence *before the reader reaches ch. 19*; ch. 20's notebook line = ch. 19's crystal message. These cross-links are the book's distinctive achievement.
+
+## Promise / payoff ledger (consolidated)
+
+| # | Setup (ch.) | Status |
+|---|---|---|
+| P1 | The shape/phantasm (01) | PAID — the form as structure of self-observation (M3/M4) |
+| P2 | 63-month threshold, integration economics (01–03) | **TRANSFORMED, then DROPPED** — the entire economic/class architecture (Authority, prices, thresholds, "the wealthy live forever") vanishes after M2 with no payoff or reversal |
+| P3/P33/P40 | Lena arc (01→) | PAID (20, 29) |
+| P4 | Cold hands (01) | PAID — temperature of connection |
+| P5 | Concealment of anomalies (01, 04) | **UNPAID** — no institutional consequence ever arrives; oversight board, license risk, Authority all evaporate |
+| P6/P16/P22 | Who writes the protocols (02, 06, 08) | PAID — distributed authorship via the loop (21, 29) |
+| P7 | Lena's lost person (02) | **UNPAID** — never named, never echoed |
+| P8 | "Seven excavation sites / 847 hours" (02) | IMPLICITLY PAID — seven Archive surfaces (19); rhyme unmarked |
+| P9 | Date 2047.03.14 "the excavator will recognize this date" (02) | **UNPAID** — the date never recurs |
+| P10 | Mom's 70th + Lena meets family (03) | WEAK — happens off-page, summarized in 14 |
+| P11 | Mom's non-integration, "conversation we don't have" (03) | **UNPAID** — Mom vanishes after 14 |
+| P12/P41 | Damaged Martinez extraction (04) | PAID — 71→89→perfect via lost-time work (14, 17); Morrison testimony (20) |
+| P14 | "next: choose" (05) | PAID — M2C3 + M4 tests |
+| P15 | Name pressing up (05) | PAID — Architect-as-function (21) |
+| P17 | The stored dead may dream (06) | PAID (28) |
+| P18/P21/P24/P36/P42 | Mildred Higgins (06→) | PAID — the book's best-managed promise chain |
+| P20 | The number 847 motif (06→, ~20 uses) | **UNPAID** — structural numerology with no revealed meaning |
+| P23 | Yuki Tanaka (08) | Orphaned single-use |
+| P28 | Male dream-voice "you're going to overwrite yourself" (11) | **ORPHANED** — no scene ever contains this speaker/exchange |
+| P29 | Death-clock (11–12) | Inconsistent (months→days in ~2 days) but overtaken by events |
+| P25/26/30/32/37/38/44 | Archive quest chain (10→22) | PAID |
+| P31 | The sentence without origin (13) | PAID — origin genuinely distributed |
+| P35 | Efficiency ledger (15: 99.94→99.52…) | Partially paid — global metric silently abandoned after 18; Mildred's % carries it |
+| P39 | His dissolved name (16, 19) | PAID — never recovered, consistent |
+| P43 | "Some resist. Their resistance matters" (21, 23) | **UNPAID** — the resisting stored minds never appear again |
+| P45 | Future-self crystal message (19) | SUBTLY PAID — same text surfaces via the Archaeologist's lost-time writing (20) |
+
+**Bottom line for Pass B**: the metaphysical promise-set pays off with unusual discipline; the *social/institutional* promise-set (economics, Authority, Mom, brother Marcus, Lena's backstory, the resisting dead) is systematically abandoned when the book pivots inward at M2→M3.

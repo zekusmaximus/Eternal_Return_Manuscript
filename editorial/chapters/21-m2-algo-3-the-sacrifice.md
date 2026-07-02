@@ -1,0 +1,6 @@
+# Dev notes — 21 (M2 Algo 3, "The Sacrifice")
+
+1. **Mildred's farewell is the movement's ethical climax — protect verbatim** ("I chose to integrate because integration was the only way to hold what I had perceived. I always knew holding had a cost… The cost is not taken. The cost is given."). Ch. 28 misquotes it (see ch. 28 note 2); the fix is in 28.
+2. **The off-page 10-point drop (97.2→87.3) between chs. 18 and 21.** Not an error (cycles pass) but unmarked; one clause ("the cycles since the bleed have taken what cycles take") would keep the ledger's integrity.
+3. **"Some accept. Some resist. Their resistance matters" (scene 4) — currently an IOU (P43; report §6.1).** This chapter or ch. 28 is where the resisting minds need their face and outcome; recommended: a named instance who refuses, and the selection principle shown (what cannot affirm doesn't return — dramatized, not asserted). Candidate: repurpose Yuki Tanaka (ch. 08) as the resister — reuses a planted name and pays two debts at once (R-08).
+4. **The dragged/willed distinction (scene 5) is the philosophical hinge of M2 — keep; M4 quotes its logic.** If the efficiency-metric retirement line (ch. 15 note 1) is adopted, it belongs in scene 5's cost accounting.
