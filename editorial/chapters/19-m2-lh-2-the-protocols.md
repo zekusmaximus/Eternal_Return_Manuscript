@@ -1,0 +1,7 @@
+# Dev notes — 19 (M2 LH 2, "The Protocols")
+
+1. **The strongest chapter in the book — and it stands on a contradiction (R-01).** "Her" (died three days pre-Archive, "keep walking east," the burial) contradicts M1's absolute solitude (chs. 10 §2, 13 §4). The fix is in M1, not here — this chapter's version is canonical. Explicitly protect: the memory-cost ledger (well-water, mother's eyes, her voice), the rage scene (fists lowered), the seventh-surface message.
+2. **The rage scene (scene 8) is the agency thesis at its best** — he *could* shatter the crystals and chooses not to. If the selection principle gets dramatized (report §6.1), this scene is its human rhyme; no edits.
+3. **"One writes. One maintains. One witnesses. / One dissolves." (scene 3)** — the role-assignment is load-bearing for M3/M4; note that *all three* dissolve in M3 and all three claim the witness function by the coda. Not a defect (the roles blur by design) but verify the coda's "What the Last Human entered, the Archaeologist became" square with this taxonomy when R-06 (Convergence rework) is drafted.
+4. **The seventh-surface future-self message = ch. 20's notebook line.** "The dissolution is not death. The dissolution is completion." Cross-link is subtle and perfect; when ch. 20 is touched for scaffold leaks (R-03), do not disturb the notebook beat.
+5. **Fourth surface (broken, teaches nothing) is a small mercy-beat that earns the fifth's cost — keep.**

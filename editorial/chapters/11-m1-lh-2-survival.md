@@ -1,0 +1,6 @@
+# Dev notes — 11 (M1 LH 2, "Survival")
+
+1. **"Her" accommodation, continued (R-01).** The survival-rituals inventory ("I have stopped counting days"; solo trap lines) reads as years alone. Two sentences noting a second set of rituals recently made single ("The filter takes four hours. It used to take two, shared") would do more than any paragraph of backstory.
+2. **The male dream-voice is an orphan (P28).** Problem: "You're going to overwrite yourself… you can't keep pulling future states into the present" — no scene anywhere contains this speaker or line. Evidence: checked all Arch/Algo chapters. Fix options: (a) add the beat it foreshadows — Marcus Chen warning the Archaeologist during M2 lost time (ch. 17 scene 2 has him standing right there); (b) re-voice the dream using Lena's actual lines. (a) recommended; it also gives Chen a function beyond witnessing.
+3. **Death-clock: "months, maybe a year" here vs. "weeks, maybe days" in ch. 12** with ~2 story-days between (mechanical/P29). Fix: either revise this estimate down or add the (already implicit) accelerant — proximity to the Archive speeds the transformation; one clause in ch. 12 covers it.
+4. **Protect the world-as-organism section (scene 3)** — the deep-future worldbuilding at its best, and the source register for M4's "ruins are architecture" reveal.

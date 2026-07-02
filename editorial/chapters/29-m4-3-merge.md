@@ -1,0 +1,8 @@
+# Dev notes — 29 (M4 §4.3, "The Merge")
+
+1. **The emotional center of the book — most edits here are protective.** The integration-vs-merge distinction (scene 3) is the book's best late invention; "She will be held by what I become. I will hold her without knowing I am holding" is the Lena payoff. Protect both.
+2. **Scaffold leak (R-03):** "not the unconscious tracing that disturbed me in Movement One" → "…that disturbed me in the beginning" (or "before the bleed").
+3. **Cash the economic thread here (R-11; report §5.2/§6.3).** Scene 3 already says "I am not choosing integration." Add the one sentence that names the money: eleven years of saving, the months meter, the commodity he now declines — the class critique's payoff is one sentence away.
+4. **"Marcus" here conflates colleague and brother.** "Marcus—his warnings, his friendship" reads as Chen (warnings, ch. 17/20); brother Marcus (the book's mortality voice) exits unresolved at ch. 14. Fix inside the continuity item + R-11: disambiguate, and give *brother* Marcus his echo here ("My brother, who chose footprints that evaporate — he was not wrong. He was early.") — closes the book's strongest counter-argument.
+5. **"The partner who made her coffee in the morning" reverses the established dynamic** (Lena times *his* coffee — chs. 01/02/03's signature beat). Fix: "the partner whose coffee she timed to his patterns" or simply "who drank her coffee." Small; worth it — the beat is load-bearing intimacy.
+6. **Lena's integration ("she will be preserved… within systems I am becoming") is unseeded** — one line in ch. 20 covers it (her 41 months from ch. 01 is sitting unused). Part of R-11.

@@ -1,0 +1,7 @@
+# Dev notes — 05 (M1 Arch 5, "Recognition")
+
+1. **"Marcus the broker" contradicts ch. 03's line cook.** Evidence: scene 4 here vs. ch. 03 scenes 1/4. Fix: change this line to match the service-worker Marcus ("Marcus the cook, Marcus the content one" — the contrast the paragraph wants is *contentment*, not success). Continuity roadmap item.
+2. **"Love you" arrives without a hinge.** Problem: first romantic declaration in the book, mid-crisis, days after ch. 03's "what would I be introduced as?" Evidence: scene 1 text to Lena; "the person she loves" (scene 4). Fix: resolved automatically if ch. 03's option (a) is taken (established couple); otherwise this needs a beat.
+3. **"Twenty years learning to excavate the dead" breaks the math.** He is 34 (ch. 03), saving 11 years (ch. 01), in an industry the Authority era implies is younger than 20 years. Fix: "ten years" or "half my life" — continuity item.
+4. **Protocol dating: "forty-seven years ago" vs. ch. 02's "career by twenty, birth by five" vs. chs. 26/29's "fifteen before my birth."** Three incompatible datings of the same artifact (mechanical #9). Fix: pick one canonical figure (birth−15 is the one M4 uses twice; propagate it here and to ch. 02).
+5. **The chapter earns its abstraction.** The name-loss scene (scene 5) and "But written by WHOM?" (scene 6) are the right escalation and the right open question; the Act-1 suspension on the birthday eve is correct. No structural notes.

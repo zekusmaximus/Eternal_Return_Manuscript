@@ -1,0 +1,6 @@
+# Dev notes — 22 (M2 LH 3, "The Interface")
+
+1. **The movement finale does its job; one register slip.** "the entire novel of my existence has been building toward" (scene 7) — softer cousin of the ch. 20 leaks; "novel" is avoidable ("the entire length of my existence"). Fold into R-03's diff.
+2. **The choice-not-compulsion passage (scene 7: "choice wearing the costume of necessity… the stepping is my stepping") is Phase E's best addition — protect.** It must survive any trim; it's the answer to ch. 12's fatalism line once that's revised (ch. 12 note 1).
+3. **"She is here too… She is in the pattern now" (scene 8)** — asserts the dead companion entered the pattern; nothing establishes how a non-integrated, pre-Archive death joins it. Two options: soften to his belief ("I choose to believe she is in the pattern — the belief is mine to keep") or seed it in ch. 19 (her burial in soil threaded with the world's new circuitry — the material is already there: "soil that tasted like rust"). Flag for operator.
+4. **The italic slow-motion close is right; the hard cut ("The threshold— / My hand—") into Phase A's pickup line is verified intact** (Phase A opens "The cold meets the cold"). Assembly-order constraint noted in R-05.
