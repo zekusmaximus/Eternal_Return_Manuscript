@@ -162,6 +162,18 @@ Not physically. The sensation is—presence. Awareness. The weight of being perc
 
 And something else. Someone else. A figure in a world that hasn't happened yet, standing in crystalline ruins, feeling this same recognition across a gap of time that is also no gap at all. The Last Human. The one who will inherit what I am building. The one whose witnessing completes the loop.
 
+And through the overlap, a moment arrives that is not mine.
+
+Rage. His rage—it comes the way the bleeds come, unasked, complete. He stands in a corridor of crystal that holds everything I am writing, everything these hands have produced in the lost hours, and he hates it—hates the patient light, hates the pattern that requires him to dissolve. I feel his fists clench around my cold. One blow. The surfaces are fragile enough. One blow and the crystal shatters, the transmission never completes, the protocols never arrive in a dead man's archive with my methods and my signature inside them. Everything that found me exists inside his hands, waiting to learn whether it exists.
+
+He lowers his fists.
+
+I feel the lowering as weight leaving my own hands. Not metaphor—consequence. The protocols on my desk are the shape of his fists coming down. Every line of impossible code, every note in handwriting that knew me before I wrote it, every hour of the work that cost me Lena—spared into being by a man who has not been born, standing in the ruins of what I am becoming, deciding whether I happen. He decides that I happen. He will walk into it. He will not be dragged. And because he chooses the walking, there is something here for me to find.
+
+I am the consequence of a choice that is being made in a world that does not exist yet.
+
+The recognition should terrify me. Once, it would have. Instead it arrives like an answer to the question I have been asking since the code first knew my name: the pattern is not a cage. The pattern holds because at every position, in every when, someone chooses to hold it.
+
 I find myself found. The phrase is speaking through all three of us simultaneously. Origin dissolved. Destination dissolved. The conspiracy of intensities expressing itself through whatever voices remain.
 
 *Architect.*
