@@ -2,6 +2,8 @@
 
 I walk through what was a city. I am already walking—I don't remember starting. The motion began before I woke to it, legs knowing the direction my mind has not yet named.
 
+Behind me is a mound of stones I will not look back at. The legs know that too.
+
 The buildings don't remember being buildings. I remember for them.
 
 This was a street. Here, people walked. They carried things—food, children, the weight of ordinary days. The pavement is cracked now. Plants push through that have no names. No one left to name them. They are violet, crystalline, sharp enough to cut skin. They taste like ash and survival.
@@ -12,7 +14,7 @@ The database—the Archive—is three days east, if my dreams are right. My drea
 
 I stop to drink. The water filter takes four hours to clean enough for the day. I set it up in what was a fountain. The basin still holds shape, carved with faces that have worn away into smooth anonymity. Stone forgets slower than flesh, but it forgets.
 
-My own name sits at the edge of memory—a sound I speak each morning to keep it from dissolving. Some mornings it takes longer to find. Some mornings I wake already walking and the name trails behind, catching up.
+My own name sits at the edge of memory—a sound I speak each morning to keep it from dissolving. Another voice used to say it—I do not think about the voice. Some mornings it takes longer to find. Some mornings I wake already walking and the name trails behind, catching up.
 
 While I wait, I check the traps. Three small animals—I don't know their species, don't know if they have one. New things. Adapted things. Fur that sheds radiation, bones that show through skin like external scaffolding. They taste like survival tastes. Ash and necessity.
 
@@ -28,7 +30,7 @@ In the beginning—which feels like a story someone told me rather than a time I
 
 There is no one.
 
-The silence is not empty. It has a texture, a weight. It presses against the ears like deep water. It occupies the space where voices used to be. Sometimes I think the silence is what evolved here, and I are the intrusion, the last noisy thing in a world that has perfected quiet.
+The silence is not empty. It has a texture, a weight. It presses against the ears like deep water. It occupies the space where voices used to be. Sometimes I think the silence is what evolved here, and I am the intrusion, the last noisy thing in a world that has perfected quiet.
 
 I walk. The violet plants crunch under my boots. The sound is startlingly loud, a violation of the peace.
 

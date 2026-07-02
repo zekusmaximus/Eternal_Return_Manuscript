@@ -4,7 +4,7 @@ Morning is a calculation. Grey light reaching a certain angle. Air temperature d
 
 I learned to read these signs. I don't remember learning.
 
-The water filter needs cleaning. Sediment from last night's collection has clogged the lower membrane. I take it apart with hands that know the motions—unscrew, separate, scrape, reassemble. Twelve minutes. I have done this so many times that my fingers work while my mind drifts elsewhere.
+The water filter needs cleaning. Sediment from last night's collection has clogged the lower membrane. I take it apart with hands that know the motions—unscrew, separate, scrape, reassemble. Twelve minutes. It used to go quicker. I do not think about why. I have done this so many times that my fingers work while my mind drifts elsewhere.
 
 Elsewhere is dangerous. Elsewhere is the dream. The room with walls of light, the hands that weren't mine, the woman's voice. I pull myself back to the filter, the grit, the necessity.
 
