@@ -74,7 +74,7 @@ A voice. A woman. She stands behind me—behind the body I am occupying, behind 
 
 "I'm fine." The voice that comes out is not my voice. Lower, smoother, a voice that hasn't spent years not speaking. But the words are automatic. The words are what this body says when this woman asks.
 
-"Your hands are shaking." She moves closer. I feel her hand on my shoulder—my shoulder, the shoulder I don't have, the shoulder of a body I am dreaming from inside—and the warmth of her touch is unbearable. I have not been touched in years. I have not been touched in centuries. The warmth reaches through the cold I carry, reaches through the radiation damage, reaches through whatever barrier separates the body I am from the body I am visiting.
+"Your hands are shaking." She moves closer. I feel her hand on my shoulder—my shoulder, the shoulder I don't have, the shoulder of a body I am dreaming from inside—and the warmth of her touch is unbearable. The last touch I knew was a weight I carried. This touch is weightless. No one has touched me like this in years. In centuries. The warmth reaches through the cold I carry, reaches through the radiation damage, reaches through whatever barrier separates the body I am from the body I am visiting.
 
 *Lena.* The name arrives without origin. I know her. I have never met her. I know her because this body knows her, because this life is entangled with her life, because whatever connects me to this moment includes the weight of her worry, the pattern of her care.
 

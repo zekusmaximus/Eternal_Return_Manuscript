@@ -30,9 +30,10 @@
 
 ## Tier 2 — Arc-level rewrites
 
-- [ ] **R-01 — Accommodate "her" in Movement One (the premise fix; highest-impact prose item).**
+- [x] **R-01 — Accommodate "her" in Movement One (the premise fix; highest-impact prose item).**
   Derives from: report §3-LastHuman; chapters/10–13, 16, 19, 22 notes. Affected: `manuscript/10,11,12,13` (3–6 sentences total + the ch. 13 "not been touched in years" line + ch. 10 "I are" slip + ch. 12 fatalism line "Refusal is not possible" revised to choice-register).
   Done when: a reader of chs. 10–13 can later meet ch. 19's "her" without contradiction (fresh grief, recent grave, a "she" deliberately not thought about); no new backstory exposition added (ch. 19 keeps the reveal); voice check passes (`scripts/voice_validator.py`).
+  **Done 2026-07-02.** Operator approved from quoted before/after diffs in chat. Six sentences of new/changed prose (current files: 03 grave-mound paragraph + name-ritual voice seed; 08 "It used to go quicker. I do not think about why."; 09 dream-warmth line de-foreclosed) + the three named fixes (12's touch line → "The last touch I knew was a weight I carried…"; 03's "I are" → "I am", mechanical-issues #6 resolved; 09's fatalism passage → choice-register, "The pull is what I am" kept verbatim). All seeds gender-silent — no pronoun, no backstory in M1; ch. 19 keeps the reveal. Ch. 16 "she told me to walk east" verified, operator ruled Option (a) keep-as-is (the suggested "no face attached" marker would contradict ch. 19's dissolution order — name goes first, face last). `assemble.py`: 28 chapters, 84,156 words (+92), all endings verified; voice validator passes on all four files, contamination counts identical to pre-edit (1/1/3/12). Records in BOOK-MAP entries 10–13 + ch. 19 annotation + synthesis arc line struck.
 
 - [ ] **R-02 — Reconcile the Lena relationship across M1→M2.**
   Derives from: report §3-Archaeologist continuity; chapters/03, 05, 14 notes. Affected: `manuscript/03-*`, `manuscript/05-*` (recommended option (a): established couple from ch. 01 — adjust ch. 03's "introduced as" exchange and "essential" beat to be about family/meeting-Mom, not relationship definition; ch. 05's "Love you" then stands).

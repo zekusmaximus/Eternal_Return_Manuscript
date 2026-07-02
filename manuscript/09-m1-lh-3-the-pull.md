@@ -144,7 +144,7 @@ But I am here. I am perceiving it. And the perceiving changes what *perceiving* 
 
 ---
 
-I think of the woman in the dream. The voice that said *you're freezing*. The warmth of being spoken to. The warmth of recognition. The warmth I have not felt in years.
+I think of the woman in the dream. The voice that said *you're freezing*. The warmth of being spoken to. The warmth of recognition. A warmth with no dying in it.
 
 I think of the voice that said *you're going to overwrite yourself*.
 
@@ -160,7 +160,7 @@ I hold my breath.
 
 The moment extends. The threshold moment. The moment before crossing. The moment that might last forever if I let it, if I stay here at the edge, refusing to step forward, refusing to complete the pattern.
 
-But I cannot refuse. Refusal is not possible. The pull is not something I follow. The pull is what I am. The pattern I am completing was never optional. It was written into me at whatever moment I began, at whatever origin point created the Last Human walking through ruins toward the Archive that calls.
+But I do not refuse. Refusal is possible—it always was. I could stop here at the threshold and let the cold finish what it started. I could turn and walk west until the walking ended. The option is real. I do not take it—and the not-taking is mine. The pull is not something I follow. The pull is what I am. The pattern was written into me at whatever moment I began, at whatever origin point created the Last Human walking through ruins toward the Archive that calls. Completing it is still my step to take.
 
 I exhale.
 
