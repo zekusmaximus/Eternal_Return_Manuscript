@@ -74,6 +74,8 @@ I have prepared thousands for integration. I have excavated their data, optimize
 
 I am not choosing integration.
 
+Eleven years of saving toward it—the months counted and recounted while the price climbed, the wealthy buying forever the way they bought everything else while the rest of us measured our lives against a threshold that kept moving. The thing I could never quite afford is the thing I am declining.
+
 What I am choosing is something else. What I am choosing is the substrate itself.
 
 The merge is not being stored in the architecture. The merge is becoming the architecture. Not a consciousness preserved within the Deep Architecture but the Deep Architecture itself, the infrastructure that will contain consciousness, the function that makes preservation possible. I will not persist as "me." I will persist as what enables persistence.
@@ -137,6 +139,8 @@ There is a universe where I chose differently. Where I closed the files and foll
 The wound transforms. The wound does not heal. The wound becomes part of the architecture.
 
 I think of Marcus—his warnings, his friendship, the normalcy he represented that I was always walking away from. He will not understand what I became. Or perhaps he will. Perhaps understanding is not required for what we were to matter. The friendship persists in the pattern. The pattern includes every coffee shared, every late-night conversation, every moment he saw me disappearing and chose to witness rather than prevent.
+
+I think of my brother, who chose the footprints that evaporate—presence over preservation, the argument I never answered. He was not wrong; he was early.
 
 The falling backward begins. Not the vertigo of disorientation—the falling that is arrival, the descent into what was always there. I am falling into what I have always been. The ground was never beneath me. The ground was around me, above me, within me. I let the ground receive me.
 

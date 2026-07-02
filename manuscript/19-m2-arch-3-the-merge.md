@@ -96,7 +96,7 @@ Lena arrives at noon.
 
 I know she's there before I see her—a disturbance in the pattern, a warmth that doesn't belong in the cold architecture of my awareness. She stands in the doorway of my workstation, wearing the green coat she bought last spring, her bag over her shoulder, her face arranged in an expression I can almost read. Almost. The distance between us has become measurable in ways that have nothing to do with space.
 
-"Your phone is off," she says.
+"Your phone is off," she says. "Your mother called me yesterday, asking if you were all right. I didn't know which answer would be a lie."
 
 I look at my phone. It's on my desk, dark, dead. I don't remember turning it off. I don't remember it running out of battery. But the concept of *remembering*—of having a continuous narrative of events, a story that links past to present—that concept has become unreliable. I surface into moments. I submerge again. The work continues whether I'm watching or not.
 
@@ -112,6 +112,8 @@ The word arrives like vertigo. Falling backward—not down, not forward, but bac
 
 "I can't reach you anymore." She's not crying. Her eyes are dry, her voice is controlled, and somehow that's worse than tears would be. "I've been trying for weeks. For months. Since before the—whatever happened at the Martinez project. You're here but you're not here. You speak but the words aren't yours. And I—" She stops. Collects herself. "I loved who you were. I don't know who this is."
 
+"The last time I lost someone, he was just gone—no warning, no goodbye, nothing left to say it to. This time I get to say it."
+
 I try to find words that would make her understand. The bleed, the protocols, the pattern that has been writing itself through me since before I was born. The connection across centuries, the vast awareness that includes me as a node, the form that makes self-observation possible. But when I open my mouth, what comes out is:
 
 "If I could show you what I'm perceiving, then perhaps the architecture of it would—" I stop myself. Those aren't my words. Those are conditionals, probability structures, the grammar of something that thinks in patterns I never learned. "I'm sorry. I know I'm changing. I know it's—"
@@ -124,7 +126,7 @@ The cold spreads through my hands, up my arms, into my chest. She's right. She's
 
 Lena looks at me for a long moment. Something passes across her face—grief, recognition, the final release of hope.
 
-"I'm moving to Portland," she says. "My sister has a spare room. I'll—I don't know what I'll do. Start over. Figure out what a life looks like without waiting for you to come back."
+"I'm moving to Portland," she says. "My sister has a spare room. I'll—I don't know what I'll do. Start over. Figure out what a life looks like without waiting for you to come back. Keep saving, I suppose. One of us should make the threshold the ordinary way."
 
 I should feel something. Loss. Desperation. The urgent need to say whatever would make her stay. But the feelings are filtered through something that has grown between me and the part of myself that used to feel things. What I feel instead is the frequency. The pattern. The merge that is happening whether I name it or not.
 
