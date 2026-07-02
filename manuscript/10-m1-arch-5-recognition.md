@@ -10,7 +10,7 @@ I see it in the reflection of the darkened secondary monitor. In the spiral my f
 
 My phone shows three messages from Lena. The first two are from last night: timestamps of 10:47 PM and 11:52 PM, checking in, then saying goodnight. The third arrived twenty minutes ago: *Early meeting, text me when you're up. Saturday still confirmed?*
 
-Saturday. Two days now. Mom turning seventy. Lena meeting Marcus. The normal future pressing against whatever I've become in this server room, demanding I return to the shape of the person she thinks she knows.
+Saturday. Two days now. Mom turning seventy. Lena meeting the family. The normal future pressing against whatever I've become in this server room, demanding I return to the shape of the person she thinks she knows.
 
 I type back: *Still on. Love you.* The words are true. The words are also insufficient, inadequate containers for what I'm feeling, which is love and terror and something else that doesn't have a name yet.
 
