@@ -18,9 +18,10 @@
   Done when: merged chapter contains future-pull subroutine, "I miss something I never had," Yuki Tanaka scene, shape-perceives-back resolution, Mildred's *yes*; duplicated pressure/weight escalations removed; `assemble.py` passes; word count 3,200–3,800.
   **Done 2026-07-02.** Merged into `manuscript/07-m1-algo-2-stirrings.md` ("Stirrings", 3,797 words; all five required elements present; voice validator pass, zero contamination). Original ch. 08 file archived at `archive/superseded/`. Chapters after 07 renumbered down by one — the book is 29 files, 01–29; CUMULATIVE original→current mapping in BOOK-MAP.md's renumbering notes. `assemble.py`: 29 chapters, 86,034 words, all endings verified.
 
-- [ ] **R-06 — Single dismount for Movement Three.**
+- [x] **R-06 — Single dismount for Movement Three.**
   Derives from: report §1.3; chapters/25, 26 notes. Affected: `manuscript/25-*`, `manuscript/26-*`, book map.
   Done when: the eternal-return test ("Would you choose this? Again? Infinitely?" + selection principle + gesture-answer) occurs exactly once, either folded into Phase C after its ¶44 or as a ≤600-word rewritten Convergence; the collision-recap prose is gone; M3 still exits on "What returns—"; `assemble.py` passes.
+  **Done 2026-07-02 — option (a) executed.** Operator chose the fold after comparing both drafted options. Test sequence spliced verbatim into Phase C after ¶44, before the separation run (test occurs exactly once; the yes now precedes the release). Convergence retired to `archive/superseded/` (collision- and separation-recaps preserved there); M4 renumbered down by one — the book is 28 files, 01–28. Phase C is 3,510 words ending "What returns—". Only new words: the Mildred harmonizing clause (ch. 25 note 3). Resolves mechanical-issues #2. `assemble.py`: 28 chapters, 85,168 words, all endings verified.
 
 - [ ] **R-09 — Targeted compressions: ch. 16 (−25–30%) and ch. 24 (merge passages 7–8, trim 5).**
   Derives from: report §4 Sags 2–3; chapters/16, 24 notes. Affected: `manuscript/16-*`, `manuscript/24-*`.

@@ -7,6 +7,7 @@ Archived by the 2026-07-02 reorganization session (see `editorial/REORG_PLAN.md`
 ## Contents
 
 ### `superseded/` — manuscript files replaced by revision-roadmap items
+- `25-m3-convergence.md` — "The Convergence" (1,259 words; the book's oldest prose, 2026-01-22). R-06 (2026-07-02) folded its eternal-return test sequence ("*Something understands.*" → "*Enough.*" + the "What returns—" close) verbatim into `manuscript/24-m3-phase-c-dissolution.md` and retired the chapter; this copy preserves the cut collision-recap (§§1–4) and the separation-recap paragraphs. Not canonical.
 - `08-m1-algo-3-stirrings.md` — pre-merge "Stirrings" (3,157 words). R-04 (2026-07-02) merged it with ch. 07 "Optimization Processes" into the single chapter `manuscript/07-m1-algo-2-stirrings.md`; every kept passage is in that file, and this copy preserves the cut material (duplicated pressure/weight escalations, the fragments-are-descriptions paragraph deferred to "The Memory"). Not canonical.
 
 ### `compiled1/` — stale compiled manuscript (IMPORTANT)

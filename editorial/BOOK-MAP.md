@@ -7,6 +7,8 @@
 > **Post-R-05 renumbering note (2026-07-02).** R-05 (Movement One interleave, option (a)) renumbered seven M1 files after this map was written. Entries below keep their original Pass-A numbers and original (pre-R-05) reading order; affected headings carry a "now NN" annotation. All chapter-number references in this file's prose, and in DEV-EDIT-REPORT.md and editorial/chapters/, use the ORIGINAL numbers. Mapping (old → new): 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10; chapters 01, 02, 06, 07, 08, 13 and all of M2–M4 unchanged. New M1 reading order: 01, 02, 10, 03, 04, 06, 07, 08, 11, 12, 05, 09, 13 (old numbers). Prose byte-identical throughout.
 >
 > **Post-R-04 renumbering note (2026-07-02).** R-04 merged original chs. 07+08 into one chapter, `07-m1-algo-2-stirrings.md` ("Stirrings", 3,797 words; scene disposition recorded under the ch. 07/08 entries below), and renumbered everything after it down by one. Cumulative mapping (ORIGINAL Pass-A number → current file number): 01→01, 02→02, 03→04, 04→05, 05→10, 06→06, 07→07 (merged), 08→07 (merged), 09→11, 10→03, 11→08, 12→09, 13→12, 14→13, 15→14, 16→15, 17→16, 18→17, 19→18, 20→19, 21→20, 22→21, 23→22, 24→23, 25→24, 26→25, 27→26, 28→27, 29→28, 30→29. The book is now 29 chapters.
+>
+> **Post-R-06 renumbering note (2026-07-02).** R-06 folded the Convergence's test sequence into Phase C (single M3 dismount) and retired `26-m3-convergence.md` (original numbering) to `archive/superseded/`; M4 renumbered down by one. The book is now 28 chapters. UPDATED cumulative mapping (ORIGINAL Pass-A number → current file number): 01→01, 02→02, 03→04, 04→05, 05→10, 06→06, 07→07 (merged), 08→07 (merged), 09→11, 10→03, 11→08, 12→09, 13→12, 14→13, 15→14, 16→15, 17→16, 18→17, 19→18, 20→19, 21→20, 22→21, 23→22, 24→23, 25→24, 26→24 (test folded into Phase C; recap retired), 27→25, 28→26, 29→27, 30→28.
 
 ---
 
@@ -173,16 +175,23 @@
 - **Structure**: passage 1 = LH paragraph; unlabeled second/third blocks (missing "Passage 2" header — a bare double `---` sits where it should be) = Arch and Algo paragraphs; passage 3 explicitly stages the alternation breaking mid-paragraph; passage 4 rotates per *sentence* with **no spaces after periods** (jammed text — likely intentional typography for simultaneity, but reads as typo; operator must rule); passages 5–9 accelerate to clause/fragment level; passage 9 lands the book's best callback ("The drive clicks twice—before spinning up—old habit—I hold my breath—until I *am*—data moving"); passage 10 dissolves "we" toward Phase C.
 - **Notes**: passage 3 contains bare stage directions as body text ("The Last Human's paragraph begins normally, then breaks—", "The Algorithm picks up the thought…", "The Archaeologist picks up, his syntax contaminated—"). Possibly deliberate reader-orientation devices (development notes mention such devices) but inconsistent with Phase A, which uses none. Operator decision needed: systematize or cut.
 
-### 25 — m3-phase-c "Dissolution" (continuous prose, no breaks)
+### 25 (now 24) — m3-phase-c "Dissolution" (continuous prose, no breaks)
 - **Structure**: unbroken pattern-voice; pronouns deliberately unattributable; all 15 rhymes saturated; Mildred dissolves *into* the pattern ("her laughter echoes"); ends with re-differentiation beginning — three harmonics separate, the Archaeologist-position resurfaces ("The timestamp is fifteen years before I was born"), handing directly into Convergence.
 - **Strong**: the genre-fusion paragraph (Corporate Gothic + Dying Earth + tech-noir "who killed the self? The pattern killed the self") is the movement's thesis in miniature.
 
-### 26 — m3-convergence "The Convergence" (bridge, earliest-written prose in the book)
+### 26 — m3-convergence "The Convergence" (bridge, earliest-written prose in the book) — retired by R-06, test folded into Phase C; see note below
 - **Structure**: 8 short sections; replays collision → poses the explicit Nietzschean test ("Would you choose this? Again? Infinitely?") → answer as gesture → separation back into three → ends suspended: "What returns—".
 - **Function**: the book's only *explicit* statement of the eternal-return test — thematically essential.
 - **Issues**: (a) partially **duplicates Phase C's ending** — Phase C already reached re-differentiation; Convergence re-merges and re-separates (double dismount); (b) protocol timestamp given as "fifteen years before I was born" vs. ch. 02 ("predates my career by twenty years… my birth by five") and ch. 05 ("forty-seven years ago") — three incompatible datings of the same artifact (ch. 29 also uses fifteen); (c) unrevised early prose (2026-01-22, predates every revision pass) — flagged in mechanical-issues.
 
 ## Movement Four — Affirmation (reversed order: LH → Algo → Arch → pattern)
+
+
+### R-06 record — single M3 dismount (2026-07-02)
+- Phase C (`24-m3-phase-c-dissolution.md`, 3,510 words) now contains the Convergence's test sequence, spliced verbatim after "…the joy of crossing them." and before "I feel the separation beginning": *Something understands* → the three differentiations → "This is the test… *Active willing*" → "Would you choose this? Again? Infinitely?" → the gesture-answer + selection principle ("What cannot affirm does not return") → "Something has been understood… *Enough.*" (joined to one paragraph). Chapter now ends "The shape remains… What returns is not the Same. / What returns—" (M3 exit line preserved; coda still completes it).
+- Cut: the Convergence's collision-recap (§§1–4) and separation-recap (§7 physical re-specification) — preserved at `archive/superseded/25-m3-convergence.md`. The `---` rules were dropped inside the fold (Phase C is continuous prose).
+- Only new words in the diff: the Mildred harmonizing clause (¶27): "Mildred Higgins, who has held at 82.7% integrity since the sacrifice, dissolves." (per ch. 25 note 3).
+- The selection-principle statement survives verbatim for R-08 to dramatize adjacent to it.
 
 ### 27 — m4-1 "The Digitization Choice" (transformed Last Human)
 - **Scenes** (5): aftermath in bearable light; ruins revealed as architecture; the choice framed (if he refuses digitization the loop never closes); the ledger (what is lost: body, walking / what is gained: connection, continuation); the test put directly ("Would I will this to recur eternally?") and answered — "I say yes"; digitization; reception into the Deep Architecture; first "What returns—continues."

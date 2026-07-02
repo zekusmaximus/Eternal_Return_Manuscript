@@ -1,5 +1,7 @@
 # Dev notes — 26 ("The Convergence")
 
+> **R-06 executed 2026-07-02 (option (a), note 1) — test sequence folded into Phase C; recap halves retired to `archive/superseded/25-m3-convergence.md`. Note 3's adjacency request honored: the selection-principle statement lives beside the gesture-answer in Phase C for R-08 to build on.**
+
 1. **Restructure (R-06; report §1.3) — the double dismount.** §§1–4 recap the collision Phase A–C already performed, in the book's oldest, flattest prose (2026-01-22, pre-all revisions). §§5–8 contain the book's only explicit eternal-return test ("Would you choose this? Again? Infinitely?"), the selection principle ("What cannot affirm does not return"), and the gesture-answer — all load-bearing. Fix options: (a) fold §§5–8 into Phase C's ending and retire the chapter (archive the residue via git mv of nothing — the file shrinks inside the item); (b) rewrite as a ≤600-word interstice that performs only the test. Either preserves "What returns—" as the M3 exit line.
 2. **Protocol timestamp "fifteen years before I was born" — the M4-consistent value.** If this dating is canonized (ch. 05 note 4), this chapter needs no change on that point.
 3. **"The selective principle operates" is stated here and dramatized nowhere (report §6.1; R-08).** Whatever R-06 does, keep the statement adjacent to wherever the resisting-minds beat lands so statement and dramatization brace each other.

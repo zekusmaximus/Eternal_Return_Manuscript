@@ -35,18 +35,17 @@ M4 sections 4.1–4.3 are *transformed* single voices (each contains the others)
 | 22-m3-phase-a-accelerating-cuts.md | 3 | phase-a | merged | all-collapsing | Accelerating Cuts |
 | 23-m3-phase-b-simultaneous-narration.md | 3 | phase-b | merged | all-collapsing | Simultaneous Narration |
 | 24-m3-phase-c-dissolution.md | 3 | phase-c | merged | all-collapsed | Dissolution |
-| 25-m3-convergence.md | 3 | convergence | merged | all-collapsed | The Convergence |
-| 26-m4-1-digitization-choice.md | 4 | section-4.1 | last-human | deep-future | The Digitization Choice |
-| 27-m4-2-sacrifice.md | 4 | section-4.2 | algorithm | mid-future | The Sacrifice |
-| 28-m4-3-merge.md | 4 | section-4.3 | archaeologist | near-future | The Merge |
-| 29-m4-4-coda.md | 4 | coda | pattern | outside-time | Coda |
+| 25-m4-1-digitization-choice.md | 4 | section-4.1 | last-human | deep-future | The Digitization Choice |
+| 26-m4-2-sacrifice.md | 4 | section-4.2 | algorithm | mid-future | The Sacrifice |
+| 27-m4-3-merge.md | 4 | section-4.3 | archaeologist | near-future | The Merge |
+| 28-m4-4-coda.md | 4 | coda | pattern | outside-time | Coda |
 
 ## Braid pattern at a glance
 
 ```
 M1  A A L A A · G G · L L A G L        (interleaved per R-05; chs. 07+08 merged into "Stirrings" per R-04, 2026-07-02; was blocks A×5 · G×4 · L×4)
 M2  A G L | A G L | A G L              (three cycles of strict A→G→L rotation)
-M3  [A/G/L accelerating] → [simultaneous] → [dissolved] → convergence
+M3  [A/G/L accelerating] → [simultaneous] → [dissolved + eternal-return test]   (single dismount per R-06, 2026-07-02; the Convergence's test folded into Phase C, recap retired)
 M4  L → G → A → pattern                (reversed order, transformed voices)
 ```
 
