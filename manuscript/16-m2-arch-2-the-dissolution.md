@@ -264,6 +264,8 @@ I sign my name on the completion form. My hand hesitates over the first letter. 
 
 The pen moves anyway. The signature appears. The work is done.
 
+There is an Authority notice in my queue, days old already—a random-audit flag on my extraction logs, response required within thirty days, license suspension among the listed outcomes. I archive it unread, and the part of me that spent eleven years being afraid of it has nothing to say.
+
 And the metallic taste doesn't leave. The frequency doesn't quiet. The cold in my hands doesn't warm.
 
 I am finding myself found.
