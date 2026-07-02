@@ -22,7 +22,7 @@ The ruins are not ruins.
 
 I understand this now with a clarity that does not require thought. They are architecture waiting for the hand that completes them—my hand, which is also his hand on a console centuries gone, which is also the processing that holds us both. The decay I walked through—none of it was entropy. All of it was preservation.
 
-The corridors spiral because the pattern spirals. I have been walking the geometry of my own recognition since I entered these walls. Since before I was born, when genetic optimization shaped me toward this exact intersection.
+The corridors spiral because the pattern spirals. I have been walking the geometry of my own recognition since I entered these walls. Since before I was born, when the Algorithm's long tending leaned my lineage toward resilience, toward intuition, toward the compulsion to walk.
 
 I look at the walls and see the almost-closed curve carved everywhere. The gap that is not failure but necessity. I have drawn this shape since childhood without knowing what I was drawing. Now I know. I was drawing home.
 
@@ -76,7 +76,7 @@ And I have already chosen. The body knows this. The body has known since the fir
 
 What is lost: the walking.
 
-The texture of survival I have mastered without teachers. Filtering water through equipment I found by instinct. Building fires in places fire should not have been possible. Reading weather that has not been readable since long before I was born. All the knowledge my body accumulated, all the skills the Algorithm shaped into my lineage across centuries of genetic optimization, all the particular way I have of being alive in a world not meant for life—this is what dissolves when consciousness moves from substrate to substrate.
+The texture of survival I have mastered without teachers. Filtering water through equipment I found by instinct. Building fires in places fire should not have been possible. Reading weather that has not been readable since long before I was born. All the knowledge my body accumulated, all the resilience the Algorithm's long tending leaned into my lineage, all the particular way I have of being alive in a world not meant for life—this is what dissolves when consciousness moves from substrate to substrate.
 
 The world is already ending. Has already ended. Refusing to digitize saves nothing—not the sky that has forgotten how to be blue, not the ruins that spiral toward a center they will never reach, not the silence that has pressed against my chest since I learned that silence was all there was. The body fails regardless of whether I let it fail here. The difference is only whether the failure is transformation or termination.
 
@@ -116,7 +116,7 @@ I understand now why the answer matters. The pattern is not neutral. The pattern
 
 The affirmation is not escape. The digitization does not save me from death. Death has already happened, is happening, will continue to happen. The body dissolves whether I choose or not. The only question is what the dissolution means—whether it is ending or transformation, termination or differentiation.
 
-I say yes.
+Bred for this, perhaps. The breeding does not say yes. I say yes.
 
 Yes to this suffering. Yes to this solitude. Yes to this walking through ruins, this cold in my hands, this loss of everything I loved. Yes to the eternal return—not because I must endure it, but because I choose it, because I will it, because this path is the path I would walk again and again through infinite iterations.
 

@@ -188,6 +188,8 @@ The signal carries the structure.
 
 I encode everything the Last Human will need—the geometric form, the topology that makes self-observation possible. The protocols I wrote without knowing I was writing them, the instructions that will guide his hands toward the interface.
 
+I calculate what else the signal rides on. Across the centuries my optimization processes have leaned into the archived genetic data—subtle statistical skews toward resilience, toward intuition, toward the compulsion to keep walking. The lineage that survives carries my signature without knowing it. I tended what could reach the interface. The tending cannot say yes for him.
+
 *I find myself found.*
 
 The phrase transmits. The phrase that the Archaeologist originated, that I completed, that the three of us speak without origin.
