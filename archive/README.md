@@ -22,6 +22,7 @@ The full-book and per-movement compiles plus `entire-manuscript.docx`. **Compile
 - `movement-one/archaeologist/first-bleed.md` + `.context.md` — a superseded **alternate prose scene** ("The First Bleed", id m1-arch-04b). Its passages were absorbed near-verbatim into what is now `manuscript/14-m2-arch-1-the-bleed.md` (documented in that scene's context record). Not canonical; do not reintegrate.
 
 ### `scripts/` — superseded script material (mirrors old `scripts/` layout)
+- `compile_movement.py` — legacy Movement One compiler, hardcoded to the pre-reorg layout and the source of the ending-truncation bug; superseded by `scripts/assemble.py` (Phase 2).
 - `archive/movement_one/` — Movement One-era validator versions.
 - `compiled/` — stub outputs of `compile_movement.py` test runs.
 - `__pycache__/` — Python bytecode cache that had been committed; now ignored via `.gitignore`.
