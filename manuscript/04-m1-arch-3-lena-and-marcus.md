@@ -24,9 +24,9 @@ The number lands harder than he intends. I think of Eleanor Vasquez—seventy-th
 
 "I'll be there," I say. "Saturday. What time?"
 
-"Dinner. Six." He leans closer to the camera, and I see the lines around his eyes that weren't there a year ago. We're the same age—thirty-four, born eleven minutes apart—but Marcus looks older now. Not weathered. Resigned. "You could bring someone, you know. If there's someone to bring."
+"Dinner. Six." He leans closer to the camera, and I see the lines around his eyes that weren't there a year ago. We're the same age—thirty-four, born eleven minutes apart—but Marcus looks older now. Not weathered. Resigned. "You bringing Lena? Mom's been asking when she gets to meet her."
 
-He means Lena. He's met her twice—once at a holiday gathering I couldn't avoid, once when he showed up at the server facility unannounced and found her at the adjacent station. Both times he'd watched us interact with the expression of someone solving a puzzle he hadn't been given all the pieces for.
+He's met her twice—once at a holiday gathering I couldn't avoid, once when he showed up at the server facility unannounced and found her at the adjacent station. Both times he'd watched us interact with the expression of someone solving a puzzle he hadn't been given all the pieces for.
 
 "I'll ask."
 
@@ -108,19 +108,13 @@ The question lands differently than I expected. Lena turns, and something in her
 
 "You've met Marcus. Twice."
 
-"I've met Marcus. I haven't met your mother. I haven't been introduced as—" She pauses, searching for the right word. "What would I be introduced as?"
+"I've met Marcus. Marcus happened by accident." She pauses, and the pause has three years in it. "Your mother is deliberate. Your mother is the permanent record. What would I be introduced as?"
 
-"A colleague."
-
-"We're more than colleagues."
-
-"A friend, then."
-
-"Are we?" She's not challenging—she's genuinely asking. Three years of parallel work, of coffee timed to my patterns, of hands that brush shoulders in ways that are not quite accidental. Three years of not defining what we are. "I don't know what we are. I know what we do. I know how we work. But I don't know what you'd call it if someone asked."
+The question isn't about what we are. Three years of parallel work, of coffee timed to my patterns, of waking beside her on the mornings our shifts align—what we are is the most stable data I own. The question is what I've been willing to say outside this room, to a family that has only ever gotten a name from me. She's asking whether Saturday changes that.
 
 I think about it. Really think, for the first time in months that have been consumed by extraction and optimization and the relentless countdown of my remaining time.
 
-"I'd call it essential," I say. "I'd say you're essential."
+"Essential," I say. "I'd introduce you as essential."
 
 The word hangs in the cold air. Lena's mouth does something complicated—the same expression she had when I made the bad joke about sleeping when I'm integrated.
 
