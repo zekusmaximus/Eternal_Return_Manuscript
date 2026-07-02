@@ -1,10 +1,10 @@
 # Editorial session state
 
-- **Last updated**: 2026-07-02 (developmental-edit session, Passes A–C complete)
-- **Current item**: none — awaiting operator's first roadmap pick (recommend starting with the R-05 decision)
-- **Items done**: 0 of 15 roadmap items
+- **Last updated**: 2026-07-02 (R-05 executed; dev-edit Passes A–C complete earlier same day)
+- **Current item**: none — R-05 complete; next pick per suggested order is R-04 (merge chs. 07+08)
+- **Items done**: 1 of 15 roadmap items (R-05)
 - **Manuscript baseline**: post-Revision One, 30 chapters, 88,104 words assembled (`python scripts/assemble.py` verified all chapter endings)
-- **Next action**: operator reads `editorial/DEV-EDIT-REPORT.md` (10 min: priority table at the end), then picks a roadmap item; next session follows `editorial/WORKFLOW.md`
+- **Next action**: operator picks the next roadmap item (suggested: R-04, whose 07/08 files sit at consecutive positions post-R-05); session follows `editorial/WORKFLOW.md`. NOTE: all chapter numbers in Pass A-C records are pre-R-05 numbers; mapping lives in the R-05 roadmap entry.
 
 ## Operator decisions
 
@@ -12,7 +12,7 @@ One row per roadmap item (and per R-15 sub-decision). Status ∈ accepted / reje
 
 | Item | Decision | Notes |
 |---|---|---|
-| R-05 M1 interleave | pending | needs a cold read of a prototype build; options (a)/(b)/(c) in roadmap |
+| R-05 M1 interleave | accepted | option (a) full interleave, approved 2026-07-02 after cold-read prototypes of (a)+(b); executed same day, prose byte-identical |
 | R-04 merge 07+08 | pending | |
 | R-06 M3 single dismount | pending | option (a) fold-into-Phase-C vs (b) 600-word Convergence |
 | R-09 compress 16 + 24 | pending | |
@@ -31,3 +31,4 @@ One row per roadmap item (and per R-15 sub-decision). Status ∈ accepted / reje
 ## Session log
 
 - **2026-07-02** — Phases 0–4 of the reorganization/dev-edit session: inventory (197 files classified), reorg (175 `git mv`, nothing deleted, prose byte-identical), tooling (assemble/stats/continuity/edit_status + CLAUDE.md), full-book Pass A (BOOK-MAP.md), Pass B (DEV-EDIT-REPORT.md), Pass C (30 chapter note files), roadmap + this file + WORKFLOW.md. Manuscript prose untouched throughout. Known conflicts with prior notes stated in DEV-EDIT-REPORT §7 (notably: this session disagrees with phase-g's "ready for polish").
+- **2026-07-02** — **R-05 executed (option (a), full M1 interleave).** Operator approved after cold-read prototype builds of options (a) and (b). Seven `git mv` renames (03->04, 04->05, 05->11, 09->12, 10->03, 11->09, 12->10; zero prose edits, files byte-identical). New M1 order: A A L A A G G G L L A G L. Updated: `bible/structure-map.md` (table + braid diagram), `editorial/BOOK-MAP.md` (renumbering note, heading annotations, synthesis line), `editorial/mechanical-issues.md` (numbering-convention note, #6 filename pointer), roadmap (R-05 checked, old->new mapping recorded for later items). `assemble.py` verified all 30 endings, 88,104 words; `stats.py` confirms new order.

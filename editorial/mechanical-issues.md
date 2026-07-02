@@ -2,6 +2,8 @@
 
 Defects found in manuscript or infrastructure files that this session is **not permitted to fix in prose** (manuscript files are read-only to editorial sessions). Fix these only inside an approved revision-roadmap item, or as operator one-offs.
 
+> Chapter numbers below are **pre-R-05** numbers (the numbering all Pass A–C records use). R-05 (2026-07-02) renumbered seven M1 files: 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10 — see the mapping note in `REVISION-ROADMAP.md`.
+
 ## In manuscript files (read-only — logged, not fixed)
 
 1. **`manuscript/24-m3-phase-b-simultaneous-narration.md` — passage numbering skips 2.** Headers run "Passage 1: The Breath Releases" → "Passage 3: Transition to Sentence". Ten passages are intended (manifest `passage_count_actual: 10`) but only nine headers exist. Either Passage 2 was silently merged into Passage 1 at drafting time or the headers were misnumbered. Present in the pre-revision compiles too, so it predates Revision One. Decide: renumber headers, or restore/write the missing passage.
@@ -15,7 +17,7 @@ Defects found in manuscript or infrastructure files that this session is **not p
    (The coda's title echo — "Not the title of a story but the structure of what is" — is the one *earned* meta gesture; these others are unmarked register breaks.)
 4. **`manuscript/24-m3-phase-b-simultaneous-narration.md` Passage 4 has no spaces after sentence-ending periods** ("The form holds.I process the holding"). Possibly intentional simultaneity typography, possibly a defect — operator must rule before any fix.
 5. **ch. 24: missing "Passage 2" header** — a bare double `---` sits between Passage 1's LH block and the unlabeled Arch/Algo blocks; headers jump 1→3.
-6. **ch. 10 `10-m1-lh-1-solitude.md`**: "the silence is what evolved here, and **I are** the intrusion" — grammatical slip before pronoun instability is established as a device.
+6. **ch. 10 `10-m1-lh-1-solitude.md`** (file renamed `03-m1-lh-1-solitude.md` by R-05, 2026-07-02): "the silence is what evolved here, and **I are** the intrusion" — grammatical slip before pronoun instability is established as a device.
 7. **ch. 17**: "Mildred Higgins. Consciousness fragment **7,847,293**" vs. her canonical instance **#2,847,102**; also "The dead **woman** will wake in her substrate" where the extraction is Roberto Martinez (male).
 8. **Marcus Wei's instance number differs three times**: #3,102,458 (ch. 09), #3,847,102 (ch. 15), #847,293 (ch. 18); ch. 15 also has a stray "#847,102".
 9. **The protocols' timestamp is dated three incompatible ways**: "predates my career by twenty years… my birth by five" (ch. 02), "forty-seven years ago" (ch. 05), "fifteen years before I was born" (chs. 26, 29).

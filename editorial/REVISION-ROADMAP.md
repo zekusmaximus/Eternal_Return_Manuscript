@@ -6,11 +6,12 @@
 
 ## Tier 1 — Structural moves (decide/execute first; they change what every later diff touches)
 
-- [ ] **R-05 — Decide the Movement One interleave (chapter reorder only).**
+- [x] **R-05 — Decide the Movement One interleave (chapter reorder only).**
   Scope: reading order of chs. 01–13; zero prose edits. Derives from: DEV-EDIT-REPORT §1.2. Affected: `manuscript/01–13` filenames (renumber via `git mv`), `bible/structure-map.md`, `editorial/BOOK-MAP.md`.
   Hard constraints: 04 before 09; 04 before 13; 18→19→20 untouched (M2); thread-internal order preserved.
   Options: (a) full interleave (Arch 01–02, LH 10, Arch 03–04, Algo 06+07/08, LH 11–12, Arch 05, Algo 09, LH 13); (b) block swap (Arch, LH, Algo); (c) reject — keep as is.
   Done when: operator has read a cold `assemble.py` build of the chosen order and confirmed; files renamed; structure-map and book map updated. *Decision gates R-04's file numbering — decide R-05 before executing R-04.*
+  **Done 2026-07-02 — option (a) executed.** Operator approved after receiving cold-read prototype builds of (a) and (b). Renumbering (old → new): 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10; chs. 01, 02, 06, 07, 08, 13 unchanged. **All chapter numbers in the items below (and in DEV-EDIT-REPORT.md, BOOK-MAP.md, editorial/chapters/) are pre-R-05 numbers** — translate via this mapping. For R-04: old 07/08 now occupy consecutive positions 07/08, so the merge remains local; renumber 09–13 down by one afterwards.
 
 - [ ] **R-04 — Merge chs. 07+08 into one Algorithm chapter (~3,500 words).**
   Derives from: report §1.1; chapters/07, 08 notes (keep/cut lists there). Affected: `manuscript/07-*`, `manuscript/08-*` (one file absorbs the other via git mv + edit), structure-map, book map.

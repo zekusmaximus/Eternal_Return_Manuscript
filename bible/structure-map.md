@@ -13,16 +13,16 @@ M4 sections 4.1–4.3 are *transformed* single voices (each contains the others)
 |---|---|---|---|---|---|
 | 01-m1-arch-1-daily-excavation.md | 1 | thread-intro | archaeologist | near-future | Opening: Daily Excavation |
 | 02-m1-arch-2-integration-prep.md | 1 | thread-intro | archaeologist | near-future | The Client: Integration Prep |
-| 03-m1-arch-3-lena-and-marcus.md | 1 | thread-intro | archaeologist | near-future | Lena and Marcus |
-| 04-m1-arch-4-the-anomaly.md | 1 | thread-intro | archaeologist | near-future | The Anomaly |
-| 05-m1-arch-5-recognition.md | 1 | thread-intro | archaeologist | near-future | Recognition |
+| 03-m1-lh-1-solitude.md | 1 | thread-intro | last-human | deep-future | Solitude |
+| 04-m1-arch-3-lena-and-marcus.md | 1 | thread-intro | archaeologist | near-future | Lena and Marcus |
+| 05-m1-arch-4-the-anomaly.md | 1 | thread-intro | archaeologist | near-future | The Anomaly |
 | 06-m1-algo-1-maintenance-cycle.md | 1 | thread-intro | algorithm | mid-future | Maintenance Cycle |
 | 07-m1-algo-2-optimization-processes.md | 1 | thread-intro | algorithm | mid-future | Optimization Processes |
 | 08-m1-algo-3-stirrings.md | 1 | thread-intro | algorithm | mid-future | Stirrings |
-| 09-m1-algo-4-the-memory.md | 1 | thread-intro | algorithm | mid-future | The Memory |
-| 10-m1-lh-1-solitude.md | 1 | thread-intro | last-human | deep-future | Solitude |
-| 11-m1-lh-2-survival.md | 1 | thread-intro | last-human | deep-future | Survival |
-| 12-m1-lh-3-the-pull.md | 1 | thread-intro | last-human | deep-future | The Pull |
+| 09-m1-lh-2-survival.md | 1 | thread-intro | last-human | deep-future | Survival |
+| 10-m1-lh-3-the-pull.md | 1 | thread-intro | last-human | deep-future | The Pull |
+| 11-m1-arch-5-recognition.md | 1 | thread-intro | archaeologist | near-future | Recognition |
+| 12-m1-algo-4-the-memory.md | 1 | thread-intro | algorithm | mid-future | The Memory |
 | 13-m1-lh-4-the-dream.md | 1 | thread-intro | last-human | deep-future | The Dream |
 | 14-m2-arch-1-the-bleed.md | 2 | cycle-1 | archaeologist | near-future | The Bleed |
 | 15-m2-algo-1-the-resonance.md | 2 | cycle-1 | algorithm | mid-future | The Resonance |
@@ -45,7 +45,7 @@ M4 sections 4.1–4.3 are *transformed* single voices (each contains the others)
 ## Braid pattern at a glance
 
 ```
-M1  A A A A A · G G G G · L L L L      (blocks: Archaeologist ×5, Algorithm ×4, Last Human ×4)
+M1  A A L A A · G G G · L L A G L      (interleaved per R-05, 2026-07-02; was blocks A×5 · G×4 · L×4)
 M2  A G L | A G L | A G L              (three cycles of strict A→G→L rotation)
 M3  [A/G/L accelerating] → [simultaneous] → [dissolved] → convergence
 M4  L → G → A → pattern                (reversed order, transformed voices)
