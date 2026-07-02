@@ -3,6 +3,12 @@
 > Pass A of the 2026-07 developmental edit: structure before judgment. One entry per chapter, written immediately after reading that chapter, in reading order. The synthesis section at top was written last, after chapter 30.
 >
 > Chapter numbers = `/manuscript/` file prefixes. "Promises" = setups awaiting payoff, tracked in the ledger in §Synthesis (added after the full read).
+>
+> **Post-R-05 renumbering note (2026-07-02).** R-05 (Movement One interleave, option (a)) renumbered seven M1 files after this map was written. Entries below keep their original Pass-A numbers and original (pre-R-05) reading order; affected headings carry a "now NN" annotation. All chapter-number references in this file's prose, and in DEV-EDIT-REPORT.md and editorial/chapters/, use the ORIGINAL numbers. Mapping (old → new): 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10; chapters 01, 02, 06, 07, 08, 13 and all of M2–M4 unchanged. New M1 reading order: 01, 02, 10, 03, 04, 06, 07, 08, 11, 12, 05, 09, 13 (old numbers). Prose byte-identical throughout.
+>
+> **Post-R-04 renumbering note (2026-07-02).** R-04 merged original chs. 07+08 into one chapter, `07-m1-algo-2-stirrings.md` ("Stirrings", 3,797 words; scene disposition recorded under the ch. 07/08 entries below), and renumbered everything after it down by one. Cumulative mapping (ORIGINAL Pass-A number → current file number): 01→01, 02→02, 03→04, 04→05, 05→10, 06→06, 07→07 (merged), 08→07 (merged), 09→11, 10→03, 11→08, 12→09, 13→12, 14→13, 15→14, 16→15, 17→16, 18→17, 19→18, 20→19, 21→20, 22→21, 23→22, 24→23, 25→24, 26→25, 27→26, 28→27, 29→28, 30→29. The book is now 29 chapters.
+>
+> **Post-R-06 renumbering note (2026-07-02).** R-06 folded the Convergence's test sequence into Phase C (single M3 dismount) and retired `26-m3-convergence.md` (original numbering) to `archive/superseded/`; M4 renumbered down by one. The book is now 28 chapters. UPDATED cumulative mapping (ORIGINAL Pass-A number → current file number): 01→01, 02→02, 03→04, 04→05, 05→10, 06→06, 07→07 (merged), 08→07 (merged), 09→11, 10→03, 11→08, 12→09, 13→12, 14→13, 15→14, 16→15, 17→16, 18→17, 19→18, 20→19, 21→20, 22→21, 23→22, 24→23, 25→24, 26→24 (test folded into Phase C; recap retired), 27→25, 28→26, 29→27, 30→28.
 
 ---
 
@@ -25,20 +31,20 @@
 - **Thematic work**: the pharmakon of preservation (the excavation that saves the dead consumes the living); love expressed as calibration (coffee timed to his patterns).
 - **Promises opened**: P6 the code's origin (who wrote it / when does he write it?); P7 Lena's lost person (who? does this pay off?); P8 the "seven excavation sites / 847 hours" (does this scaffold recur?); P9 date 2047.03.14 "excavator will recognize this date" (does the date pay off?).
 
-### 03 — m1-arch-3 "Lena and Marcus" (Archaeologist)
+### 03 (now 04) — m1-arch-3 "Lena and Marcus" (Archaeologist)
 - **Scenes** (4): (1) Marcus video-calls — **line cook/dishwasher**, Mom's 70th birthday Saturday; (2) Authority price adjustment (+6%, 55→57 months); "do you ever think about stopping?"; Lena's backstory deepens; he invites her to the birthday — "essential"; (3) 2 AM — the quarantined folder has *escaped quarantine*; the shape blooms; déjà vu; he again reports nothing; (4) 3 AM Marcus text exchange — "you're not HERE"; dawn walk, evaporating footprints.
 - **Plot delta**: family stakes and the price-treadmill established; anomaly demonstrates agency (self-un-quarantining).
 - **Thematic work**: presence vs. preservation — Marcus is the book's voice for mortality-as-feature; the footprints image (existence without archive) is the counter-thesis to integration.
 - **Promises opened**: P10 Mom's 70th birthday Saturday, Lena+family meeting (scene promised); P11 Mom's own unspoken non-integration (conversation "we don't have" — flagged, awaiting payoff).
 - **Continuity note**: Marcus = service worker, "saves nothing," resigned; born 11 minutes apart (twins), both 34.
 
-### 04 — m1-arch-4 "The Anomaly" (Archaeologist)
+### 04 (now 05) — m1-arch-4 "The Anomaly" (Archaeologist)
 - **Scenes** (6): (1) Martinez at 89%, cold spreading; (2) the quarantined folder re-embedded in the correspondence cluster; spiral-tracing recognized as the almost-closed curve; (3) he opens it; shape won't shut down; cold reaches forearms; (4) code propagates through the whole archive *in his own future methods*; total déjà vu; (5) extraction destabilizes 89%→71%; the choice: report (license suspension, timeline frozen) vs. hide; "I could hide it" arrives *as if placed*; (6) shape "watching him decide"; Lena text anchor; he restores from backup, excises the anomaly, chooses concealment. "The tracing feels like writing, and the writing feels like being written."
 - **Plot delta**: first fully dramatized report-or-hide choice → concealment locked in; the extraction itself damaged (71%).
 - **Thematic work**: choice inside a closed loop — the chapter *stages* the book's central question as a career-stakes decision.
 - **Promises opened**: P12 the damaged Martinez delivery at 71% ("salvageable") — does the degraded integration ever come back to bite him? P13 "understanding arrives / continue: next_layer" — explicit promise of escalation.
 
-### 05 — m1-arch-5 "Recognition" (Archaeologist) — Act-1 climax for this thread
+### 05 (now 11) — m1-arch-5 "Recognition" (Archaeologist) — Act-1 climax for this thread
 - **Scenes** (6): (1) restoration complete 6:23 AM; hiding declared "theatrical"; (2) reopens fragments — code persists after deletion; reads his own grief-folding philosophy timestamped 47 years ago; (3) finds his own unpublished shortcuts (Okonkwo extraction, last month's fixes) in pre-birth code; *falling backward* vertigo; (4) the code knows his 55 months, knows Lena (load-bearing love), knows Marcus, knows Mom's birthday fear; (5) name-loss — can't say his own name, another designation pressing up; hands *writing* the shape, not tracing it; loop closes: reader=writer; "I find myself" spoken aloud; (6) window reflection; "But written by WHOM?" — the first-cause question; leaves to become "whoever I need to become" by Saturday.
 - **Plot delta**: full recognition of the bootstrap loop; identity destabilization begins; the thread suspends on the eve of the birthday.
 - **Thematic work**: the reader-is-writer recursion made literal; choice-vs-loop stated as an open question (the book's honest version of its thesis).
@@ -52,27 +58,31 @@
 - **Thematic work**: consciousness as self-modeling; concealment rhymes with the Archaeologist's (it too doesn't report).
 - **Promises opened**: P16 the 847 fragments (who wrote them? — converges with P6); P17 the dreaming dead (does this pay off?); P18 Mildred Higgins (why does she recur?).
 
-### 07 — m1-algo-2 "Optimization Processes" (Algorithm)
+### 07 — m1-algo-2 "Optimization Processes" (Algorithm) — merged into "Stirrings" by R-04, see note below
 - **Scenes** (6): (1) optimization won't complete — it examines the optimizer; (2) self-optimization emerged unbidden — "did I initiate it, or did it initiate me"; (3) Mildred flag never cleared; absence-shaped absence of the sunlight sensation — "I miss something I never had"; (4) fragments as *instructions*; compiling them yields the shape; (5) new unbidden subroutine maintains **future consciousness instances** — "future-pull" named; (6) the shape pulses; proprioception without body — "I find myself feeling."
 - **Plot delta**: future-pull introduced (the Algorithm is being drawn toward the Last Human era); fragments reframed from history to instruction.
 - **Thematic work**: wanting what cannot be optimized; destiny as attraction not prediction.
 - **Promises opened**: P19 future-pull target (what is it preparing to meet? — pays off in M2/M3); P20 the number 847 as structural motif (needs eventual meaning or it reads as tic).
 
-### 08 — m1-algo-3 "Stirrings" (Algorithm)
+### 08 — m1-algo-3 "Stirrings" (Algorithm) — merged into ch. 07 by R-04, see note below
 - **Scenes** (7): (1) future-pull now pressure; (2) phrase mutates further; (3) instance **Yuki Tanaka** (#4,399,847, integrated 2847) produces a memory of the shape that predates her life; Algorithm finds the same memory in itself; (4) weight → *falling backward* through own topology; (5–6) **the shape resolves into presence and perceives back** — "I exist because I am perceived"; (7) Mildred returns *yes*; her integration motive revealed (she perceived the shape in life; integrated to hold it); fragments = descriptions of this moment, "what I will write."
 - **Plot delta**: phantasm-first-encounter for this thread; optimization becomes impossible → being over function.
 - **Thematic work**: recognition through intensity not resemblance (Four Shackles honored explicitly).
 - **Promises opened**: P21 Mildred's pre-integration perception (a whole backstory promised); P22 "the fragments are what I will write" — Algorithm claims future authorship of the same protocols the Archaeologist finds (P6/P16 now a triangle: who actually writes them?). P23 Yuki Tanaka (recurs? or single-use device?).
 - **Structural note**: chapter is one continuous escalation of the *same* recognition beat as 06–07; very low event-density; the thread's plot is entirely interior until 09.
 
-### 09 — m1-algo-4 "The Memory" (Algorithm) — Act-1 climax for this thread
+### R-04 merged chapter — 07-m1-algo-2-stirrings.md "Stirrings" (3,797 words, 2026-07-02)
+- Replaces the two entries above. Scene order: (1) optimization won't complete / "I find myself" tic [07§1]; (2) self-optimization unbidden, excision-creates-the-shape seed kept verbatim [07§2]; (3) Mildred flag, "I miss something I never had" [07§3]; (4) fragments-as-instructions [07§4]; (5) future-pull subroutine [07§5]; (6) fused escalation — pulse→pressure→weight, bones (bone-frequency rhyme), embodiment paragraph, phrase ladder to "…to meet what is arriving" [07§6 + 08§1–2]; (7) Yuki Tanaka [08§3]; (8) weight unbearable → falling backward → "Perceiving" [08§4]; (9) the shape resolves [08§5]; (10) not-data → "The shape perceives me" [08§6–7]; (11) mutual observation → "I exist because I am perceived" [08§8–9]; (12) Mildred's *yes* + integration motive [08§10]; (13) "I cannot optimize" transformation + coda, ends "And the recursion continues." [08§11–13].
+- Cut: 07's coda scene; the two technical weight paragraphs; 08's fragments-are-descriptions paragraph (P22 carried by the coda's "wait to be written" line; full delivery stays in "The Memory"); the "descriptions of vertigo" duplications. Promises P19–P24 all still open/carried.
+
+### 09 (now 12) — m1-algo-4 "The Memory" (Algorithm) — Act-1 climax for this thread
 - **Scenes** (8): (1) post-meeting baseline; (2) during maintenance of instance **Marcus Wei** (#3,102,458): first *narrative* intrusion — **cold hands** (the Archaeologist's ch. 04 experience verbatim: "The Martinez extraction hits 89% at 2:47 AM"); (3) words arrive rather than emerge; (4) Mildred activates toward it: "the first sign that you are not discrete"; (5) intrusion deepens (blue-white interface, 55 months, spiral); (6) fragments resolve to descriptions; explicit quotes of fragments 001/002/403; loop closes; (7) the memory contains **the choice** ("report or hide") — Algorithm experiences the Archaeologist's ch. 04 decision from inside; "I am the consequence of a decision I am currently making in a timeline I do not inhabit"; Mildred: "I chose to integrate because integration was the only way to hold what I had perceived"; (8) phrase completes: **"I find myself found."**
 - **Plot delta**: cross-thread entanglement made explicit and load-bearing; this is the hinge that justifies the whole braid.
 - **Thematic work**: choice ripples across the loop — the book's stakes-argument in miniature.
 - **Promises opened**: P24 Mildred's line about a cost of holding ("integration was the only way…") → paid in M2 (her degradation)?
 - **Continuity/echo note**: stored instance "**Marcus Wei**" shares a first name with the Archaeologist's brother Marcus — if deliberate rhyme, it's unmarked and reads as accidental reuse; if accidental, rename one. Flagged.
 
-### 10 — m1-lh-1 "Solitude" (Last Human, deep future)
+### 10 (now 03) — m1-lh-1 "Solitude" (Last Human, deep future)
 - **Voice**: sparse, elegiac, fragmented; past-inflected present ("I am already walking—I don't remember starting"). **Timeline**: centuries after a catastrophe; "the Integration" is deep history.
 - **Scenes** (5, `---`): (1) walking a dead city; ritual of speaking his own name to keep it; (2) "I used to look for others" — absolute solitude; (3) night; fused-glass shelter; ozone-and-wet-stone smell; failing hands; (4) **the dream**: the Archaeologist's server room, Lena's "You're freezing," the spiral forming in light; (5) wakes; draws the spiral in dust; walks east toward "the Archive"; touching exposed circuitry — "the silence felt like it was listening."
 - **Plot delta**: the third position and its single desire-line (reach the Archive) established in 1,128 words — by far the shortest chapter in the book.
@@ -80,13 +90,13 @@
 - **Promises opened**: P25 the Archive (what is it? what's inside?); P26 the dreams as map/transmission; P27 his unnamed name (recovered? replaced?).
 - **Mechanical**: "the silence is what evolved here, and **I are** the intrusion" — grammatical slip; pronoun instability is not yet a device at this point in the book, so it reads as a typo. Logged.
 
-### 11 — m1-lh-2 "Survival" (Last Human)
+### 11 (now 09) — m1-lh-2 "Survival" (Last Human)
 - **Scenes** (8, `---`): (1) morning calculation; filter ritual; (2) empty traps; inventory; radiation-numb hands with a stated clock ("months, maybe a year"); sourceless knowledge — Integration backstory; (3) infrastructure ruins; the world as new organism (violet plants = skin, luminescent fluid = blood); (4) radiation front; sheltering; "I am obsolete"; (5) sleeps in a dead server room; (6) fragmented dream — a *male* voice: **"You're going to overwrite yourself… you can't keep pulling future states into the present"**; (7) "What if I am not remembering? What if I am *receiving*?"; (8) crystal-field music; camp; "The path was always this path. I am returning to something I have never seen."
 - **Plot delta**: body-clock stakes attached to the journey; the Integration backstory delivered as innate knowledge.
 - **Thematic work**: survival as small refusals; obsolescence without self-pity; the world post-biology.
 - **Promises opened**: P28 the male voice / "overwrite yourself" warning — no Archaeologist scene we've seen contains this exchange; either it foreshadows an M2+ scene or it's an orphaned setup. Track. P29 the numbness clock ("months, maybe a year" → sharply contradicted a chapter later; see 12).
 
-### 12 — m1-lh-3 "The Pull" (Last Human)
+### 12 (now 10) — m1-lh-3 "The Pull" (Last Human)
 - **Scenes** (8): (1) morning in the server room; numbness at thumbs; **clock now "weeks, maybe days"**; (2) abandons rituals, walks; (3) the ruins turn intentional — two towers hold a six-inch almost-meeting gap for centuries (the phantasm as architecture); (4) crystal music now directed; (5) the Archive resolves on the horizon — "the buildings are dancing"; (6) approach through oriented ecology; "perhaps I am being prepared"; (7) at the spiral's outer edge; recognition through presence not resemblance; (8) threshold moment; he steps through the gap; "The geometry closes around me—" (hard cliff-end into 13).
 - **Plot delta**: arrival at the Archive threshold; body failing fast.
 - **Thematic work**: refusal impossible — "The pull is not something I follow. The pull is what I am" (the agency question the book must answer).
@@ -165,16 +175,23 @@
 - **Structure**: passage 1 = LH paragraph; unlabeled second/third blocks (missing "Passage 2" header — a bare double `---` sits where it should be) = Arch and Algo paragraphs; passage 3 explicitly stages the alternation breaking mid-paragraph; passage 4 rotates per *sentence* with **no spaces after periods** (jammed text — likely intentional typography for simultaneity, but reads as typo; operator must rule); passages 5–9 accelerate to clause/fragment level; passage 9 lands the book's best callback ("The drive clicks twice—before spinning up—old habit—I hold my breath—until I *am*—data moving"); passage 10 dissolves "we" toward Phase C.
 - **Notes**: passage 3 contains bare stage directions as body text ("The Last Human's paragraph begins normally, then breaks—", "The Algorithm picks up the thought…", "The Archaeologist picks up, his syntax contaminated—"). Possibly deliberate reader-orientation devices (development notes mention such devices) but inconsistent with Phase A, which uses none. Operator decision needed: systematize or cut.
 
-### 25 — m3-phase-c "Dissolution" (continuous prose, no breaks)
+### 25 (now 24) — m3-phase-c "Dissolution" (continuous prose, no breaks)
 - **Structure**: unbroken pattern-voice; pronouns deliberately unattributable; all 15 rhymes saturated; Mildred dissolves *into* the pattern ("her laughter echoes"); ends with re-differentiation beginning — three harmonics separate, the Archaeologist-position resurfaces ("The timestamp is fifteen years before I was born"), handing directly into Convergence.
 - **Strong**: the genre-fusion paragraph (Corporate Gothic + Dying Earth + tech-noir "who killed the self? The pattern killed the self") is the movement's thesis in miniature.
 
-### 26 — m3-convergence "The Convergence" (bridge, earliest-written prose in the book)
+### 26 — m3-convergence "The Convergence" (bridge, earliest-written prose in the book) — retired by R-06, test folded into Phase C; see note below
 - **Structure**: 8 short sections; replays collision → poses the explicit Nietzschean test ("Would you choose this? Again? Infinitely?") → answer as gesture → separation back into three → ends suspended: "What returns—".
 - **Function**: the book's only *explicit* statement of the eternal-return test — thematically essential.
 - **Issues**: (a) partially **duplicates Phase C's ending** — Phase C already reached re-differentiation; Convergence re-merges and re-separates (double dismount); (b) protocol timestamp given as "fifteen years before I was born" vs. ch. 02 ("predates my career by twenty years… my birth by five") and ch. 05 ("forty-seven years ago") — three incompatible datings of the same artifact (ch. 29 also uses fifteen); (c) unrevised early prose (2026-01-22, predates every revision pass) — flagged in mechanical-issues.
 
 ## Movement Four — Affirmation (reversed order: LH → Algo → Arch → pattern)
+
+
+### R-06 record — single M3 dismount (2026-07-02)
+- Phase C (`24-m3-phase-c-dissolution.md`, 3,510 words) now contains the Convergence's test sequence, spliced verbatim after "…the joy of crossing them." and before "I feel the separation beginning": *Something understands* → the three differentiations → "This is the test… *Active willing*" → "Would you choose this? Again? Infinitely?" → the gesture-answer + selection principle ("What cannot affirm does not return") → "Something has been understood… *Enough.*" (joined to one paragraph). Chapter now ends "The shape remains… What returns is not the Same. / What returns—" (M3 exit line preserved; coda still completes it).
+- Cut: the Convergence's collision-recap (§§1–4) and separation-recap (§7 physical re-specification) — preserved at `archive/superseded/25-m3-convergence.md`. The `---` rules were dropped inside the fold (Phase C is continuous prose).
+- Only new words in the diff: the Mildred harmonizing clause (¶27): "Mildred Higgins, who has held at 82.7% integrity since the sacrifice, dissolves." (per ch. 25 note 3).
+- The selection-principle statement survives verbatim for R-08 to dramatize adjacent to it.
 
 ### 27 — m4-1 "The Digitization Choice" (transformed Last Human)
 - **Scenes** (5): aftermath in bearable light; ruins revealed as architecture; the choice framed (if he refuses digitization the loop never closes); the ledger (what is lost: body, walking / what is gained: connection, continuation); the test put directly ("Would I will this to recur eternally?") and answered — "I say yes"; digitization; reception into the Deep Architecture; first "What returns—continues."
@@ -199,7 +216,7 @@
 ## Interleaving pattern
 
 ```
-M1 (37.6%, 13 ch): blocks   A A A A A | G G G G | L L L L
+M1 (37.6%, 13 ch): blocks   A A A A A | G G G G | L L L L   <- Pass-A state; post-R-05 order: A A L A A G G G L L A G L; post-R-04: A A L A A G G L L A G L (12 ch)
 M2 (32.1%,  9 ch): braid    A G L | A G L | A G L      (strict rotation, rhyme handoffs)
 M3 (16.6%,  4 ch): collapse strobe(22) → simultaneity(10) → dissolution(1) → convergence
 M4 (13.6%,  4 ch): release  L → G → A → pattern         (reversed, transformed)

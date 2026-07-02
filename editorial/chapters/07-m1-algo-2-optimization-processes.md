@@ -1,5 +1,7 @@
 # Dev notes — 07 (M1 Algo 2, "Optimization Processes")
 
+> **R-04 executed 2026-07-02** — merged into `manuscript/07-m1-algo-2-stirrings.md` (merge base; kept items per note 1; excision seed verbatim). Scene disposition recorded in BOOK-MAP.md. Yuki Tanaka single-use question (08 note 2) remains open for R-08/R-13.
+
 1. **Merge candidate with ch. 08 (report §1.1, roadmap R-04).** Problem: this chapter and ch. 08 are one recognition stretched over two chapters; both escalate "pressure/weight," both re-approach the shape, and 08's climax (mutual perception) re-lands 07's ending ("I find myself feeling"). Keep from 07: the future-pull subroutine (scene 5 — the thread's one genuinely *plot*-bearing invention), "I miss something I never had" (scene 3), the fragments-as-instructions reframe (scene 4). Cut in merge: the second full statement of unoptimizability (scene 1 already establishes it), the duplicate pulse/pressure escalation (scene 6 vs. 08 scenes 1/4).
 2. **The chapter has no scene in the dramatic sense.** Problem: no event with a before/after that another agent could notice; pure interior escalation. Evidence: compare ch. 08's Yuki Tanaka beat — the moment another *entity* is involved, the thread wakes up. Fix: the merge should lead with Yuki/Mildred material sooner.
 3. **Protect the self-consumption seed.** "The excision creates exactly the shape I was attempting to remove" (scene 2) quietly sets up M2's pharmakon arithmetic; keep verbatim.

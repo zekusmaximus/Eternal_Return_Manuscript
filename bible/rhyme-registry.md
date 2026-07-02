@@ -3,7 +3,7 @@
 # AI agents: Parse this YAML section to query rhyme status, categories, and usage
 
 version: "1.3"
-last_updated: "2026-01-30"
+last_updated: "2026-07-02"  # R-04: m1-algo-02+03 merged into one chapter ("Stirrings"); former m1-algo-03 usages remapped to m1-algo-02
 
 rhymes:
   # VISUAL CATEGORY
@@ -25,7 +25,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m1-arch-01", "m1-arch-04", "m1-arch-05", "m2-arch-03", "m4-section-4-3"]
-      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-03", "m1-algo-04", "m2-algo-01", "m2-algo-02", "m2-algo-03", "m4-section-4-2"]
+      algorithm: ["m1-algo-01", "m1-algo-02", "m1-algo-04", "m2-algo-01", "m2-algo-02", "m2-algo-03", "m4-section-4-2"]
       last_human: ["m1-lh-01", "m1-lh-02", "m1-lh-03", "m1-lh-04", "m2-lh-01", "m2-lh-03"]
       pattern: ["m4-section-4-4"]
 
@@ -70,7 +70,7 @@ rhymes:
     intensity_peak: movement-three
     usage:
       archaeologist: ["m1-arch-05", "m2-arch-01", "m2-arch-03", "m4-section-4-3"]
-      algorithm: ["m1-algo-03", "m4-section-4-2"]
+      algorithm: ["m1-algo-02", "m4-section-4-2"]
       last_human: ["m1-lh-04", "m2-lh-03"]
       pattern: ["m4-section-4-4"]
 
