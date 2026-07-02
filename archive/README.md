@@ -6,6 +6,9 @@ Archived by the 2026-07-02 reorganization session (see `editorial/REORG_PLAN.md`
 
 ## Contents
 
+### `superseded/` — manuscript files replaced by revision-roadmap items
+- `08-m1-algo-3-stirrings.md` — pre-merge "Stirrings" (3,157 words). R-04 (2026-07-02) merged it with ch. 07 "Optimization Processes" into the single chapter `manuscript/07-m1-algo-2-stirrings.md`; every kept passage is in that file, and this copy preserves the cut material (duplicated pressure/weight escalations, the fragments-are-descriptions paragraph deferred to "The Memory"). Not canonical.
+
 ### `compiled1/` — stale compiled manuscript (IMPORTANT)
 The full-book and per-movement compiles plus `entire-manuscript.docx`. **Compiled from pre-Revision One text**: they contain passages Revision One deleted (verified line-by-line against commit `45996c6`) and are ~5,000 words heavier than the current manuscript. **They also truncate the final line of every Movement Four section** — the compiled book ends "What returns—" and drops the novel's final word "*continues.*". Do not send this file to anyone. Rebuild with `python scripts/assemble.py`, which verifies chapter endings.
 

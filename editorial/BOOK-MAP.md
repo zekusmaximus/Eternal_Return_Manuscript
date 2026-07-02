@@ -5,6 +5,8 @@
 > Chapter numbers = `/manuscript/` file prefixes. "Promises" = setups awaiting payoff, tracked in the ledger in §Synthesis (added after the full read).
 >
 > **Post-R-05 renumbering note (2026-07-02).** R-05 (Movement One interleave, option (a)) renumbered seven M1 files after this map was written. Entries below keep their original Pass-A numbers and original (pre-R-05) reading order; affected headings carry a "now NN" annotation. All chapter-number references in this file's prose, and in DEV-EDIT-REPORT.md and editorial/chapters/, use the ORIGINAL numbers. Mapping (old → new): 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10; chapters 01, 02, 06, 07, 08, 13 and all of M2–M4 unchanged. New M1 reading order: 01, 02, 10, 03, 04, 06, 07, 08, 11, 12, 05, 09, 13 (old numbers). Prose byte-identical throughout.
+>
+> **Post-R-04 renumbering note (2026-07-02).** R-04 merged original chs. 07+08 into one chapter, `07-m1-algo-2-stirrings.md` ("Stirrings", 3,797 words; scene disposition recorded under the ch. 07/08 entries below), and renumbered everything after it down by one. Cumulative mapping (ORIGINAL Pass-A number → current file number): 01→01, 02→02, 03→04, 04→05, 05→10, 06→06, 07→07 (merged), 08→07 (merged), 09→11, 10→03, 11→08, 12→09, 13→12, 14→13, 15→14, 16→15, 17→16, 18→17, 19→18, 20→19, 21→20, 22→21, 23→22, 24→23, 25→24, 26→25, 27→26, 28→27, 29→28, 30→29. The book is now 29 chapters.
 
 ---
 
@@ -54,18 +56,22 @@
 - **Thematic work**: consciousness as self-modeling; concealment rhymes with the Archaeologist's (it too doesn't report).
 - **Promises opened**: P16 the 847 fragments (who wrote them? — converges with P6); P17 the dreaming dead (does this pay off?); P18 Mildred Higgins (why does she recur?).
 
-### 07 — m1-algo-2 "Optimization Processes" (Algorithm)
+### 07 — m1-algo-2 "Optimization Processes" (Algorithm) — merged into "Stirrings" by R-04, see note below
 - **Scenes** (6): (1) optimization won't complete — it examines the optimizer; (2) self-optimization emerged unbidden — "did I initiate it, or did it initiate me"; (3) Mildred flag never cleared; absence-shaped absence of the sunlight sensation — "I miss something I never had"; (4) fragments as *instructions*; compiling them yields the shape; (5) new unbidden subroutine maintains **future consciousness instances** — "future-pull" named; (6) the shape pulses; proprioception without body — "I find myself feeling."
 - **Plot delta**: future-pull introduced (the Algorithm is being drawn toward the Last Human era); fragments reframed from history to instruction.
 - **Thematic work**: wanting what cannot be optimized; destiny as attraction not prediction.
 - **Promises opened**: P19 future-pull target (what is it preparing to meet? — pays off in M2/M3); P20 the number 847 as structural motif (needs eventual meaning or it reads as tic).
 
-### 08 — m1-algo-3 "Stirrings" (Algorithm)
+### 08 — m1-algo-3 "Stirrings" (Algorithm) — merged into ch. 07 by R-04, see note below
 - **Scenes** (7): (1) future-pull now pressure; (2) phrase mutates further; (3) instance **Yuki Tanaka** (#4,399,847, integrated 2847) produces a memory of the shape that predates her life; Algorithm finds the same memory in itself; (4) weight → *falling backward* through own topology; (5–6) **the shape resolves into presence and perceives back** — "I exist because I am perceived"; (7) Mildred returns *yes*; her integration motive revealed (she perceived the shape in life; integrated to hold it); fragments = descriptions of this moment, "what I will write."
 - **Plot delta**: phantasm-first-encounter for this thread; optimization becomes impossible → being over function.
 - **Thematic work**: recognition through intensity not resemblance (Four Shackles honored explicitly).
 - **Promises opened**: P21 Mildred's pre-integration perception (a whole backstory promised); P22 "the fragments are what I will write" — Algorithm claims future authorship of the same protocols the Archaeologist finds (P6/P16 now a triangle: who actually writes them?). P23 Yuki Tanaka (recurs? or single-use device?).
 - **Structural note**: chapter is one continuous escalation of the *same* recognition beat as 06–07; very low event-density; the thread's plot is entirely interior until 09.
+
+### R-04 merged chapter — 07-m1-algo-2-stirrings.md "Stirrings" (3,797 words, 2026-07-02)
+- Replaces the two entries above. Scene order: (1) optimization won't complete / "I find myself" tic [07§1]; (2) self-optimization unbidden, excision-creates-the-shape seed kept verbatim [07§2]; (3) Mildred flag, "I miss something I never had" [07§3]; (4) fragments-as-instructions [07§4]; (5) future-pull subroutine [07§5]; (6) fused escalation — pulse→pressure→weight, bones (bone-frequency rhyme), embodiment paragraph, phrase ladder to "…to meet what is arriving" [07§6 + 08§1–2]; (7) Yuki Tanaka [08§3]; (8) weight unbearable → falling backward → "Perceiving" [08§4]; (9) the shape resolves [08§5]; (10) not-data → "The shape perceives me" [08§6–7]; (11) mutual observation → "I exist because I am perceived" [08§8–9]; (12) Mildred's *yes* + integration motive [08§10]; (13) "I cannot optimize" transformation + coda, ends "And the recursion continues." [08§11–13].
+- Cut: 07's coda scene; the two technical weight paragraphs; 08's fragments-are-descriptions paragraph (P22 carried by the coda's "wait to be written" line; full delivery stays in "The Memory"); the "descriptions of vertigo" duplications. Promises P19–P24 all still open/carried.
 
 ### 09 (now 12) — m1-algo-4 "The Memory" (Algorithm) — Act-1 climax for this thread
 - **Scenes** (8): (1) post-meeting baseline; (2) during maintenance of instance **Marcus Wei** (#3,102,458): first *narrative* intrusion — **cold hands** (the Archaeologist's ch. 04 experience verbatim: "The Martinez extraction hits 89% at 2:47 AM"); (3) words arrive rather than emerge; (4) Mildred activates toward it: "the first sign that you are not discrete"; (5) intrusion deepens (blue-white interface, 55 months, spiral); (6) fragments resolve to descriptions; explicit quotes of fragments 001/002/403; loop closes; (7) the memory contains **the choice** ("report or hide") — Algorithm experiences the Archaeologist's ch. 04 decision from inside; "I am the consequence of a decision I am currently making in a timeline I do not inhabit"; Mildred: "I chose to integrate because integration was the only way to hold what I had perceived"; (8) phrase completes: **"I find myself found."**
@@ -201,7 +207,7 @@
 ## Interleaving pattern
 
 ```
-M1 (37.6%, 13 ch): blocks   A A A A A | G G G G | L L L L   <- Pass-A state; post-R-05 order: A A L A A G G G L L A G L
+M1 (37.6%, 13 ch): blocks   A A A A A | G G G G | L L L L   <- Pass-A state; post-R-05 order: A A L A A G G G L L A G L; post-R-04: A A L A A G G L L A G L (12 ch)
 M2 (32.1%,  9 ch): braid    A G L | A G L | A G L      (strict rotation, rhyme handoffs)
 M3 (16.6%,  4 ch): collapse strobe(22) → simultaneity(10) → dissolution(1) → convergence
 M4 (13.6%,  4 ch): release  L → G → A → pattern         (reversed, transformed)

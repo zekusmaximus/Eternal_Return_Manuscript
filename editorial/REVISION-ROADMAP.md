@@ -13,9 +13,10 @@
   Done when: operator has read a cold `assemble.py` build of the chosen order and confirmed; files renamed; structure-map and book map updated. *Decision gates R-04's file numbering — decide R-05 before executing R-04.*
   **Done 2026-07-02 — option (a) executed.** Operator approved after receiving cold-read prototype builds of (a) and (b). Renumbering (old → new): 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10; chs. 01, 02, 06, 07, 08, 13 unchanged. **All chapter numbers in the items below (and in DEV-EDIT-REPORT.md, BOOK-MAP.md, editorial/chapters/) are pre-R-05 numbers** — translate via this mapping. For R-04: old 07/08 now occupy consecutive positions 07/08, so the merge remains local; renumber 09–13 down by one afterwards.
 
-- [ ] **R-04 — Merge chs. 07+08 into one Algorithm chapter (~3,500 words).**
+- [x] **R-04 — Merge chs. 07+08 into one Algorithm chapter (~3,500 words).**
   Derives from: report §1.1; chapters/07, 08 notes (keep/cut lists there). Affected: `manuscript/07-*`, `manuscript/08-*` (one file absorbs the other via git mv + edit), structure-map, book map.
   Done when: merged chapter contains future-pull subroutine, "I miss something I never had," Yuki Tanaka scene, shape-perceives-back resolution, Mildred's *yes*; duplicated pressure/weight escalations removed; `assemble.py` passes; word count 3,200–3,800.
+  **Done 2026-07-02.** Merged into `manuscript/07-m1-algo-2-stirrings.md` ("Stirrings", 3,797 words; all five required elements present; voice validator pass, zero contamination). Original ch. 08 file archived at `archive/superseded/`. Chapters after 07 renumbered down by one — the book is 29 files, 01–29; CUMULATIVE original→current mapping in BOOK-MAP.md's renumbering notes. `assemble.py`: 29 chapters, 86,034 words, all endings verified.
 
 - [ ] **R-06 — Single dismount for Movement Three.**
   Derives from: report §1.3; chapters/25, 26 notes. Affected: `manuscript/25-*`, `manuscript/26-*`, book map.

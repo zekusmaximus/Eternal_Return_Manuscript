@@ -2,7 +2,7 @@
 
 Defects found in manuscript or infrastructure files that this session is **not permitted to fix in prose** (manuscript files are read-only to editorial sessions). Fix these only inside an approved revision-roadmap item, or as operator one-offs.
 
-> Chapter numbers below are **pre-R-05** numbers (the numbering all Pass A–C records use). R-05 (2026-07-02) renumbered seven M1 files: 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10 — see the mapping note in `REVISION-ROADMAP.md`.
+> Chapter numbers below are **pre-R-05** numbers (the numbering all Pass A–C records use). R-05 (2026-07-02) renumbered seven M1 files: 03→04, 04→05, 05→11, 09→12, 10→03, 11→09, 12→10 — see the mapping note in `REVISION-ROADMAP.md`. R-04 (same day) then merged original chs. 07+08 and renumbered again — the CUMULATIVE original→current mapping lives in the renumbering notes at the top of `BOOK-MAP.md`.
 
 ## In manuscript files (read-only — logged, not fixed)
 
