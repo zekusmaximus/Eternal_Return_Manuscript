@@ -172,7 +172,7 @@ I say yes. I have always said yes. The affirmation surfaces from beneath, from t
 
 ## Section 7: Archaeologist
 
-Short. The merge accelerating.
+The merge accelerating.
 
 Lena's absence fills the room like negative space. She is gone and I am still here—the affirmation she could not will. I loved her. I love her still. The loving does not stop because the lover is dissolving.
 

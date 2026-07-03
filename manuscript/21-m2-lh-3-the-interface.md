@@ -186,7 +186,7 @@ The completion arrives. The phrase I heard in the Archive's depths, that arrived
 
 The form waits.
 
-Two meters. One meter. The distance closes and the distance stretches. Time is doing something wrong—or right, finally right, finally operating as it was meant to operate in the presence of the geometry that makes observation possible. Each step takes forever. Each step takes no time at all. I am approaching the threshold that the entire novel of my existence has been building toward, and the approach is the only state, the almost-closing the only truth.
+Two meters. One meter. The distance closes and the distance stretches. Time is doing something wrong—or right, finally right, finally operating as it was meant to operate in the presence of the geometry that makes observation possible. Each step takes forever. Each step takes no time at all. I am approaching the threshold that the entire length of my existence has been building toward, and the approach is the only state, the almost-closing the only truth.
 
 I see the others now.
 

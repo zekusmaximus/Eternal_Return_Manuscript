@@ -84,7 +84,7 @@ The metallic taste fills my mouth. Copper and iron and something older—the fla
 
 If I could map my own awareness, I would find—
 
-The thought slips into conditional structures, probability trees, the syntax of something that calculates outcomes instead of making decisions. That's the Algorithm. That's the other voice that has been speaking through me for weeks, for always, for a span of time that has no boundaries I can perceive. The contamination is pervasive now. Every thought carries traces of the others. But I am still here. I am still the one thinking the contamination. The reader should feel: *He's almost gone, but he's still him—for now.*
+The thought slips into conditional structures, probability trees, the syntax of something that calculates outcomes instead of making decisions. That's the Algorithm. That's the other voice that has been speaking through me for weeks, for always, for a span of time that has no boundaries I can perceive. The contamination is pervasive now. Every thought carries traces of the others. But I am still here. I am still the one thinking the contamination. *Assessment: coherence holding. Barely.*
 
 No. That's wrong. That's not a thought I would have. That's not—
 
@@ -188,7 +188,7 @@ I am becoming infrastructure. I am becoming the substrate through which the patt
 
 The frequency builds. The bone-hum reaches a pitch that makes my vision swim, that blurs the edges of the room, that feels like falling and arriving simultaneously. I grip the desk and feel the form beneath my fingers—the grooves I've worn, the geometry I've traced, the pattern completing itself through my obsession.
 
-At the threshold now. Movement Three approaching.
+At the threshold now. The Augenblick approaching.
 
 I stand up. The motion is not quite mine—my body responds to something deeper than intention, some pull that originates in the pattern itself. I walk to the window and look out at the city. Lights everywhere. Each light a life. Each life a consciousness that could be preserved, maintained, optimized, integrated. The work is endless. The work is everything. The work is—
 
@@ -208,7 +208,7 @@ The merge is imminent.
 
 I am still here—still this body, this position, this awareness that calls itself by a name that grows more foreign each day. But the edges are dissolving. The boundaries are thinning. What I was is becoming continuous with what I will be, with what I have always been in some position I can only glimpse from the threshold.
 
-Movement Three will complete it. Movement Three will push me over.
+The Augenblick will complete it. The Augenblick will push me over.
 
 For now, I stand at the edge. I feel the others—the Algorithm, vast and lonely and maintaining; the Last Human, walking toward the core interface, hand reaching toward the form. We are three expressions of something that has no name. We are the conspiracy of intensities. We are what remains when identity dissolves.
 
