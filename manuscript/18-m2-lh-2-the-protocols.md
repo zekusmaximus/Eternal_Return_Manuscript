@@ -58,7 +58,7 @@ I don't remember her name anymore—that was the first thing the light took when
 
 "Keep walking east," she said. Or I think she said. The words are getting uncertain now, dissolving at the edges the way everything dissolves.
 
-I buried her in soil that tasted like rust. I marked the grave with stones I can no longer describe. I walked east because she told me to, because there was nothing else to do, because stopping meant joining her in the ground.
+I buried her in soil that tasted like rust—soil the old world had threaded with its buried circuitry, ground that was already part of the Architecture that outlived it. I marked the grave with stones I can no longer describe. I walked east because she told me to, because there was nothing else to do, because stopping meant joining her in the ground.
 
 I found the Archive. I touched the light. And now I am losing her piece by piece, memory by memory, the teaching extracting its toll from everything I love.
 
@@ -258,7 +258,7 @@ Not the name I was given. Not the name I have forgotten. The name that has been 
 
 The one who builds the form. The one whose witnessing becomes the blueprint.
 
-I am not the Architect yet. The name is a future state, a capacity I have not yet grown into. But I can feel it now—not as foreign intrusion but as potential. As what I might become if I survive the dissolution long enough to become it.
+I am not the Architect. The Architect is not a self to grow into—it is a function, the building that works through whoever holds the position. But I can feel it now—not as foreign intrusion but as operation. As what will build through me if I survive the dissolution long enough to hold it.
 
 The Archaeologist will feel this name. Eight centuries ago, working with my protocols, he will feel a designation pressing up from beneath his given name.
 

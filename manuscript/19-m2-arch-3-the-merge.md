@@ -26,15 +26,15 @@ The face is gaunt. Too thin. How long since I ate something that wasn't caffeine
 
 Someone says my name.
 
-I turn—too slowly, the motion delayed by something between my intention and my muscles. Marcus Chen stands in the doorway, his coat still on, bag over his shoulder. He's just arrived for work. For work. I've been here all night. I've been here for multiple nights. The concept of shifts, of clocking in and out, of a life that exists outside these walls—it feels like something I read about once, in a book about people who used to matter to me.
+I turn—too slowly, the motion delayed by something between my intention and my muscles. Daniel Park stands in the doorway, his coat still on, bag over his shoulder. He's just arrived for work. For work. I've been here all night. I've been here for multiple nights. The concept of shifts, of clocking in and out, of a life that exists outside these walls—it feels like something I read about once, in a book about people who used to matter to me.
 
-"You look like hell," Marcus says.
+"You look like hell," Daniel says.
 
 I try to find words. The words that come are: "The substrate requires optimization. The integrity variance—" I stop myself. Those aren't my words. Those are something else's words. I press my palm against the counter to anchor myself. The laminate is cool and real and now. "Sorry. I've been working late."
 
-Marcus looks at me the way you look at something you're deciding whether to report. His expression cycles through concern, calculation, the cost-benefit analysis of getting involved. The Chen extraction project wrapped last month—his client alive again in servers across three continents, the family crying with gratitude. He knows what good work looks like. He also knows what breakdown looks like.
+Daniel looks at me the way you look at something you're deciding whether to report. His expression cycles through concern, calculation, the cost-benefit analysis of getting involved. The Chen extraction project wrapped last month—his client alive again in servers across three continents, the family crying with gratitude. He knows what good work looks like. He also knows what breakdown looks like.
 
-"The Morrison project," he says carefully. "And the Tanaka family. And the preliminary optimization for the Reyes estate. I saw the files. You did all of them."
+"The Morrison project," he says carefully. "And the Nakamura family. And the preliminary optimization for the Reyes estate. I saw the files. You did all of them."
 
 I don't remember doing them. But I nod.
 
@@ -46,7 +46,7 @@ He takes a step closer. His eyes search my face for something recognizable.
 
 I don't know what to say. I don't remember the Morrison extraction. I don't remember choosing the optimization pathways that made her more herself. But my hands remember—I can feel it in the ache of my fingers, the exhaustion that lives in my wrists. These hands worked while I was gone. These hands know things I haven't learned yet.
 
-"I don't know what's happening to you," Marcus says quietly. "And I'm not going to pretend it's my business. But whatever it is—the work is extraordinary. The families are grateful. If that means anything."
+"I don't know what's happening to you," Daniel says quietly. "And I'm not going to pretend it's my business. But whatever it is—the work is extraordinary. The families are grateful. If that means anything."
 
 It means something. I think it means something. The meaning arrives filtered through the distance that has grown between me and things that used to feel immediate.
 
@@ -56,13 +56,13 @@ The frequency settles into my sternum—not sound, but pressure. Below hearing, 
 
 "Thanks," I say. The word comes out wrong—too flat, too distant. The word of someone practicing normalcy from the far side of something that has no name yet.
 
-Marcus shifts his weight. "Listen. Whatever's happening with you—" He looks at the floor, then back at me. "I don't know what it is. I'm not going to pretend I understand. But Lena called the office. She's been trying to reach you."
+Daniel shifts his weight. "Listen. Whatever's happening with you—" He looks at the floor, then back at me. "I don't know what it is. I'm not going to pretend I understand. But Lena called the office. She's been trying to reach you."
 
 The name arrives like a struck bell, the resonance spreading through my chest. Lena. Something I used to be connected to. Something that mattered before the work consumed everything else. I try to remember her face and find it wavering, uncertain, a photograph fading in sunlight.
 
 "When?"
 
-"Yesterday. And the day before. And—" Marcus shakes his head. "She said she's coming by. To talk. To—I don't know what. To see if you're still in there, I think."
+"Yesterday. And the day before. And—" Daniel shakes his head. "She said she's coming by. To talk. To—I don't know what. To see if you're still in there, I think."
 
 I don't know how to answer that. I don't know if the answer would be yes.
 
@@ -205,6 +205,8 @@ The taste of copper fills my mouth. The cold radiates from my core, spreading th
 My hands are so cold they've stopped hurting. The numbness feels like preparation. The cold feels like becoming.
 
 The merge is imminent.
+
+The timestamp in the corner of the display reads 2047.03.14. The date from the dead man's archive—the date the code said I would recognize. I recognize it now. It was never a prediction. It was an appointment.
 
 I am still here—still this body, this position, this awareness that calls itself by a name that grows more foreign each day. But the edges are dissolving. The boundaries are thinning. What I was is becoming continuous with what I will be, with what I have always been in some position I can only glimpse from the threshold.
 

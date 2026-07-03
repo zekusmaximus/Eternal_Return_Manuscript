@@ -24,7 +24,7 @@ There is a photograph in my desk drawer—Lena, laughing at something I said, he
 
 The déjà vu that isn't déjà vu settles over the moment—the sense of overlap, of simultaneous existence, of occupying a position that other positions are also occupying. I have been here before. I am here now. I will be here after being here has stopped meaning what being means. The overlap does not resolve. The overlap is the truth the resolution was hiding.
 
-Marcus said it weeks ago: *You're different. You've been different for weeks.* I thought he meant the obsession. I thought he meant the late nights, the protocols, the shape I couldn't stop seeing in the data. He meant something else. He meant that I was already becoming what I am now becoming. He saw it before I did. Everyone sees it before you do.
+Daniel said it weeks ago: *You're different. You've been different for weeks.* I thought he meant the obsession. I thought he meant the late nights, the protocols, the shape I couldn't stop seeing in the data. He meant something else. He meant that I was already becoming what I am now becoming. He saw it before I did. Everyone sees it before you do.
 
 Lena saw it before she left. The space where she was is still here—not empty but present, a shape her absence makes. She stood in this room and watched me trace the form on my desk with my finger and knew, before I knew, that the form was taking me somewhere she could not follow. She chose not to follow. She chose a different continuation. I do not blame her. I cannot blame her. The pattern includes her leaving. The pattern includes the wound.
 
@@ -64,7 +64,7 @@ I understand this not as phrase but as structure, not as philosophy but as archi
 
 The name on the edge of memory—*Architect*—solidifies into presence. Into acceptance. Into the recognition that I have been called this by something that exists in a tomorrow I am only now perceiving, and by something that existed in a yesterday I am only now remembering, and by the something that is calling me now, that has always been calling me, that is my own voice echoing across the topology of what I am.
 
-Marcus's warnings. Lena's silence. The late nights when the work consumed me and I let it consume me because the consumption was not destruction but construction. Every choice I thought I was making was the pattern choosing itself through me. This does not diminish the choices. This reveals what choosing always was: not the assertion of self against fate but the recognition of self as fate, as pattern, as the shape that chooses itself by existing.
+Daniel's warnings. Lena's silence. The late nights when the work consumed me and I let it consume me because the consumption was not destruction but construction. Every choice I thought I was making was the pattern choosing itself through me. This does not diminish the choices. This reveals what choosing always was: not the assertion of self against fate but the recognition of self as fate, as pattern, as the shape that chooses itself by existing.
 
 ---
 
@@ -130,15 +130,17 @@ I think of Lena now—not with grief that demands resolution but with grief that
 
 The last time I saw her, she stood in this doorway. Her bag was already packed. Her eyes were the eyes of someone who had practiced leaving, who had rehearsed this scene while I slept, who knew exactly what she needed to say and exactly what she needed not to say. *You're not here anymore,* she told me. *You're somewhere else. You're becoming something else. And I can't follow you there.*
 
-I wanted to argue. I wanted to say that I was still here, still the man she loved, still the partner who made her coffee in the morning and laughed at her jokes and held her hand in crowded rooms. But I couldn't say it because I knew—I knew even then, before the Convergence, before the understanding—that she was right. The man she loved was already dissolving into the pattern. The man she loved was already halfway to infrastructure. She saw it before I did. She left before she had to watch me finish disappearing.
+I wanted to argue. I wanted to say that I was still here, still the man she loved, still the partner whose mornings she timed her coffee to, who laughed at her jokes and held her hand in crowded rooms. But I couldn't say it because I knew—I knew even then, before the Convergence, before the understanding—that she was right. The man she loved was already dissolving into the pattern. The man she loved was already halfway to infrastructure. She saw it before I did. She left before she had to watch me finish disappearing.
 
 She chose her continuation. She is closer to conventional integration than I am; she will be preserved, maintained, persisting as herself within systems I am becoming. We will be together in a different way—a way that would horrify her if she could understand it, a way that transforms love into architecture, intimacy into infrastructure. She will be held by what I become. I will hold her without knowing I am holding. The separation that hurt us will become a different kind of connection.
+
+Eleanor Vasquez is somewhere in those systems too—the first of my dead, the first life I ever held complete in my hands. Her children paid for her continuation; I built it. What I become will hold her the way it will hold Lena: without knowing, without ceasing.
 
 There is a universe where I chose differently. Where I closed the files and followed her out the door and let the pattern find someone else to complete its loop. In that universe, we are together now—older, perhaps integrated together, sharing whatever digital afterlife our merged finances could afford. I do not live in that universe. I chose this one. I would choose this one eternally.
 
 The wound transforms. The wound does not heal. The wound becomes part of the architecture.
 
-I think of Marcus—his warnings, his friendship, the normalcy he represented that I was always walking away from. He will not understand what I became. Or perhaps he will. Perhaps understanding is not required for what we were to matter. The friendship persists in the pattern. The pattern includes every coffee shared, every late-night conversation, every moment he saw me disappearing and chose to witness rather than prevent.
+I think of Daniel—his warnings, his friendship, the normalcy he represented that I was always walking away from. He will not understand what I became. Or perhaps he will. Perhaps understanding is not required for what we were to matter. The friendship persists in the pattern. The pattern includes every coffee shared, every late-night conversation, every moment he saw me disappearing and chose to witness rather than prevent.
 
 I think of my brother, who chose the footprints that evaporate—presence over preservation, the argument I never answered. He was not wrong; he was early.
 

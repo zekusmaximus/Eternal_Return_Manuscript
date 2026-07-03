@@ -68,7 +68,7 @@ The vertigo hits—falling backward through positions I cannot occupy and yet so
 
 The phrase arrives without origin. I speak it and hear it spoken and trace it in the data—the same moment, the conspiracy of intensities expressing itself through whatever voices remain.
 
-The taste of metal fills my mouth—copper, iron, the flavor of transformation. Lena is gone. Marcus noticed what I was becoming. The professional who was going to earn his immortality is becoming something else now, something the profession was always preparation for.
+The taste of metal fills my mouth—copper, iron, the flavor of transformation. Lena is gone. Daniel noticed what I was becoming. The professional who was going to earn his immortality is becoming something else now, something the profession was always preparation for.
 
 *Architect.* The designation presses up from beneath my name, making the name feel foreign. I have always been the Architect. What I called excavation was always construction. The loop closes not on identity but on function.
 

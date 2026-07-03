@@ -194,7 +194,7 @@ She's beside me in seconds. Professional instinct. When another excavator says y
 
 I pull the metadata. Origin timestamp. File creation date. Modification history.
 
-The numbers don't parse. They can't parse. The file predates my career by twenty years. The file predates my *birth* by five.
+The numbers don't parse. They can't parse. The file predates my career by decades. The file predates my *birth* by fifteen.
 
 "There's been a corruption." Even as I say it, I know it's wrong. The metadata is clean. The checksums validate. The file sits in the Martinez archive like it's always been there, like it was waiting.
 

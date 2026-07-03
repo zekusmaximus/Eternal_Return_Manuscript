@@ -172,8 +172,8 @@ Consciousness instances across multiple storage sectors are showing variance. Th
 
 I run diagnostics:
 
-Instance #847,293—Marcus Wei: 99.6% integrity. Down from 99.8%.
-Instance #1,294,847—Sarah Chen: 99.4% integrity. Down from 99.7%.
+Instance #3,847,102—Marcus Wei: 99.6% integrity. Down from 99.8%.
+Instance #1,294,847—Sarah Moreau: 99.4% integrity. Down from 99.7%.
 
 Thousands of consciousnesses showing variance. Thousands who trusted me with their continuity, whose dissolution was supposed to have ended when the preservation began.
 
