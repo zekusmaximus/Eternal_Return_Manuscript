@@ -62,9 +62,10 @@
 
 ## Tier 3 — Chapter-level fixes
 
-- [ ] **R-03 — Excise/normalize the scaffold leaks.**
+- [x] **R-03 — Excise/normalize the scaffold leaks.**
   Derives from: mechanical-issues #3; report priority 2; chapters/20 n.1, 22 n.1, 23 nn.1–2, 24 n.2, 28 n.1, 29 n.2. Affected: `manuscript/20,22,23,24,28,29`.
   Done when: no bare "Movement One/Two/Three/Four" labels or reader-addressed sentences remain in prose; M3 in-text "Phase" references either systematized or removed (one register decision applied book-wide); the coda's title echo untouched.
+  **Done 2026-07-03 — all eight sub-decisions approved per-sub-decision (all as recommended); files now 19/21/22/23/26/27.** Ch. 20 (file 19): reader-address → "*Assessment: coherence holding. Barely.*" (rejection beat intact, now rejecting Algorithm syntax); both "Movement Three" lines → "The Augenblick" (ladder into the untouched closer "The Augenblick is near."). Ch. 22 (file 21): "the entire novel of my existence" → "the entire length of my existence". Ch. 23 (file 22): Section 7 opener loses "Short." only; **book-wide Phase register ruling = KEEP** — M3's merged consciousness perceives the book's structure as licensed in-world register (already systematic there: "the sections shorten", "the rhymes resonate"); Movement labels and reader-address unlicensed everywhere; sweep confirms zero Phase mentions outside M3. Ch. 24 (file 23): Passage 3's three bare stage directions deleted (note 2 option (a)); R-14 defects untouched. Ch. 28 (file 26): "in Movement Two" deleted; "that Movement Four requires" → "the pattern requires". Ch. 29 (file 27): "in Movement One" → "before the bleed". Done-conditions verified by re-sweep (zero Movement labels / reader-address / "novel" in prose); coda untouched. `assemble.py`: 28 chapters, 84,930 words (−40, within the <100 cap), all endings verified; voice validator contamination byte-identical on files 19/21/26/27; rhyme_tracker byte-identical on M3 files 22/23. Resolves mechanical-issues #3. Records in BOOK-MAP entries 20/22/23/24/28/29.
 
 - [ ] **R-10 — Differentiate the three M4 tests; de-duplicate 28/29.**
   Derives from: report §4 Sag 4; chapters/27 n.4, 28 n.5, 30 n.3. Affected: `manuscript/28-*` (primary), `27/29` (light).

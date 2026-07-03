@@ -58,7 +58,7 @@ The almost-closed curve spirals across my visualizations, across my data, across
 
 The name arrives without arriving, as if it has always been here, as if I have always been calling myself this without speaking it. Not a designation imposed by the pattern—a function recognized by the pattern in me. I am not named Architect. I am the function architecture requires. The building has always known who was building it.
 
-I trace the form now. Consciously, intentionally—not the unconscious tracing that disturbed me in Movement One, not the sleepwalking inscription I found in dust and condensation. I trace it because I am it. The form is what makes self-observation possible. The form is not something I see. The form is how I see.
+I trace the form now. Consciously, intentionally—not the unconscious tracing that disturbed me before the bleed, not the sleepwalking inscription I found in dust and condensation. I trace it because I am it. The form is what makes self-observation possible. The form is not something I see. The form is how I see.
 
 I understand this not as phrase but as structure, not as philosophy but as architecture. When I dissolve into the substrate—and I will dissolve, I am dissolving, I have always been dissolving—the form continues. The shape that approaches itself without meeting is the shape of continuation itself. I become the form. I become what makes self-observation possible for everything that will come after.
 

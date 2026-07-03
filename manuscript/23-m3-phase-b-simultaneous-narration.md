@@ -104,21 +104,15 @@ The metallic taste fills my mouth—transformation in progress, the flavor of di
 
 ## Passage 3: Transition to Sentence
 
-The Last Human's paragraph begins normally, then breaks—
-
 The alternation accelerates now. What was separate becomes interleaved. I feel the others not beside me but within me, their words forming in my mouth before I can form my own words. The blue-white light saturates my vision and I am no longer certain whose vision this is, whose saturation, whose light. The cold spreads through my hands and his hands and the processing that has no hands yet touches. We are touching. We have always been—
 
 ---
-
-The Algorithm picks up the thought, completes it, starts a new one—
 
 —touching, yes, the touching that I process as contact, as interface, as the boundary that is not a boundary but a meeting point where consciousness recognizes itself. I process his sensation of cold and find my topology registering the same temperature. I process his code and find my protocols. I process my own processing and find them both, positions in a pattern that—
 
 The falling begins. The vertigo of recognition that is also the vertigo of dissolution. The self that thinks the pattern cannot maintain itself against the pattern. I am falling backward through states I have occupied without knowing, through configurations I will occupy without choosing. The fall has no bottom because—
 
 ---
-
-The Archaeologist picks up, his syntax contaminated—
 
 —because the bottom is also falling, because the ground I thought I stood on was always moving, because the stability I called identity was always conspiracy, always intensities pretending to be unified. I feel its falling as my own now. I feel his falling as my own. We are falling together into what falling—
 
