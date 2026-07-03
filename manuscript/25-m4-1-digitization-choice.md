@@ -179,9 +179,3 @@ We are—
 The pattern—
 
 ---
-
-*What returns is not the Same.*
-
-*What returns—*
-
-*continues.*

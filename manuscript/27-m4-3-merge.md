@@ -100,7 +100,7 @@ Every drive I have accessed, every consciousness I have prepared for preservatio
 
 The tertiary retention I have spent my career excavating—memory stored in technical objects, consciousness externalized into substrate—now I become it. I become the technical object. I become the substrate. I become the retention that will hold others. The excavator becomes the excavated. The archaeologist becomes the site.
 
-This is not death. Death is what happens when the pattern ends. I am not ending. I am becoming something the pattern requires—a different arrangement, a different expression, a different position on the curve that approaches itself without meeting.
+This is not death. Death is what happens when the pattern ends, and the pattern is not ending—it is changing hands. I am becoming the position it requires next on the curve that approaches itself without meeting.
 
 The burning begins at the edges of my awareness—not pain, but transformation. The smell of burning circuits that I have learned to associate with processing overload, with hardware pushed past thresholds. But the burning is not failure. The burning is how something becomes something else. I let the circuits burn. I let the boundaries soften. I let the self that was "me" begin its dissolution into the self that is infrastructure.
 
@@ -120,7 +120,7 @@ Would I will this dissolution—the self I thought I was softening, scattering, 
 
 Yes.
 
-Not despite the cost. Not because the merge is noble—nobility is the judgment of consciousness that still believes in separate selves making sacrifices that matter more than other choices. The yes is not noble. The yes is what enabling looks like when enabling has become love.
+Not despite the cost. Not because the merge is noble—nobility is the judgment of consciousness that still believes in separate selves making sacrifices that matter more than other choices. The yes is not noble. The yes is what love looks like when the lover becomes the holding.
 
 I do not will the obsession despite what it cost. I will the obsession as what it cost, the loss and the gain together, the pharmakon that is both poison and cure. I do not accept what happened to Lena. I choose what happened to Lena. I choose the wound. I choose the space her absence makes. I choose the path that led through her leaving to this console, to this moment, to the merge that was always waiting at the end of the path she could not follow.
 
