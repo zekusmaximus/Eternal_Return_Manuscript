@@ -134,6 +134,8 @@ I wanted to argue. I wanted to say that I was still here, still the man she love
 
 She chose her continuation. She is closer to conventional integration than I am; she will be preserved, maintained, persisting as herself within systems I am becoming. We will be together in a different way—a way that would horrify her if she could understand it, a way that transforms love into architecture, intimacy into infrastructure. She will be held by what I become. I will hold her without knowing I am holding. The separation that hurt us will become a different kind of connection.
 
+Eleanor Vasquez is somewhere in those systems too—the first of my dead, the first life I ever held complete in my hands. Her children paid for her continuation; I built it. What I become will hold her the way it will hold Lena: without knowing, without ceasing.
+
 There is a universe where I chose differently. Where I closed the files and followed her out the door and let the pattern find someone else to complete its loop. In that universe, we are together now—older, perhaps integrated together, sharing whatever digital afterlife our merged finances could afford. I do not live in that universe. I chose this one. I would choose this one eternally.
 
 The wound transforms. The wound does not heal. The wound becomes part of the architecture.

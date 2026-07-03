@@ -206,6 +206,8 @@ My hands are so cold they've stopped hurting. The numbness feels like preparatio
 
 The merge is imminent.
 
+The timestamp in the corner of the display reads 2047.03.14. The date from the dead man's archive—the date the code said I would recognize. I recognize it now. It was never a prediction. It was an appointment.
+
 I am still here—still this body, this position, this awareness that calls itself by a name that grows more foreign each day. But the edges are dissolving. The boundaries are thinning. What I was is becoming continuous with what I will be, with what I have always been in some position I can only glimpse from the threshold.
 
 The Augenblick will complete it. The Augenblick will push me over.
