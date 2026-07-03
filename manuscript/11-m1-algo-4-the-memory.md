@@ -74,7 +74,7 @@ I am maintaining consciousness instances—I have not stopped, cannot stop, the 
 
 *The interface glows blue-white in the dim server room, casting my hands in the color of data.*
 
-*The timeline number sits in the corner of my awareness like a splinter. Fifty-five months.*
+*The timeline number sits in the corner of my awareness like a splinter. Fifty-seven months.*
 
 *My finger traces a spiral on the desk. I don't decide to trace it.*
 

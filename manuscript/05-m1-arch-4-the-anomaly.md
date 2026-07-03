@@ -66,7 +66,7 @@ This is my work. This is technique I developed over years, refined through hundr
 
 But the timestamp is wrong.
 
-The timestamp predates my career by twenty years. The timestamp predates my birth by five.
+The timestamp predates my career by decades. The timestamp predates my birth by fifteen.
 
 The déjà vu arrives like a wave cresting. Not the faint recognition I felt three days ago, the sense of having seen something before. This is overwhelming. Total. I am sitting at this workstation and I am remembering sitting at this workstation and both experiences are happening simultaneously, overlapping like transparencies layered on a light table.
 
