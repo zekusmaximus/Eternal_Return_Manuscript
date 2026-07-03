@@ -2,9 +2,9 @@
 
 The Martinez extraction hits 89% at 2:47 AM.
 
-I've been working for eleven hours straight, hands moving through emotional topographies I know better than my own, tagging correspondence and mapping relationships and building the scaffold that will hold a dead man's consciousness together when they try to resurrect him. Standard work. Excellent progress. The interface glows blue-white in the dim server room, casting my hands in the color of data, the color of the work that keeps me fifty-five months from threshold instead of fifty-seven.
+I've been working for eleven hours straight, hands moving through emotional topographies I know better than my own, tagging correspondence and mapping relationships and building the scaffold that will hold a dead man's consciousness together when they try to resurrect him. Standard work. Excellent progress. The interface glows blue-white in the dim server room, casting my hands in the color of data, the color of the work that keeps me fifty-seven months from threshold instead of sixty-five.
 
-The timeline number sits in the corner of my awareness like a splinter. Fifty-five months. Four years and seven months until I can afford to stop dying. The Martinez fee bought me eight months of that margin, and the next contract will buy more, and someday—if the prices hold, if the Authority doesn't adjust, if nothing goes wrong—someday the countdown will reach zero and I'll have enough to join the dead I've spent my life preparing.
+The timeline number sits in the corner of my awareness like a splinter. Fifty-seven months. Four years and nine months until I can afford to stop dying. The Martinez fee bought me eight months of that margin, and the next contract will buy more, and someday—if the prices hold, if the Authority doesn't adjust, if nothing goes wrong—someday the countdown will reach zero and I'll have enough to join the dead I've spent my life preparing.
 
 My hands are cold. Colder than the server room's ambient seventeen degrees can explain. I flex my fingers and they respond slowly, stiffly, like the signals are traveling through too much distance. I've been noticing this more often lately—the cold that settles into my joints after long sessions, that doesn't leave when I step outside, that seems to come from the work itself rather than any environmental cause.
 
@@ -98,13 +98,13 @@ The extraction fails.
 
 Not crashes—fails. The 89% complete status drops to 73%, then to 61%, then to numbers that don't correspond to any metric I understand. The Martinez data is reorganizing itself around the shape, the emotional anchors I spent weeks mapping now pointing toward a new center of gravity, a new attractor that wasn't there before I opened the folder.
 
-I think about the timeline. Fifty-five months. Eight months purchased with the Martinez fee, eight months that depend on delivering a successful integration package, eight months that are evaporating in front of me as the extraction destabilizes.
+I think about the timeline. Fifty-seven months. Eight months purchased with the Martinez fee, eight months that depend on delivering a successful integration package, eight months that are evaporating in front of me as the extraction destabilizes.
 
 I think about reporting this. The Authority has protocols for data corruption. Technical teams who handle anomalies. If I flag the Martinez archive as compromised, they'll investigate. They'll suspend my access. They'll review my other extractions, looking for signs of contamination, looking for the shape in files I've already delivered.
 
 They'll find it. I know this without knowing how I know. The shape isn't just in Martinez. The shape is in Vasquez. The shape is in every extraction I've done since I first saw it in that conference photograph—or maybe before that, maybe it's been in my work since the beginning, nested in my methods like the code is nested in the data.
 
-If they find it, they'll suspend my license. Investigation pending. Timeline frozen. Fifty-five months becoming fifty-five years, becoming never, becoming a death that stays dead.
+If they find it, they'll suspend my license. Investigation pending. Timeline frozen. Fifty-seven months becoming fifty-seven years, becoming never, becoming a death that stays dead.
 
 I could hide it.
 
@@ -137,7 +137,7 @@ But the shape suggests something else. The code suggests something else. The tem
 
 The comment from the first fragment. The line I found in the Vasquez extraction and again in Martinez, the line that suggests a loop rather than a line, a recursion rather than a progression.
 
-If I am going to write this code—if this code exists because I will write it, because I have always been going to write it—then the timeline doesn't matter. Not in the way I thought. The fifty-five months, the countdown, the desperate race toward a threshold that keeps moving—none of it protects me from what's already happened. None of it prevents what I've already done.
+If I am going to write this code—if this code exists because I will write it, because I have always been going to write it—then the timeline doesn't matter. Not in the way I thought. The fifty-seven months, the countdown, the desperate race toward a threshold that keeps moving—none of it protects me from what's already happened. None of it prevents what I've already done.
 
 ---
 
@@ -167,7 +167,7 @@ Somewhere in the code, in the fragments that predate my birth and the methods I 
 
 My hands are cold. The spiral continues at the edge of my awareness. The Martinez extraction runs in the projection field, rebuilding itself around a center that is no longer stable.
 
-I keep working. The threshold is fifty-five months away. The shape is everywhere, and nowhere, and here.
+I keep working. The threshold is fifty-seven months away. The shape is everywhere, and nowhere, and here.
 
 I tell myself I'll report it tomorrow. I tell myself the hiding is temporary.
 

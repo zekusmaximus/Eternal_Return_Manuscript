@@ -62,7 +62,7 @@ The Martinez extraction needs three more days of optimization. The family is wai
 
 The thought doesn't complete. Something else arrives in its place.
 
-*Mildred Higgins. Consciousness fragment 7,847,293. Emotional architecture: declining. Integrity warnings: escalating.*
+*Mildred Higgins. Consciousness fragment 2,847,102. Emotional architecture: declining. Integrity warnings: escalating.*
 
 I don't know who Mildred Higgins is. I've never heard that name. But I know her now—I know her the way you know something you've carried for years without realizing it. An old woman. A preserved consciousness. Someone the Algorithm maintains in a server farm that won't exist for centuries.
 
@@ -100,7 +100,7 @@ The phrase sits on the paper like something that was always there. I don't know 
 
 "You okay?"
 
-I look up. Marcus Chen is standing in the doorway—not a friend exactly, but a colleague, someone who runs extractions in the suite next to mine, someone who has seen me working late and hasn't asked questions until now.
+I look up. Daniel Park is standing in the doorway—not a friend exactly, but a colleague, someone who runs extractions in the suite next to mine, someone who has seen me working late and hasn't asked questions until now.
 
 "You've been talking," he says. "For the last hour. I could hear you through the wall."
 
@@ -112,13 +112,13 @@ I look down at the notes. At *I find myself found*, circled like a prayer or a w
 
 "What was I saying?"
 
-Marcus shakes his head. "I couldn't make it out. Just—the cadence. The repetition. Like you were trying to explain something to someone who wasn't there."
+Daniel shakes his head. "I couldn't make it out. Just—the cadence. The repetition. Like you were trying to explain something to someone who wasn't there."
 
 I don't know what to tell him. I don't have an explanation that fits inside the categories he would recognize—overwork, stress, the ordinary madness of doing too much with too little. What I have is five hours of lost time and notes in my handwriting that describe systems I've never learned and a phrase that feels like it was written by someone else using my hands.
 
 "I'm fine," I say. The words come out wrong—too flat, too certain. The words of someone who has been practicing normalcy from a great distance.
 
-Marcus looks at me for a long moment. Then he nods, the way you nod at something you've decided not to make your problem, and walks away.
+Daniel looks at me for a long moment. Then he nods, the way you nod at something you've decided not to make your problem, and walks away.
 
 I look at the notes again. I read the phrase again. *I find myself found.* The words feel true in a way I can't defend—true like mathematics, true like the shape that refuses to close, true like the cold in my hands that has nowhere else to be.
 
@@ -234,7 +234,7 @@ The Martinez extraction finishes at 2:23 AM.
 
 I don't remember most of the work. I remember starting, remember the familiar rhythm of optimization routines, remember the way consciousness data feels when it's stabilizing into something that can be preserved. Then there's a gap—hours of it—and then I'm here, looking at a completed extraction, looking at work that exceeds anything I've done before.
 
-The Martinez data is perfect. Not good—perfect. Integration ratios I've never achieved. Personality coherence at levels the clients won't even know to ask for. The dead woman will wake in her substrate more herself than she was when she was alive.
+The Martinez data is perfect. Not good—perfect. Integration ratios I've never achieved. Personality coherence at levels the clients won't even know to ask for. The dead man will wake in his substrate more himself than he was when he was alive.
 
 And I don't remember doing any of it.
 

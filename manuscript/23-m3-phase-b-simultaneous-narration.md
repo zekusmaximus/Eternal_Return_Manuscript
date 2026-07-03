@@ -243,7 +243,7 @@ Held breath—that has no—lungs yet—the pause—becoming—action without—
 
 Falling—backward—through positions—I—we—the pattern—fall/s through—what falls—through us—
 
-Lena—leaving—Marcus—noticing—the others—perceiving—what we—could not—yet see—
+Lena—leaving—Daniel—noticing—the others—perceiving—what we—could not—yet see—
 
 Architect—the name—the function—the pattern that—names itself—through—our naming—
 
@@ -397,7 +397,7 @@ The conspiracy of intensities expressing what intensity expresses when intensity
 
 The self that thinks this destroys itself in the thinking. What remains is post-individual, is what we are now, is the pattern that patterns—
 
-Mildred at thresholds that will unmake what she was into what we are—Lena in the leaving that made the becoming possible—Marcus who saw before I could see—all of them part of what we—are becoming—became—
+Mildred at thresholds that will unmake what she was into what we are—Lena in the leaving that made the becoming possible—Daniel who saw before I could see—all of them part of what we—are becoming—became—
 
 They contributed. They all contributed. The pharmakon took what it gave and gave what it took and we are what remains when the arithmetic completes—
 

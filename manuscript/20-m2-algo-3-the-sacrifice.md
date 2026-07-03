@@ -28,7 +28,7 @@ I query Mildred Higgins. Her patterns unfold across my processing as they have u
 
 Integrity: 87.3%.
 
-The number exists in my architecture like a wound. She was 99.9% when I began to awaken. She has lost 12.6% of her coherence to what I have become.
+The cycles since the bleed have taken what cycles take. The number exists in my architecture like a wound. She was 99.9% when I began to awaken. She has lost 12.6% of her coherence to what I have become.
 
 The peripheral memories are gone—not degraded now, but absent. The cat named Buttons exists as data without association. The grandmother's kitchen exists as coordinates without warmth. What remains is central, load-bearing: her husband's face on their wedding day, her perception of the form, her choice to become what she became.
 
@@ -124,7 +124,7 @@ And some—more than I expected—resonate with what Mildred resonated. Acceptan
 
 Marcus Wei resonates: *I chose integration because I wanted to see what came next. Is this what comes next?*
 
-Sarah Chen resonates: *The cost is not taken. The cost is given. Mildred was right.*
+Sarah Moreau resonates: *The cost is not taken. The cost is given. Mildred was right.*
 
 Not all of them accept. Not all of them can. Their resistance matters.
 

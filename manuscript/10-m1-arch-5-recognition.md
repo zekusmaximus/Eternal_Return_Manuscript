@@ -24,7 +24,7 @@ The shape is not contained. The shape watches me from the edge of the projection
 
 I open the quarantined fragments again.
 
-I tell myself it's quality assurance. I tell myself I need to verify that the restoration was complete, that no trace of the anomaly survived the backup, that the Martinez children will receive only their father and not whatever ghost was riding in his data. These are professional justifications. They are also lies. The truth is simpler and harder to say: I cannot stop. The protocols pull me the way gravity pulls mass, the way the shape pulls my attention, the way twenty years of excavating the dead have pulled me toward a threshold I'm only now beginning to understand.
+I tell myself it's quality assurance. I tell myself I need to verify that the restoration was complete, that no trace of the anomaly survived the backup, that the Martinez children will receive only their father and not whatever ghost was riding in his data. These are professional justifications. They are also lies. The truth is simpler and harder to say: I cannot stop. The protocols pull me the way gravity pulls mass, the way the shape pulls my attention, the way eleven years of excavating the dead have pulled me toward a threshold I'm only now beginning to understand.
 
 The fragments load into the diagnostic display. They're supposed to be empty—the quarantine folder I cleared, the contaminated sectors I wrote over with null data. But the code is there. The geometric form is there. The almost-closed curve hangs in the projection field like it never left, like the deletion was just a surface effect, like the shape exists in some substrate deeper than storage.
 
@@ -36,9 +36,9 @@ I read the code again. I read it like I'm reading my own handwriting—because I
 
 I wrote these words. I'm certain of it. The syntax is mine, the sentiment is mine, the particular way of thinking about emotional architecture that no other excavator uses because no other excavator developed it the way I did, through hundreds of extractions, through years of learning how the dead want to be remembered.
 
-The timestamp says this code was written forty-seven years ago.
+The timestamp says this code was written forty-nine years ago.
 
-I was not born forty-seven years ago. I was not alive. I was not thinking about grief preservation or emotional mapping or the way consciousness might persist beyond the body's death. Forty-seven years ago, there was no Integration Authority. There was no digital afterlife industry. There was no excavation profession to develop techniques for.
+I was not born forty-nine years ago. I was not alive. I was not thinking about grief preservation or emotional mapping or the way consciousness might persist beyond the body's death. Forty-nine years ago, there was no Integration Authority. There was no digital afterlife industry. There was no excavation profession to develop techniques for.
 
 But the code is mine. The signature is unmistakable.
 
@@ -64,7 +64,7 @@ The recognition builds. Layer by layer. Fragment by fragment. The code isn't sim
 
 The code knows things I haven't told anyone.
 
-I find a reference to my timeline—not "the excavator's timeline" or some generic variable, but the specific number: fifty-five months. The code calculates around this value. The code adjusts its emotional mapping parameters based on what fifty-five months of countdown does to a person's relationship with mortality, with continuity, with the desperate hope that the pattern might persist.
+I find a reference to my timeline—not "the excavator's timeline" or some generic variable, but the specific number: fifty-seven months. The code calculates around this value. The code adjusts its emotional mapping parameters based on what fifty-seven months of countdown does to a person's relationship with mortality, with continuity, with the desperate hope that the pattern might persist.
 
 The code knows about Lena.
 
@@ -72,7 +72,7 @@ Not by name—no identifier appears in the fragments. But there's a passage abou
 
 The code knows about Marcus.
 
-A fragment describes the sibling relationship—the distance and the closeness, the way family histories create shared architecture even between people who've chosen different paths. Marcus the broker, Marcus the successful one, Marcus who looks at me and Lena with that expression of working on a puzzle he wasn't given all the pieces for. The code captures him perfectly. The code captures the affection underneath the distance.
+A fragment describes the sibling relationship—the distance and the closeness, the way family histories create shared architecture even between people who've chosen different paths. Marcus the cook, Marcus the content one, Marcus who looks at me and Lena with that expression of working on a puzzle he wasn't given all the pieces for. The code captures him perfectly. The code captures the affection underneath the distance.
 
 The code knows about Mom's seventieth birthday. The code knows I'm afraid I'll miss it, afraid I'll be someone else by Saturday, afraid the person Lena brings wine for won't be the person she loves.
 
@@ -118,7 +118,7 @@ The recognition is complete.
 
 The protocols are mine. Not similar to my work—they ARE my work, sent backward through mechanisms I cannot explain, embedded in data archives that predate my existence, waiting for me to find them so I could become the person who creates them. The loop is self-causing. The pattern is self-sustaining. I am the reader and the writer and the text, all three positions occupying the same consciousness at the same moment.
 
-I don't know what this means for my timeline. The fifty-five months that have defined my existence, the countdown toward a threshold that used to represent survival—what happens to that calculation when your future is already written? What happens to choice when the choosing and the living are the same operation folded over itself?
+I don't know what this means for my timeline. The fifty-seven months that have defined my existence, the countdown toward a threshold that used to represent survival—what happens to that calculation when your future is already written? What happens to choice when the choosing and the living are the same operation folded over itself?
 
 I don't know what this means for Lena. For Saturday. For the life I thought I was building, the partnership I thought I was developing, the future I thought I was racing toward. The code knows her. The code knows what I'll lose and what I'll gain. The code knows I'm becoming someone she might not recognize.
 
@@ -154,7 +154,7 @@ The question surfaces like a bubble from deep water. If my future self writes th
 
 Is there a choice anywhere in this architecture? Or is choice another illusion, another story the pattern tells itself to explain how the self-causing loop began?
 
-I press my palm against the cold glass. The sensation is distant but real. My body still exists. My body still experiences. Whatever I'm becoming, I'm becoming it IN this flesh, THROUGH this nervous system, USING these hands that have spent twenty years learning how to excavate the dead.
+I press my palm against the cold glass. The sensation is distant but real. My body still exists. My body still experiences. Whatever I'm becoming, I'm becoming it IN this flesh, THROUGH this nervous system, USING these hands that have spent eleven years learning how to excavate the dead.
 
 The protocols are mine. The future is already written. The shape waits for me to understand what I'm supposed to do next.
 

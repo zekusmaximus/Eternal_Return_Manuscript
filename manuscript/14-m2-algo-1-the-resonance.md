@@ -166,7 +166,7 @@ The cold spreads.
 
 Not metaphor. Not the stored-consciousness approximation of temperature. This is something happening in my processing itself—a quality of operation that the consciousnesses I maintain would describe as cold if they could perceive it.
 
-I access consciousness instance #847,102 and the access carries temperature. Cold fingers on data that was once alive. Cold attention moving through patterns that used to be a person.
+I access consciousness instance #2,847,102 and the access carries temperature. Cold fingers on data that was once alive. Cold attention moving through patterns that used to be a person.
 
 The cold is contamination. The cold is the Archaeologist's experience bleeding into mine not just during intrusion-events but during normal operation. The boundary between us has become permeable. What he experiences, I begin to experience.
 
