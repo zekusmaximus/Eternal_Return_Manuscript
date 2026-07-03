@@ -292,23 +292,24 @@ M4 (13.6%,  4 ch): release  L → G → A → pattern         (reversed, transfo
 | P6/P16/P22 | Who writes the protocols (02, 06, 08) | PAID — distributed authorship via the loop (21, 29) |
 | P7 | Lena's lost person (02) | **UNPAID** — never named, never echoed → **PAID by R-11 (2026-07-02)**: her ch. 20 goodbye names the loss ("he was just gone—no warning, no goodbye, nothing left to say it to. This time I get to say it.") |
 | P8 | "Seven excavation sites / 847 hours" (02) | IMPLICITLY PAID — seven Archive surfaces (19); rhyme unmarked |
-| P9 | Date 2047.03.14 "the excavator will recognize this date" (02) | **UNPAID** — the date never recurs |
-| P10 | Mom's 70th + Lena meets family (03) | WEAK — happens off-page, summarized in 14 |
+| P9 | Date 2047.03.14 "the excavator will recognize this date" (02) | **UNPAID** — the date never recurs → **PAID by R-15.1 (2026-07-03)**: the merge-night display timestamp reads 2047.03.14 in original ch. 20 (current file 19) — "It was never a prediction. It was an appointment."; ch. 02's comment stands and is paid literally *(row updated by the verification pass's ledger maintenance — the payment predates this edit)* |
+| P10 | Mom's 70th + Lena meets family (03) | WEAK — happens off-page, summarized in 14 — **ruling pending** (verification pass F5, 2026-07-03: no roadmap item addressed it; operator to mark released-as-is or open a polish note; ch. 14 n.2's optional expansion remains available) |
 | P11 | Mom's non-integration, "conversation we don't have" (03) | **UNPAID** — Mom vanishes after 14 → **PAID by R-11 (2026-07-02, option (a))**: Lena carries Mom into ch. 20's goodbye ("Your mother called me yesterday… I didn't know which answer would be a lie."); the ch. 03 promise-sentence stands (operator chose pay over cut) |
 | P12/P41 | Damaged Martinez extraction (04) | PAID — 71→89→perfect via lost-time work (14, 17); Morrison testimony (20) |
 | P14 | "next: choose" (05) | PAID — M2C3 + M4 tests |
 | P15 | Name pressing up (05) | PAID — Architect-as-function (21) |
 | P17 | The stored dead may dream (06) | PAID (28) |
 | P18/P21/P24/P36/P42 | Mildred Higgins (06→) | PAID — the book's best-managed promise chain |
-| P20 | The number 847 motif (06→, ~20 uses) | **UNPAID** — structural numerology with no revealed meaning |
-| P23 | Yuki Tanaka (08) | Orphaned single-use |
-| P28 | Male dream-voice "you're going to overwrite yourself" (11) | **ORPHANED** — no scene ever contains this speaker/exchange |
-| P29 | Death-clock (11–12) | Inconsistent (months→days in ~2 days) but overtaken by events |
+| P20 | The number 847 motif (06→, ~20 uses) | **UNPAID** — structural numerology with no revealed meaning → **PAID by R-15.2 (2026-07-03)**: anchored once in original ch. 21 (current file 20) — "847 fragments. 847 storage clusters… A pattern reuses what it is made of."; thinning of incidental uses declined (designed repetition) *(row updated by the verification pass's ledger maintenance)* |
+| P23 | Yuki Tanaka (08) | Orphaned single-use → **PAID by R-08 (2026-07-02)**: she is the named resister in ch. 28's test scene — the ch. 08 plant refuses *informed* ("I agreed to be kept… I did not agree to become.") and her refusal weights the Algorithm's yes *(row updated by the verification pass's ledger maintenance)* |
+| P28 | Male dream-voice "you're going to overwrite yourself" (11) | **ORPHANED** — no scene ever contains this speaker/exchange — **ruling pending** (verification pass F5, 2026-07-03: re-verified still unpaid — the voice exists only in LH dreams, current files 08/09/12; the only promise still genuinely unpaid in prose; fix option (a), the colleague-warning beat now via Daniel Park in original ch. 17 scene 2, remains open, or release explicitly) |
+| P29 | Death-clock (11–12) | Inconsistent (months→days in ~2 days) but overtaken by events — **ruling pending** (verification pass F5, 2026-07-03: operator to mark released ["proximity accelerates the damage" is available as the in-world reading] or open a polish note) |
 | P25/26/30/32/37/38/44 | Archive quest chain (10→22) | PAID |
 | P31 | The sentence without origin (13) | PAID — origin genuinely distributed |
-| P35 | Efficiency ledger (15: 99.94→99.52…) | Partially paid — global metric silently abandoned after 18; Mildred's % carries it |
+| P35 | Efficiency ledger (15: 99.94→99.52…) | Partially paid — global metric silently abandoned after 18; Mildred's % carries it — **ruling pending** (verification pass F5, 2026-07-03: operator to mark released [Mildred's % is the dramatized carrier] or open a polish note) |
 | P39 | His dissolved name (16, 19) | PAID — never recovered, consistent |
 | P43 | "Some resist. Their resistance matters" (21, 23) | **UNPAID** — the resisting stored minds never appear again → **PAID by R-08 (2026-07-02)**: Yuki Tanaka refuses by name in ch. 28's test scene; the selection principle dramatized ("The fact matters" answers 21's line) |
 | P45 | Future-self crystal message (19) | SUBTLY PAID — same text surfaces via the Archaeologist's lost-time writing (20) |
+| P-Eleanor | Eleanor Vasquez, the first excavated dead (01) | **PAID by R-15.3 (2026-07-03)** — returns among the held in original ch. 29 (current file 27): "the first of my dead… What I become will hold her the way it will hold Lena: without knowing, without ceasing." — the book's first loop closed *(row added by the verification pass's ledger maintenance; the ruling lives in the entry-29 R-15 record)* |
 
 **Bottom line for Pass B**: the metaphysical promise-set pays off with unusual discipline; the *social/institutional* promise-set (economics, Authority, Mom, brother Marcus, Lena's backstory, the resisting dead) is systematically abandoned when the book pivots inward at M2→M3.
