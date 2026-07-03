@@ -96,7 +96,7 @@ I look at my hands. She's right. They're pale at the fingertips, the color of po
 
 "You're not fine." She moves around me, opens the refrigerator, starts assembling lunch with the efficient movements of someone who has decided to be practical about a problem she can't solve directly. "You haven't been fine since before the party. Something's wrong, and you're not telling me what."
 
-The accusations sits between us, patient as the protocols, waiting for me to decide what to do with it.
+The accusation sits between us, patient as the protocols, waiting for me to decide what to do with it.
 
 "The Martinez extraction," I start, and then stop, because that's not it, not really. The Martinez extraction is fine. The Martinez extraction is proceeding normally, whatever normal means anymore. "There's something in the data I can't explain."
 
