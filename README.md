@@ -1,5 +1,18 @@
 # The Eternal Return of the Digital Self
 
+> [!NOTE]
+> **Consolidation role:** This repository remains the active canonical long-form
+> literary and editorial source for the
+> [Narramorph product](https://github.com/zekusmaximus/Narramorph/blob/main/docs/eternal-return-product-consolidation-roadmap.md).
+> It is not an application repository and is not scheduled for archival. Approved,
+> versioned literary releases may inform Narramorph's separate interactive edition;
+> Narramorph must not fetch or mutate this repository's default branch at build time.
+
+The reviewed pre-consolidation state is preserved by tag
+`pre-consolidation-2026-07-13`. See
+[`editorial/CONSOLIDATION_BASELINE.md`](editorial/CONSOLIDATION_BASELINE.md) and
+[`editorial/INTERACTIVE_EDITION_PROVENANCE.md`](editorial/INTERACTIVE_EDITION_PROVENANCE.md).
+
 **A Deep Time Speculative Science Fiction Novel**
 
 ## Overview
