@@ -55,6 +55,15 @@ def last_nonempty_line(text: str) -> str:
     return ""
 
 
+def verify_endings(
+    endings: list[tuple[Path, str]], output: str
+) -> tuple[list[tuple[Path, str]], list[Path]]:
+    """Return missing and empty chapter endings for an assembled document."""
+    missing = [(path, ending) for path, ending in endings if ending and ending not in output]
+    empties = [path for path, ending in endings if not ending]
+    return missing, empties
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument(
@@ -82,10 +91,7 @@ def main() -> None:
     output = "".join(parts).rstrip() + "\n"
 
     # --- mandatory verification: every chapter ending must survive assembly
-    missing = [
-        (f, end) for f, end in endings if end and end not in output
-    ]
-    empties = [f for f, end in endings if not end]
+    missing, empties = verify_endings(endings, output)
     if missing or empties:
         print("ASSEMBLY VERIFICATION FAILED", file=sys.stderr)
         for f, end in missing:

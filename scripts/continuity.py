@@ -87,6 +87,11 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--min", type=int, default=2, help="minimum occurrences (default 2)")
     ap.add_argument("--stdout", action="store_true", help="print instead of writing file")
+    ap.add_argument(
+        "--check",
+        action="store_true",
+        help="exit non-zero when bible/name-index.md differs; never write",
+    )
     args = ap.parse_args()
 
     files = sorted(MANUSCRIPT.glob("[0-9][0-9]-*.md"))
@@ -152,7 +157,16 @@ def main() -> None:
         lines.append(f"- **{t}** — {total}x in: {chapters}")
 
     out_text = "\n".join(lines) + "\n"
-    if args.stdout:
+    if args.check:
+        current = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
+        if current != out_text:
+            print(
+                "ERROR: bible/name-index.md is stale; run python scripts/continuity.py",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        print(f"Continuity index is current ({len(kept)} terms). OK")
+    elif args.stdout:
         print(out_text)
     else:
         OUT.write_text(out_text, encoding="utf-8")

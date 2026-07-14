@@ -97,6 +97,7 @@ python --version
 python scripts/stats.py
 python scripts/assemble.py
 python scripts/edit_status.py
+python scripts/validate_ci.py
 python -m unittest discover -s tests -p "test_*.py"
 ```
 

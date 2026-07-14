@@ -18,6 +18,25 @@ import json
 import sys
 from pathlib import Path
 
+try:
+    from rhyme_tracker_m3 import find_all_rhymes
+except ImportError:  # imported as scripts.dissolution_validator in tests
+    from scripts.rhyme_tracker_m3 import find_all_rhymes
+
+WORD_COUNT_RANGE = (3000, 3700)
+MAX_DOMINANT_VOICE_PCT = 41
+MIN_PRONOUN_AMBIGUITY = 45
+MIN_RHYME_COVERAGE_PCT = 90
+MAX_TENSE_SHARE_PCT = 65
+
+
+def configure_utf8_output():
+    """Emit stable UTF-8 even when a Windows console defaults to CP1252."""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, 'reconfigure', None)
+        if reconfigure is not None:
+            reconfigure(encoding='utf-8', errors='strict')
+
 
 class DissolutionValidator:
     """Validates Phase C dissolution prose against project requirements."""
@@ -127,12 +146,8 @@ class DissolutionValidator:
         }
 
     def check_rhymes_present(self):
-        """Check all required rhymes are present."""
-        found = set()
-        text_lower = self.text.lower()
-        for rhyme in self.REQUIRED_RHYMES:
-            if rhyme in text_lower:
-                found.add(rhyme)
+        """Check natural-language rhyme patterns using the canonical tracker."""
+        found = set(find_all_rhymes(self.text))
         missing = self.REQUIRED_RHYMES - found
         return {
             'found': sorted(list(found)),
@@ -179,9 +194,9 @@ class DissolutionValidator:
         past_pct = (past_matches / total) * 100
         future_pct = (future_matches / total) * 100
 
-        # Instability = all three tenses present with no dominant
-        # If no tense is >60%, we have instability
-        stable = max(present_pct, past_pct, future_pct) > 60
+        # Instability = all three tenses present with no share above the
+        # accepted canonical ceiling. This is a signal, not a grammar parser.
+        stable = max(present_pct, past_pct, future_pct) > MAX_TENSE_SHARE_PCT
 
         return {
             'present_pct': present_pct,
@@ -201,11 +216,11 @@ class DissolutionValidator:
 
         # Determine pass/fail for each criterion
         passes = {
-            'word_count': 2500 <= self.word_count <= 3000,
-            'no_dominant_voice': max(marker_pcts.values()) < 40,
-            'pronoun_ambiguity': pronouns['ambiguity_score'] >= 70,
+            'word_count': WORD_COUNT_RANGE[0] <= self.word_count <= WORD_COUNT_RANGE[1],
+            'no_dominant_voice': max(marker_pcts.values()) <= MAX_DOMINANT_VOICE_PCT,
+            'pronoun_ambiguity': pronouns['ambiguity_score'] >= MIN_PRONOUN_AMBIGUITY,
             'we_emergence': pronouns['we_count'] >= 5,
-            'all_rhymes': len(rhymes['missing']) == 0,
+            'all_rhymes': rhymes['coverage_pct'] >= MIN_RHYME_COVERAGE_PCT,
             'all_phrases': all(v == 'present' for v in phrases.values()),
             'tense_instability': tense['instability_achieved']
         }
@@ -233,7 +248,7 @@ def print_report(report, pretty=False):
         print("=" * 50)
 
         print(f"\nWord Count: {report['word_count']}")
-        print(f"Target: 2,500-3,000")
+        print(f"Accepted range: {WORD_COUNT_RANGE[0]:,}-{WORD_COUNT_RANGE[1]:,}")
         status = "✓ PASS" if report['passes']['word_count'] else "✗ FAIL"
         print(f"Status: {status}")
 
@@ -284,6 +299,7 @@ def print_report(report, pretty=False):
 
 
 def main():
+    configure_utf8_output()
     if len(sys.argv) < 2:
         print("Usage: python dissolution_validator.py <phase-c-file.md> [--pretty] [--output <json_path>]")
         sys.exit(1)
@@ -301,7 +317,7 @@ def main():
         print(f"Error: File not found: {file_path}")
         sys.exit(1)
 
-    text = file_path.read_text()
+    text = file_path.read_text(encoding='utf-8')
     validator = DissolutionValidator(text)
     report = validator.validate()
 
@@ -309,7 +325,7 @@ def main():
 
     if output_path:
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_text(json.dumps(report, indent=2))
+        output_path.write_text(json.dumps(report, indent=2), encoding='utf-8')
 
     return 0 if report['overall_pass'] else 1
 

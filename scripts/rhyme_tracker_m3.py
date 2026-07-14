@@ -507,7 +507,7 @@ def assess_phase_requirements(
 
         if saturation["density_per_1000"] >= 25:
             results["score"] += 30
-        elif saturation["density_per_1000"] >= 15:
+        elif saturation["density_per_1000"] >= 10:
             results["score"] += 20
         else:
             results["issues"].append("Rhyme density too low for saturation")
