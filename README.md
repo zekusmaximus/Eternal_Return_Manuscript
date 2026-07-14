@@ -50,11 +50,11 @@ The reading experience itself performs eternal return: the reader returns to eac
 
 ## Current Status
 
-**Phase**: Complete draft through Revision One (2026-02-01); developmental edit in progress.
+**Phase**: Complete draft through Revision One; the 15-item developmental revision roadmap and verification pass are complete. Future prose changes still require the approval workflow in `CLAUDE.md` and `editorial/WORKFLOW.md`.
 
-- All four movements drafted: 30 scenes/sections, ~90,600 words
+- All four movements drafted: 28 canonical chapters, 85,114 words by `scripts/stats.py` (85,138 words in the assembled artifact)
 - Revision One (phases A–G) complete — records in `editorial/revision-one/`
-- Full developmental edit and revision roadmap: see `editorial/`
+- Developmental revision roadmap: 15 of 15 items complete; see `editorial/STATE.md` and `editorial/VERIFICATION-REPORT.md`
 - Session status at any time: `python scripts/edit_status.py`
 
 ## Repository Structure
@@ -63,7 +63,7 @@ The reading experience itself performs eternal return: the reader returns to eac
 /
 ├── README.md                 # This file
 ├── CLAUDE.md                 # Standing rules for AI-assisted sessions
-├── /manuscript               # THE NOVEL — 30 canonical prose files in reading order
+├── /manuscript               # THE NOVEL — 28 canonical prose files in reading order
 │                             #   NN-mX-thread-slug.md (e.g. 14-m2-arch-1-the-bleed.md)
 ├── /bible                    # Reference: development notes, philosophy, voices,
 │                             #   worldbuilding, rhyme registry, narrative protocols
@@ -84,6 +84,23 @@ The reading experience itself performs eternal return: the reader returns to eac
 - Word counts / scene stats: `python scripts/stats.py`
 - Proper-noun continuity index: `python scripts/continuity.py`
 - Editorial session status: `python scripts/edit_status.py`
+
+### Clean Windows status workflow
+
+The repository's Python tooling uses only the Python 3 standard library. From a clean clone in PowerShell 7:
+
+```powershell
+git clone https://github.com/zekusmaximus/Eternal_Return_Manuscript.git
+Set-Location Eternal_Return_Manuscript
+
+python --version
+python scripts/stats.py
+python scripts/assemble.py
+python scripts/edit_status.py
+python -m unittest discover -s tests -p "test_*.py"
+```
+
+The baseline is tested with Python 3.13 on Windows. All scripts must use `pathlib` and explicit UTF-8 file I/O; `edit_status.py` also configures UTF-8 console output so Unicode editorial state is safe when Windows starts with a CP1252 console encoding.
 
 The compiled manuscript previously at `compiled1/` (including the DOCX) is **stale pre-revision text with a truncated ending** — it lives in `archive/compiled1/`; do not distribute it. Always rebuild from `/manuscript/`.
 

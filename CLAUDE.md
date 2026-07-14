@@ -1,6 +1,6 @@
 # CLAUDE.md — standing rules for this repository
 
-This repository contains the novel *The Eternal Return of the Digital Self* (complete draft, ~90,600 words) and its editorial apparatus. These rules bind every AI-assisted session. They exist because the manuscript prose is the crown jewel of this repo.
+This repository contains the novel *The Eternal Return of the Digital Self* (complete draft, 28 canonical chapters and roughly 85,100 words by the live statistics script) and its editorial apparatus. These rules bind every AI-assisted session. They exist because the manuscript prose is the crown jewel of this repo.
 
 ## Hard rules
 
@@ -16,7 +16,7 @@ This repository contains the novel *The Eternal Return of the Digital Self* (com
 
 | What | Where |
 |---|---|
-| The novel, 30 chapters in reading order | `manuscript/NN-mX-thread-slug.md` |
+| The novel, 28 chapters in reading order | `manuscript/NN-mX-thread-slug.md` |
 | Chapter ↔ movement/voice/timeline map | `bible/structure-map.md` |
 | Story bible (voices, worldbuilding, philosophy, rhyme registry) | `bible/` |
 | Book map (per-chapter structure + promise/payoff ledger) | `editorial/BOOK-MAP.md` |
