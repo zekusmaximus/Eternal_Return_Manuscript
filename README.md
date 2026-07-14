@@ -84,6 +84,7 @@ The reading experience itself performs eternal return: the reader returns to eac
 - Word counts / scene stats: `python scripts/stats.py`
 - Proper-noun continuity index: `python scripts/continuity.py`
 - Editorial session status: `python scripts/edit_status.py`
+- Build a deterministic, non-prose Narramorph literary release: `python scripts/export_runtime_source.py --release <id>`; see [`editorial/LITERARY_RELEASES.md`](editorial/LITERARY_RELEASES.md).
 
 ### Clean Windows status workflow
 

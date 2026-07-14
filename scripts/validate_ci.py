@@ -91,6 +91,16 @@ def main() -> None:
     run_script("scripts/stats.py")
     with tempfile.TemporaryDirectory() as temp_dir:
         run_script("scripts/assemble.py", "--out", str(Path(temp_dir) / "manuscript.md"))
+        release_directory = Path(temp_dir) / "literary-releases"
+        release_path = release_directory / "ci-literary-release-v1.0.0.json"
+        run_script(
+            "scripts/export_runtime_source.py",
+            "--release",
+            "ci-literary-release-v1.0.0",
+            "--out",
+            str(release_directory),
+        )
+        run_script("scripts/export_runtime_source.py", "--validate", str(release_path))
     run_script("scripts/continuity.py", "--check")
     run_script("scripts/edit_status.py")
     validate_movement_two()
