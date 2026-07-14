@@ -1,0 +1,270 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zekusmaximus/Eternal_Return_Manuscript/schemas/literary-release-v1.schema.json",
+  "title": "Eternal Return literary release v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contentSha256", "payload", "schemaVersion"],
+  "properties": {
+    "contentSha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["context", "doNotEdit", "format", "manifest", "sourceFiles"],
+      "properties": {
+        "context": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "chapters",
+            "characters",
+            "chronology",
+            "excerpts",
+            "glossary",
+            "philosophicalConstraints",
+            "promisePayoffs",
+            "voices"
+          ],
+          "properties": {
+            "chapters": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "chapterId",
+                  "cycleOrPhase",
+                  "file",
+                  "movement",
+                  "ordinal",
+                  "sceneSummary",
+                  "timeline",
+                  "title",
+                  "voice"
+                ]
+              }
+            },
+            "characters": {
+              "type": "array",
+              "minItems": 3,
+              "items": {
+                "type": "object",
+                "required": ["characterId", "displayName", "timeline", "voiceId"]
+              }
+            },
+            "chronology": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "chronologyId",
+                  "sourceLine",
+                  "sourcePath",
+                  "timelinePosition",
+                  "title"
+                ]
+              }
+            },
+            "excerpts": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "glossary": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["glossaryId", "sourceHeading", "sourcePath", "term"]
+              }
+            },
+            "philosophicalConstraints": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["category", "constraintId", "sourceLine", "sourcePath", "title"]
+              }
+            },
+            "promisePayoffs": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["promiseId", "resolution", "setupReference", "sourceLine", "sourcePath"]
+              }
+            },
+            "voices": {
+              "type": "array",
+              "minItems": 3,
+              "items": {
+                "type": "object",
+                "required": ["forbidden", "markers", "parameters", "sourceLine", "sourcePath", "voiceId"]
+              }
+            }
+          }
+        },
+        "doNotEdit": {
+          "const": "Generated from immutable manuscript/editorial Git blobs; do not edit or treat as manuscript prose."
+        },
+        "format": {
+          "const": "eternal-return-literary-release"
+        },
+        "manifest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "contentLicense",
+            "contractSchemaVersion",
+            "editorialReleaseId",
+            "excerptPolicy",
+            "generatedAt",
+            "permission",
+            "policySchemaVersion",
+            "sourceCommit",
+            "sourceDateEpoch",
+            "storyId",
+            "storyVersion",
+            "targetRepository",
+            "targetStoryPackage",
+            "validation"
+          ],
+          "properties": {
+            "contentLicense": {
+              "type": "string",
+              "minLength": 1
+            },
+            "contractSchemaVersion": {
+              "type": "string",
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+            },
+            "editorialReleaseId": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9.-]+$"
+            },
+            "excerptPolicy": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["approvedExcerptCount", "markerRequired"],
+              "properties": {
+                "approvedExcerptCount": {
+                  "const": 0
+                },
+                "markerRequired": {
+                  "const": true
+                }
+              }
+            },
+            "generatedAt": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "permission": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["approvalRecordRequired", "path"],
+              "properties": {
+                "approvalRecordRequired": {
+                  "const": true
+                },
+                "path": {
+                  "$ref": "#/$defs/safePath"
+                }
+              }
+            },
+            "policySchemaVersion": {
+              "const": "1.0.0"
+            },
+            "sourceCommit": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{40}$"
+            },
+            "sourceDateEpoch": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "storyId": {
+              "const": "eternal-return"
+            },
+            "storyVersion": {
+              "type": "string",
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+            },
+            "targetRepository": {
+              "const": "zekusmaximus/Narramorph"
+            },
+            "targetStoryPackage": {
+              "type": "string",
+              "minLength": 1
+            },
+            "validation": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["chapterCount", "contextSourceCount", "excerptCount", "manuscriptFileCount"],
+              "properties": {
+                "chapterCount": {
+                  "const": 28
+                },
+                "contextSourceCount": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "excerptCount": {
+                  "const": 0
+                },
+                "manuscriptFileCount": {
+                  "const": 28
+                }
+              }
+            }
+          }
+        },
+        "sourceFiles": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["context", "manuscript"],
+          "properties": {
+            "context": {
+              "$ref": "#/$defs/sourceFileArray"
+            },
+            "manuscript": {
+              "$ref": "#/$defs/sourceFileArray"
+            }
+          }
+        }
+      }
+    },
+    "schemaVersion": {
+      "const": "1.0.0"
+    }
+  },
+  "$defs": {
+    "safePath": {
+      "type": "string",
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "sourceFileArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/safePath"
+          },
+          "sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    }
+  }
+}

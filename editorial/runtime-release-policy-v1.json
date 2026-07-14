@@ -1,0 +1,81 @@
+{
+  "approvedExcerptMarkers": [],
+  "characters": [
+    {
+      "characterId": "er-character-archaeologist",
+      "displayName": "The Digital Archaeologist",
+      "timeline": "near-future",
+      "voiceId": "archaeologist"
+    },
+    {
+      "characterId": "er-character-algorithm",
+      "displayName": "The Algorithm",
+      "timeline": "mid-future",
+      "voiceId": "algorithm"
+    },
+    {
+      "characterId": "er-character-last-human",
+      "displayName": "The Last Human",
+      "timeline": "deep-future",
+      "voiceId": "last-human"
+    }
+  ],
+  "contentLicense": "LicenseRef-Eternal-Return-All-Rights-Reserved",
+  "contextSources": [
+    "bible/structure-map.md",
+    "bible/philosophy-constraints.md",
+    "bible/voices/quick-reference.md",
+    "bible/worldbuilding/catastrophe-timeline.md",
+    "editorial/BOOK-MAP.md",
+    "outlines/manifest.json",
+    "CONTENT_LICENSE.md",
+    "INTERACTIVE_USE_PERMISSION.md",
+    "schemas/literary-release-v1.schema.json"
+  ],
+  "contractSchemaVersion": "1.0.0",
+  "expectedChapterCount": 28,
+  "glossary": [
+    {
+      "glossaryId": "er-glossary-eternal-return",
+      "sourceHeading": "Eternal Return",
+      "sourcePath": "bible/philosophy-constraints.md",
+      "term": "Eternal Return"
+    },
+    {
+      "glossaryId": "er-glossary-augenblick",
+      "sourceHeading": "The Augenblick",
+      "sourcePath": "bible/philosophy-constraints.md",
+      "term": "Augenblick"
+    },
+    {
+      "glossaryId": "er-glossary-identity-dissolution",
+      "sourceHeading": "Identity Dissolution (Klossowski)",
+      "sourcePath": "bible/philosophy-constraints.md",
+      "term": "Identity Dissolution"
+    },
+    {
+      "glossaryId": "er-glossary-tertiary-retention",
+      "sourceHeading": "Tertiary Retention (Stiegler)",
+      "sourcePath": "bible/philosophy-constraints.md",
+      "term": "Tertiary Retention"
+    },
+    {
+      "glossaryId": "er-glossary-pharmakon",
+      "sourceHeading": "The Pharmakon",
+      "sourcePath": "bible/philosophy-constraints.md",
+      "term": "Pharmakon"
+    },
+    {
+      "glossaryId": "er-glossary-four-shackles",
+      "sourceHeading": "The Four Shackles",
+      "sourcePath": "bible/philosophy-constraints.md",
+      "term": "Four Shackles"
+    }
+  ],
+  "permissionPath": "INTERACTIVE_USE_PERMISSION.md",
+  "policySchemaVersion": "1.0.0",
+  "storyId": "eternal-return",
+  "storyVersion": "1.0.0",
+  "targetRepository": "zekusmaximus/Narramorph",
+  "targetStoryPackage": "eternal-return@1.x"
+}
