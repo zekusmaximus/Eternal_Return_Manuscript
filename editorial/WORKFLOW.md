@@ -25,6 +25,31 @@ The loop every revision session follows. It exists to keep the manuscript safe: 
 - Respect the reorder constraints recorded in roadmap items (04→09/13 order; 18→19→20 adjacency).
 - Scripts are Python 3 stdlib, `python scripts/<name>.py`, UTF-8, pathlib — the operator runs Windows/PowerShell.
 
+## Narramorph interactive-edition proposals
+
+Narramorph's [content-authority ADR](https://github.com/zekusmaximus/Narramorph/blob/main/docs/adr/0002-content-authority-and-edition-semantics.md) defines the shared edition boundary. This repository owns the canonical long-form manuscript and editorial constraints; Narramorph owns its separately authored interactive runtime edition. A reader-specific journey export is a derivative record, not an authoring source.
+
+A manuscript/editorial change can inform Narramorph only through this sequence:
+
+1. Complete the approval loop above for any canonical prose change. Metadata/tooling-only work does not grant prose-edit permission.
+2. Produce a versioned literary-release artifact containing approved structured context and only excerpts that have an explicit interactive-use approval record.
+3. Record the immutable manuscript commit, editorial release ID, contract/schema version, license/permission, input hashes, deterministic artifact hash, and validation results.
+4. Transfer that immutable artifact deliberately. Narramorph stages and validates it, then produces a semantic diff; it does not fetch this repository's default branch.
+5. Editorial review decides whether changed identities, chronology, terminology, philosophical constraints, causal promises/payoffs, ending claims, or approved excerpts are acceptable for the interactive edition.
+6. Narramorph accepts release metadata and concordance through a pull request. Any runtime-prose proposal is a separate authored diff with the applicable editorial review.
+7. Rollback selects or reverts to a prior accepted Narramorph package. It never edits this repository or rewrites manuscript history.
+
+### Do-not-overwrite boundary
+
+- No exporter, validator, or Narramorph-related command may modify, rename, reformat, or re-encode files beneath `manuscript/`.
+- Ordinary exporter output belongs beneath git-ignored `build/`; an intentional release artifact is reviewed and versioned separately.
+- This repository never writes into a Narramorph checkout or rewrites Narramorph runtime prose.
+- Narramorph never writes into this repository and never fetches its default branch during build or runtime.
+- Reader exports cannot be imported as canonical or runtime authoring inputs.
+- Generated artifacts must declare their source and do-not-edit boundary.
+
+If a proposed tool cannot preserve these boundaries, stop before execution and request the smallest explicit decision needed. Do not treat a schema, concordance, semantic diff, or generated artifact as permission to change prose.
+
 ## Session start (copy-paste for the operator)
 
 > Read editorial/STATE.md, editorial/WORKFLOW.md, and roadmap item <ID>. Load the affected chapters and their editorial/chapters notes. Propose the revision as a plan in chat and wait for my approval before touching any file.
