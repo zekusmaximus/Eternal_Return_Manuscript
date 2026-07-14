@@ -1,0 +1,13 @@
+REPOSITORY LICENSING OVERVIEW
+
+Copyright (c) 2026 zekusmaximus
+
+This repository contains software and literary/editorial content under separate terms:
+
+1. Executable software source code and technical tooling are licensed under the MIT License in `CODE_LICENSE.md`.
+2. Manuscript prose, story-bible material, editorial content, worldbuilding, character material, expressive configuration data, exports, and first-party media are all rights reserved under `CONTENT_LICENSE.md`.
+3. Only material named in an approved, versioned release receives the limited Narramorph distribution permission in `INTERACTIVE_USE_PERMISSION.md`.
+
+The software license does not apply to the novel or other reserved content. If a file combines code and protected literary expression, the MIT License applies to the code mechanics while the protected expression remains reserved. If classification is genuinely ambiguous, no public content license should be inferred; obtain written clarification from the copyright holder.
+
+Third-party material remains subject to its own license and attribution requirements.
