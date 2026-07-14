@@ -22,12 +22,21 @@ CHAPTER_NOTES = ROOT / "editorial" / "chapters"
 MANUSCRIPT = ROOT / "manuscript"
 
 
+def configure_utf8_output() -> None:
+    """Emit stable UTF-8 even when a Windows console defaults to CP1252."""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure is not None:
+            reconfigure(encoding="utf-8", errors="strict")
+
+
 def field(text: str, name: str) -> str:
     m = re.search(rf"(?im)^[-*]?\s*\*?\*?{re.escape(name)}\*?\*?\s*:\s*(.+)$", text)
     return m.group(1).strip() if m else "?"
 
 
 def main() -> None:
+    configure_utf8_output()
     print("=" * 62)
     print("  ETERNAL RETURN — editorial status")
     print("=" * 62)
