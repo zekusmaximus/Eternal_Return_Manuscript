@@ -1,0 +1,39 @@
+name: Manuscript CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  manuscript-linux:
+    name: Manuscript / linux
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Unit and negative-path tests
+        run: python -m unittest discover -s tests -v
+      - name: Canonical release checks
+        run: python scripts/validate_ci.py
+
+  manuscript-windows-utf8:
+    name: Manuscript / windows-utf8
+    runs-on: windows-latest
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Unit and CP1252 regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Canonical release checks
+        run: python scripts/validate_ci.py
