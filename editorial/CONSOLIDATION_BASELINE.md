@@ -38,7 +38,7 @@ These are recorded for the later documentation/tooling batch and do not authoriz
 
 ## Rights and approval boundary
 
-The root README states that manuscript material is all rights reserved. The Phase 0 license decision must clarify the narrow permission, if any, for approved manuscript-derived material to be distributed in Narramorph. Until that decision is merged, no new prose transfer is authorized.
+The root license files reserve manuscript/editorial content while licensing executable tooling under MIT. `INTERACTIVE_USE_PERMISSION.md` defines a narrow, release-specific permission for approved manuscript-derived material to be distributed in official Narramorph builds. No particular excerpt is authorized until its versioned approval record exists.
 
 Canonical prose remains read-only by default under `CLAUDE.md` and `editorial/WORKFLOW.md`.
 

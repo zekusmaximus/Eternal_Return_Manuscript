@@ -105,4 +105,10 @@ The compiled manuscript previously at `compiled1/` (including the DOCX) is **sta
 
 ## License
 
-All rights reserved. This repository contains working materials for a novel in development.
+This repository uses separate terms for tooling and creative content:
+
+- Executable software tooling is available under the [MIT code license](CODE_LICENSE.md).
+- Manuscript prose, story-bible and editorial material, worldbuilding, character material, expressive configuration data, exports, and first-party media are **all rights reserved** under the [content license](CONTENT_LICENSE.md).
+- Approved, versioned material may be used by the official Narramorph project only under the [interactive-use permission](INTERACTIVE_USE_PERMISSION.md).
+
+See the root [licensing overview](LICENSE) when a file's classification is unclear.
