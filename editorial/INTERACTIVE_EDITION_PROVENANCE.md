@@ -12,6 +12,8 @@ The consolidation program recognizes three artifacts:
 
 The artifacts may differ intentionally in order, passage length, second-person framing, unlock structure, choice language, and interactive explanation. They may not silently contradict approved character identity, chronology, causal relationships, philosophical constraints, or ending claims.
 
+The complete authority, intentional-difference, review, versioning, acceptance, rollback, and do-not-overwrite decision is [Narramorph ADR 0002](https://github.com/zekusmaximus/Narramorph/blob/main/docs/adr/0002-content-authority-and-edition-semantics.md). The operative manuscript-side proposal steps are repeated in [`editorial/WORKFLOW.md`](WORKFLOW.md#narramorph-interactive-edition-proposals).
+
 ## Release requirements
 
 Any future literary release intended for Narramorph must name:
@@ -30,6 +32,8 @@ The copyright holder's release-specific grant is defined in `INTERACTIVE_USE_PER
 ## Prose protection
 
 Creating schemas, exporters, concordance, summaries, reports, or validation output does not authorize changes to canonical prose. Manuscript edits still require an approved roadmap item and explicit operator approval in the session, followed by the verification steps in `CLAUDE.md`.
+
+Exporters may write only to git-ignored `build/` or an intentionally reviewed release artifact. They must not modify `manuscript/`. This repository must not write Narramorph runtime prose, and Narramorph importers must remain staging-only until an accepted metadata/concordance pull request. Neither build may fetch the other repository's default branch.
 
 ## Current transfer status
 
