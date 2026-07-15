@@ -27,6 +27,24 @@ python scripts/export_runtime_source.py --validate build/literary-releases/etern
 
 The artifact is canonical UTF-8 JSON: NFC strings, lexicographically sorted object keys, compact separators, LF line ending, and exactly one terminal LF. `generatedAt` is the source commit time in UTC and participates in `contentSha256`; no wall-clock or workstation path enters the artifact. Repeating the command for the same release ID and source commit must produce identical bytes.
 
+## Reproducible vertical slice
+
+`scripts/export_vertical_slice.py` proves a reviewed runtime selection without copying or editing prose. The checked-in selection `editorial/vertical-slices/archaeologist-opening-accept.json` identifies the existing `arch-L1` → `arch-L2-accept` edge by Story Package passage IDs and selects only released chapter/scene-summary, voice, chronology, philosophy, theme-claim, and promise/payoff context. Its rationale favors the product start path with complete metadata and existing desktop/mobile keyboard coverage.
+
+Build the new full literary release and the slice artifact together from the same immutable commit:
+
+```text
+python scripts/export_vertical_slice.py --slice archaeologist-opening-accept --release-id eternal-return-literary-v1.0.1
+```
+
+Validate both canonical artifacts and recheck the release, selection, and schema Git-blob hashes:
+
+```text
+python scripts/export_vertical_slice.py --validate build/literary-releases/eternal-return-literary-slice-archaeologist-opening-accept-v1.0.0.json --base-release build/literary-releases/eternal-return-literary-v1.0.1.json
+```
+
+The slice context records must be exact object subsets of the base release. Its two ordered runtime targets must be connected L1→L2 passages, every mapping reference must resolve within the selected canonical context, and output remains under ignored `build/literary-releases/`. A release record may attach both reviewed files after the exporter PR merges; Narramorph then deliberately transfers and independently validates both hashes.
+
 ## Release approval
 
 The exporter does not grant permission by itself. The copyright holder's GitHub release record must identify the immutable source commit, editorial release ID, artifact SHA-256, approved constraint-data scope, allowed Narramorph transformations, target story package, approving identity, and approval date under `INTERACTIVE_USE_PERMISSION.md`.

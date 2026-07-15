@@ -30,7 +30,9 @@
     "outlines/manifest.json",
     "CONTENT_LICENSE.md",
     "INTERACTIVE_USE_PERMISSION.md",
-    "schemas/literary-release-v1.schema.json"
+    "schemas/literary-release-v1.schema.json",
+    "schemas/literary-slice-v1.schema.json",
+    "editorial/vertical-slices/archaeologist-opening-accept.json"
   ],
   "contractSchemaVersion": "1.0.0",
   "expectedChapterCount": 28,
@@ -75,7 +77,7 @@
   "permissionPath": "INTERACTIVE_USE_PERMISSION.md",
   "policySchemaVersion": "1.0.0",
   "storyId": "eternal-return",
-  "storyVersion": "1.0.0",
+  "storyVersion": "1.0.1",
   "targetRepository": "zekusmaximus/Narramorph",
   "targetStoryPackage": "eternal-return@1.x"
 }
