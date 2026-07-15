@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "sliceId": "archaeologist-opening-accept",
+  "sliceVersion": "1.0.0",
+  "artifactFile": "eternal-return-literary-slice-archaeologist-opening-accept-v1.0.0.json",
+  "storyId": "eternal-return",
+  "rationale": "The product start passage and its explicit acceptance edge have stable Story Package IDs, complete archaeologist voice/chronology/philosophy/promise mappings, and existing desktop/mobile keyboard coverage, so the contract can be proved without changing prose.",
+  "runtimeTargets": [
+    {
+      "passageStableKey": "arch-L1",
+      "passageId": "spv1_psg_6a8e3511627df7d650fb4647",
+      "layer": 1,
+      "connections": ["arch-L2-accept"]
+    },
+    {
+      "passageStableKey": "arch-L2-accept",
+      "passageId": "spv1_psg_cfe8d9d443f62c608def0b1d",
+      "layer": 2,
+      "connections": []
+    }
+  ],
+  "mappings": [
+    {
+      "passageStableKey": "arch-L1",
+      "relationship": "thematic-derivative",
+      "chapterIds": [
+        "er-chapter-001",
+        "er-chapter-002",
+        "er-chapter-004",
+        "er-chapter-005",
+        "er-chapter-010"
+      ],
+      "voiceIds": ["archaeologist"],
+      "chronologyIds": ["er-chronology-phase-1"],
+      "themeClaims": ["memory-reconstruction", "identity-fluidity"],
+      "philosophicalConstraintIds": [
+        "er-philosophy-key-concepts-tertiary-retention-stiegler",
+        "er-philosophy-four-shackles-identity"
+      ],
+      "promiseIds": ["P-Eleanor", "P1", "P2", "P3", "P4", "P5"]
+    },
+    {
+      "passageStableKey": "arch-L2-accept",
+      "relationship": "thematic-derivative",
+      "chapterIds": ["er-chapter-013", "er-chapter-016", "er-chapter-019"],
+      "voiceIds": ["archaeologist"],
+      "chronologyIds": ["er-chronology-phase-2"],
+      "themeClaims": ["identity-dissolution", "eternal-return"],
+      "philosophicalConstraintIds": [
+        "er-philosophy-key-concepts-identity-dissolution-klossowski",
+        "er-philosophy-key-concepts-eternal-return"
+      ],
+      "promiseIds": ["P12", "P14", "P33", "P40", "P41"]
+    }
+  ],
+  "expectedContextCounts": {
+    "chapters": 8,
+    "voices": 1,
+    "chronology": 2,
+    "philosophicalConstraints": 4,
+    "promisePayoffs": 11
+  }
+}

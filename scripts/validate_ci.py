@@ -101,6 +101,27 @@ def main() -> None:
             str(release_directory),
         )
         run_script("scripts/export_runtime_source.py", "--validate", str(release_path))
+        slice_release_path = release_directory / "ci-literary-release-v1.0.1.json"
+        slice_path = (
+            release_directory
+            / "eternal-return-literary-slice-archaeologist-opening-accept-v1.0.0.json"
+        )
+        run_script(
+            "scripts/export_vertical_slice.py",
+            "--slice",
+            "archaeologist-opening-accept",
+            "--release-id",
+            "ci-literary-release-v1.0.1",
+            "--out",
+            str(release_directory),
+        )
+        run_script(
+            "scripts/export_vertical_slice.py",
+            "--validate",
+            str(slice_path),
+            "--base-release",
+            str(slice_release_path),
+        )
     run_script("scripts/continuity.py", "--check")
     run_script("scripts/edit_status.py")
     validate_movement_two()
