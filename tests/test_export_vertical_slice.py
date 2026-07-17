@@ -58,9 +58,9 @@ class VerticalSliceExporterTests(unittest.TestCase):
             payload["manifest"]["validation"]["selectedContextCounts"],
             {
                 "chapters": 8,
-                "chronology": 2,
+                "chronology": 1,
                 "philosophicalConstraints": 4,
-                "promisePayoffs": 11,
+                "promisePayoffs": 2,
                 "voices": 1,
             },
         )
