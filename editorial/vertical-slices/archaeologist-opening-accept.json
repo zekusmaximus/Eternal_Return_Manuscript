@@ -37,27 +37,27 @@
         "er-philosophy-key-concepts-tertiary-retention-stiegler",
         "er-philosophy-four-shackles-identity"
       ],
-      "promiseIds": ["P-Eleanor", "P1", "P2", "P3", "P4", "P5"]
+      "promiseIds": ["P5"]
     },
     {
       "passageStableKey": "arch-L2-accept",
       "relationship": "thematic-derivative",
       "chapterIds": ["er-chapter-013", "er-chapter-016", "er-chapter-019"],
       "voiceIds": ["archaeologist"],
-      "chronologyIds": ["er-chronology-phase-2"],
+      "chronologyIds": ["er-chronology-phase-1"],
       "themeClaims": ["identity-dissolution", "eternal-return"],
       "philosophicalConstraintIds": [
         "er-philosophy-key-concepts-identity-dissolution-klossowski",
         "er-philosophy-key-concepts-eternal-return"
       ],
-      "promiseIds": ["P12", "P14", "P33", "P40", "P41"]
+      "promiseIds": ["P14"]
     }
   ],
   "expectedContextCounts": {
     "chapters": 8,
     "voices": 1,
-    "chronology": 2,
+    "chronology": 1,
     "philosophicalConstraints": 4,
-    "promisePayoffs": 11
+    "promisePayoffs": 2
   }
 }
